@@ -84,4 +84,4 @@ RUN chmod 755 /opt/idempiere-ksys/ksys/utils/*.sh;
 RUN chmod 755 /opt/idempiere-ksys/ksys/utils/postgresql/*.sh;
 	
 EXPOSE 1099 8181 44444
-#ENTRYPOINT ["/opt/idempiere-ksys/bin/karaf"]
+ENTRYPOINT ["/opt/idempiere-ksys/bin/karaf"]
