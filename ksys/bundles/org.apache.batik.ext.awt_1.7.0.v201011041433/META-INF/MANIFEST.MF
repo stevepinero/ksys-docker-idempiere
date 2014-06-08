@@ -1,0 +1,974 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation (http://xmlgraph
+ ics.apache.org/batik/)
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.3
+Bundle-SymbolicName: org.apache.batik.ext.awt
+Require-Bundle: org.apache.batik.util;bundle-version="[1.7.0,1.8.0)",o
+ rg.apache.batik.util.gui;bundle-version="[1.7.0,1.8.0)"
+Bundle-Version: 1.7.0.v201011041433
+Export-Package: org.apache.batik.ext.awt;version="1.7.0",org.apache.ba
+ tik.ext.awt.color;version="1.7.0",org.apache.batik.ext.awt.font;versi
+ on="1.7.0",org.apache.batik.ext.awt.g2d;version="1.7.0",org.apache.ba
+ tik.ext.awt.geom;version="1.7.0",org.apache.batik.ext.awt.image;versi
+ on="1.7.0",org.apache.batik.ext.awt.image.codec;version="1.7.0",org.a
+ pache.batik.ext.awt.image.codec.jpeg;version="1.7.0",org.apache.batik
+ .ext.awt.image.codec.png;version="1.7.0",org.apache.batik.ext.awt.ima
+ ge.codec.tiff;version="1.7.0",org.apache.batik.ext.awt.image.codec.ut
+ il;version="1.7.0",org.apache.batik.ext.awt.image.renderable;version=
+ "1.7.0",org.apache.batik.ext.awt.image.rendered;version="1.7.0",org.a
+ pache.batik.ext.awt.image.spi;version="1.7.0",org.apache.batik.ext.aw
+ t.image.spi.resources;version="1.7.0",org.apache.batik.ext.swing;vers
+ ion="1.7.0",org.apache.batik.ext.swing.resources;version="1.7.0",META
+ -INF.services
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Build-Id: 20080106-110642-EST (cam [Linux 2.6.22.8 i386, Java 1.3.1_19
+ -b03])
+Implementation-Version: 1.7+r608262
+Implementation-Title: Batik AWT utility library and image codecs
+Bundle-ManifestVersion: 2
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGEncodeParam$RGB.clas
+ s
+SHA1-Digest: dgWSii4PJA+QY30a4of3T5mvK9A=
+
+Name: org/apache/batik/ext/awt/image/codec/util/ImageDecoder.class
+SHA1-Digest: rOFS1sREe3BUp7hVPctL5QxoSCE=
+
+Name: org/apache/batik/ext/awt/g2d/TransformStackElement.class
+SHA1-Digest: IP2+PtnOA57Gk7GHAG49FcfFHxw=
+
+Name: org/apache/batik/ext/awt/image/codec/util/SingleTileRenderedImag
+ e.class
+SHA1-Digest: EPTi1xU3bBW8k148ebc2LGkfNQU=
+
+Name: org/apache/batik/ext/awt/image/renderable/SpecularLightingRable.
+ class
+SHA1-Digest: nPhzJPMJRxzmfQ93y2VCEPOosbM=
+
+Name: META-INF/LICENSE
+SHA1-Digest: NV/tRSeBE64tS1EXrewu6DAklWI=
+
+Name: about_files/LICENSE.dom-software.txt
+SHA1-Digest: dSc6W0ppVOtA4tZqqDv9BEnNV84=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFEncodeParam.class
+SHA1-Digest: P0kAOLRt6yF0lqdg0R6WhYzV2gc=
+
+Name: org/apache/batik/ext/awt/image/spi/JDKRegistryEntry$MyImgObs.cla
+ ss
+SHA1-Digest: IMWOsimsWO5JYZFXQZOP1QVlfVw=
+
+Name: org/apache/batik/ext/awt/image/DiscreteTransfer.class
+SHA1-Digest: TULk12ky64QBQhnFzstlkmGr5Og=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGImageWriter.class
+SHA1-Digest: imIVCUQt70e3+b16AoqlTnbzpxw=
+
+Name: org/apache/batik/ext/awt/image/codec/util/SeekableStream.class
+SHA1-Digest: OtzQKYFB7x0PpH/QqXZcnfCYgrE=
+
+Name: org/apache/batik/ext/awt/g2d/TransformStackElement$3.class
+SHA1-Digest: uEJq1KCu6YNt6yU3KKBFCApOWyU=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileGrid.class
+SHA1-Digest: HcnFrOUiFCyCcQXWwBFvIVkqeQk=
+
+Name: org/apache/batik/ext/awt/image/spi/ImageWriterParams.class
+SHA1-Digest: MBqnGVvhPPe1GheqQwkXdw6dcuI=
+
+Name: org/apache/batik/ext/awt/image/spi/StreamRegistryEntry.class
+SHA1-Digest: CPYZWjDFkElJIrMpL3QKKTMZL0o=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGSuggestedPaletteEntr
+ y.class
+SHA1-Digest: MfA0FMKNFevIA/N71RAvlDZb/Hw=
+
+Name: org/apache/batik/ext/swing/JAffineTransformChooser$DisposeOnClos
+ e.class
+SHA1-Digest: gkm979ofZx8YAQgvtwn9fBBkkv8=
+
+Name: org/apache/batik/ext/awt/image/spi/MagicNumberRegistryEntry$Magi
+ cNumber.class
+SHA1-Digest: N+esPkE8A5V+FjvFUJ0ZspO5Lgk=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$OutCompositeContext.
+ class
+SHA1-Digest: yliyUX1qYAgudj4+1GcIhMq3YPE=
+
+Name: org/apache/batik/ext/awt/geom/Polyline2D.class
+SHA1-Digest: 75ujnuGCPCahCPqzwusOgAjBK4I=
+
+Name: org/apache/batik/ext/awt/image/renderable/RedRable.class
+SHA1-Digest: pYzfpwBojfN2IyJYoKx4OBxAukA=
+
+Name: org/apache/batik/ext/swing/JAffineTransformChooser$3.class
+SHA1-Digest: 3ISFy0fuPkRbBFMel/TuwPxXU/k=
+
+Name: org/apache/batik/ext/awt/image/spi/DefaultBrokenLinkProvider.cla
+ ss
+SHA1-Digest: hWyJM0wYS/hlkbMllPBI9jW0EmU=
+
+Name: org/apache/batik/ext/awt/image/ComponentTransferFunction.class
+SHA1-Digest: wopuccFQrUfhi0nGFBWztjqMExs=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGEncodeParam$Palette.
+ class
+SHA1-Digest: 4kK/mU6wryhU38DtDUmUYMJPMkk=
+
+Name: org/apache/batik/ext/awt/image/rendered/RenderedImageCachableRed
+ .class
+SHA1-Digest: RA1DtCNlnRFnBXMwcogTrt6OH6A=
+
+Name: org/apache/batik/ext/awt/image/spi/ErrorConstants.class
+SHA1-Digest: z6/bdDR9SIVgjpk+j2tRov5lMZE=
+
+Name: org/apache/batik/ext/awt/geom/AbstractSegment.class
+SHA1-Digest: Tp7X46MzDgNJBXydyOAOZkWah8M=
+
+Name: org/apache/batik/ext/awt/image/codec/png/IDATOutputStream.class
+SHA1-Digest: EDwgx10C97e7x+okTK5tZSuDQkw=
+
+Name: org/apache/batik/ext/awt/image/renderable/MorphologyRable.class
+SHA1-Digest: 4sgiFsD902UMgJgtDkqbpELsizk=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileMap.class
+SHA1-Digest: E2MddW7jTyobBiZBHKCt8yKDZl8=
+
+Name: org/apache/batik/ext/awt/image/PadMode.class
+SHA1-Digest: O3zEJUoVmjKIlouQpZRvoDeU81o=
+
+Name: org/apache/batik/ext/awt/image/Light.class
+SHA1-Digest: E/3buvpMbgNZ4E6RO8jV1elZ9o4=
+
+Name: org/apache/batik/ext/awt/MultipleGradientPaint$CycleMethodEnum.c
+ lass
+SHA1-Digest: mTHVtdZMHF8bZlw2zkd/OPy1qoA=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileCacheRed.class
+SHA1-Digest: RpnGXcPot0EjVoYvAwyGNNEoU6I=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$OverCompositeContext
+ _NA.class
+SHA1-Digest: A/eeC9TJIIrctVIel6NuutMLEdQ=
+
+Name: org/apache/batik/ext/swing/AffineTransformTracker.class
+SHA1-Digest: 9TbqLZABmSf/EhDX2QOGJ/mxsrI=
+
+Name: org/apache/batik/ext/awt/geom/PathLength$PathSegment.class
+SHA1-Digest: fXd4B+wFdapoo5oOIT39VuCtLA0=
+
+Name: org/apache/batik/ext/awt/image/codec/util/ImageDecoderImpl.class
+SHA1-Digest: lT0y1f9CFZz2OQ9u7w42E/ETJjQ=
+
+Name: org/apache/batik/ext/awt/MultipleGradientPaintContext.class
+SHA1-Digest: F07v4qf0QLBrTMB2dUakmbjVZFI=
+
+Name: org/apache/batik/ext/awt/image/rendered/DisplacementMapRed.class
+SHA1-Digest: LBTlgjjvMDeh+srf0mvyVEL/i4Q=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$LightenCompositeCont
+ ext.class
+SHA1-Digest: niL44LqEeQqa0jbgUPLDALOAnCk=
+
+Name: org/apache/batik/ext/awt/geom/ExtendedGeneralPath$EPI.class
+SHA1-Digest: VgcOX43AoW8d7QkpIZb9kYbxm1s=
+
+Name: org/apache/batik/ext/awt/geom/RectListManager$RectXComparator.cl
+ ass
+SHA1-Digest: ufUYnhDF38hSuLks1zGXgWpwoH8=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$OverCompositeContext
+ _INT_PACK.class
+SHA1-Digest: grc9rSDyK6Ay6ZPVLGWnIDMKOIY=
+
+Name: org/apache/batik/ext/awt/image/rendered/TurbulencePatternRed.cla
+ ss
+SHA1-Digest: K8nqjGQCrJBYgfEJktY3psvxSJM=
+
+Name: org/apache/batik/ext/awt/image/renderable/ConvolveMatrixRable.cl
+ ass
+SHA1-Digest: HPngUqDLLHikDHHCfJbaFI4KaF8=
+
+Name: org/apache/batik/ext/awt/image/rendered/MultiplyAlphaRed.class
+SHA1-Digest: 1S+jr1S7W9BBmyTQ7DiXZRZQhlc=
+
+Name: org/apache/batik/ext/swing/JAffineTransformChooser$Closer.class
+SHA1-Digest: FSV8mX1cGaHJja5+x5IAeGuorUM=
+
+Name: org/apache/batik/ext/awt/LinearGradientPaintContext.class
+SHA1-Digest: qVc5YG0ISX4maMvV4IJDtc7VYio=
+
+Name: org/apache/batik/ext/awt/image/SpotLight.class
+SHA1-Digest: Xn9sdMtSc7iLNSttzzMC+WRontg=
+
+Name: org/apache/batik/ext/awt/image/renderable/TileRable8Bit.class
+SHA1-Digest: gEwIKA3SJ/GNTEo7KSigq5rZ2SQ=
+
+Name: org/apache/batik/ext/awt/image/rendered/IndexImage$Cube.class
+SHA1-Digest: OnhAusyzihy/kKGZwWWShlzeqIE=
+
+Name: org/apache/batik/ext/awt/image/renderable/CompositeRable8Bit.cla
+ ss
+SHA1-Digest: MPfWnZesyRdhFuLNbCvvnAHrQWU=
+
+Name: org/apache/batik/ext/awt/image/rendered/AffineRed.class
+SHA1-Digest: 8ayQQ+tm9yEnmN036ukUTxZRHRE=
+
+Name: org/apache/batik/ext/awt/g2d/DefaultGraphics2D.class
+SHA1-Digest: lio/k3+rvY+3bCOc73N3gkXvDhw=
+
+Name: org/apache/batik/ext/awt/image/renderable/TileRable.class
+SHA1-Digest: 6YeVb4LXDF/2q4G56EV+zoljl0o=
+
+Name: org/apache/batik/ext/awt/image/codec/util/SimpleRenderedImage.cl
+ ass
+SHA1-Digest: q4+SBXcC/0xeBQ0r10mucq0p1Jg=
+
+Name: org/apache/batik/ext/awt/g2d/TransformType.class
+SHA1-Digest: rpPfbRTIr6DXFn0TCl/qKd2eWE4=
+
+Name: org/apache/batik/ext/awt/image/codec/properties
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileBlock.class
+SHA1-Digest: E2nufG8DnLN6aO/Bfh2CXc6f/qY=
+
+Name: org/apache/batik/ext/awt/image/rendered/ColorMatrixRed.class
+SHA1-Digest: UhwUniy0TdlrQQJ2Yl+pgSF9VQc=
+
+Name: org/apache/batik/ext/awt/image/spi/ImageWriter.class
+SHA1-Digest: U3f4HfxaOMhfFi6ISSg9+CMVYX4=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileMap$TileMapLRUMember
+ .class
+SHA1-Digest: Gz99uObBKyYU5Gf+MfUIVMFOg4w=
+
+Name: org/apache/batik/ext/swing/JGridBagPanel$1.class
+SHA1-Digest: PXYj6MEZq9ZVAx6ax2p9viYrY3M=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$MultiplyCompositeCon
+ text.class
+SHA1-Digest: Uc4mlaCwTjV79TxvPAkXiIV7Kbo=
+
+Name: org/apache/batik/ext/awt/geom/ExtendedGeneralPath.class
+SHA1-Digest: Ex0G67KfgayWhpl6e69HCN6wego=
+
+Name: org/apache/batik/ext/awt/image/renderable/SpecularLightingRable8
+ Bit.class
+SHA1-Digest: eGXcj7mQ/ojq2D3oe62P4fgggdI=
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: NV/tRSeBE64tS1EXrewu6DAklWI=
+
+Name: org/apache/batik/ext/swing/Resources.class
+SHA1-Digest: MkyqD/yQROsrukToirRf10duzzw=
+
+Name: org/apache/batik/ext/awt/image/codec/jpeg/JPEGImageWriter.class
+SHA1-Digest: nIKSU//FgQHujOcelYBobiOfdgg=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGEncodeParam$Gray.cla
+ ss
+SHA1-Digest: W11yXqqqW1S2oxUNE3E6xZNu6s4=
+
+Name: org/apache/batik/ext/awt/LinearGradientPaint.class
+SHA1-Digest: A1djaWW9BwMPFr+NsKcxVCPNqNg=
+
+Name: org/apache/batik/ext/awt/image/renderable/ClipRable.class
+SHA1-Digest: +Itv9uoQUv2m13guOeVQ8NuNIEs=
+
+Name: org/apache/batik/ext/awt/image/CompositeRule.class
+SHA1-Digest: iMpITIfqno1H6lVDPP1pVTHGcUA=
+
+Name: org/apache/batik/ext/awt/image/rendered/CompositeRed.class
+SHA1-Digest: CGiM2zkNkOq/zf05xWstEKvzRF4=
+
+Name: org/apache/batik/ext/awt/geom/Cubic.class
+SHA1-Digest: ulMf1DNhSh6VagZyY5CrKLd6x8c=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFImage.class
+SHA1-Digest: DhPYodnsI2ypdxhlvu4RhgLj9aw=
+
+Name: org/apache/batik/ext/awt/image/spi/JDKRegistryEntry.class
+SHA1-Digest: WSFM+jneg1XqM2BKHZkMWfq1i/c=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGImageEncoder.class
+SHA1-Digest: U30lz/KtOFU/EE1j6iykm6i/Tr0=
+
+Name: org/apache/batik/ext/awt/image/codec/util/PropertyUtil.class
+SHA1-Digest: Sl6mgTbzQSGKWk4lL14SJoKD9AI=
+
+Name: org/apache/batik/ext/awt/image/codec/png/ChunkStream.class
+SHA1-Digest: E5vVo4DkXvBkE2drRzTgxHL+erU=
+
+Name: org/apache/batik/ext/awt/g2d/TransformStackElement$5.class
+SHA1-Digest: 36A56su6Otm3bRrrDY86RklEmm4=
+
+Name: org/apache/batik/ext/awt/RenderingHintsKeyExt.class
+SHA1-Digest: dC1dNgP44mDu6MTTOelNAlV9Vzw=
+
+Name: org/apache/batik/ext/awt/image/renderable/AffineRable.class
+SHA1-Digest: PvZq7raBGsgvXUA1MGPXtMGFmNA=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFLZWDecoder.class
+SHA1-Digest: VFxlJsA1hBZrG6fTyb9V2JZp9eI=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$OutCompositeContext_
+ INT_PACK.class
+SHA1-Digest: 7w1DibjuN2EDLGfolNjNdKjhMns=
+
+Name: org/apache/batik/ext/awt/geom/ExtendedPathIterator.class
+SHA1-Digest: b9Xu2r0wOg2+FxwGPizmxXMn5GE=
+
+Name: org/apache/batik/ext/awt/image/renderable/Filter.class
+SHA1-Digest: pxFaK0tWeRYx0yCTXwbRPotZRuU=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFDirectory.class
+SHA1-Digest: ykYxbKWSSlhM7MTMSTBW96lskt0=
+
+Name: org/apache/batik/ext/awt/image/rendered/LRUCache$LRUNode.class
+SHA1-Digest: BklLFY4vLu3AsDUIHa2+wuUGZ3c=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/apache/batik/ext/awt/image/rendered/CachableRed.class
+SHA1-Digest: oA1kaOvvXC+o6iESepf6W9XNVNU=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$AlphaPreCompositeCon
+ text_INT_PACK.class
+SHA1-Digest: T/BcqMqc21XvlMb5fNmg52Wo2f8=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFFaxDecoder.class
+SHA1-Digest: c8TjFxWM5dV8vymw4/SHyBDWxp0=
+
+Name: org/apache/batik/ext/awt/image/rendered/IndexImage.class
+SHA1-Digest: rK8mcOuo2t9Ey3YgXT4HSguRCBg=
+
+Name: org/apache/batik/ext/awt/g2d/AbstractGraphics2D.class
+SHA1-Digest: 4nNwLC8fa1zU8qeN+1jrpN5ONLw=
+
+Name: org/apache/batik/ext/awt/geom/ExtendedShape.class
+SHA1-Digest: stEBCFMm5tF5iGlAQK8WsmfTlqs=
+
+Name: org/apache/batik/ext/awt/geom/RectListManager.class
+SHA1-Digest: EfGkY6EcCdpssakfxq3Zo3kzwis=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$DarkenCompositeConte
+ xt.class
+SHA1-Digest: N2Iittbf774Cjl+1wMvKJVSwODk=
+
+Name: org/apache/batik/ext/awt/image/PointLight.class
+SHA1-Digest: KVPIZmitljm6EjPRA53ZhjjTGcI=
+
+Name: org/apache/batik/ext/awt/image/renderable/PaintRable.class
+SHA1-Digest: rak0c2vT5YIm7pusPPa2CLyFTBA=
+
+Name: org/apache/batik/ext/awt/image/rendered/BumpMap.class
+SHA1-Digest: /IDjn6AeGDz8zCp1zPD76xxrO0U=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$InCompositeContext.c
+ lass
+SHA1-Digest: BKqqc0YQcLbqPsRODdLzzpN3vgg=
+
+Name: org/apache/batik/ext/awt/image/spi/RegistryEntry.class
+SHA1-Digest: NY1DWcT604pbjef8xz8AwNCcxTw=
+
+Name: org/apache/batik/ext/awt/geom/PathLength.class
+SHA1-Digest: mBlJ7h1eGvToOuQY6G1PBL4sCio=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$ScreenCompositeConte
+ xt.class
+SHA1-Digest: lD7EqPwza3FmDT7WvCdYVTENu+U=
+
+Name: org/apache/batik/ext/awt/geom/SegmentList$SplitResults.class
+SHA1-Digest: 9jVGmPvHQ7/2nLRI+DG7mgUyb/k=
+
+Name: org/apache/batik/ext/awt/image/rendered/AbstractTiledRed.class
+SHA1-Digest: BlTr5ZyhiBw/1k1UwBvHW/EacM8=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFImageEncoder.class
+SHA1-Digest: AeLH6orCxveLXohtom0gX090I3I=
+
+Name: org/apache/batik/ext/awt/image/rendered/PadRed.class
+SHA1-Digest: 7a0swF7m90NzWWvDMyu/RMdPZK4=
+
+Name: org/apache/batik/ext/awt/image/codec/util/ImageDecodeParam.class
+SHA1-Digest: fqxA+1s+u4lAaTNh/2zXJwdGi/Y=
+
+Name: org/apache/batik/ext/awt/image/renderable/ComponentTransferRable
+ 8Bit.class
+SHA1-Digest: MQxh10PwMIT6jSPQ5+l8MzieVho=
+
+Name: org/apache/batik/ext/awt/image/renderable/FilterResRable8Bit.cla
+ ss
+SHA1-Digest: 6IM5WvdP18Pe54oHpB5zctlRuos=
+
+Name: org/apache/batik/ext/awt/image/renderable/ColorMatrixRable8Bit.c
+ lass
+SHA1-Digest: x+YZ5k4sNNPGsXYUdEzi7TS4+Jg=
+
+Name: org/apache/batik/ext/awt/image/rendered/LRUCache$LRUObj.class
+SHA1-Digest: t2wwDEqUngYAL+sqSrBwPkFnwT0=
+
+Name: org/apache/batik/ext/awt/image/rendered/FormatRed.class
+SHA1-Digest: ls0N6r+0pECNdIVocx/SXkWHi3w=
+
+Name: org/apache/batik/ext/awt/geom/ShapeExtender.class
+SHA1-Digest: rmkq6JAvN7fIU63F9Yk8VEGuKlc=
+
+Name: org/apache/batik/ext/awt/geom/Quadradic.class
+SHA1-Digest: tC6IkymQyB5ZRkCNEwryqcFWfmw=
+
+Name: plugin.properties
+SHA1-Digest: CtjqCaRYTszx4enVFJ9MehSJwWY=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGChunk.class
+SHA1-Digest: 3qmp+jBhPhKh64KLUdgLQNAO9yU=
+
+Name: org/apache/batik/ext/awt/image/renderable/FilterAlphaRable.class
+SHA1-Digest: oU8hZdTJ5qE0eWdgvCkKMzCms80=
+
+Name: org/apache/batik/ext/awt/AvoidTilingHintKey.class
+SHA1-Digest: p8RBZgDIypRSWjE5u8a1NudJIf8=
+
+Name: org/apache/batik/ext/awt/image/codec/util/FileCacheSeekableStrea
+ m.class
+SHA1-Digest: t/NOasOvgOu1cR29fcASODgV47w=
+
+Name: org/apache/batik/ext/awt/image/rendered/PadRed$ZeroRecter.class
+SHA1-Digest: tIv4keJhrG/ERfNGylPBT7BWkRc=
+
+Name: org/apache/batik/ext/awt/image/spi/URLRegistryEntry.class
+SHA1-Digest: D01/lr3GLBg66lacKXDSCBd1qIw=
+
+Name: about_files/LICENSE.sax.txt
+SHA1-Digest: TEVexBfsKEC1g6jxXOxa7MMgO4E=
+
+Name: org/apache/batik/ext/awt/g2d/TransformStackElement$2.class
+SHA1-Digest: EN0xoq/kvg+uqhqUxDiW9GnkzMA=
+
+Name: org/apache/batik/ext/awt/image/rendered/LRUCache.class
+SHA1-Digest: EAvEN8QUAoWMViPJ5UIUKQnVuV4=
+
+Name: org/apache/batik/ext/awt/image/rendered/Any2LumRed.class
+SHA1-Digest: HLEPq2U9AtkwbL7t4XVfR+8/6o4=
+
+Name: org/apache/batik/ext/awt/RadialGradientPaintContext.class
+SHA1-Digest: Mpe/YpL+4NHMYoiNdmsru+uRuDw=
+
+Name: org/apache/batik/ext/awt/image/rendered/BufferedImageCachableRed
+ .class
+SHA1-Digest: Gmdb/OiY2ZzIBEZpngq/9fNM/Gc=
+
+Name: org/apache/batik/ext/awt/image/codec/png/CRC.class
+SHA1-Digest: fP5lgIw4eOOrbQL89jZHiZffK78=
+
+Name: org/apache/batik/ext/awt/image/codec/util/ImageEncoder.class
+SHA1-Digest: FVOvxGrWlNoMdtR1M+e9SPXQevU=
+
+Name: org/apache/batik/ext/awt/image/DistantLight.class
+SHA1-Digest: T20/ilhnmTEnkLgviB6ZK6fBRvM=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGDecodeParam.class
+SHA1-Digest: cX6/rgg/Xvj0OfxkBCjSthoqnOY=
+
+Name: org/apache/batik/ext/awt/image/renderable/PadRable.class
+SHA1-Digest: Ed5MGWhqqdCxKqyLBO2zKW4f0vY=
+
+Name: about_files/NOTICE
+SHA1-Digest: zypX+GtadfB57hy1eWHt8hp6GTQ=
+
+Name: org/apache/batik/ext/swing/JAffineTransformChooser$2.class
+SHA1-Digest: pIamSaUSyQy/iGkKCYAZe6lXwFw=
+
+Name: org/apache/batik/ext/swing/DoubleDocument.class
+SHA1-Digest: IODhdPv7LqsGcxLR46zvKPk1CQA=
+
+Name: org/apache/batik/ext/awt/color/NamedProfileCache.class
+SHA1-Digest: EJfCFhnNQW3hsdWgdWBtdiVZi7s=
+
+Name: org/apache/batik/ext/awt/image/renderable/DisplacementMapRable8B
+ it.class
+SHA1-Digest: SjLufAMH3fKcHQr+PF7tgIHLDTY=
+
+Name: org/apache/batik/ext/awt/image/renderable/TurbulenceRable.class
+SHA1-Digest: 4Rd5J1CgJFeyDL4P9CklYdD08Qk=
+
+Name: org/apache/batik/ext/awt/image/renderable/OffsetRable.class
+SHA1-Digest: XyKYDL5a9dPjeycGAX5jYTRRrVI=
+
+Name: org/apache/batik/ext/awt/image/spi/ImageTagRegistry.class
+SHA1-Digest: 558GwNE1hyQui6mLL+p1cYGs63Q=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFRegistryEntry.clas
+ s
+SHA1-Digest: 3WTsdkH+tkaXG1N6vzKbJMZawiU=
+
+Name: org/apache/batik/ext/awt/image/rendered/FilterAlphaRed.class
+SHA1-Digest: qAuf13DZqsowGYqBq7hbAQ8Nyus=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFField.class
+SHA1-Digest: 1TQh4NPA5apz3pELJY8Z6rBZElU=
+
+Name: org/apache/batik/ext/awt/geom/SegmentList.class
+SHA1-Digest: h9MCUuflorUWHpQOmhVUipSK3WI=
+
+Name: org/apache/batik/ext/awt/image/GraphicsUtil.class
+SHA1-Digest: 8Zyv3eYh7LCor/cpy6Rj0E/H8FA=
+
+Name: org/apache/batik/ext/awt/MultipleGradientPaint.class
+SHA1-Digest: FQREAS20bTMeFzQCFHktLI2eoo0=
+
+Name: org/apache/batik/ext/awt/image/renderable/DiffuseLightingRable8B
+ it.class
+SHA1-Digest: k8UBdvtFZ3j5vFs9mieHhs+Q2j0=
+
+Name: org/apache/batik/ext/swing/JGridBagPanel$InsetsManager.class
+SHA1-Digest: nh+lB+V9F1iIMpYLOIfsPSC5FnA=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileMap$TileMapLRUMember
+ $RasterSoftRef.class
+SHA1-Digest: 0CFZYuVE7putneyueX+fnw0r2gg=
+
+Name: org/apache/batik/ext/swing/resources/Messages.properties
+SHA1-Digest: MKO1jKYLGFqoAGrb26gW81iMtD4=
+
+Name: org/apache/batik/ext/awt/image/renderable/FilterChainRable8Bit.c
+ lass
+SHA1-Digest: SkOhBde4jXyufNjCMOKvhWYQ0Ng=
+
+Name: org/apache/batik/ext/awt/image/rendered/Any2sRGBRed.class
+SHA1-Digest: leI1tjDyeh0IzMrYS+yp0btkW44=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$MultiplyCompositeCon
+ text_INT_PACK.class
+SHA1-Digest: zezA9ZJ7sYKGvB5p/FKCIophjpQ=
+
+Name: org/apache/batik/ext/awt/image/renderable/DiffuseLightingRable.c
+ lass
+SHA1-Digest: 2EqiW1tJho1AxIH5NyCs9yndCnI=
+
+Name: org/apache/batik/ext/awt/AreaOfInterestHintKey.class
+SHA1-Digest: BvGmRAbAnmWwqLaDVbQtczoxOi4=
+
+Name: org/apache/batik/ext/awt/image/codec/jpeg/JPEGRegistryEntry.clas
+ s
+SHA1-Digest: z8uRdptOXQAz8KBsSWEHKS92qyg=
+
+Name: org/apache/batik/ext/awt/image/renderable/FloodRable8Bit.class
+SHA1-Digest: 2N6ryOHBkU2K41mXVscVgfTx/aE=
+
+Name: org/apache/batik/ext/awt/image/renderable/ProfileRable.class
+SHA1-Digest: bEfRcdRwX59KjFviOvMHPMvTAJ8=
+
+Name: org/apache/batik/ext/awt/image/renderable/AffineRable8Bit.class
+SHA1-Digest: M8SYx7JsAK/9y8aXdNvIo3mAdJE=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$OverCompositeContext
+ _INT_PACK_NA.class
+SHA1-Digest: JdQPZe6n/IgkL67hSu7wQU3ZNUs=
+
+Name: org/apache/batik/ext/awt/image/spi/ImageWriterRegistry.class
+SHA1-Digest: 0VrE9McfGnAHBQUH1E8nhC13a+Q=
+
+Name: org/apache/batik/ext/awt/BufferedImageHintKey.class
+SHA1-Digest: BHN1ZRvbc1eQuQ5NHiT5IU7cZh0=
+
+Name: org/apache/batik/ext/awt/image/IdentityTransfer.class
+SHA1-Digest: UNLkot++/AQPhbdggYzGgZbHUPM=
+
+Name: org/apache/batik/ext/awt/image/renderable/FloodRable.class
+SHA1-Digest: FTtEOUnVByLsoKM8sRHbYIFJfF8=
+
+Name: org/apache/batik/ext/awt/font/TextPathLayout.class
+SHA1-Digest: DjVTF9EVkAnj5fr0J5DWh2JK4as=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$ArithCompositeContex
+ t.class
+SHA1-Digest: B5wzmyD16SNe7vI4rcJyBCMdEvM=
+
+Name: org/apache/batik/ext/awt/image/codec/util/ImageEncoderImpl.class
+SHA1-Digest: AEC6A5SzdfjxRKVeaeXopFOY1nA=
+
+Name: org/apache/batik/ext/awt/image/renderable/DeferRable.class
+SHA1-Digest: F6J8R65CiiiFN7JubYZmCiWVghA=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$OverCompositeContext
+ .class
+SHA1-Digest: G4UAcCuwJ2fLLZEiSis8/6NhljI=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$DarkenCompositeConte
+ xt_INT_PACK.class
+SHA1-Digest: uMJZCvxjxJOwhErHn3mYe4bjbvg=
+
+Name: org/apache/batik/ext/awt/image/rendered/ComponentTransferRed.cla
+ ss
+SHA1-Digest: HgnIr1kWihUAkMXSVAeVIwqwum8=
+
+Name: org/apache/batik/ext/awt/image/renderable/MorphologyRable8Bit.cl
+ ass
+SHA1-Digest: 2JzSkie+dLHFC+GZhc4AXSaD+bU=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFDecodeParam.class
+SHA1-Digest: +pW+rc8LFcvZjsYPigbqywWVtOE=
+
+Name: org/apache/batik/ext/awt/geom/Segment.class
+SHA1-Digest: Ybpt3UKNY+QBGeY4W0jvpzvfRXE=
+
+Name: org/apache/batik/ext/awt/image/spi/AbstractRegistryEntry.class
+SHA1-Digest: Utg3ZZIF7nN4WPCMrLdKxA+dqEA=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGImage.class
+SHA1-Digest: TXgZPgOPdQY3zdinAtEJygRVsyc=
+
+Name: org/apache/batik/ext/awt/image/rendered/DisplacementMapRed$TileO
+ ffsets.class
+SHA1-Digest: 5L/jRFvFCazPvYOaoiKOyIcOxwQ=
+
+Name: org/apache/batik/ext/awt/image/rendered/AbstractRed.class
+SHA1-Digest: 0lFpGejnixWdSDANyqojb6BrgtA=
+
+Name: org/apache/batik/ext/awt/MultipleGradientPaint$ColorSpaceEnum.cl
+ ass
+SHA1-Digest: bXqo/iK8G5v06BS/M9UQvEAu0ZI=
+
+Name: org/apache/batik/ext/awt/RadialGradientPaint.class
+SHA1-Digest: idqpfdIdH/coMkcgxADQjk4a+iw=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGTranscoderInternalCo
+ decWriteAdapter.class
+SHA1-Digest: XDx+UW7nXMP7o0mltU3XxSH7QzI=
+
+Name: org/apache/batik/ext/awt/geom/PathLength$SingleSegmentPathIterat
+ or.class
+SHA1-Digest: 3Hhnf6rDYEMT91MTOtHiOUIdJFc=
+
+Name: org/apache/batik/ext/awt/image/renderable/PadRable8Bit.class
+SHA1-Digest: aDGFdR3GJAtnUU1WExzWmNAr1y8=
+
+Name: org/apache/batik/ext/awt/g2d/TransformStackElement$4.class
+SHA1-Digest: y+uGcYkILY38BSwQkVXtbUjSD6k=
+
+Name: org/apache/batik/ext/awt/image/renderable/TurbulenceRable8Bit.cl
+ ass
+SHA1-Digest: nupPwPKIoVnJY/NZHuelwX7L0JM=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$ArithCompositeContex
+ t_INT_PACK.class
+SHA1-Digest: MDDl504FrOTTHqPr8j7c9aWWqdw=
+
+Name: org/apache/batik/ext/awt/image/spi/JDKRegistryEntry$1.class
+SHA1-Digest: RrMp5uMrr+KUYlYu/WAwaMcGWsQ=
+
+Name: org/apache/batik/ext/awt/image/rendered/MorphologyOp.class
+SHA1-Digest: LdrlhE7PAioicwIoamdznhJTsQQ=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$OverCompositeContext
+ _INT_PACK_UNPRE.class
+SHA1-Digest: m/4jrR/dwSINDd6RIHP0x2OZyV8=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGRegistryEntry$1.clas
+ s
+SHA1-Digest: yXCkjs/tutE9y3Rb/djI8NrPA+g=
+
+Name: org/apache/batik/ext/swing/GridBagConstants.class
+SHA1-Digest: ky7KSKKctOXFgDWltcs9joEjcwM=
+
+Name: org/apache/batik/ext/swing/JAffineTransformChooser$4.class
+SHA1-Digest: uxArM3EBt39a9/dSW3ZTYYEaKuo=
+
+Name: org/apache/batik/ext/awt/image/spi/resources/Messages.properties
+SHA1-Digest: dM7lOSTv10/RRquUQ1gO18pyNHw=
+
+Name: org/apache/batik/ext/swing/JGridBagPanel.class
+SHA1-Digest: EulAj9Q8li5lGIcQ5o24lpjaY/E=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGRed$PNGChunk.class
+SHA1-Digest: ZZ42j71yK5kJ26FMCq96zzQT2B8=
+
+Name: about.html
+SHA1-Digest: leG5A6FRCE0w2rDH0zYO8OP/oKk=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$XorCompositeContext.
+ class
+SHA1-Digest: VnQcnJhmOM3etuDXXfUjRHEwI2w=
+
+Name: org/apache/batik/ext/awt/image/renderable/DisplacementMapRable.c
+ lass
+SHA1-Digest: qucNRveZ5PXRrCk/pvetYvEotT4=
+
+Name: META-INF/services/org.apache.batik.ext.awt.image.spi.RegistryEnt
+ ry
+SHA1-Digest: y7zTYYnGLBd1Y1MtKIZdMaP/DuY=
+
+Name: org/apache/batik/ext/awt/image/rendered/FloodRed.class
+SHA1-Digest: eAGbYrsaui84FXPK8Tw2jbHEPyc=
+
+Name: org/apache/batik/ext/awt/image/renderable/AbstractRable.class
+SHA1-Digest: j9zLoaP1IoipnhcHyb+jROQxVNA=
+
+Name: org/apache/batik/ext/awt/image/rendered/ComponentTransferRed$1.c
+ lass
+SHA1-Digest: k0XnaovW6ziwJA6u/djorTKfzQk=
+
+Name: org/apache/batik/ext/awt/image/LinearTransfer.class
+SHA1-Digest: MPGfpZs4wS4dA3DP0kEbEF94+E0=
+
+Name: org/apache/batik/ext/awt/image/renderable/ClipRable8Bit.class
+SHA1-Digest: fKfZqfGJnAEDv0siRTFWam9G0pg=
+
+Name: org/apache/batik/ext/awt/image/rendered/FilterAsAlphaRed.class
+SHA1-Digest: Wz0W6Dk+racFKZ5J5SaFhJxl+Qg=
+
+Name: org/apache/batik/ext/awt/image/renderable/FilterColorInterpolati
+ on.class
+SHA1-Digest: f2QAjTP1EmgZW/e12j+UFenFCG0=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$ArithCompositeContex
+ t_INT_PACK_LUT.class
+SHA1-Digest: E9P2pHpMG/VpRxLvTYDpw8N81aY=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$LightenCompositeCont
+ ext_INT_PACK.class
+SHA1-Digest: 21Tfg2+jYjzTdfndwIUKSjQN/Y8=
+
+Name: org/apache/batik/ext/awt/image/renderable/FilterChainRable.class
+SHA1-Digest: DzR4wu9kQ2EcO/EgFMq5v8k54IE=
+
+Name: org/apache/batik/ext/awt/image/renderable/GaussianBlurRable8Bit.
+ class
+SHA1-Digest: RqyLa6T5e/7+aDgCpibJTrveA4A=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileLRUMember.class
+SHA1-Digest: auBCxtB8hrzpoLnWz5HqF441LWg=
+
+Name: org/apache/batik/ext/awt/image/spi/MagicNumberRegistryEntry.clas
+ s
+SHA1-Digest: o87q4rd+ezhi44I2hndtzxthr30=
+
+Name: org/apache/batik/ext/awt/geom/ShapeExtender$EPIWrap.class
+SHA1-Digest: KySeR4HMFswp/Qh2X+sIXZrO4Ds=
+
+Name: org/apache/batik/ext/awt/image/rendered/SpecularLightingRed.clas
+ s
+SHA1-Digest: Gn7epS/v+QFLR5Hsp2zxMiyJW2c=
+
+Name: org/apache/batik/ext/awt/image/rendered/Any2LsRGBRed.class
+SHA1-Digest: wNeVlom0ekA+HLxj0bBVzYxO2UE=
+
+Name: org/apache/batik/ext/awt/g2d/TransformStackElement$1.class
+SHA1-Digest: 3AsieujzhCkAnlVfxL1wBmgghvQ=
+
+Name: org/apache/batik/ext/swing/JAffineTransformChooser.class
+SHA1-Digest: 0ApH/CYBHSxfVhNXpoxuUZyQVFo=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGRegistryEntry.class
+SHA1-Digest: eUvs4787PdlM0ZSzJITxVIXv40s=
+
+Name: org/apache/batik/ext/awt/image/renderable/GaussianBlurRable.clas
+ s
+SHA1-Digest: sOxPxJSiXjrtxLTZ7nEmoFH5xjU=
+
+Name: org/apache/batik/ext/awt/image/codec/util/ImageEncodeParam.class
+SHA1-Digest: 5OsPygpTAHI7RK3ZejmKpAEUqvA=
+
+Name: org/apache/batik/ext/awt/image/rendered/TurbulencePatternRed$Sti
+ tchInfo.class
+SHA1-Digest: /TSvajeUPmGhCSalbECdQfzzVwQ=
+
+Name: org/apache/batik/ext/awt/image/renderable/FilterAsAlphaRable.cla
+ ss
+SHA1-Digest: LV7niNLXQF5pwhwWxym+mcdM26w=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFTranscoderInternal
+ CodecWriteAdapter.class
+SHA1-Digest: dSZrTWN/jeDfK1SnzVZufR/tWtI=
+
+Name: org/apache/batik/ext/swing/JAffineTransformChooser$1.class
+SHA1-Digest: tbozReIWCvmQ1Jq39UqDLSZs7ZQ=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileCache.class
+SHA1-Digest: x5bN/M/qOKqDGyVcvb8VV1Bhn9c=
+
+Name: org/apache/batik/ext/awt/image/rendered/TranslateRed.class
+SHA1-Digest: I4xj4DU3qgvnhONmMvrcO+hYdVk=
+
+Name: org/apache/batik/ext/awt/image/rendered/DiffuseLightingRed.class
+SHA1-Digest: WF6EyCqOZEK97ujGPJGZahuEMxs=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$AtopCompositeContext
+ .class
+SHA1-Digest: 2+XqmVD9k1Sd3w85RjNZKbZYx/0=
+
+Name: org/apache/batik/ext/awt/image/codec/util/MemoryCacheSeekableStr
+ eam.class
+SHA1-Digest: xCYOXmuBMxFcXhUzFeuUSe0SR2M=
+
+Name: org/apache/batik/ext/swing/JAffineTransformChooser$Dialog.class
+SHA1-Digest: Y1JAskV23diJFsm/Gs5pKVpKyes=
+
+Name: org/apache/batik/ext/awt/geom/RectListManager$RLMIterator.class
+SHA1-Digest: QN2TshSON5ceo9CTtkbhj7lGu/Q=
+
+Name: META-INF/NOTICE
+SHA1-Digest: zypX+GtadfB57hy1eWHt8hp6GTQ=
+
+Name: org/apache/batik/ext/awt/image/TransferFunction.class
+SHA1-Digest: JsHJUkxXLz9jncm/yrSov8QDx78=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGRed.class
+SHA1-Digest: RUgK5ijpdLkdb6vrxTex5kwi2KU=
+
+Name: org/apache/batik/ext/swing/JGridBagPanel$ZeroInsetsManager.class
+SHA1-Digest: sL9eX0mM98icXOssimtmT9cokHM=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileRed.class
+SHA1-Digest: /RoxU5GiX23kHWbqWegRKecEcb0=
+
+Name: org/apache/batik/ext/awt/image/renderable/AbstractColorInterpola
+ tionRable.class
+SHA1-Digest: KrEWyBJmefpGSPp9BilD1rvU/kw=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileGenerator.class
+SHA1-Digest: Fyr8gpKLvebQZDF0B51AIRBZGq0=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFRegistryEntry$1.cl
+ ass
+SHA1-Digest: xtGf1rXrc0jcsshxgYBOmRFgB8w=
+
+Name: about_files/README
+SHA1-Digest: 6ucCCJgwbMHFjoa+zJeAytt+bwA=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGEncodeParam.class
+SHA1-Digest: umg3oBY+Hhm/KNzD6ktK8Bzp+as=
+
+Name: org/apache/batik/ext/awt/image/codec/png/PNGImageDecoder.class
+SHA1-Digest: UevsqYsdFSqSK3g/wgF6/wFO/Rg=
+
+Name: org/apache/batik/ext/awt/image/AbstractLight.class
+SHA1-Digest: lfWXyEbWIKb4oXob5QFtpjXTJ7k=
+
+Name: org/apache/batik/ext/awt/geom/Segment$SplitResults.class
+SHA1-Digest: Mnoht1YZ//6HWc9pWjBdtrSzerw=
+
+Name: org/apache/batik/ext/awt/TranscodingHintKey.class
+SHA1-Digest: T1LyDsXbCT3ZPIAmRI5cxxkyTxI=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$ScreenCompositeConte
+ xt_INT_PACK.class
+SHA1-Digest: R+wHmFmLStjR8Qs0onP4EdPeidU=
+
+Name: org/apache/batik/ext/awt/image/TableTransfer.class
+SHA1-Digest: ZiMqUbTWTkgiT1cKkEa+HD2SK7k=
+
+Name: org/apache/batik/ext/awt/image/rendered/TileStore.class
+SHA1-Digest: ODZ/qms2+0wCAkScKrgbPZg4SoY=
+
+Name: org/apache/batik/ext/awt/image/renderable/ComponentTransferRable
+ .class
+SHA1-Digest: u4Af9ZLNQrHkc4DVELFcbs0ongc=
+
+Name: org/apache/batik/ext/awt/image/renderable/ConvolveMatrixRable8Bi
+ t.class
+SHA1-Digest: cpYYOyBR4CkeU+qlIZWl4LXAXz8=
+
+Name: org/apache/batik/ext/awt/image/renderable/FilterResRable.class
+SHA1-Digest: 0Ts8DqIgUz1BNMXOzuz+9Z/v4RM=
+
+Name: org/apache/batik/ext/awt/image/spi/BrokenLinkProvider.class
+SHA1-Digest: 0N0Tht0z1tI6XT4uv1I36bEWbXs=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite.class
+SHA1-Digest: mN1VNeF8Zqey9LqYMWtaIi4YSaY=
+
+Name: org/apache/batik/ext/awt/geom/Polygon2D.class
+SHA1-Digest: xwSMVsUi0JTScqVKbgCSrgUTu80=
+
+Name: org/apache/batik/ext/awt/image/renderable/ColorMatrixRable.class
+SHA1-Digest: zyoY8sfIA+qHalWpzz0+z0+3kNE=
+
+Name: org/apache/batik/ext/awt/ColorSpaceHintKey.class
+SHA1-Digest: abUNwCkO+00OzM2iqTS3tuWpdYY=
+
+Name: org/apache/batik/ext/awt/image/rendered/GaussianBlurRed8Bit.clas
+ s
+SHA1-Digest: ZEZIttCkaCalGa61wNC3g1NFa8I=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$AtopCompositeContext
+ _INT_PACK.class
+SHA1-Digest: ScKxnL6tgDy1DUTSdljXH9ILikM=
+
+Name: org/apache/batik/ext/awt/image/codec/jpeg/JPEGRegistryEntry$1.cl
+ ass
+SHA1-Digest: zx1wgpwBEdsMbLk/vhnif4+DfcQ=
+
+Name: org/apache/batik/ext/awt/image/GammaTransfer.class
+SHA1-Digest: 2WY86qKtJRndAec7yxBoFwYi/Ds=
+
+Name: org/apache/batik/ext/awt/image/URLImageCache.class
+SHA1-Digest: eg0mIOCYP+R+V7+DYk/1yYvnMFU=
+
+Name: org/apache/batik/ext/awt/image/ARGBChannel.class
+SHA1-Digest: oAhStknWAGeuzee7dEi/cTGWrBQ=
+
+Name: org/apache/batik/ext/swing/Messages.class
+SHA1-Digest: VnwTdYp9nH7CN6rcU4O6m/vfoOA=
+
+Name: org/apache/batik/ext/awt/image/rendered/IndexImage$Counter.class
+SHA1-Digest: D5OsWildMofdJQmviO3ZyY6lGFs=
+
+Name: org/apache/batik/ext/awt/image/ConcreteComponentTransferFunction
+ .class
+SHA1-Digest: geoEU+63A3nV7i00PceJ8XCg1zk=
+
+Name: org/apache/batik/ext/swing/JGridBagPanel$DefaultInsetsManager.cl
+ ass
+SHA1-Digest: wyO7MUZP6x1taiXJrSHescjEFvo=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$InCompositeContext_I
+ NT_PACK.class
+SHA1-Digest: p+Lkq0Q9PoV5YaYw/uNP97Crur4=
+
+Name: org/apache/batik/ext/awt/image/codec/tiff/TIFFImageDecoder.class
+SHA1-Digest: ze6C4kh5B/qr39OkgvbPFITBysQ=
+
+Name: META-INF/services/org.apache.batik.ext.awt.image.spi.ImageWriter
+SHA1-Digest: yRrmX4oym3gkknL6FPhVIqKIXxU=
+
+Name: org/apache/batik/ext/awt/image/rendered/ProfileRed.class
+SHA1-Digest: pS7I8hPhoo8wuQMEjt5EKIh4+Ts=
+
+Name: org/apache/batik/ext/awt/image/rendered/PadRed$ZeroRecter_INT_PA
+ CK.class
+SHA1-Digest: MUXG1wnJGIMXJGpVZBZLpEt0bys=
+
+Name: org/apache/batik/ext/awt/image/renderable/CompositeRable.class
+SHA1-Digest: WULK+DWw+KEZVleSf9Q83b9if3g=
+
+Name: org/apache/batik/ext/awt/image/codec/util/ForwardSeekableStream.
+ class
+SHA1-Digest: JwKu1BkOqzKWn457afj2+m3cujM=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$XorCompositeContext_
+ INT_PACK.class
+SHA1-Digest: nPPT5Bk1cikYX7Zfi5oEmMF3BFg=
+
+Name: org/apache/batik/ext/awt/image/codec/util/SeekableOutputStream.c
+ lass
+SHA1-Digest: Kgnha5EGDfi7upxy5NVBJLauXbU=
+
+Name: org/apache/batik/ext/awt/g2d/GraphicContext.class
+SHA1-Digest: AjWjtJi0ExEq0jQtqEpbCjT3MFU=
+
+Name: org/apache/batik/ext/awt/geom/Linear.class
+SHA1-Digest: c12LbJaefV/xYIRGwd0qP5IRqOs=
+
+Name: org/apache/batik/ext/awt/image/SVGComposite$AlphaPreCompositeCon
+ text.class
+SHA1-Digest: ZOAhMsLXp1k6NaU0Hfzz7MSjM6M=
+
+Name: org/apache/batik/ext/awt/color/ICCColorSpaceExt.class
+SHA1-Digest: ndpiDyAIxAHDlQA/xmTofpAmBfI=
+

@@ -1,0 +1,125 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.3,CDC-1.0/Foundation-1.0
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.w3c.css.sac
+Bundle-Version: 1.3.1.v200903091627
+Export-Package: org.w3c.css.sac;version="1.3.0";provenance=W3C,org.w3c
+ .css.sac.helpers;version="1.3.0";provenance=W3C
+Bundle-ManifestVersion: 2
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: NV/tRSeBE64tS1EXrewu6DAklWI=
+
+Name: org/w3c/css/sac/Locator.class
+SHA1-Digest: vrny3oWNXqzceuz4q/pNMAoimW0=
+
+Name: org/w3c/css/sac/Condition.class
+SHA1-Digest: G0Ben/a7Bx+N+dF8WijuTkj4c/U=
+
+Name: plugin.properties
+SHA1-Digest: QmqLUTzYiSGGN8E3xjvFKCyRulM=
+
+Name: org/w3c/css/sac/CSSException.class
+SHA1-Digest: otdLu26TQOMmzG9JjoFGavcXPmI=
+
+Name: org/w3c/css/sac/SACMediaList.class
+SHA1-Digest: kI7QevdC5bjF5XSyGO266BS+8mo=
+
+Name: org/w3c/css/sac/helpers/ParserFactory.class
+SHA1-Digest: M+1Vmynr6b/0qnN4hMPolXnfwUU=
+
+Name: about_files/LICENSE.sax.txt
+SHA1-Digest: MV5rGLEmP45NsFYn8MwFbOTI5Ew=
+
+Name: org/w3c/css/sac/NegativeCondition.class
+SHA1-Digest: pH2FI86wvHNNx5Fuhkwhk3cWQho=
+
+Name: org/w3c/css/sac/PositionalCondition.class
+SHA1-Digest: kjv5/Iuklo/jXHfVKHY2aa0/5NI=
+
+Name: about_files/LICENSE.sac.html
+SHA1-Digest: Lm43K6cicnCl3mD87g/ba3dYNVg=
+
+Name: org/w3c/css/sac/SelectorFactory.class
+SHA1-Digest: cZGYRpL9mHU08oVWclBpqJ8PSOU=
+
+Name: org/w3c/css/sac/SelectorList.class
+SHA1-Digest: WygjFFkE1kWr9cClzTUSX24OJmQ=
+
+Name: org/w3c/css/sac/DocumentHandler.class
+SHA1-Digest: SvHzrVfzmpb5fNqbm05+SteSkZI=
+
+Name: org/w3c/css/sac/Selector.class
+SHA1-Digest: o/WksTE4G4H/pd0Do+leyO98/7w=
+
+Name: org/w3c/css/sac/Parser.class
+SHA1-Digest: DDl71Por/Fnxctry7/FnO9mo7aA=
+
+Name: org/w3c/css/sac/AttributeCondition.class
+SHA1-Digest: 7Y8/Jf2GlHczPyGwt4Nv3wWh61s=
+
+Name: about_files/NOTICE
+SHA1-Digest: Q8g5daR2xAyTN29JD2zxErD/HfA=
+
+Name: org/w3c/css/sac/CharacterDataSelector.class
+SHA1-Digest: sIhRAByow7WbQ80v33DkfxwgaSo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/w3c/css/sac/ContentCondition.class
+SHA1-Digest: xDPzIdJ5U2QMl1kQaLvpmosbWhM=
+
+Name: org/w3c/css/sac/ErrorHandler.class
+SHA1-Digest: IcPI3nHTHJWGUP0zhniVw63NUUU=
+
+Name: org/w3c/css/sac/ProcessingInstructionSelector.class
+SHA1-Digest: 3UtfUFzwU1tHD+ZKAMgTG7rSYtU=
+
+Name: about.html
+SHA1-Digest: Xx4aRRKc4AA58Q3qFMNpDfE76u4=
+
+Name: org/w3c/css/sac/ElementSelector.class
+SHA1-Digest: 7dCL1nL4/ln6mMPjT7xvE+gT6e8=
+
+Name: org/w3c/css/sac/CombinatorCondition.class
+SHA1-Digest: gtYFDeUWRpJjbQlj/Fr6IS3YkD4=
+
+Name: org/w3c/css/sac/CSSParseException.class
+SHA1-Digest: 9fzNhRt7cFsZmHMTJku8HHpeuIY=
+
+Name: org/w3c/css/sac/SiblingSelector.class
+SHA1-Digest: eQDOnk3nVzoYlcpQ0lP4AKrwgFo=
+
+Name: org/w3c/css/sac/ConditionFactory.class
+SHA1-Digest: 5aT6mq78AikzCl0ce4SRNQix5oU=
+
+Name: org/w3c/css/sac/SimpleSelector.class
+SHA1-Digest: zo/p0DjD8Soi664erWRZuC1zadU=
+
+Name: org/w3c/css/sac/ConditionalSelector.class
+SHA1-Digest: 2F1tZW1CCZ1jm9F39kHE2H/Y5TA=
+
+Name: org/w3c/css/sac/InputSource.class
+SHA1-Digest: QQZ3I5fpXZ+DGqUBr9UdxoF1C4M=
+
+Name: org/w3c/css/sac/NegativeSelector.class
+SHA1-Digest: BadEY4MPsFD1kTvlDCrTAPYCRfE=
+
+Name: about_files/README
+SHA1-Digest: 6ucCCJgwbMHFjoa+zJeAytt+bwA=
+
+Name: org/w3c/css/sac/LexicalUnit.class
+SHA1-Digest: zIjRbwNrrrJD9u/4JHHQXv1hgEY=
+
+Name: about_files/LICENSE-W3C-20021231.html
+SHA1-Digest: LnkV3MrqjMZEQvwe/kQzZM/ICZk=
+
+Name: org/w3c/css/sac/LangCondition.class
+SHA1-Digest: WoFRqcBYpgZZO/gyit1N5z6iUV8=
+
+Name: org/w3c/css/sac/DescendantSelector.class
+SHA1-Digest: 6sHoK6gyaGaZYBaEiOMlwdvbmos=
+

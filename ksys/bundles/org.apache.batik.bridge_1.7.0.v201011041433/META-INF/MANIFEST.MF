@@ -1,0 +1,1752 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation (http://xmlgraph
+ ics.apache.org/batik/)
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.3
+Bundle-SymbolicName: org.apache.batik.bridge
+Require-Bundle: org.apache.batik.css;bundle-version="[1.7.0,1.8.0)",or
+ g.apache.batik.dom;bundle-version="[1.7.0,1.8.0)",org.apache.batik.do
+ m.svg;bundle-version="[1.7.0,1.8.0)",org.apache.batik.ext.awt;bundle-
+ version="[1.7.0,1.8.0)",org.apache.batik.parser;bundle-version="[1.7.
+ 0,1.8.0)",org.apache.batik.util;bundle-version="[1.7.0,1.8.0)",org.ap
+ ache.batik.util.gui;bundle-version="[1.7.0,1.8.0)",org.apache.batik.x
+ ml;bundle-version="[1.7.0,1.8.0)"
+Bundle-Version: 1.7.0.v201011041433
+Export-Package: org.apache.batik.bridge;version="1.7.0",org.apache.bat
+ ik.bridge.resources;version="1.7.0",org.apache.batik.bridge.svg12;ver
+ sion="1.7.0",org.apache.batik.gvt;version="1.7.0",org.apache.batik.gv
+ t.event;version="1.7.0",org.apache.batik.gvt.filter;version="1.7.0",o
+ rg.apache.batik.gvt.flow;version="1.7.0",org.apache.batik.gvt.font;ve
+ rsion="1.7.0",org.apache.batik.gvt.renderer;version="1.7.0",org.apach
+ e.batik.gvt.svg12;version="1.7.0",org.apache.batik.gvt.text;version="
+ 1.7.0",org.apache.batik.script;version="1.7.0",org.apache.batik.scrip
+ t.rhino;version="1.7.0",org.apache.batik.script.rhino.resources;versi
+ on="1.7.0",org.apache.batik.script.rhino.svg12;version="1.7.0",META-I
+ NF.services
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Build-Id: 20080106-110642-EST (cam [Linux 2.6.22.8 i386, Java 1.3.1_19
+ -b03])
+Implementation-Title: Batik bridge, GVT library, and script library
+Implementation-Version: 1.7+r608262
+Import-Package: org.w3c.dom.svg;version="[1.1.0,1.3.0)",org.w3c.dom.ev
+ ents;version="[3.0.0,4.0.0)"
+Bundle-ManifestVersion: 2
+
+Name: org/apache/batik/bridge/UpdateManager$10.class
+SHA1-Digest: TEBNPNVlYPSVEZwVg0FTI6l4lwI=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatablePointListVa
+ lueFactory.class
+SHA1-Digest: 97r107bmgwuV5GVPHnlR5BntoHU=
+
+Name: org/apache/batik/bridge/ErrorConstants.class
+SHA1-Digest: w4BZyklAEjKzRBRQSnevfZgOXPM=
+
+Name: META-INF/LICENSE
+SHA1-Digest: NV/tRSeBE64tS1EXrewu6DAklWI=
+
+Name: org/apache/batik/bridge/SVGFeDiffuseLightingElementBridge.class
+SHA1-Digest: ZEQnX+0IZpubCYUKySpsBkdJQFY=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeContext.class
+SHA1-Digest: MrXzhcKLhnq0EOKIBsoZ3zZRzwU=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$4.class
+SHA1-Digest: cr0kAWLkb7Rfp8YV9SexrJrnlLk=
+
+Name: org/apache/batik/gvt/renderer/StaticRenderer.class
+SHA1-Digest: 7i0R+UOFs8OhtjV9WDr40Df7Pak=
+
+Name: org/apache/batik/bridge/resources/Messages.properties
+SHA1-Digest: QsgSFtAvyQc3F1gF983TCYStIWI=
+
+Name: org/apache/batik/gvt/font/KerningTable.class
+SHA1-Digest: eFaQ4G5ILsdxTz2Q+NhSzJ/D6hM=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager.class
+SHA1-Digest: vRZE85ambDlgJxpLo/lj4slIygs=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$9.class
+SHA1-Digest: gAgGBKqsAK6RY1mRyxEnw2wqx3Q=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeUpdateHandler.class
+SHA1-Digest: Yru1ty+0/mHxaiNZw6oBmOQzERs=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatablePreserveAsp
+ ectRatioValueFactory.class
+SHA1-Digest: 4MmT3lxGG1Uee7Rh5adjdDNGB9Q=
+
+Name: org/apache/batik/script/ScriptEventWrapper.class
+SHA1-Digest: LXfFEJ1noiYolI0SyivEkQVVzJo=
+
+Name: org/apache/batik/bridge/SVGFeComponentTransferElementBridge$SVGF
+ eFuncRElementBridge.class
+SHA1-Digest: x2QQzfW+5+G6Ifv6rqibLXGoRlQ=
+
+Name: org/apache/batik/bridge/BridgeExtension.class
+SHA1-Digest: fxEmF8GrLHWr9cnSlUjUrGsDyXY=
+
+Name: org/apache/batik/bridge/svg12/SVG12ScriptingEnvironment.class
+SHA1-Digest: d2EpM7WvUHMvJitLclUU+6CDthE=
+
+Name: org/apache/batik/gvt/filter/GraphicsNodeRable.class
+SHA1-Digest: tuKA6s3Uw72yPIRfnbbU97MEmxY=
+
+Name: org/apache/batik/bridge/AbstractSVGLightingElementBridge$SVGFeDi
+ stantLightElementBridge.class
+SHA1-Digest: swnj8LSbDfPk5jz73XJ5D/9U3Kw=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableRectValueFa
+ ctory.class
+SHA1-Digest: xgpjzdkmZzU6XufjoFDD59axLCc=
+
+Name: org/apache/batik/bridge/BaseScriptingEnvironment.class
+SHA1-Digest: pb6YHY/ww4RQCLSAOmnJ3DF54xY=
+
+Name: org/apache/batik/bridge/GenericBridge.class
+SHA1-Digest: UWDa/owTcMSh98bkLMqJU8BMas4=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeKeyAdapter.class
+SHA1-Digest: ev5F/vUM2LBmyJ6/Eeb0MR9svn4=
+
+Name: org/apache/batik/bridge/SVGAnimationElementBridge.class
+SHA1-Digest: 49UuxrSrDk53+W2p+jJyce/fOvI=
+
+Name: org/apache/batik/bridge/SVGAnimateMotionElementBridge$1$Handler.
+ class
+SHA1-Digest: rvl61/Lt7ioh3MAHSpxsqcD6a+k=
+
+Name: org/apache/batik/bridge/svg12/XPathSubsetContentSelector$Selecte
+ dNodes.class
+SHA1-Digest: XeQmOREtUVewm2PSx6173zEoDmg=
+
+Name: org/apache/batik/bridge/BridgeException.class
+SHA1-Digest: lr+ugzih2yGofQxCqFYV6vV/MGU=
+
+Name: org/apache/batik/bridge/SVGAElementBridge.class
+SHA1-Digest: 5GLavn3lOOXh9N/ROYvdUj2dJ0c=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimationTickRunnable
+ .class
+SHA1-Digest: UlqUnBvDrHVz/jSzK4pYM0DnXzw=
+
+Name: org/apache/batik/bridge/SVGAElementBridge$CursorHolder.class
+SHA1-Digest: 2oP9AD1ObEZXveWU6mjVeZhGFrA=
+
+Name: org/apache/batik/gvt/Selector.class
+SHA1-Digest: NUZtiR0AyMe9Wtuv0nSJqPu5law=
+
+Name: org/apache/batik/bridge/AbstractSVGGradientElementBridge$SVGStop
+ ElementBridge.class
+SHA1-Digest: a4nDzcd82P0VjazSmkZUdMCvJvM=
+
+Name: org/apache/batik/bridge/DynamicGVTBuilder.class
+SHA1-Digest: AQsXx6H0S/+UiPAS+9oGq3R/htY=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$AbstractTextChildSV
+ GContext.class
+SHA1-Digest: U3R59g6yPaP4XyjJbqn1jp1YEpM=
+
+Name: org/apache/batik/gvt/text/ConcreteTextLayoutFactory.class
+SHA1-Digest: yhH6Qw2iqRt4HBr/N0+F5pw5rWM=
+
+Name: org/apache/batik/bridge/BridgeContext$CSSPropertiesChangedListen
+ er.class
+SHA1-Digest: QoQwrOWeSj7L0uLdqOXiHXfcKtg=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$9.class
+SHA1-Digest: KAMEAszV/Qu8zAQJhuCKyhtTH84=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableNumberValue
+ Factory.class
+SHA1-Digest: GWLzlBJEk+ljJVv8JaN9Idm6eIU=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableLengthOrIde
+ ntFactory.class
+SHA1-Digest: x+NsD6CClR9EoL+H8MaOr16uuRY=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeContext$XBLContentListe
+ ner.class
+SHA1-Digest: Nfdohcafitzbjjkj9ScOUWNWR6w=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper$FunctionAddProx
+ y.class
+SHA1-Digest: 2Qo2GKhpdxMv+imzL5DsCR0uSaw=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeChangeEvent.class
+SHA1-Digest: Nxsiu/ohbohlpkvMl2Vsi5czkWo=
+
+Name: org/apache/batik/script/rhino/WindowWrapper.class
+SHA1-Digest: 8G9veYc8u48g0oNnoOikTW9Pyc0=
+
+Name: org/apache/batik/bridge/SVGFeFloodElementBridge.class
+SHA1-Digest: n0I4QMlfJ4kgSd1zXlNjlsiLSfA=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$1.class
+SHA1-Digest: SEN7nxq/IjIoUWx3YW7Nxap2px8=
+
+Name: org/apache/batik/gvt/text/ConcreteTextSelector.class
+SHA1-Digest: yNGO9OqRpGnQXLHry1yNyWzYMig=
+
+Name: org/apache/batik/bridge/UnitProcessor$DefaultContext.class
+SHA1-Digest: n60FvPocKSypqB3PCLuruME//zU=
+
+Name: org/apache/batik/bridge/UpdateManager$5.class
+SHA1-Digest: AG5mHXDyVc2dyG9yNYbPeJQ9DZI=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$4.class
+SHA1-Digest: pDFqozR96OVOIVHS7UfdFWLG39E=
+
+Name: org/apache/batik/bridge/SVGFeOffsetElementBridge.class
+SHA1-Digest: Ba4cl8fvKraeT5EtDYsIdhwriQ8=
+
+Name: org/apache/batik/bridge/svg12/SVG12ScriptingEnvironment$DOMAttrM
+ odifiedListener.class
+SHA1-Digest: Bp2u1DuDmq0Rl1UlQJuhygJ/MR0=
+
+Name: org/apache/batik/bridge/BridgeContext$SoftReferenceMememto.class
+SHA1-Digest: 88vGRFqk12m2Y/CxL2ox8hzhpug=
+
+Name: org/apache/batik/bridge/SVGAnimateTransformElementBridge.class
+SHA1-Digest: 3TonR6Ym96YK0Mtx1gQcUxB2E44=
+
+Name: org/apache/batik/gvt/text/AttributedCharacterSpanIterator.class
+SHA1-Digest: QkX87x3wNHFFi2esqb+S/sDS4x8=
+
+Name: org/apache/batik/bridge/svg12/SVGFlowRootElementBridge.class
+SHA1-Digest: iUOst0ML+JO8vZuJRl1zdgYkhCw=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment.class
+SHA1-Digest: FwC896sQAkfzRVRtXgc6hiYb8nU=
+
+Name: org/apache/batik/bridge/FocusManager$MouseOverTracker.class
+SHA1-Digest: qOkhHLRhygPKrOB62eya/mJyLmM=
+
+Name: org/apache/batik/bridge/svg12/BindingListener.class
+SHA1-Digest: vIeFdVY3iD8XoVL144DESLy4At0=
+
+Name: org/apache/batik/bridge/SVGFeComponentTransferElementBridge$SVGF
+ eFuncElementBridge.class
+SHA1-Digest: bds0y+cBCz5xzAHLJWK5XDRhB3c=
+
+Name: org/apache/batik/bridge/UpdateManager$UpdateManagerRunHander.cla
+ ss
+SHA1-Digest: PnWWtp2wSsmv7raL6yGw0P3okZU=
+
+Name: org/apache/batik/bridge/BridgeContext$DOMNodeRemovedEventListene
+ r.class
+SHA1-Digest: q4tJ9tKQ/AAhhgH33ogaTY6pdEk=
+
+Name: org/apache/batik/bridge/BridgeContext$DOMMouseOverEventListener.
+ class
+SHA1-Digest: 2kKEr7TpJ6iUwW5S8XN4rU2JoH8=
+
+Name: org/apache/batik/bridge/svg12/ContentManager$DOMNodeRemovedEvent
+ Listener.class
+SHA1-Digest: sE+3yBfKLYW2IeLNWAVsgh9ymno=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$3.class
+SHA1-Digest: U6J7wPWhE+yoy0XkXQETm4WvWCE=
+
+Name: org/apache/batik/gvt/flow/FlowTextNode.class
+SHA1-Digest: L9aRQnK1IWLeeuKeqfu5csqojcg=
+
+Name: org/apache/batik/gvt/font/AWTGlyphGeometryCache$Value.class
+SHA1-Digest: Nrg3s1k1sdzgedecdOmVi/elgmY=
+
+Name: org/apache/batik/bridge/SVGSVGElementBridge$SVGSVGElementViewpor
+ t.class
+SHA1-Digest: lXXDapL+7fAMRE08RlTUHVs1PiA=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$XblScopedChildNo
+ des.class
+SHA1-Digest: 9w/V3+SfMPuXsHNOB1Sc1ssSR68=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreterFactory.class
+SHA1-Digest: a1dW+FBFukQEvfKCJhi+9+pfZYU=
+
+Name: org/apache/batik/gvt/renderer/RendererFactory.class
+SHA1-Digest: RB82F5MZrA2vmw5R019MxcX09R4=
+
+Name: org/apache/batik/bridge/SVGEllipseElementBridge.class
+SHA1-Digest: K/PU4AGlXgDxO4WQRR0qm+3QdHI=
+
+Name: org/apache/batik/gvt/font/GVTGlyphMetrics.class
+SHA1-Digest: da0TpC8DQHWzR7DjH489Zj1TR8o=
+
+Name: org/apache/batik/bridge/svg12/XPathSubsetContentSelector$Scanner
+ .class
+SHA1-Digest: nRSe0id9/3Br6ThZEdw+q7iLYho=
+
+Name: org/apache/batik/bridge/BridgeEventSupport.class
+SHA1-Digest: aBU+8JxQVvMk7jHhw8N5vSuFjOo=
+
+Name: org/apache/batik/bridge/UpdateManager$RepaintTimerTask.class
+SHA1-Digest: 3asL5T4Tt/cHRLhwF9sYKhh3cqI=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper.class
+SHA1-Digest: 9IlwmgotUkR7GCwJYCHMgGHy2JI=
+
+Name: org/apache/batik/gvt/filter/GraphicsNodeRed8Bit.class
+SHA1-Digest: ateDWD2ErpJtyS8Jeq8M9WtWgYc=
+
+Name: org/apache/batik/bridge/SVGAltGlyphHandler.class
+SHA1-Digest: uK4eJDWgZ+Li4QXl/ud79FIdPCA=
+
+Name: org/apache/batik/gvt/text/TextHit.class
+SHA1-Digest: Hiki/0ebT2roYmvN112utH50+fA=
+
+Name: org/apache/batik/bridge/svg12/XPathPatternContentSelector$NSPref
+ ixResolver.class
+SHA1-Digest: +DcPjwuOhzBdQGrM7ROlrOmv/Ic=
+
+Name: org/apache/batik/gvt/flow/FlowGlyphLayout.class
+SHA1-Digest: dpc1uVxvrEoGWOrHWaz733vPi4I=
+
+Name: org/apache/batik/bridge/CursorManager$CursorCache.class
+SHA1-Digest: 8S0+/Lm7QsRwj6Pmb/QLBGRuvg0=
+
+Name: org/apache/batik/bridge/UserAgentViewport.class
+SHA1-Digest: H9BnHpg9FXhiY91ccDXrblrSP1I=
+
+Name: org/apache/batik/gvt/font/GVTFontFace.class
+SHA1-Digest: hzSf8V05bPvBFz4ImLQ/sgAxD0M=
+
+Name: org/apache/batik/bridge/CursorManager$CursorDescriptor.class
+SHA1-Digest: cdKTgEF9S89LOXrgYCalBJjmuxE=
+
+Name: org/apache/batik/gvt/text/TextSpanLayout.class
+SHA1-Digest: 31n0XafGJnu5Oo2EHAgclFmRjTw=
+
+Name: org/apache/batik/gvt/flow/RegionInfo.class
+SHA1-Digest: JNYR9qjQJC0Og48jw/64TsMB4V4=
+
+Name: org/apache/batik/script/rhino/BatikSecurityController$1.class
+SHA1-Digest: 4M5Ndt21yaVIA90ZdiFS0uisr2Q=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$GetURLFunctionWrappe
+ r.class
+SHA1-Digest: W830idU/U/1cHyiydS0bc9EE1S0=
+
+Name: org/apache/batik/bridge/SVGAnimateElementBridge.class
+SHA1-Digest: 2MEz/dwewuO0URuVoyD3Blo1siw=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$CSSValueFactory.class
+SHA1-Digest: 7RNqDFcAc4tPe37Ca5H5zUYkeyo=
+
+Name: org/apache/batik/bridge/SVGMissingGlyphElementBridge.class
+SHA1-Digest: NhML9+beRHOJC9KlxXGMEoHmepw=
+
+Name: org/apache/batik/bridge/AbstractSVGBridge.class
+SHA1-Digest: vnLEjago1xP5/cvPEyKLiTKb+Yg=
+
+Name: org/apache/batik/bridge/DefaultScriptSecurity.class
+SHA1-Digest: EcA2NjSSeW2ew9Ts29g5juDCrak=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeChangeListener.class
+SHA1-Digest: iVobdiQGemY4iaDGt9iguRFSfQk=
+
+Name: org/apache/batik/bridge/SVGFontFamily.class
+SHA1-Digest: YDUBJTufmpmvXvAFKALpDaMrzR4=
+
+Name: org/apache/batik/bridge/svg12/ContentManager$DOMAttrModifiedEven
+ tListener.class
+SHA1-Digest: JStXgPTBypcoa29QYX0AWjJgOdo=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$3.class
+SHA1-Digest: DILlnNIBD2kj1ZXtSJwMS57nyBA=
+
+Name: org/apache/batik/bridge/svg12/SVGFlowRootElementBridge$FlowConte
+ ntBridge.class
+SHA1-Digest: YLL4LZVglaPf6VhiGLR59p93ct0=
+
+Name: org/apache/batik/gvt/AbstractGraphicsNode.class
+SHA1-Digest: VZbxy7HbG3/YgBZRRcsgmRjywc0=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$8.class
+SHA1-Digest: DZWnpGWo5PnpIfGkiNmJ4Z8PUKA=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$EvaluateIntervalRun
+ nable.class
+SHA1-Digest: r1uHI3FUnnwSclKqPUs8yshHa7M=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$DocSubtreeListen
+ er.class
+SHA1-Digest: gjAa7sueqyI+MBdq/U8MlMgyVsk=
+
+Name: org/apache/batik/gvt/svg12/MultiResGraphicsNode.class
+SHA1-Digest: m2z7PcruKMTZlPjiJlDOWBq6aFc=
+
+Name: org/apache/batik/bridge/UnitProcessor.class
+SHA1-Digest: 2JR3SepPjLFgbYLH1HX8rxwhN8k=
+
+Name: about_files/NOTICE
+SHA1-Digest: zypX+GtadfB57hy1eWHt8hp6GTQ=
+
+Name: org/apache/batik/bridge/BridgeContext$DOMMouseOutEventListener.c
+ lass
+SHA1-Digest: RvbRxqYxdb8zq8ZZEnDNrCfGgYY=
+
+Name: org/apache/batik/bridge/SVGAnimateMotionElementBridge.class
+SHA1-Digest: IOJZUhThblkZ6FJxCKfOe9muQBA=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$DOMChildNodeRemoved
+ EventListener.class
+SHA1-Digest: DI1Zr0bVJWf7qFUgxAH+eyN291c=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableLengthListV
+ alueFactory.class
+SHA1-Digest: TcpteFoFaWDIKCbMXjYBOZS71E8=
+
+Name: org/apache/batik/bridge/SVGFeTurbulenceElementBridge.class
+SHA1-Digest: 1hD1LuRuaRVIBMKJwXm1fQ5QrGk=
+
+Name: org/apache/batik/bridge/svg12/XBLShadowTreeElementBridge.class
+SHA1-Digest: zkRRiwj8JheC+oi90SIoYbaz/y0=
+
+Name: org/apache/batik/bridge/SVGAElementBridge$AnchorDefaultActionabl
+ e.class
+SHA1-Digest: yLg1wdml5CO7rhdqXdHhrdvA+O0=
+
+Name: org/apache/batik/script/ScriptHandler.class
+SHA1-Digest: TVCCdQ+Acw2u+IKq/UPz9nvG7Hs=
+
+Name: org/apache/batik/bridge/NoLoadScriptSecurity.class
+SHA1-Digest: XuU/KtYxjwlFtcUqFrCDkBEBqRI=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper$FunctionAddNSPr
+ oxy.class
+SHA1-Digest: mmdGsSw/OVAOf3+WisH10myJmkk=
+
+Name: org/apache/batik/bridge/svg12/DefaultContentSelector$SelectedNod
+ es.class
+SHA1-Digest: U6H0NaTHriykZjHsjidfYWpsWhE=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableIntegerValu
+ eFactory.class
+SHA1-Digest: pKP2l6vbNLNGxEcnDGi2owuzJuQ=
+
+Name: org/apache/batik/bridge/NoRepaintRunnable.class
+SHA1-Digest: L7uKVer8rgZ7Av2gF71l38klumY=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter.class
+SHA1-Digest: Wyvljja5EcxdQ7gmVkLTpeznVwQ=
+
+Name: org/apache/batik/gvt/renderer/Renderer.class
+SHA1-Digest: 9nfuuesaLFMv/9a2zItPyOwxSK0=
+
+Name: META-INF/services/org.apache.batik.script.InterpreterFactory
+SHA1-Digest: mD8kf2Y/PTYiPf/M09H2LbBLXso=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeKeyListener.class
+SHA1-Digest: wC0LzhT/kis+RUoi1b2fDx5TpA0=
+
+Name: org/apache/batik/bridge/AbstractSVGLightingElementBridge$Abstrac
+ tSVGLightElementBridge.class
+SHA1-Digest: Ized6zGTPmvYRwP7urtrNS5OaFM=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper$FunctionRemoveN
+ SProxy.class
+SHA1-Digest: 6tfsjKsf0Zb2R4RaEmcYUs/y5Qk=
+
+Name: org/apache/batik/bridge/SVGKernElementBridge.class
+SHA1-Digest: KSiRZMzWnoa2V/v9gt4uV3w1nus=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$AbstractTextChildBr
+ idgeUpdateHandler.class
+SHA1-Digest: uu7u1kfh1xys3Wl9auQ/gjqiiJQ=
+
+Name: org/apache/batik/gvt/renderer/BasicTextPainter.class
+SHA1-Digest: AzIkPo7LAkgaNGIP4dGTO0F7yQ0=
+
+Name: org/apache/batik/gvt/GraphicsNode.class
+SHA1-Digest: fASc05/rr3eJ+NXFv5YC4f9AO5Y=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableNumberListV
+ alueFactory.class
+SHA1-Digest: tntqlTL4iSWioLykPfONOKtBGm8=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$8.class
+SHA1-Digest: 7yIkP72FHDUB0w+P1bAQuBsnuBg=
+
+Name: org/apache/batik/gvt/font/AWTFontFamily.class
+SHA1-Digest: AW9Gi873JoCQWMBE88Xw5iuaSFI=
+
+Name: org/apache/batik/bridge/svg12/SVG12FocusManager$MouseClickTracke
+ r.class
+SHA1-Digest: 7N7nmeTJe4onzBrlGS8dhcxlwEE=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper$FunctionEventLi
+ stener.class
+SHA1-Digest: wr33ag85ExrxHD4cei84pb0CFM4=
+
+Name: org/apache/batik/bridge/SVGFontFaceElementBridge.class
+SHA1-Digest: RwViZM5PZ8j1uWmBEe0VQqF765U=
+
+Name: org/apache/batik/gvt/flow/BlockInfo.class
+SHA1-Digest: LyUk7P9OwPsABBqzgNu6DiimqjA=
+
+Name: org/apache/batik/bridge/svg12/AbstractContentSelector$XPathPatte
+ rnContentSelectorFactory.class
+SHA1-Digest: OzHRVKrTO/JOuqStZUHxlbK6H0Q=
+
+Name: org/apache/batik/bridge/CSSFontFace.class
+SHA1-Digest: otDThhteLSWsN4JB8xldLqi9WEc=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeEventSupport$Listener.c
+ lass
+SHA1-Digest: O+EfA7tih7JNnidSgSJMShFy4IQ=
+
+Name: org/apache/batik/gvt/StrokeShapePainter.class
+SHA1-Digest: am1+psTtkUnJ8eODdw0r0ESqLjQ=
+
+Name: org/apache/batik/bridge/svg12/ContentManager$DOMSubtreeModifiedE
+ ventListener.class
+SHA1-Digest: MIXbpVy+pH6sBHMiX8Niy7NwAGU=
+
+Name: org/apache/batik/bridge/UpdateManager$4.class
+SHA1-Digest: UpEGF1rBBOqLgTMYpcx8HSRsDgE=
+
+Name: org/apache/batik/gvt/font/AltGlyphHandler.class
+SHA1-Digest: PclhSQQVviHtIq293m8lPtN7p9M=
+
+Name: org/apache/batik/bridge/SVGFeBlendElementBridge.class
+SHA1-Digest: jlIWGjTt322pe8Edm5UcSN3qwH4=
+
+Name: org/apache/batik/bridge/BridgeUpdateHandler.class
+SHA1-Digest: NFS43pE2SV4z5cBbKaO40OM/39Q=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$3.class
+SHA1-Digest: 7mNslqVP9q7xeMHUPT+qA8ixqk4=
+
+Name: org/apache/batik/bridge/DefaultExternalResourceSecurity.class
+SHA1-Digest: ztMRUIIQ7q3OBBkVXNNAm0mnx80=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$EvaluateRunnableRun
+ nable.class
+SHA1-Digest: clNo69QdErxvELmQCEbIMZ5VilQ=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeMouseAdapter.class
+SHA1-Digest: I1decdIhhxWtuf2d1sB2aN0vjWg=
+
+Name: org/apache/batik/bridge/SVGSwitchElementBridge.class
+SHA1-Digest: xB0gq5oT5b25L4fVlZKhW4sBXS8=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper$1.class
+SHA1-Digest: 7S6cT5o0uNpw9jJwmgyhzp29rrM=
+
+Name: org/apache/batik/gvt/TextNode.class
+SHA1-Digest: r7US705MPaGerIa5SImGgQrg5ec=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeInputEvent.class
+SHA1-Digest: aYQR0BIn2Mt0owdQZVMIdiBM+DE=
+
+Name: org/apache/batik/bridge/SVGFontElementBridge.class
+SHA1-Digest: A/by9QsfQyr1qhXSGLtW4RrThpM=
+
+Name: org/apache/batik/bridge/svg12/SVG12FocusManager$MouseOverTracker
+ .class
+SHA1-Digest: aM1srlYKFlfzWIXu+h7CzN6M4Y4=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableNumberOrIde
+ ntFactory.class
+SHA1-Digest: z4Vk4mhh0yXRzANcke7/sNiP9PE=
+
+Name: org/apache/batik/bridge/resources/help.gif
+SHA1-Digest: RmwzNYyImEtIeK5cPVSlJ0S+K8U=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$DefAttrListener.
+ class
+SHA1-Digest: LBJ6py2SCE+Cyy24UJAPT/Ey+Os=
+
+Name: org/apache/batik/gvt/event/AWTEventDispatcher.class
+SHA1-Digest: ffVMDt3nYxsjFBwLGd0oYc4rTY8=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$DebugAnimationTickRun
+ nable.class
+SHA1-Digest: 8f79+lHxSlMnY548iPXANSuAUYc=
+
+Name: org/apache/batik/script/rhino/RhinoClassShutter.class
+SHA1-Digest: 4fXqEE/xMi5Bhbz+6+UMoEpb2Sw=
+
+Name: org/apache/batik/bridge/AbstractSVGGradientElementBridge$Stop.cl
+ ass
+SHA1-Digest: 9/TvUo1mPz0KfgtPCO7ritopZ6g=
+
+Name: org/apache/batik/bridge/MarkerBridge.class
+SHA1-Digest: Qls+f7hVBclx0rNSoTvs3ACe9bQ=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimationRoot.class
+SHA1-Digest: P2i3UN2RUWDkXY23wyxla9JMsp0=
+
+Name: org/apache/batik/bridge/SVGFeMorphologyElementBridge.class
+SHA1-Digest: vRfiMxXxS0evlkRLeaAhrDDGAnY=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$Factory.class
+SHA1-Digest: 4DOMhXVcVEmiytm97EnVk67Cp5g=
+
+Name: org/apache/batik/bridge/SVGLinearGradientElementBridge.class
+SHA1-Digest: pyPz0Dj2+3+eF1lVuwBQyYzJTvY=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$2.class
+SHA1-Digest: Ru7zEcnC1i21RW652BMrN5d2bzk=
+
+Name: org/apache/batik/gvt/filter/GraphicsNodeRableFactory.class
+SHA1-Digest: niCntip+RrsGGvvHP0LbguYAHzs=
+
+Name: org/apache/batik/bridge/SVGFeColorMatrixElementBridge.class
+SHA1-Digest: 04RsMfbBD0pMZtMu3i0x7MDUN9s=
+
+Name: org/apache/batik/bridge/BridgeContext.class
+SHA1-Digest: jBi4uRKduEsFreiq7YPdPp0zKJo=
+
+Name: org/apache/batik/bridge/SVGFontUtilities.class
+SHA1-Digest: U2lJDKSrcrGspSookkEGPGCcwmM=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$11.class
+SHA1-Digest: ybl6TtUsccb46Z19iPzHm6vMEeQ=
+
+Name: org/apache/batik/bridge/ClipBridge.class
+SHA1-Digest: kzFkEOEYZcx6qlItEh6x6UPCCbo=
+
+Name: org/apache/batik/bridge/svg12/AbstractContentSelector.class
+SHA1-Digest: 5VvjmkBNS2Pt86DsKCkzMUeBHgw=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$ImportRemovedLis
+ tener.class
+SHA1-Digest: Gy5DP8/eXKRzQT6kvLkBmmGUasE=
+
+Name: org/apache/batik/bridge/svg12/ContentManager.class
+SHA1-Digest: jMq3YeaCYKAe8mkT0WZSdKMPoLQ=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeContext$XBLBindingListe
+ ner.class
+SHA1-Digest: FG7q6A4CrqCdduItMi9bZlzJdvw=
+
+Name: org/apache/batik/gvt/text/BidiAttributedCharacterIterator.class
+SHA1-Digest: 1v2hcnIqa69arhmAB5JSAUTLHgs=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableBooleanValu
+ eFactory.class
+SHA1-Digest: DS3zyKFS/FlG2Q/R1kxsf7sTiHw=
+
+Name: org/apache/batik/gvt/font/AWTGVTFont.class
+SHA1-Digest: 89OZcFJTA3OSsXFZbDKZZWaz0Go=
+
+Name: org/apache/batik/gvt/CompositeGraphicsNode$Itr.class
+SHA1-Digest: CL/MFK0fYxhvPhZaxY3oNyg31fU=
+
+Name: org/apache/batik/gvt/flow/FlowRegions$TransitionComp.class
+SHA1-Digest: Iqg1umyGGdiNZa2QtUeeXVLkRTM=
+
+Name: org/apache/batik/bridge/UpdateManagerListener.class
+SHA1-Digest: 8AJ+fkAFuDU7X61v8KtK7OSPrWs=
+
+Name: org/apache/batik/bridge/UpdateManager$9.class
+SHA1-Digest: Qq51GjiK8f9LhKPK0UJnfX0e8vA=
+
+Name: org/apache/batik/bridge/svg12/AbstractContentSelector$XPathSubse
+ tContentSelectorFactory.class
+SHA1-Digest: xtu4UIqoC57DLmK3GTft7m1/tPA=
+
+Name: org/apache/batik/gvt/GVTTreeWalker.class
+SHA1-Digest: dP0XBz8YHzwo6U3erUtmEPO7dIY=
+
+Name: about.html
+SHA1-Digest: OdunqcKku2ZtLOodr7X4JPg0FWo=
+
+Name: org/apache/batik/bridge/DocumentJarClassLoader.class
+SHA1-Digest: H/QCs5AKTh4IbxC7+bssbWz0Itg=
+
+Name: org/apache/batik/bridge/FontFace.class
+SHA1-Digest: oXhxWNge9cgU3oF7jRMPiyyik1Y=
+
+Name: org/apache/batik/bridge/SVGLineElementBridge.class
+SHA1-Digest: queYHF3y1S2DT6tjFyeuERFvsVg=
+
+Name: org/apache/batik/script/rhino/RhinoClassLoader.class
+SHA1-Digest: 1HSMQ+6UUJKScp7DGeJjyPxUTUM=
+
+Name: org/apache/batik/bridge/SVGGVTFont.class
+SHA1-Digest: UlcRh97XUQaG6oTX8s/JlrX9AKc=
+
+Name: org/apache/batik/gvt/Selectable.class
+SHA1-Digest: 3IPIZq3Dj9dIApnTQmCuD7QGFPY=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeMouseEvent.class
+SHA1-Digest: 0qFgn9uuevtJoq0pfqjPJjZMEV8=
+
+Name: org/apache/batik/gvt/font/GVTFontFamily.class
+SHA1-Digest: Bz57o0ZlXSUaEQR+7YgnKGBmhS4=
+
+Name: org/apache/batik/gvt/PatternPaint$PatternPaintContextWrapper.cla
+ ss
+SHA1-Digest: tJz+Fj4CTi/dIFefZxZWeMsNYtI=
+
+Name: org/apache/batik/bridge/SVGRectElementBridge.class
+SHA1-Digest: JQQDu39IDE8qPDCl2eudQQuSItI=
+
+Name: org/apache/batik/bridge/svg12/SVG12ScriptingEnvironment$DOMNodeR
+ emovedListener.class
+SHA1-Digest: UeWWr3kA0mZVFei2YZp/y72SPXI=
+
+Name: org/apache/batik/gvt/filter/MaskRable8Bit.class
+SHA1-Digest: K2zO1Bafj882tDdn3Mm9I5OCmi0=
+
+Name: org/apache/batik/bridge/FocusManager$DOMFocusOutTracker.class
+SHA1-Digest: Av8Vb+Jd21wrB10BQ++29YiH5os=
+
+Name: org/apache/batik/gvt/CompositeShapePainter.class
+SHA1-Digest: XJDMEXv28kZ974z/83lt34Jx2qU=
+
+Name: org/apache/batik/bridge/AbstractSVGFilterPrimitiveElementBridge.
+ class
+SHA1-Digest: DN9XktcRcOIA8WDdgjHmiduszrI=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$DOMNodeRemovedListe
+ ner.class
+SHA1-Digest: fdXDe36vPUVIjd72td6dReI0fPc=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$2.class
+SHA1-Digest: fIEoul1yVsEhg6ZQhX6TUBHS8QM=
+
+Name: org/apache/batik/gvt/Mask.class
+SHA1-Digest: 7rPRveu9LY2wfjrDGwztWMAfVy4=
+
+Name: org/apache/batik/bridge/FocusManager$DOMFocusInTracker.class
+SHA1-Digest: K/OiOgXKDkTo8+Gps4iVU2Ga3Tk=
+
+Name: org/apache/batik/bridge/SVGAElementBridge$CursorMouseOutListener
+ .class
+SHA1-Digest: v651KzVq67nm8gd9cjJxxdgbaQE=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$ScriptingEventListe
+ ner.class
+SHA1-Digest: f5RHdPynTyutERSYZLjDDW5f8pQ=
+
+Name: org/apache/batik/gvt/RootGraphicsNode.class
+SHA1-Digest: XyUIy/O8Wphekyji6+qypz7Stzw=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$7.class
+SHA1-Digest: 7uCVgp2EWHM443doObsoFUL7PjI=
+
+Name: org/apache/batik/bridge/RelaxedExternalResourceSecurity.class
+SHA1-Digest: EH90pPtWJw6oIsrl/BzSvCxpa+g=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeExtension.class
+SHA1-Digest: 6gXxM8Js7REB9EvrACMw1oixl4A=
+
+Name: org/apache/batik/bridge/SVGPathElementBridge.class
+SHA1-Digest: ro9UtnXMlrlSj3gderDtuqlx1Sk=
+
+Name: org/apache/batik/bridge/SVGAnimateColorElementBridge.class
+SHA1-Digest: gOvqqLRMI/FmwgfnMLhTt+87Z+k=
+
+Name: org/apache/batik/gvt/flow/TextLineBreaks.class
+SHA1-Digest: SBTDNElA7jfcCpUIBNfGenI9Hrw=
+
+Name: org/apache/batik/script/Interpreter.class
+SHA1-Digest: rabiZIl6EiayctbvLAt/ytxAC2I=
+
+Name: META-INF/NOTICE
+SHA1-Digest: zypX+GtadfB57hy1eWHt8hp6GTQ=
+
+Name: org/apache/batik/gvt/FillShapePainter.class
+SHA1-Digest: mzTd7/ZBJb79FLUuBoIln2/Fa7c=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$EvaluateRunnable.cl
+ ass
+SHA1-Digest: Jmh+dKJmEpD3998/Ci5Mb0miyA0=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableAngleOrIden
+ tFactory.class
+SHA1-Digest: whzJTGApANAJ1g06GLxrDpdJ7Mw=
+
+Name: org/apache/batik/bridge/SVGFeCompositeElementBridge.class
+SHA1-Digest: CElsls0GLZZC/mvT4R7F+kgDZ7o=
+
+Name: org/apache/batik/bridge/GraphicsNodeBridge.class
+SHA1-Digest: +pabISKfLnrujMRVow8fCfn3ado=
+
+Name: org/apache/batik/bridge/SVGDecoratedShapeElementBridge.class
+SHA1-Digest: M/NgJ6XwuMIBzl33B0fJ7Bqq6nk=
+
+Name: org/apache/batik/bridge/BaseScriptingEnvironment$1.class
+SHA1-Digest: 2l7/QX8AOcw7U1WvePJW9oLryVA=
+
+Name: org/apache/batik/bridge/SVGAElementBridge$MouseOutDefaultActiona
+ ble.class
+SHA1-Digest: BcU3Rb8AAon0f/uXPMJiga/DaJ4=
+
+Name: org/apache/batik/gvt/text/TextPaintInfo.class
+SHA1-Digest: XJrvKNMA43qNwjzkdON1XQhVli8=
+
+Name: org/apache/batik/gvt/renderer/StrokingTextPainter.class
+SHA1-Digest: Y/SbIYWRU5TMzUM0XQgjwQXv+hU=
+
+Name: org/apache/batik/bridge/SVGPolygonElementBridge.class
+SHA1-Digest: TvBFA7DYone15+zr9htZWGd5gPI=
+
+Name: org/apache/batik/bridge/svg12/SVG12FocusManager.class
+SHA1-Digest: FSWvGTLB2Lddz/v5PrHEsrd5v/U=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$DefNodeInsertedL
+ istener.class
+SHA1-Digest: Z5t9phcKHUqDKRVyqa1KHcy6qj0=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$Factory.class
+SHA1-Digest: F4JuZqevCCHMBE13zKSOk0eN1rM=
+
+Name: org/apache/batik/bridge/AbstractSVGLightingElementBridge$SVGFeSp
+ otLightElementBridge.class
+SHA1-Digest: l4BWy0a1ymhkKL6j7d0s5M95Nao=
+
+Name: org/apache/batik/bridge/resources/move.gif
+SHA1-Digest: WitH2jq4T+Hxd3dAhxip3pncSd0=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$DOMAttrModifiedList
+ ener.class
+SHA1-Digest: 1XzjkWAcZ1ecNseoRfBtRo9/WXo=
+
+Name: org/apache/batik/gvt/renderer/ConcreteImageRendererFactory.class
+SHA1-Digest: ygM40ckl9fPpj5feHu3bG5nwhcY=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$7.class
+SHA1-Digest: a7RMYAGl/rnV9TXObQM1SGeTE1M=
+
+Name: org/apache/batik/gvt/font/UnicodeRange.class
+SHA1-Digest: hKbS6deZ+TG9gbP2DHpoOPtlmAc=
+
+Name: org/apache/batik/bridge/SVGFeSpecularLightingElementBridge.class
+SHA1-Digest: 1YJ4Yk4AVxbJaz5ARUko/kWpno4=
+
+Name: org/apache/batik/bridge/svg12/SVG12ScriptingEnvironment$DOMNodeI
+ nsertedListener.class
+SHA1-Digest: ezv1axsUnR5gQt6TF0YY/k1EpOg=
+
+Name: org/apache/batik/bridge/SVGHKernElementBridge.class
+SHA1-Digest: uVL+o42DwttKbHa1kGTyyHD/4oQ=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableColorValueF
+ actory.class
+SHA1-Digest: KTkeydtSNvJbioviKQSk5qctpvc=
+
+Name: org/apache/batik/gvt/event/EventDispatcher.class
+SHA1-Digest: lvtJEjO/BsL2Qkzoio/iofcUrhI=
+
+Name: org/apache/batik/bridge/SVGFeMergeElementBridge.class
+SHA1-Digest: peK0pLfdn7s0uRmbln5Ux8CGXkk=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$UncomputedAnimatableS
+ tringValueFactory.class
+SHA1-Digest: fS4/LtBwKoAGABRf6D4QFUzJsN8=
+
+Name: org/apache/batik/bridge/NoLoadExternalResourceSecurity.class
+SHA1-Digest: apYEABrOouQcyYjLuYtrR9YT6/w=
+
+Name: org/apache/batik/bridge/EmbededExternalResourceSecurity.class
+SHA1-Digest: wZib9mifDBvs/ri8dk2RcfWI9YI=
+
+Name: org/apache/batik/gvt/event/SelectionEvent.class
+SHA1-Digest: 8H0Qh5jJYXD3D+pRbiA9K4/BUTM=
+
+Name: org/apache/batik/bridge/UpdateManager$3.class
+SHA1-Digest: TfaeAgR2Zmj+6oErznTDrrdOiG4=
+
+Name: org/apache/batik/bridge/svg12/XPathSubsetContentSelector.class
+SHA1-Digest: brvRlILiO6hR2Y1+f6YLfKBgsEM=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$XblChildNodes.cl
+ ass
+SHA1-Digest: 7hBkWWAoGheRUPtX3C/ZXl4B+tA=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$2.class
+SHA1-Digest: 1UqMlgHK7GuxFtxt1B9PjOeZGeM=
+
+Name: org/apache/batik/bridge/Bridge.class
+SHA1-Digest: K6pLK4XC22lQ7IlFSgEGl+TRens=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimationThread.class
+SHA1-Digest: wDMD39ypabx/PoyBeufsYZUtTLk=
+
+Name: org/apache/batik/bridge/SVGUseElementBridge$ReferencedElementMut
+ ationListener.class
+SHA1-Digest: OwOrUFj2xAYlzBLS/UtFH1+ZeCY=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$GetURLObjectWrapper.
+ class
+SHA1-Digest: WL3WzSYaMCVS5082t0u4OvgsPOs=
+
+Name: org/apache/batik/bridge/BridgeEventSupport$GVTUnloadListener.cla
+ ss
+SHA1-Digest: IeG8E4heW2JNE6XTeqsCTO+mUcA=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$ImportInsertedLi
+ stener.class
+SHA1-Digest: 05perOixRBdCcE4AiuJmuJkueXY=
+
+Name: org/apache/batik/gvt/text/GlyphLayout.class
+SHA1-Digest: EvHrIWhzZ/BfbFPIS/YvXjAKD2M=
+
+Name: org/apache/batik/gvt/font/GVTFont.class
+SHA1-Digest: BlQEf201/HntW0DRIO4U6yTVPyk=
+
+Name: org/apache/batik/bridge/svg12/SVG12URIResolver.class
+SHA1-Digest: +/6PPLLmy5lrDCWaLRq9dlZKcE4=
+
+Name: org/apache/batik/bridge/SVGDocumentBridge.class
+SHA1-Digest: Zq1eNm1dw/RIYSPwMLsJAIoeF5Q=
+
+Name: org/apache/batik/gvt/flow/FlowRegions$Transition.class
+SHA1-Digest: ziaualRYbQDFPKorkuhwwAC0wyU=
+
+Name: org/apache/batik/bridge/SVGUtilities$1$Handler.class
+SHA1-Digest: S4PTEqSD9VkB/Rq3TjFn7E+U2ng=
+
+Name: org/apache/batik/bridge/SVGAnimationElementBridge$SVGTimedElemen
+ t.class
+SHA1-Digest: dXBP+iwd20zWRewjWiiZhyUZ6M4=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeKeyEvent.class
+SHA1-Digest: JwYdnfCyF/AWnO8/7Phk72PszBw=
+
+Name: org/apache/batik/bridge/SVGAltGlyphElementBridge.class
+SHA1-Digest: EvzUtZw7JwTDkAfn7twYcb5DsP4=
+
+Name: org/apache/batik/bridge/SVGImageElementBridge$ForwardEventListen
+ er.class
+SHA1-Digest: v0w6joKvdQnyM6cqc5rOyPqk2d4=
+
+Name: org/apache/batik/bridge/AnimatableSVGBridge.class
+SHA1-Digest: zLidO/9jot0AeNm3qmByD/EVhzI=
+
+Name: org/apache/batik/bridge/svg12/SVG12TextElementBridge$DOMChildNod
+ eRemovedEventListener.class
+SHA1-Digest: yltPLThim1qhIz3jKob8OL22fHc=
+
+Name: org/apache/batik/bridge/URIResolver.class
+SHA1-Digest: IRusFb20pCclJ5MrJfm/NCc6/5o=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper$HandleEventList
+ ener.class
+SHA1-Digest: jhKiKAkhQmZ4R2nEcUadPDTT82Y=
+
+Name: org/apache/batik/gvt/font/Kern.class
+SHA1-Digest: tRNy5spfK+chGNW39rM/6iNjeHg=
+
+Name: org/apache/batik/gvt/text/GVTACIImpl$TransformAttributeFilter.cl
+ ass
+SHA1-Digest: e6pTs/htbX5w/4nh9iSUlevXjpE=
+
+Name: about_files/LICENSE.dom-software.txt
+SHA1-Digest: yqWouSxjUbMdvy1vCmyWVbgcEXU=
+
+Name: org/apache/batik/bridge/ScriptSecurity.class
+SHA1-Digest: 7Q0YgI5WtQkd/CpVLm8WkNuCILA=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$1.class
+SHA1-Digest: oHMIMAs6otU9iOktzQiZTUiIEBc=
+
+Name: org/apache/batik/bridge/SVGVKernElementBridge.class
+SHA1-Digest: XavQSqobIw30Z4X+9uE6Epu1i48=
+
+Name: org/apache/batik/bridge/BridgeContext$CSSEngineUserAgentWrapper.
+ class
+SHA1-Digest: tMy/LdIThCdZT1Ym1QTNcgenDqg=
+
+Name: org/apache/batik/bridge/SVGFeComponentTransferElementBridge$SVGF
+ eFuncGElementBridge.class
+SHA1-Digest: qAFjpOQyggi6Nz4fT/x8N0wC6KY=
+
+Name: org/apache/batik/bridge/SVGCircleElementBridge.class
+SHA1-Digest: LtNX8CMakw7jdUQcSItHAC3EbYc=
+
+Name: org/apache/batik/bridge/SVGRadialGradientElementBridge.class
+SHA1-Digest: T2CDEcCTHkYoIjOv5fk+NGQsd8s=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatablePaintValueF
+ actory.class
+SHA1-Digest: TZAhsGbIRm4FMF3f4X/owpzaDQ0=
+
+Name: org/apache/batik/bridge/AbstractSVGLightingElementBridge.class
+SHA1-Digest: 44qfo42R6TTrr+vjxGHyVBCnGm8=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$10.class
+SHA1-Digest: DYB6YujHf1QEW4wrtdi9OmcAg7s=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$TextPathBridge.clas
+ s
+SHA1-Digest: GRMRWgrvTrUMneDW8qXO47B1rOQ=
+
+Name: org/apache/batik/gvt/filter/GraphicsNodeRable8Bit.class
+SHA1-Digest: X6RVgJH5a8494xeY09kE+7euTmY=
+
+Name: org/apache/batik/bridge/DocumentLoader$DocumentState.class
+SHA1-Digest: 9Uu6dHDd0EMZdvFr8PgiNFDN9Dc=
+
+Name: org/apache/batik/bridge/SVGPolylineElementBridge.class
+SHA1-Digest: vrTpep345OBQk93LrisDdY8G/tw=
+
+Name: org/apache/batik/gvt/font/AWTGlyphGeometryCache.class
+SHA1-Digest: LyiTSN9V05sP1z7OziFOthPaUos=
+
+Name: org/apache/batik/bridge/svg12/ContentSelectionChangedEvent.class
+SHA1-Digest: kBgIgE2LlMulLnxW5FXINFjEeuI=
+
+Name: org/apache/batik/bridge/CSSUtilities.class
+SHA1-Digest: /eZr0XbOUxUQVuq5CNQEERtXLzQ=
+
+Name: org/apache/batik/bridge/CursorManager.class
+SHA1-Digest: 6l7Y9UPu6hZfLI2yZkLIrsytic4=
+
+Name: org/apache/batik/bridge/UpdateManager$8.class
+SHA1-Digest: Px8Ev9MNIfwR7bna//fKvqKjBas=
+
+Name: org/apache/batik/bridge/SVGClipPathElementBridge.class
+SHA1-Digest: 6AOB/iGAWHsp1KWhwZyKCwA6EQ8=
+
+Name: org/apache/batik/gvt/renderer/ConcreteTextPainter.class
+SHA1-Digest: RACRjNjh20q4UxObUyeaJvad3A0=
+
+Name: org/apache/batik/bridge/svg12/ContentManager$ShadowTreeNodeRemov
+ edListener.class
+SHA1-Digest: 6hIDYBGGvZcC4PK8oM4EEfsTWpA=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper$FunctionRemoveP
+ roxy.class
+SHA1-Digest: i0/rY3aOcmo/JDHsTp325F+Tviw=
+
+Name: org/apache/batik/bridge/EmbededScriptSecurity.class
+SHA1-Digest: n9rgmnJWJjnfmlAbxZ7D+Vjj1A8=
+
+Name: org/apache/batik/bridge/SVGFeComponentTransferElementBridge$SVGF
+ eFuncBElementBridge.class
+SHA1-Digest: Mp4JcItXHjiPAlZHEHsxL2Py+wc=
+
+Name: org/apache/batik/gvt/filter/ConcreteGraphicsNodeRableFactory.cla
+ ss
+SHA1-Digest: MFcA05NxoYokJ8ItIhxXdE85p0g=
+
+Name: org/apache/batik/bridge/PaintBridge.class
+SHA1-Digest: N+bm3lUVo9GW08iV7E+ZLPs8k+s=
+
+Name: org/apache/batik/bridge/StyleReference.class
+SHA1-Digest: qChhmqTd3GnCRxrsijDvar6Mno4=
+
+Name: org/apache/batik/gvt/TextNode$Anchor.class
+SHA1-Digest: 0aSG7e6GR8HVrA6RkGFXcMG77V0=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeFocusListener.class
+SHA1-Digest: WqPt7a5QDdnxMuHmA5PFmSdCz90=
+
+Name: org/apache/batik/gvt/filter/BackgroundRable8Bit.class
+SHA1-Digest: cReleDKluQ6QxopHcyBhCq0F7vg=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$XBLRecord.class
+SHA1-Digest: Ec4d6FgujR2Gv6Fiy3mbBYSWp+8=
+
+Name: org/apache/batik/gvt/text/TextPath.class
+SHA1-Digest: JGgDFblbGWaOSCV3iD44Zq78rps=
+
+Name: org/apache/batik/bridge/InterruptedBridgeException.class
+SHA1-Digest: 3nOt9hOUjV4LNKa4i2UE4+Mt4tE=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$RefAttrListener.
+ class
+SHA1-Digest: rD9Zl2K22GhyOlZWUA9QaxoPOLQ=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$1.class
+SHA1-Digest: OQ7hxVRnAfaAw8IRA2gtKrQ9FUk=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$6.class
+SHA1-Digest: LXr9X4wvO0QQZtK4JxwGXBkb9C8=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$3.class
+SHA1-Digest: sItsyoUv3OoU/B3Hgdacj//WaPA=
+
+Name: org/apache/batik/bridge/SVGUseElementBridge.class
+SHA1-Digest: 8sH/RlSrJmXGk0bDEudgDXx6aPk=
+
+Name: org/apache/batik/bridge/SVGSVGElementBridge.class
+SHA1-Digest: QzkEeA90csChjjwUxpExipxCx0I=
+
+Name: org/apache/batik/bridge/ViewBox.class
+SHA1-Digest: sWT3QMRNAjnH/e3oydINp9jV95U=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$TemplateMutation
+ Listener.class
+SHA1-Digest: FxlztV3I2pyzes5HJXj829hf8Oc=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$GetURLDoneArgBuilder
+ .class
+SHA1-Digest: k2dVppAq6GtYDbJ8FNB92qrDdd0=
+
+Name: org/apache/batik/gvt/Marker.class
+SHA1-Digest: 0WIDD7zZJYpqAZaiNNuhq95vBnI=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$ImportSubtreeLis
+ tener.class
+SHA1-Digest: eTM6Ls/YazhxE5+36gSHGvWMbtY=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$AbstractTextChildTe
+ xtContent.class
+SHA1-Digest: 9NEJ8zcHorqZ50Wc+Tf6+PUoFE8=
+
+Name: org/apache/batik/gvt/UpdateTracker.class
+SHA1-Digest: OdUXr3F+lOl20B1XyIgaAZYPv8Q=
+
+Name: org/apache/batik/script/Window$URLResponseHandler.class
+SHA1-Digest: U6qS3rPT/uxXbuZwMq2Qv4D4O3M=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeContext$ImplementationE
+ ventListenerMememto.class
+SHA1-Digest: WqcisjDBVTQNpFcEZRFVEzTdEQg=
+
+Name: org/apache/batik/bridge/BridgeContext$DOMCharacterDataModifiedEv
+ entListener.class
+SHA1-Digest: gj1+IvGQjVIlUpGFLiB6+7o0p70=
+
+Name: org/apache/batik/gvt/text/GVTAttributedCharacterIterator$TextAtt
+ ribute.class
+SHA1-Digest: Dfn8bP9SU1NzDwAqk2XOEMyOQDs=
+
+Name: org/apache/batik/bridge/SVGMarkerElementBridge.class
+SHA1-Digest: al3dZMmt+tLPvwklIwAhdlNWXAU=
+
+Name: org/apache/batik/bridge/BridgeContext$EventListenerMememto.class
+SHA1-Digest: MbJtOPb17hRTRuv8XgTQMJoGWoI=
+
+Name: org/apache/batik/gvt/font/FontFamilyResolver.class
+SHA1-Digest: HvVR711hbwMBYsa1ytKFjeaS5MQ=
+
+Name: org/apache/batik/bridge/SVGFilterElementBridge.class
+SHA1-Digest: iUv/hUMANXD2cmqSocSM8P/p3nY=
+
+Name: org/apache/batik/gvt/CompositeGraphicsNode$ListItr.class
+SHA1-Digest: Rj3Ms3MIHmB4yQqbGBSXcOHonLU=
+
+Name: org/apache/batik/script/rhino/BatikSecurityController.class
+SHA1-Digest: Xs8KDfGAxPhyyIbqEx9BQqarvFI=
+
+Name: org/apache/batik/bridge/UserAgent.class
+SHA1-Digest: paNVZhBMG6+aVoYDDMtAj65wnWc=
+
+Name: org/apache/batik/bridge/BridgeContext$DOMNodeInsertedEventListen
+ er.class
+SHA1-Digest: r8YkwFdjj1nZuh2GkiWIkghENzY=
+
+Name: org/apache/batik/gvt/RasterImageNode.class
+SHA1-Digest: jaFBlr2FHuprTjyLcANoTDF54jE=
+
+Name: org/apache/batik/bridge/PaintServer.class
+SHA1-Digest: uWq6FRr2Ld5nhkvX43gl/YFz/1Q=
+
+Name: org/apache/batik/bridge/SVGGElementBridge.class
+SHA1-Digest: a1XAWrG9B0Z7OJKJ5UNaT8xOF8o=
+
+Name: org/apache/batik/gvt/ShapeNode.class
+SHA1-Digest: 0RZ37qMT16F4fglgjU1kpukZdTE=
+
+Name: org/apache/batik/bridge/BaseScriptingEnvironment$Window.class
+SHA1-Digest: SnnecI3/kUUx4lbJDYpjO2ezj+Q=
+
+Name: org/apache/batik/gvt/event/AbstractAWTEventDispatcher.class
+SHA1-Digest: q2n9OVvgonYwfFFEOntm3SAs5po=
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: NV/tRSeBE64tS1EXrewu6DAklWI=
+
+Name: org/apache/batik/bridge/SVGPatternElementBridge$PatternGraphicsN
+ ode.class
+SHA1-Digest: jH5Z6/TxY4+qsjqVtxJJGAAIvMk=
+
+Name: org/apache/batik/gvt/CanvasGraphicsNode.class
+SHA1-Digest: TTFvii2Q5gvbOVqlvIrou5B1EgM=
+
+Name: org/apache/batik/bridge/AnimationSupport.class
+SHA1-Digest: GKxJuaH+OFQ+hQeF2uBFGAIxcyw=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$ImportAttrListen
+ er.class
+SHA1-Digest: SdC5WmyjzzsXrOc8aTDCc2wjJhA=
+
+Name: org/apache/batik/bridge/TextUtilities.class
+SHA1-Digest: S7HgHRCmb5Ai1aK0jQD5eb21J54=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$6.class
+SHA1-Digest: yNZqrpZ0g9OsAdhbgzxe8ijPlBI=
+
+Name: org/apache/batik/gvt/TextPainter.class
+SHA1-Digest: m4Ezbd37jUwIB/9SfBSOLmwPYU8=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableNumberOrPer
+ centageValueFactory.class
+SHA1-Digest: qiABNKRQCIdDmhRE4DWhXN4fpdU=
+
+Name: org/apache/batik/gvt/text/TextLayoutFactory.class
+SHA1-Digest: B8ixpekI77m1KQJDqngVGyrbH30=
+
+Name: org/apache/batik/gvt/filter/Mask.class
+SHA1-Digest: klxvPbn9qgzqIYl8sjvbQlpScp0=
+
+Name: org/apache/batik/bridge/AnimatableGenericSVGBridge.class
+SHA1-Digest: f9p+EHZIaJbSqZr4Es1J+Msg87w=
+
+Name: org/apache/batik/gvt/renderer/StrokingTextPainter$TextRun.class
+SHA1-Digest: 1WpqWEReyrmwIrtwdSzVXQ6Pzcw=
+
+Name: org/apache/batik/gvt/event/SelectionAdapter.class
+SHA1-Digest: /JJvBumHCwHMXnxhFPSebyZXI6g=
+
+Name: org/apache/batik/bridge/FocusManager$MouseOutTracker.class
+SHA1-Digest: LLaqRXmLLCeFUQfo2CcTlP5bynQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/apache/batik/bridge/UpdateManager$2.class
+SHA1-Digest: LZwNEmp7lWWYYyDFUlBHAPGnbII=
+
+Name: org/apache/batik/bridge/DocumentBridge.class
+SHA1-Digest: G4KJsbYAxRSs95JGnMtrCKJQ2Ck=
+
+Name: org/apache/batik/gvt/MarkerShapePainter.class
+SHA1-Digest: 761S/VWOSXZJTJ/Z0E8uwBo2sY8=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$1.class
+SHA1-Digest: KQ/ZLXmIqEjCENZVhkWfS7e6bb8=
+
+Name: org/apache/batik/bridge/FilterPrimitiveBridge.class
+SHA1-Digest: rdudE2OMZMd4ynWP5AvXlMyOO7Y=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeEvent.class
+SHA1-Digest: e3WrOPzrmBYAm+rd8uyTmnqynwU=
+
+Name: org/apache/batik/bridge/RelaxedScriptSecurity.class
+SHA1-Digest: 2mE5SuN6xh4rPfvOvQFZmpv+MCg=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeContext$EventListenerWr
+ apper.class
+SHA1-Digest: 2VfTsNoM2VF1rKMs7X40LQB4Pig=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableLengthValue
+ Factory.class
+SHA1-Digest: 1k9N9YuLKG467PStX5rPppMn/+U=
+
+Name: org/apache/batik/bridge/svg12/SVG12ScriptingEnvironment$Global.c
+ lass
+SHA1-Digest: DofRpSSSwxQVbRvsGbNISflcbrE=
+
+Name: org/apache/batik/bridge/ViewBox$ViewHandler.class
+SHA1-Digest: goW7+ApDkdAy5EUcPR+sW6y08TA=
+
+Name: org/apache/batik/bridge/AbstractSVGLightingElementBridge$SVGFePo
+ intLightElementBridge.class
+SHA1-Digest: My9MGyaL9K4mvhwwOSJIJ7PWfOg=
+
+Name: org/apache/batik/script/rhino/svg12/GlobalWrapper.class
+SHA1-Digest: kPdhsEHc3cjv5XOItUwZCmFpF0I=
+
+Name: org/apache/batik/bridge/RepaintManager.class
+SHA1-Digest: wBnSCc//SYmFh5z6FFCsIhrrE+A=
+
+Name: org/apache/batik/gvt/renderer/MacRenderer.class
+SHA1-Digest: R0IEez/iVwmoq7JwYHuxEik7yRk=
+
+Name: org/apache/batik/gvt/ShapePainter.class
+SHA1-Digest: 7aPdhd7dfNKYS555kQCud0FDrck=
+
+Name: plugin.properties
+SHA1-Digest: 4Y6+Krq8I5WPF9/QYVtPRmfhlrg=
+
+Name: org/apache/batik/gvt/text/ArabicTextHandler.class
+SHA1-Digest: ZZ/I6rKHOcfJ3iBCpMoVEIswFXU=
+
+Name: org/apache/batik/gvt/flow/FlowTextPainter.class
+SHA1-Digest: 5QJZc3qbT/H3OIs3Xn+qqw2/VjQ=
+
+Name: org/apache/batik/gvt/font/AWTGlyphGeometryCache$Entry.class
+SHA1-Digest: R2C9vCbTlU4fLHBMFEF96AIDG04=
+
+Name: org/apache/batik/gvt/renderer/ImageRenderer.class
+SHA1-Digest: KhXC2xHxlMKGBM0mHJvKKkE3pcg=
+
+Name: about_files/LICENSE.sax.txt
+SHA1-Digest: quCTocS7b9W6hcsv8iAdiKiUsz8=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$ArgumentsBuilder.
+ class
+SHA1-Digest: rWbjxo/mx0W2EvEfRbVMT4iZW3c=
+
+Name: org/apache/batik/gvt/font/GVTGlyphVector.class
+SHA1-Digest: CTB65TLbpKp9dwGvmLy6ItP+3to=
+
+Name: org/apache/batik/gvt/text/Mark.class
+SHA1-Digest: xU2wDFwqYxKUwQegV0fExn6yDxM=
+
+Name: org/apache/batik/bridge/SVGFeConvolveMatrixElementBridge.class
+SHA1-Digest: 8IE3vNeJpSirymmARmyOC5pyF3M=
+
+Name: org/apache/batik/bridge/SVGTitleElementBridge.class
+SHA1-Digest: 7HpqQBCA6DZJ4Va2/EANgChsbLI=
+
+Name: org/apache/batik/script/rhino/Messages.class
+SHA1-Digest: jP4i9gnbxLzH/CTV1F733h00OJc=
+
+Name: org/apache/batik/bridge/UpdateManager$7.class
+SHA1-Digest: zp6Au0WUitcGTcLTViOgW5YH3LM=
+
+Name: org/apache/batik/script/InterpreterPool.class
+SHA1-Digest: kabWEs4TbUp/ecpfB33k1IBOQME=
+
+Name: org/apache/batik/bridge/UpdateManagerAdapter.class
+SHA1-Digest: IQZPdlzs4DG1nnYuNpVn3MwA44g=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$6.class
+SHA1-Digest: F2YYXG40kP4NrD4/sQpsgYzL8fU=
+
+Name: org/apache/batik/gvt/flow/MarginInfo.class
+SHA1-Digest: 8dXQZGko4f/svfLJdgcsi8ed20s=
+
+Name: org/apache/batik/bridge/SVGDescriptiveElementBridge.class
+SHA1-Digest: ioqvwPf7jN3xlLAWv3kdNP+utgA=
+
+Name: org/apache/batik/gvt/flow/FlowRegions.class
+SHA1-Digest: mlcQZUJYnk8GWnEoCKOqZ6Lm0pU=
+
+Name: org/apache/batik/gvt/text/GVTACIImpl.class
+SHA1-Digest: YMIBZkEIz9zig0qXuyRyJKaLNlI=
+
+Name: org/apache/batik/bridge/SVGBrokenLinkProvider.class
+SHA1-Digest: u89ylSzffA8umaOU0v38COUXA3c=
+
+Name: org/apache/batik/bridge/MaskBridge.class
+SHA1-Digest: BaYpwhjZNxBwmFtFFqtcFHGz0RI=
+
+Name: org/apache/batik/bridge/UpdateManagerEvent.class
+SHA1-Digest: ToehEoqUYZeXeJLNaUWySneV5q0=
+
+Name: org/apache/batik/bridge/SVGShapeElementBridge.class
+SHA1-Digest: 4TeV3/AkJ2RVmX5stGLWiR0HAiI=
+
+Name: org/apache/batik/bridge/SVGImageElementBridge.class
+SHA1-Digest: Pe54EwOlzD5Rh5AO35V7obPMTzg=
+
+Name: org/apache/batik/gvt/flow/FlowTextLayoutFactory.class
+SHA1-Digest: qS+8RILpS5iU4aUUYdGkXhDVj1o=
+
+Name: org/apache/batik/bridge/svg12/SVGMultiImageElementBridge$MultiIm
+ ageElementViewport.class
+SHA1-Digest: NTb1to86hGH1LrMJjX1YXKmBTUI=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$DefinitionRecord
+ .class
+SHA1-Digest: ZqIH71QrQejQg1xa2vi5Iv+Q9Vc=
+
+Name: org/apache/batik/bridge/svg12/SVG12BridgeEventSupport.class
+SHA1-Digest: haBs6eSEWSlq21KtFuAI8OxoCRw=
+
+Name: org/apache/batik/bridge/svg12/XPathPatternContentSelector.class
+SHA1-Digest: IUQzaVgkujj6g7w/N/PWuZdf8lI=
+
+Name: org/apache/batik/script/Window.class
+SHA1-Digest: DQ1rM2OP/M/8Tw8GFd0MPDh75Dg=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$5.class
+SHA1-Digest: yf7Ds6qwKO+q0+6ufbNMk7KzzPU=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$2.class
+SHA1-Digest: /ytR/w4FpF4rFFEavEIochnCUGE=
+
+Name: org/apache/batik/script/rhino/EventTargetWrapper$FunctionProxy.c
+ lass
+SHA1-Digest: 0xB/TmJYbeZVUVjHFyt7l59wXqU=
+
+Name: org/apache/batik/bridge/FocusManager.class
+SHA1-Digest: G91NR90b0Olkzxn+jsaTozlCyqY=
+
+Name: org/apache/batik/bridge/GVTBuilder.class
+SHA1-Digest: J/FBqWBkUhLgAMqkwEko3G/nGFs=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableStringValue
+ Factory.class
+SHA1-Digest: nZ9XrVJkjvy9ccgsoSJE+3PXUZA=
+
+Name: org/apache/batik/bridge/svg12/ContentSelectionChangedListener.cl
+ ass
+SHA1-Digest: ThUveHMjYC2qyH3bDkKMLK5Dnk0=
+
+Name: org/apache/batik/bridge/svg12/DefaultContentSelector.class
+SHA1-Digest: EJUNXMsVkD11hoYIDbULIDH24qg=
+
+Name: org/apache/batik/gvt/renderer/BasicTextPainter$BasicMark.class
+SHA1-Digest: +jhKXnQDgr1lBzReLg0QnUtujeI=
+
+Name: org/apache/batik/bridge/FocusManager$MouseClickTracker.class
+SHA1-Digest: t4Y02VbKOEIsaG8wS2H2uDqnW8E=
+
+Name: org/apache/batik/gvt/font/AWTGVTGlyphVector.class
+SHA1-Digest: XSQ/W+3dWu4tSRegFxPcKunONr8=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$TRefBridge.class
+SHA1-Digest: GNaNRLrUom33ma4bfwczRyuto6Y=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$DOMNodeInsertedList
+ ener.class
+SHA1-Digest: g/m+SePZcR8lTl1iKHJGl7pXmXs=
+
+Name: org/apache/batik/bridge/SVGFeMergeElementBridge$SVGFeMergeNodeEl
+ ementBridge.class
+SHA1-Digest: 5xJUJtTiKNTuAOCkHWa9Pd9MPio=
+
+Name: org/apache/batik/bridge/BridgeEventSupport$Listener.class
+SHA1-Digest: RmqFl0O5/d1R93SCMq3knfp9rsw=
+
+Name: org/apache/batik/bridge/UpdateManager$SuspensionInfo.class
+SHA1-Digest: RbFG+gsYu/mAnwwPuP9ra22oS9Q=
+
+Name: org/apache/batik/gvt/flow/GlyphGroupInfo.class
+SHA1-Digest: ItAEiayTLXQ6aYTqANNi2NjAbzw=
+
+Name: org/apache/batik/bridge/svg12/ContentManager$ShadowTreeSubtreeMo
+ difiedListener.class
+SHA1-Digest: KJ95pwFIdNyHwCQX37t7zX+5VCE=
+
+Name: org/apache/batik/bridge/UpdateManager$11.class
+SHA1-Digest: GAJpXNPsWKo9Ga7n6sc99uFV5mc=
+
+Name: org/apache/batik/bridge/svg12/ContentManager$ShadowTreeNodeInser
+ tedListener.class
+SHA1-Digest: LBfv/VlU3r2OKj8i8Ot8Yqxrelw=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$CharacterInformatio
+ n.class
+SHA1-Digest: vwlhdb8jZQENPS0+N37+vTUR3io=
+
+Name: org/apache/batik/bridge/Viewport.class
+SHA1-Digest: 7Db8Q43AxN2gF7tM18Ff6Q5msJo=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeMouseListener.class
+SHA1-Digest: hQw/4J51GGegnOx0QVmQzxmw4lU=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$Window.class
+SHA1-Digest: Q93/MnSEOwC9FnBFJXNzvNCujA0=
+
+Name: org/apache/batik/bridge/svg12/SVGMultiImageElementBridge.class
+SHA1-Digest: 5/IgNby1bURaLQeQttJdN4GhIAQ=
+
+Name: org/apache/batik/bridge/svg12/SVG12FocusManager$MouseOutTracker.
+ class
+SHA1-Digest: TuBRjV2AK/wY4WVtDNhouLAAu3w=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeMouseWheelListener.class
+SHA1-Digest: GLzO+Dhy8ht/84/upxZCFDeQzjE=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatableAngleValueF
+ actory.class
+SHA1-Digest: eV53XTJomK6mcM0STFrCbHk7gOY=
+
+Name: org/apache/batik/bridge/ScriptingEnvironment$5.class
+SHA1-Digest: UajcxLMAhzcYByRvsA4h5pG8kkc=
+
+Name: org/apache/batik/script/InterpreterFactory.class
+SHA1-Digest: ZfCqDpRKFbSWTsmQ9aDAZidXCzU=
+
+Name: org/apache/batik/bridge/svg12/SVGFlowRootElementBridge$RegionCha
+ ngeListener.class
+SHA1-Digest: 6u/N1XUdGCr+QRc1N3mm69KKjSs=
+
+Name: org/apache/batik/bridge/SVGBridgeExtension.class
+SHA1-Digest: ievj4r8Rs29FA2RlKstBQtZtk2Y=
+
+Name: org/apache/batik/bridge/UserAgentAdapter.class
+SHA1-Digest: RH/LioaezZUMksjxiQ+vOmD8ZqI=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$ImportRecord.cla
+ ss
+SHA1-Digest: nzrnHERTBLB4AhUEYmnQ/jC1Prw=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$DOMSubtreeModifiedE
+ ventListener.class
+SHA1-Digest: J9npTqT/MkOeRd7rtCx5dtvoQus=
+
+Name: org/apache/batik/gvt/event/SelectionListener.class
+SHA1-Digest: yXIbf4t3aK/ONAKxZ4BUi3x24f8=
+
+Name: org/apache/batik/bridge/SVGColorProfileElementBridge.class
+SHA1-Digest: dgLQYeL2gvEJGFYSc2OGO7r9grs=
+
+Name: org/apache/batik/bridge/svg12/XPathPatternContentSelector$Select
+ edNodes.class
+SHA1-Digest: PSO1aMYBNL7Ne1AS83GowD/BDzM=
+
+Name: org/apache/batik/bridge/UpdateManager$1.class
+SHA1-Digest: WigViIXbJTRkxgKk4IzgEiQ0nho=
+
+Name: org/apache/batik/bridge/svg12/SVG12TextElementBridge$DOMSubtreeM
+ odifiedEventListener.class
+SHA1-Digest: z8WY3Zv9PbgcrfMQhk9v/HRec6I=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeFocusEvent.class
+SHA1-Digest: bAHYGNUTgM3Is8bJ7CH4wuWKrO0=
+
+Name: org/apache/batik/gvt/renderer/ImageRendererFactory.class
+SHA1-Digest: jHRanEJr16s3dBMagPF8kQlnTPs=
+
+Name: org/apache/batik/bridge/svg12/ContentManager$DOMNodeInsertedEven
+ tListener.class
+SHA1-Digest: mqMp+pjbuBSTxrNvtRc+GHK0Lfg=
+
+Name: org/apache/batik/bridge/svg12/AbstractContentSelector$ContentSel
+ ectorFactory.class
+SHA1-Digest: MQV9KJrB74VcwiueDp8nFX/n9DI=
+
+Name: org/apache/batik/bridge/SVGAElementBridge$CursorMouseOverListene
+ r.class
+SHA1-Digest: +BJucYdMQRwJvYSC8gtfRMklhVk=
+
+Name: org/apache/batik/bridge/Messages.class
+SHA1-Digest: sZ8xttKu2gTeIgFbShvQOLfthSc=
+
+Name: org/apache/batik/bridge/svg12/XBLContentElementBridge$ContentCha
+ ngedListener.class
+SHA1-Digest: hDcN+ZiZ6ewLExXy8JEE/pnjN0k=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimationThread$Ticke
+ r.class
+SHA1-Digest: wq0+vn496VUBb+76JdXcm4ZLMtk=
+
+Name: org/apache/batik/bridge/SVGFeDisplacementMapElementBridge.class
+SHA1-Digest: 9el1QvLlFt1KrDDKnXroRnuqsnc=
+
+Name: org/apache/batik/bridge/AbstractSVGGradientElementBridge.class
+SHA1-Digest: /nt+aB2ZRXwYtP0FfcecnWmSBUo=
+
+Name: org/apache/batik/gvt/font/UnresolvedFontFamily.class
+SHA1-Digest: 0FMbx+ZujOlMmXKWseUdI5cgVTU=
+
+Name: org/apache/batik/bridge/SVGMaskElementBridge.class
+SHA1-Digest: Lq0HAc4M8GqfjMi5j09CGP1U1d4=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$TspanBridge.class
+SHA1-Digest: JM9xWHhAS83v9PtDwuVmocwO3EQ=
+
+Name: org/apache/batik/bridge/svg12/SVG12FocusManager$DOMFocusInTracke
+ r.class
+SHA1-Digest: TGruAy4cc6NSMrKUv4uzBA/4DOg=
+
+Name: org/apache/batik/gvt/font/GVTLineMetrics.class
+SHA1-Digest: Kiktcml7DN3AdRdTsjR7VwuM06E=
+
+Name: org/apache/batik/gvt/text/GVTAttributedCharacterIterator.class
+SHA1-Digest: 8NC9bOjH0ozBYRja/EoDtClMIvw=
+
+Name: org/apache/batik/bridge/FilterBridge.class
+SHA1-Digest: M3UtGc/Gg5rSztukML/q05VHuvw=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine.class
+SHA1-Digest: dhAiI1Pv2DqeGfb0PyLmLpS8xJw=
+
+Name: org/apache/batik/bridge/SVGUseElementBridge$CursorMouseOverListe
+ ner.class
+SHA1-Digest: 54QoutL82KI8SebyLKKxtmfyWIA=
+
+Name: org/apache/batik/gvt/font/MultiGlyphVector.class
+SHA1-Digest: ueBDA74Bhad4I2OxJ6HE1NlSg3M=
+
+Name: org/apache/batik/bridge/SVGImageElementBridge$ProtectedStream.cl
+ ass
+SHA1-Digest: WOb3V2nHqpXP+mSxEwIjaPhShjo=
+
+Name: org/apache/batik/gvt/flow/WordInfo.class
+SHA1-Digest: ysR67+ERJBQqaC5fgpnYCZXOnzc=
+
+Name: org/apache/batik/bridge/SVGGlyphElementBridge.class
+SHA1-Digest: qA0sKzNHgt3VXcneHHI7pxWy4RI=
+
+Name: org/apache/batik/gvt/font/SVGGVTGlyphVector.class
+SHA1-Digest: pEFm2ebjt9KELDW4hb8YlMIFjv4=
+
+Name: org/apache/batik/bridge/SVGFeComponentTransferElementBridge.clas
+ s
+SHA1-Digest: FF4qUP1zwzjJN4b6FGPJS0hy5iA=
+
+Name: org/apache/batik/gvt/CompositeGraphicsNode$1.class
+SHA1-Digest: c5kJUzBMumIq9xSqFyS+Y81dwCg=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeMouseWheelEvent.class
+SHA1-Digest: qejEocRcpb/bOLLZOG3Dt/0+Gy8=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$DocInsertedListe
+ ner.class
+SHA1-Digest: qHOvNMizSjRydBR2bCV6A17o06o=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge.class
+SHA1-Digest: 4o4dmlWwqMmYaeCJ61GzPQ3hJ7U=
+
+Name: org/apache/batik/bridge/UpdateManager.class
+SHA1-Digest: K/WTUt4rAGAmLubGTPR30tZl7kQ=
+
+Name: org/apache/batik/bridge/SVGSetElementBridge.class
+SHA1-Digest: kiFQHdBftCOoV2bL2FxdVBdNp9o=
+
+Name: org/apache/batik/script/rhino/svg12/SVG12RhinoInterpreter.class
+SHA1-Digest: eGNdl1Gl3YMXQHuY3D4IKlG+110=
+
+Name: org/apache/batik/script/rhino/resources/messages.properties
+SHA1-Digest: 6lElk6tJi0bjSEtDkg51ziiRcts=
+
+Name: org/apache/batik/bridge/SVGTextElementBridge$AttributedStringBuf
+ fer.class
+SHA1-Digest: WeBM4otarkbmx+uVQ+EyeBvxuTo=
+
+Name: org/apache/batik/bridge/svg12/SVG12TextElementBridge.class
+SHA1-Digest: eoeFcA+wRV/uk9GWTL490WDxYHk=
+
+Name: org/apache/batik/bridge/SVGUtilities.class
+SHA1-Digest: pwog0mM5+oA27B8vpNyqfBYhbPU=
+
+Name: org/apache/batik/bridge/UpdateManager$6.class
+SHA1-Digest: zMQwB4q8CHbaDwBKbMa5cK4rveE=
+
+Name: org/apache/batik/bridge/SVGPatternElementBridge.class
+SHA1-Digest: d9Ef492jiXg1HXrKAFvHN5a8thE=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$5.class
+SHA1-Digest: WDJz1v8FfqPvLKnE4gXGpMr1M80=
+
+Name: org/apache/batik/gvt/ImageNode.class
+SHA1-Digest: c+9imMlkpwJOR0D8qk/prfq4BOA=
+
+Name: org/apache/batik/bridge/DocumentLoader.class
+SHA1-Digest: 7SEV0RkTIvR/FmI5M21J7d6X71k=
+
+Name: org/apache/batik/bridge/SVGTextPathElementBridge.class
+SHA1-Digest: fAvsJDoKp+lDcebx0pLgcU17y/s=
+
+Name: org/apache/batik/bridge/SVGDescElementBridge.class
+SHA1-Digest: eABR6H/mGSLIoeqa1thjnFd+JV4=
+
+Name: org/apache/batik/bridge/svg12/SVGSolidColorElementBridge.class
+SHA1-Digest: DpvtEcQRWc+aR64VaKCJtEpLWfA=
+
+Name: org/apache/batik/bridge/SVGFeTileElementBridge.class
+SHA1-Digest: S7zPVilbDjf2rygbnpj3FBI2LOo=
+
+Name: org/apache/batik/bridge/SVGAElementBridge$MouseOverDefaultAction
+ able.class
+SHA1-Digest: Mlx05Ki0NsrEYMoMLoem51RFVhs=
+
+Name: org/apache/batik/bridge/svg12/BindableElementBridge.class
+SHA1-Digest: 2ouNZFqvvR7UStrldNw3ShpNtFU=
+
+Name: org/apache/batik/gvt/renderer/DynamicRenderer.class
+SHA1-Digest: WHyeGWxdenwR/Lv1LR2xwZCXnNg=
+
+Name: about_files/README
+SHA1-Digest: 6ucCCJgwbMHFjoa+zJeAytt+bwA=
+
+Name: org/apache/batik/bridge/ExternalResourceSecurity.class
+SHA1-Digest: JNcefdthGMee5j158LeO1KZjxqU=
+
+Name: org/apache/batik/bridge/SVGFontFace.class
+SHA1-Digest: EWEgjLzi81KPfG/rlpIGBACsqQw=
+
+Name: org/apache/batik/script/rhino/BatikWrapFactory.class
+SHA1-Digest: jpxZVN6cuWl1MNglL8Wf1gmsbVE=
+
+Name: org/apache/batik/bridge/svg12/SVG12ScriptingEnvironment$HandlerS
+ criptingEventListener.class
+SHA1-Digest: 4DVUdDnzD6A87fcAvdLb9DeS9ls=
+
+Name: org/apache/batik/gvt/CompositeGraphicsNode.class
+SHA1-Digest: NqqY4ncT29Pz+6SCgTv1WZHAELs=
+
+Name: org/apache/batik/gvt/UpdateTracker$ChngSrcRect.class
+SHA1-Digest: NFsN1IzFqe2viDbpv5p9KCtViBI=
+
+Name: org/apache/batik/bridge/BridgeContext$AnimatedAttrListener.class
+SHA1-Digest: w3BXSSuOJAoYurmzUH4AbuBd8gE=
+
+Name: org/apache/batik/gvt/font/Glyph.class
+SHA1-Digest: wda+OY9naaYBfK8a6ihQBZz2BD0=
+
+Name: org/apache/batik/gvt/event/GraphicsNodeChangeAdapter.class
+SHA1-Digest: knSwHMonX2+gEH3eTxIXfPAX/Ls=
+
+Name: org/apache/batik/gvt/PatternPaint.class
+SHA1-Digest: gJbmsSPf5aWKTQ7cFRGPrgjHssE=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$4.class
+SHA1-Digest: nlNEyM9564hOo+qJptpAEVOibR4=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$1.class
+SHA1-Digest: bphg2jOunr/lpBXarJ/tclE7sio=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$DefNodeRemovedLi
+ stener.class
+SHA1-Digest: n9Zl/Y+5A7J0+UAlgUrTl8OOIpQ=
+
+Name: org/apache/batik/bridge/BridgeContext$DOMAttrModifiedEventListen
+ er.class
+SHA1-Digest: vES+SSiXxxtZyZY5UEObVDJBrAs=
+
+Name: org/apache/batik/gvt/PatternPaintContext.class
+SHA1-Digest: wLdM2F+uZJKN5SeRQoJL50PypA4=
+
+Name: org/apache/batik/script/InterpreterException.class
+SHA1-Digest: 443K1sEt6xI3vEXFeeCT3PoOnHs=
+
+Name: org/apache/batik/bridge/SVGFeComponentTransferElementBridge$SVGF
+ eFuncAElementBridge.class
+SHA1-Digest: JUdZ55RjcT2F0LLR1s1tokbkvGU=
+
+Name: org/apache/batik/bridge/SVGAnimationEngine$AnimatablePathDataFac
+ tory.class
+SHA1-Digest: gfsTJbyYmji9cCYGvp6PYCigbeg=
+
+Name: org/apache/batik/bridge/SVGFeImageElementBridge.class
+SHA1-Digest: 6aolttBWwTTYksLtwc6ci7f5b34=
+
+Name: org/apache/batik/bridge/svg12/DefaultXBLManager$DocRemovedListen
+ er.class
+SHA1-Digest: adsX+rWycTyUErUyEZKWyW0S5RM=
+
+Name: org/apache/batik/bridge/SVGFeGaussianBlurElementBridge.class
+SHA1-Digest: CXxEFmxaW1EIATXSSP2DY1Qzr4g=
+
+Name: org/apache/batik/bridge/SVGAElementBridge$AnchorListener.class
+SHA1-Digest: h67G0AUHWpKYXAq/LGKLN9/6drc=
+
+Name: org/apache/batik/bridge/svg12/ContentManager$ContentElementDOMAt
+ trModifiedEventListener.class
+SHA1-Digest: a8g6H+fil7+3we0XfHNJzxzdIqw=
+
+Name: org/apache/batik/gvt/ProxyGraphicsNode.class
+SHA1-Digest: owd0qDfVlLJFxNXaWcq1CFI8Te0=
+
+Name: org/apache/batik/gvt/text/GVTAttributedCharacterIterator$Attribu
+ teFilter.class
+SHA1-Digest: BX4gxfV8IuXXzsJvY96Aa/24nZU=
+
+Name: org/apache/batik/script/rhino/RhinoInterpreter$Entry.class
+SHA1-Digest: G2GUNJx0Rm5WYM6ryGUsxFCF5Kc=
+
+Name: org/apache/batik/script/rhino/WindowWrapper$FunctionWrapper.clas
+ s
+SHA1-Digest: HCTQNsTPahaR8i1WkXUbXDVoKRA=
+
+Name: org/apache/batik/gvt/flow/LineInfo.class
+SHA1-Digest: oxKTzMJLvorp6n9MV0Do6UktpiU=
+
+Name: org/apache/batik/bridge/svg12/XBLContentElementBridge.class
+SHA1-Digest: PDs1nBiS9F/V1Ir12ijmzLRYt+s=
+
+Name: org/apache/batik/bridge/AbstractGraphicsNodeBridge.class
+SHA1-Digest: D9qPqKLbYrU3VoA0ZRoc5tOu6aA=
+
+Name: org/apache/batik/gvt/renderer/StrokingTextPainter$TextChunk.clas
+ s
+SHA1-Digest: XaOaiXPaxIbWys0mz1rgDvZ6LxY=
+

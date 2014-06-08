@@ -1,0 +1,56 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 6GAY7z6mU7pTjoGx0C4FQJjeFo4=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: rjHzHcuy6Z8VDjWMaNPe+MhIJeU=
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: WQPAMR6UasOuSXQqhMW2ZmVd4y8=
+
+Name: about_files/NOTICE
+SHA1-Digest: B5eN3FAnxBosFCsQDEZ/04AYORQ=
+
+Name: org/apache/batik/xml/XMLUtilities.class
+SHA1-Digest: 99x0Xqj+l0kLYaFPdjTN2smd7kM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: org/apache/batik/xml/XMLCharacters.class
+SHA1-Digest: T2n/I10mOSIbOsbFWqGyS/keXS0=
+
+Name: org/apache/batik/xml/XMLStreamNormalizingReader.class
+SHA1-Digest: lqVfuotjJ8grqk1o8b60yyj3FfU=
+
+Name: org/apache/batik/xml/XMLException.class
+SHA1-Digest: 2rK3G3/INcK4/K8WslnKhEfJrfs=
+
+Name: META-INF/LICENSE
+SHA1-Digest: 4M8NX82EzI5Ytsad4uLJpRqcwS8=
+
+Name: about_files/LICENSE.dom-software.txt
+SHA1-Digest: nCeHOoJ+x6MYC9j9mFmLgi9S7Kg=
+
+Name: about.html
+SHA1-Digest: 0GLh+hNaBER/T3hskc4lW+yqHxU=
+
+Name: plugin.properties
+SHA1-Digest: j/u+MYTdPCSz2sk1FZ4zeEGzWb4=
+
+Name: META-INF/NOTICE
+SHA1-Digest: gtV+j+jSRaXzn/Trk/pM+hufG1k=
+
+Name: org/apache/batik/xml/scanner/resources/Messages.properties
+SHA1-Digest: +K/3VcKooS+1REgDjogI+jED2kU=
+
+Name: about_files/LICENSE.sax.txt
+SHA1-Digest: PPCmaibeBw2I1SqGvL56KIJqOpY=
+
+Name: org/apache/batik/xml/XMLScanner.class
+SHA1-Digest: R+rGadmzuMiqAg1qjpehJb5T0fQ=
+
+Name: about_files/README
+SHA1-Digest: eqzl2DMeTAYplW/IJ958qY4L4og=
+
+Name: org/apache/batik/xml/LexicalUnits.class
+SHA1-Digest: ceJ6VgCswq8nF6sMrQBGAjHoD3E=
+

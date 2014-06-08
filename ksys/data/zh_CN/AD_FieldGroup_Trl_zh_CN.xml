@@ -1,0 +1,143 @@
+<adempiereTrl language="zh_CN" table="AD_FieldGroup">
+  <row id="101" trl="Y">
+    <value column="Name" original="Status">状态</value>
+  </row>
+  <row id="102" trl="Y">
+    <value column="Name" original="Quantities">数量</value>
+  </row>
+  <row id="103" trl="Y">
+    <value column="Name" original="Amounts">金额</value>
+  </row>
+  <row id="104" trl="Y">
+    <value column="Name" original="Reference">引用</value>
+  </row>
+  <row id="105" trl="Y">
+    <value column="Name" original="History">历史记录</value>
+  </row>
+  <row id="106" trl="Y">
+    <value column="Name" original="Product">产品</value>
+  </row>
+  <row id="107" trl="Y">
+    <value column="Name" original="Business Partner">业务伙伴</value>
+  </row>
+  <row id="108" trl="Y">
+    <value column="Name" original="Warehouse">仓库</value>
+  </row>
+  <row id="109" trl="Y">
+    <value column="Name" original="Bank">银行</value>
+  </row>
+  <row id="110" trl="Y">
+    <value column="Name" original="Cash Book">现金簿</value>
+  </row>
+  <row id="111" trl="Y">
+    <value column="Name" original="Tax">税额</value>
+  </row>
+  <row id="112" trl="Y">
+    <value column="Name" original="Project">工程、项目</value>
+  </row>
+  <row id="113" trl="Y">
+    <value column="Name" original="General">一般</value>
+  </row>
+  <row id="114" trl="Y">
+    <value column="Name" original="Action">行动</value>
+  </row>
+  <row id="115" trl="Y">
+    <value column="Name" original="Standard Cost">标准成本</value>
+  </row>
+  <row id="116" trl="Y">
+    <value column="Name" original="Actual Costs">实际成本</value>
+  </row>
+  <row id="117" trl="Y">
+    <value column="Name" original="Statistics">统计信息</value>
+  </row>
+  <row id="118" trl="Y">
+    <value column="Name" original="Defaults">缺省科目（默认）</value>
+  </row>
+  <row id="119" trl="Y">
+    <value column="Name" original="Request Management">请求管理</value>
+  </row>
+  <row id="120" trl="Y">
+    <value column="Name" original="Web Store">网上商店</value>
+  </row>
+  <row id="121" trl="Y">
+    <value column="Name" original="Internal">内部</value>
+  </row>
+  <row id="122" trl="Y">
+    <value column="Name" original="External">外部</value>
+  </row>
+  <row id="123" trl="Y">
+    <value column="Name" original="Common">公共</value>
+  </row>
+  <row id="124" trl="Y">
+    <value column="Name" original="Shipment">发货单</value>
+  </row>
+  <row id="125" trl="Y">
+    <value column="Name" original="Document">单据</value>
+  </row>
+  <row id="126" trl="Y">
+    <value column="Name" original="Line">行</value>
+  </row>
+  <row id="127" trl="Y">
+    <value column="Name" original="Simulation">模拟</value>
+  </row>
+  <row id="128" trl="Y">
+    <value column="Name" original="Calculations">计算</value>
+  </row>
+  <row id="129" trl="Y">
+    <value column="Name" original="Proxy">代理</value>
+  </row>
+  <row id="130" trl="Y">
+    <value column="Name" original="Delivery">交付</value>
+  </row>
+  <row id="131" trl="Y">
+    <value column="Name" original="Invoicing">发票</value>
+  </row>
+  <row id="132" trl="Y">
+    <value column="Name" original="Only ..">仅 ..</value>
+  </row>
+  <row id="133" trl="Y">
+    <value column="Name" original="Selection">选择</value>
+  </row>
+  <row id="134" trl="Y">
+    <value column="Name" original="Workflow">工作流</value>
+  </row>
+  <row id="135" trl="Y">
+    <value column="Name" original="Access">访问权限</value>
+  </row>
+  <row id="50000" trl="Y">
+    <value column="Name" original="Allow Info In Role">角色允许信息窗口</value>
+  </row>
+  <row id="50001" trl="Y">
+    <value column="Name" original="Accounts">账户</value>
+  </row>
+  <row id="50002" trl="Y">
+    <value column="Name" original="Setup">设置</value>
+  </row>
+  <row id="50003" trl="Y">
+    <value column="Name" original="Dates">日期</value>
+  </row>
+  <row id="50004" trl="Y">
+    <value column="Name" original="Revaluation Accounts">重估科目</value>
+  </row>
+  <row id="50005" trl="Y">
+    <value column="Name" original="Contract">合同</value>
+  </row>
+  <row id="50006" trl="Y">
+    <value column="Name" original="Options">选项</value>
+  </row>
+  <row id="50007" trl="Y">
+    <value column="Name" original="General Ledger">总账</value>
+  </row>
+  <row id="50008" trl="Y">
+    <value column="Name" original="Machines">机器</value>
+  </row>
+  <row id="50009" trl="Y">
+    <value column="Name" original="Database">数据库</value>
+  </row>
+  <row id="50010" trl="Y">
+    <value column="Name" original="Manufacturing">生产</value>
+  </row>
+  <row id="50012" trl="Y">
+    <value column="Name" original="Logo">徽标</value>
+  </row>
+</adempiereTrl>

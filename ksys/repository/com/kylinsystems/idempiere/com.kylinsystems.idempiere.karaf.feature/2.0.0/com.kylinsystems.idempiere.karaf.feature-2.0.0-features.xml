@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<features name="com.kylinsystems.idempiere.karaf.feature" 
+          xmlns="http://karaf.apache.org/xmlns/features/v1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.2.0 http://karaf.apache.org/xmlns/features/v1.2.0">
+    <!--<repository>mvn:org.apache.camel.karaf/apache-camel/2.12.3/xml/features</repository>-->
+    <!--<repository>mvn:org.apache.activemq/activemq-karaf/5.9.0/xml/features</repository>-->
+    <repository>mvn:io.hawt/hawtio-karaf/1.3.1/xml/features</repository>
+    <feature name="com.kylinsystems.idempiere.base" version="2.0.0">
+        <feature>jpa</feature>
+        <feature>jndi</feature>
+        <feature>transaction</feature>
+        <feature>jdbc</feature>
+        <feature>http</feature>
+        <feature>jms</feature>
+        <feature>spring</feature>
+        <!--<feature>spring-dm</feature>-->
+        <!--<feature>spring-jdbc</feature>-->
+        <feature>spring-jms</feature>
+        <!--<feature>spring-orm</feature>-->
+        <!--<feature>spring-tx</feature>-->
+        <feature>scr</feature>
+        <feature>war</feature>
+        <feature>webconsole</feature>
+        
+        <!--<feature>activemq-client</feature>-->
+        <!--<feature>activemq-broker</feature>-->
+        <feature>hawtio</feature>
+        <!--<feature>camel</feature>-->
+        
+        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.instance/3.0.1</bundle>
+        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.features/3.0.1</bundle>
+        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.gogo/3.0.1</bundle>
+        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.http/3.0.1</bundle>
+        
+        <bundle>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jsr303-api-1.0.0/2.2.0</bundle>
+        
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-dbcp/1.4_3</bundle>            
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.serp/1.13.1_4</bundle>     
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr/2.7.7_5</bundle>         
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.ant/1.8.2_2</bundle>   
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.dom4j/1.6.1_5</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xstream/1.4.4_2</bundle> 
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.freemarker/2.3.20_1</bundle> 
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jaxen/1.1.4_2</bundle> 
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.mvel/2.0.18_3</bundle> 
+        <!--<bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.batik/1.7_3</bundle>--> 
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.cglib/2.2_2</bundle> 
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.asm/2.2.3_5</bundle> 
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jsch/0.1.50_1</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.poi/3.9_2</bundle>        
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xerces/2.9.1_5</bundle>    
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xalan/2.7.1_7</bundle>    
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.bcel/5.2_4</bundle>    
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlresolver/1.2_5</bundle>    
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.junit/4.11_1</bundle>    
+        
+        <bundle>mvn:javax.mail/com.springsource.javax.mail/1.4.5</bundle>    
+        <bundle>mvn:javax.activation/com.springsource.javax.activation/1.1.1</bundle> 
+        <bundle>mvn:javax.xml.rpc/com.springsource.javax.xml.rpc/1.1.0.v20110517</bundle> 
+        
+        <bundle>mvn:commons-collections/commons-collections/3.2.1</bundle>
+        <bundle>mvn:commons-pool/commons-pool/1.5.4</bundle>
+        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
+        <bundle>mvn:commons-net/commons-net/3.3</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.8</bundle>
+        
+        <bundle>mvn:org.restlet.osgi/org.restlet/2.1.4</bundle>
+        <bundle>mvn:org.restlet.osgi/org.restlet.ext.servlet/2.1.4</bundle>
+        <bundle>mvn:com.fasterxml/classmate/0.5.4</bundle>
+        <bundle>wrap:mvn:org.jboss/jandex/1.1.0.Final</bundle>
+        <bundle>mvn:org.jboss.logging/jboss-logging/3.1.0.GA</bundle>
+        <bundle>mvn:com.google.guava/guava/15.0</bundle>
+        <bundle>mvn:org.javassist/javassist/3.18.1-GA</bundle>
+   
+        <!-- H2 Database -->
+        <!--<bundle>mvn:com.h2database/h2/1.3.169</bundle>-->
+        <!-- OpenJPA -->
+        <!--<bundle>mvn:org.apache.openjpa/openjpa/2.2.2</bundle>-->
+        <!-- EclipseLink --> 
+        <!--<bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.asm/2.4.2</bundle>
+        <bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.antlr/2.4.2</bundle>
+        <bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.core/2.4.2</bundle>
+        <bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.jpa/2.4.2</bundle>
+        <bundle>mvn:org.eclipse.persistence/org.eclipse.persistence.jpa.jpql/2.4.2</bundle>-->
+      
+        <!-- Eclipse -->
+        <bundle>mvn:org.eclipse.core/runtime/3.9.0-v20130326-1255</bundle>
+        <bundle>mvn:org.eclipse.core/jobs/3.5.300-v20130429-1813</bundle>
+        <bundle>mvn:org.eclipse.core/contenttype/3.4.200-v20130326-1255</bundle>
+        <bundle>mvn:org.eclipse.equinox/common/3.6.200-v20130402-1505</bundle>
+        <bundle>mvn:org.eclipse.equinox/registry/3.5.301-v20130717-1549</bundle>
+        <bundle>mvn:org.eclipse.equinox/preferences/3.5.100-v20130422-1538</bundle>
+        <bundle>mvn:org.eclipse.equinox/app/1.3.100-v20130327-1442</bundle>
+
+        <!-- Hibernate -->
+        <!-- Must be started after model PU -->
+        <!--
+        <bundle>mvn:org.hibernate.common/hibernate-commons-annotations/4.0.4.Final</bundle>
+        <bundle>mvn:org.hibernate/hibernate-core/4.2.7.SP1</bundle>
+        <bundle>mvn:org.hibernate/hibernate-entitymanager/4.2.7.SP1</bundle>                
+        <bundle>mvn:org.hibernate/hibernate-osgi/4.2.7.SP1</bundle>      
+        -->   
+        
+        <!-- local -->   
+        <bundle>file:ksys/bundles/org.eclipse.core.variables_3.2.700.v20130402-1741.jar</bundle>
+        <bundle>file:ksys/bundles/org.eclipse.ant.core_3.2.500.v20130402-1746.jar</bundle>        
+    </feature>
+    <feature name="com.kylinsystems.idempiere.project" version="2.0.0">           
+        <bundle>file:ksys/bundles/org.apache.ecs_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.w3c.dom.fragment_2.0.0.v20140529-1513.jar</bundle>         
+        <bundle>jardir:ksys/bundles/org.w3c.css.sac_1.3.1.v200903091627</bundle>                
+        <bundle>jardir:ksys/bundles/org.w3c.dom.smil_1.0.1.v200903091627</bundle>
+        <bundle>jardir:ksys/bundles/org.w3c.dom.svg_1.1.0.v201011041433</bundle>                     
+        <bundle>jardir:ksys/bundles/org.apache.batik.css_1.7.0.v201011041433</bundle> 
+        <bundle>jardir:ksys/bundles/org.apache.batik.dom_1.7.0.v201011041433</bundle> 
+        <bundle>jardir:ksys/bundles/org.apache.batik.dom.svg_1.7.0.v201011041433</bundle>         
+        <bundle>jardir:ksys/bundles/org.apache.batik.ext.awt_1.7.0.v201011041433</bundle> 
+        <bundle>jardir:ksys/bundles/org.apache.batik.extension_1.7.0.v201011041433</bundle> 
+        <bundle>jardir:ksys/bundles/org.apache.batik.parser_1.7.0.v201011041433</bundle> 
+        <bundle>jardir:ksys/bundles/org.apache.batik.util_1.7.0.v201011041433</bundle> 
+        <bundle>jardir:ksys/bundles/org.apache.batik.xml_1.7.0.v201011041433</bundle> 
+        <bundle>file:ksys/bundles/org.apache.batik.util.gui_1.7.0.v200903091627.jar</bundle>    
+        <bundle>jardir:ksys/bundles/org.apache.batik.bridge_1.7.0.v201011041433</bundle>                  
+        <bundle>file:ksys/bundles/org.adempiere.base_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.adempiere.base.callout_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.adempiere.base.process_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.adempiere.plugin.utils_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.adempiere.payment.processor_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.adempiere.pipo_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.adempiere.pipo.handlers_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.adempiere.extend_2.0.0.v20140529-1513.jar</bundle>
+	<bundle>jardir:ksys/bundles/org.adempiere.install_2.0.0.v20140529-1513</bundle>
+        <bundle>file:ksys/bundles/org.compiere.db.postgresql.provider_2.0.0.v20140529-1513.jar</bundle>        
+        <bundle>jardir:ksys/bundles/org.idempiere.hazelcast.service.config_2.0.0</bundle>
+        <bundle>file:ksys/bundles/org.idempiere.hazelcast.service_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>jardir:ksys/bundles/org.adempiere.report.jasper.library_2.0.0.v20140529-1513</bundle>
+        <bundle>jardir:ksys/bundles/org.adempiere.report.jasper_2.0.0.v20140529-1513</bundle>                   
+        <bundle>file:ksys/bundles/org.zkoss.zk.library_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>file:ksys/bundles/org.adempiere.ui_2.0.0.v20140529-1513.jar</bundle>
+        <bundle>jardir:ksys/bundles/org.adempiere.ui.zk_2.0.0.v20140529-1513</bundle>         
+        <bundle>file:ksys/bundles/org.adempiere.report.jasper.webapp_2.0.0.v20140529-1513.jar</bundle>     
+        <bundle>file:ksys/bundles/org.idempiere.webservices_2.0.0.v20140529-1513.jar</bundle>
+        <bundle start-level="85">file:ksys/bundles/org.adempiere.server_2.0.0.v20140529-1513.jar</bundle>
+    </feature>
+	
+</features>

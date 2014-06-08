@@ -1,0 +1,385 @@
+<adempiereTrl language="zh_CN" table="AD_Workflow">
+  <row id="101" trl="Y">
+    <value column="Name" original="Project Setup and Use">项目设置与使用</value>
+    <value column="Description" original="Setup of projects and project reporting">项目与项目报表的设置</value>
+    <value column="Help" original="Projects allow to monitor the status and progress of sales opportunities, service projects and investment projects. A Project is a process that is undertaken which can involve multiple steps or phases and require resources from more than one area.">【workflow】。项目用于监视销售机会，服务项目，和投资项目。一个项目是一个包括多步骤，多阶段，并需多个资源的过程。</value>
+  </row>
+  <row id="103" trl="Y">
+    <value column="Name" original="Language Setup">语言设置</value>
+    <value column="Description" original="Setup a new Language of the system and translate elements">设置系统的新语言并翻译元素。</value>
+    <value column="Help" original="Define a new language as a system language.">【workflow】。定义一种新语言作为系统语言。</value>
+  </row>
+  <row id="104" trl="Y">
+    <value column="Name" original="Initial Client Setup Review">初始化实体设置检查</value>
+    <value column="Description" original="Review of system level setup of a new  Client">检查新实体的系统级设置</value>
+    <value column="Help" original="This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.
+You may want to check also the following Workflows:
+- Accounting Setup
+- Business Partner Setup
+- Product Setup
+- Price list Setup
+- Warehouse Setup
+- Tax Setup">【workflow】。本工作流审核经由执行自动的“初始化顾客设置”而产生的新顾客的系统设置.
+您可以检查以下工作流:
+- 会计设置
+- 业务伙伴设置
+- 产品设置
+- 价目表设置
+- 仓库设置
+- 税设置。</value>
+  </row>
+  <row id="105" trl="Y">
+    <value column="Name" original="Accounting Setup">会计设置</value>
+    <value column="Description" original="Review and change Accounting Setup">审核与更改会计设置</value>
+    <value column="Help" original="This workflow allows you to review and change your Accounting Rules. ">【workflow】。本工作流允许您检查和更改您的会计规则。 </value>
+  </row>
+  <row id="106" trl="Y">
+    <value column="Name" original="Business Partner Setup">业务伙伴设置</value>
+    <value column="Description" original="Setup Business Partner Rules">设置业务伙伴规则</value>
+    <value column="Help" original="This workflow defines the Business Partners and the supporting rules.">【workflow】。本工作流定义了业务伙伴及其支持规则。</value>
+  </row>
+  <row id="107" trl="Y">
+    <value column="Name" original="Product Setup">产品设置</value>
+    <value column="Description" original="Set up Products">设置产品</value>
+    <value column="Help" original="Define your products manually. You should verify the settings especially if you import your products.">【workflow】。手工定义产品。尤其是导入产品的情形下，更应验证设置。</value>
+  </row>
+  <row id="108" trl="Y">
+    <value column="Name" original="Price List Setup">价格表设置</value>
+    <value column="Description" original="Define your Price Lists and Discounts">定义价格表与折扣</value>
+    <value column="Help" original="You define your price lists after entering or importing your products. In addition to price lists, you can define discounts for business partners.  Assign specific Price Lists and Discounst to Business Partners.">【workflow】。在输入或导入产品后，定义价格列表. 除了价格表之外,您可以业务伙伴定义折扣. 指派不同的价格表和折扣给业务伙伴.</value>
+  </row>
+  <row id="109" trl="Y">
+    <value column="Name" original="Replication Setup">复制设置</value>
+    <value column="Description" original="Setup of data replication">设置数据复制</value>
+    <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;
+&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;
+- setup system with all organizations, roles, etc.&lt;br&gt;
+- run the migration to make sure that it is up-to-date&lt;br&gt;
+- export the central system
+&lt;p&gt;
+&lt;b&gt;Remote System:&lt;/b&gt;
+- install the exact version as Central System&lt;br&gt;
+- import data from Central System in the remote locations
+&lt;p&gt;
+&lt;b&gt;Central System:&lt;/b&gt;
+- Define Replication per Remote&lt;br&gt;
+- Make sure that the ID range is unique per remote - otherwise you will loose transactions!&lt;br&gt;
+- Initially Start the Replication Run to setup Remote
+&lt;p&gt;
+** Enter Transactions **
+&lt;p&gt;
+&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;
+- Start the Replication Run when required">【workflow】。数据复制允许你可以于中央办公系统同步远程实例的数据。所有操作由中央办公系统初始化。&lt;p&gt;
+&lt;b&gt;中央系统:&lt;/b&gt;&lt;br&gt;
+- 设置系统所有组织，角色，等等.&lt;br&gt;
+- 运行数据记录迁移可以确保它一直保持最新。&lt;br&gt;
+- 导出中央系统。
+&lt;p&gt;
+&lt;b&gt;远程系统:&lt;/b&gt;
+- 参照中央系统安装准确的版本&lt;br&gt;
+- 从在远程地点的中央系统导入数据。
+&lt;p&gt;
+&lt;b&gt;中央系统:&lt;/b&gt;
+- 定义每一个远程复制。&lt;br&gt;
+- 确保每个远程的ID范围是唯一的，否则你将不能传输！loose transactions!&lt;br&gt;
+- 初始化运行复制远程设置。
+&lt;p&gt;
+** Enter Transactions **
+&lt;p&gt;
+&lt;b&gt;中央系统:&lt;/b&gt;&lt;br&gt;
+- 当请求时，开始运行复制。</value>
+  </row>
+  <row id="110" trl="Y">
+    <value column="Name" original="Tax Setup">税设置</value>
+    <value column="Description" original="Setup tax calculation">设置税的计算</value>
+    <value column="Help" original="Setup the tax calculation for products, services and charges">【workflow】。设置产品、服务与费用的税计算方式。</value>
+  </row>
+  <row id="111" trl="Y">
+    <value column="Name" original="Sales Setup">销售设置</value>
+    <value column="Description" original="Setup Sales">设置销售</value>
+    <value column="Help" original="Setting up Sales Representatives, Commissions as well as Marketing Channels and Campaigns.">【workflow】。设置销售代表、佣金以及营销渠道与营销战役。</value>
+  </row>
+  <row id="112" trl="Y">
+    <value column="Name" original="Performance Measurement Setup">绩效分析设置</value>
+    <value column="Description" original="Setup your Performance Measurement">绩效评估的设置</value>
+    <value column="Help" original="This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.
+
+Most important: Do your analysis first!
+- What are your goals and how do you measure it?
+
+When you are setting up the system, you do it in reverse:
+First you define how you measure it and last you define the goals for the measurements.
+You have three ways measuring performance:
+- via quantifiable measures (e.g. sales of $3 million in Q1)
+- via manual measures
+- via achievements (tasks)
+
+The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)">【workflow】。本工作流指引你设置基于关键绩效指标 (KPI) 、平衡记分卡等的绩效评估。
+
+最重要的是: 首先要自己分析！
+- 目标是什么, 如何评估它?
+
+当设置系统时, 反序完成:
+首先决定如何评估它，最后定义评估目标。
+有三种方法评估绩效:
+- 通过量化措施
+ (例如在第1季度销售额为300万美元)。
+- 通过人工评估。
+- 通过业绩 (任务)。
+
+系统转换评估额为百分比 (基于目标与成绩评估 - 或总量与完成的成绩)。</value>
+  </row>
+  <row id="113" trl="Y">
+    <value column="Name" original="Request Setup">请求设置</value>
+    <value column="Description" original="Set up the client to process requests">设置实体以处理请求</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="114" trl="Y">
+    <value column="Name" original="Requisition Setup">申购设置</value>
+    <value column="Description" original="" />
+    <value column="Help" original="" />
+  </row>
+  <row id="115" trl="Y">
+    <value column="Name" original="Process_Requisition">流程_申购</value>
+    <value column="Description" original="(Standard Process_Requisition)">【workflow】。(标准流程_采购申请)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="116" trl="Y">
+    <value column="Name" original="Process_Order">流程_订单</value>
+    <value column="Description" original="(Standard Process Order)">【workflow】。(标准流程_订单)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="117" trl="Y">
+    <value column="Name" original="Process_Shipment">流程_发货</value>
+    <value column="Description" original="(Standard Process Shipment)">【workflow】。(标准流程_发货单)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="118" trl="Y">
+    <value column="Name" original="Process_Invoice">流程_发票</value>
+    <value column="Description" original="(Standard Process Onvoice)">【workflow】。(标准流程_发票)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="119" trl="Y">
+    <value column="Name" original="Process_Cash">流程_现金</value>
+    <value column="Description" original="(Standard Process Cash)">【workflow】。(标准流程_现金)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="120" trl="Y">
+    <value column="Name" original="Process_Payment">流程_付款</value>
+    <value column="Description" original="(Standard Process Payment)">【workflow】。(标准流程_付款)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="121" trl="Y">
+    <value column="Name" original="Process_Journal">流程_日记账</value>
+    <value column="Description" original="(Standard Process Journal)">【workflow】。(标准流程_日记账)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="122" trl="Y">
+    <value column="Name" original="Process_JournalBatch">流程_日记账批次</value>
+    <value column="Description" original="(Standard Process Jornal Batch)">【workflow】。(标准流程_日记账批次)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="123" trl="Y">
+    <value column="Name" original="Process_RMA">流程_退货授权</value>
+    <value column="Description" original="(Standard Process_RMA)">【workflow】。(标准流程_退货授权)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="124" trl="Y">
+    <value column="Name" original="Process_InOutConfirm">流程_出入库确认</value>
+    <value column="Description" original="(Standard Process Confirmation)">【workflow】。(标准流程_确认)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="125" trl="Y">
+    <value column="Name" original="Process_Allocation">流程_分配</value>
+    <value column="Description" original="(Standard Process Allocation)">【workflow】。(标准流程_分配)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="126" trl="Y">
+    <value column="Name" original="Process_TimeExpense">流程_时间费用</value>
+    <value column="Description" original="(Standard Process Time Expense)">【workflow】。(标准流程_时间费用)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="127" trl="Y">
+    <value column="Name" original="Process_Inventory">流程_库存</value>
+    <value column="Description" original="(Standard Process Inventory)">【workflow】。(标准流程_库存)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="128" trl="Y">
+    <value column="Name" original="Process_Movement">流程_移库</value>
+    <value column="Description" original="(Standard Process Movement)">【workflow】。(标准流程_移库)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="129" trl="Y">
+    <value column="Name" original="Process_MovementConfirm">流程_移库确认</value>
+    <value column="Description" original="(Standard Process Movement Confirmation)">【workflow】。(标准流程_移库确认)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="130" trl="Y">
+    <value column="Name" original="Process_BankStatement">流程_银行对账单</value>
+    <value column="Description" original="(Standard Process Bank Statement)">【workflow】。(标准流程_银行对账单)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="131" trl="Y">
+    <value column="Name" original="Business Partner Approval">业务伙伴审批</value>
+    <value column="Description" original="Example Document based workflow">【workflow】。示范基于单据值的工作流</value>
+    <value column="Help" original="When a new Business Partner is created, it is forwarded for review and credit check.">【workflow】。当一个新的业务伙伴被创建时，触发该工作流，以便复审和信用检查。</value>
+  </row>
+  <row id="50000" trl="Y">
+    <value column="Name" original="Manufacturing Management Setup">生产管理设置</value>
+    <value column="Description" original="Setup Manufacturing Management">设置生产管理</value>
+    <value column="Help" original="This workflow defines the Manufacturing Management and the supporting rules.">【workflow】。此工作流定义了生产管理及配套规则。</value>
+  </row>
+  <row id="50001" trl="Y">
+    <value column="Name" original="Manufacturing Workflow Setup">生产工艺设置</value>
+    <value column="Description" original="Setup Manufacturing Workflow">设置生产工艺</value>
+    <value column="Help" original="This workflow defines the Manufacturing Workflow  Setup">【workflow】。此工作流定义了生产工艺设置。</value>
+  </row>
+  <row id="50002" trl="Y">
+    <value column="Name" original="Bill of Material &amp; Formula Setup">物料清单与配方设置</value>
+    <value column="Description" original="Setup Bill of Material &amp; Formula">设置物料清单与配方</value>
+    <value column="Help" original="This workflow defines the Bill of Material &amp; Formula">【workflow】。本工作流定义了物料清单与配方</value>
+  </row>
+  <row id="50003" trl="Y">
+    <value column="Name" original="Planning Management Setup">计划管理设置</value>
+    <value column="Description" original="Setup Planning Management">设置计划管理</value>
+    <value column="Help" original="Before the production processes can be done, it is necessary to plan the activities which must be accomplished to assure the products can be gotten at the right time in order not to remain a long time in the warehouse, or at the contrary, to cause delays in shipments because components shortages in the manufacturing order.
+
+Another subject to take into account are the production cost and the capacity of shipping good quality products.
+
+Using Planning Management you answer the question: When and How Many products we must get?">【workflow】。在生产工艺确定下来之前, 必须制定一个计划确保产品的及时交付，而不会在仓库里呆上很长时间， 或者相反, 由于生产订单里部件的短缺造成延迟发货。
+
+另一个需要考虑的问题产品成本和出货品质优良产品的能力。
+
+使用计划管理你可以回答这个问题：什么时候我们必须获得多少产品？</value>
+  </row>
+  <row id="50004" trl="Y">
+    <value column="Name" original="Material Requirement Planning Setup">物料需求计划（MRP）设置</value>
+    <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">【workflow】。物料需求计划(MRP) ,是一种设置利用物料清单,库存数据,和主生产计划来计算物料需求的技术。</value>
+    <value column="Help" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials. It create planned orders to balance demand ans supply for products and it issues recommendations to receipt material with the right quantities and at the right dates to satisfy the Master Production Schedule in the most efficient way.">【workflow】。物料需求计划(MRP) ,是一种设置利用物料清单,库存数据,和主生产计划来计算物料需求的技术。它创建计划订单来满足产品的供需平衡，建议在合适日期收到合适数量的物料，以最有效率的方式来满足主生产计划。</value>
+  </row>
+  <row id="50005" trl="Y">
+    <value column="Name" original="Capacity Requirement Planning Setup">能力需求计划设置</value>
+    <value column="Description" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">【workflow】。计算能力计划的过程中，可以让我们知道在每一个制造资源的可用时间，以及所需的时间，以满足主生产计划。</value>
+    <value column="Help" original="It is a set of techniques which uses the planned orders by MRP, open manufacturing orders, manufacturing resources and the work-flows to calculate the required time for each resource along with the available time. With this information, we are able to balance the time demand with the available time. Through the knowledge of the required and available capacities it is possible to adjust the Master Production Schedule(MPS) until we arrive at a realistic one.">【workflow】。它是一组技术，采用物料需求计划(MRP)的计划订单，开放制造业订单，制造资源和工作流来计算每个资源所需的时间与可用时间。有了这个信息，我们是能够达到平衡的时间需求与可用时间。通过所需的和现有能力的知识，它可以调整主生产计划（MPS），直到我们到达现实。</value>
+  </row>
+  <row id="50006" trl="Y">
+    <value column="Name" original="Distribution Resource Planning Setup">配送资源计划设置</value>
+    <value column="Description" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">【workflow】。是一种用在供应链的计划订单的企业管理方法。 配送资源计划（DRP）的用户可以设置一定的库存控制参数（如安全库存）和计算时间段的库存要求。</value>
+    <value column="Help" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">【workflow】。是一种用在供应链的计划订单的企业管理方法。 配送资源计划（DRP）的用户可以设置一定的库存控制参数（如安全库存）和计算时间段的库存要求。</value>
+  </row>
+  <row id="50007" trl="Y">
+    <value column="Name" original="Discrete Manufacturing Setup">离散制造设置</value>
+    <value column="Description" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.">【workflow】。一旦生产计划过程完成，生产控制过程中，让我们来检查执行活动，以确保我们可以达到物料的计划。</value>
+    <value column="Help" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.
+
+Each time you need to release an order you need to be sure the components are complete in the warehouse, this is obtained by tracking the release and due dates for every component, this is easy to get using the shortages reports and from this module.
+
+This module mainly answer the question:
+
+What do I need to do to accomplish the
+MPS?
+
+If you cannot cover the MPS as you had planned, this module gives you information needed to decrease the effect on the costs and on the customer service.">【workflow】。一旦生产计划过程完成，生产控制过程中，让我们来检查执行活动，以确保我们可以达到物料的计划。
+
+每次你需要释放一个订单，你需要确认部件完全都在仓库里。这样通过跟踪获得每一个组件的释放和到期日，这样很容易从这个模块获得使用短缺的报告。
+
+该模块主要是回答这个问题：
+
+我需要做什么来实现主生产计划（MPS）.
+
+如果你不能覆盖的，和你曾计划的主生产计划（MPS），这个模块让你减少对成本的影响和对客户的服务所需的信息。</value>
+  </row>
+  <row id="50008" trl="Y">
+    <value column="Name" original="Process_Manufacturing_Order">流程_生产单</value>
+    <value column="Description" original="(Standard Process Manufacturing Order)">【workflow】。(标准流程_工作单)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50009" trl="Y">
+    <value column="Name" original="Process_CostCollector">流程_成本采集</value>
+    <value column="Description" original="(Standard Process Manufacturing Cost Collector)">【workflow】。(标准流程_制造成本归集)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50010" trl="Y">
+    <value column="Name" original="Distribution Management Setup">配送管理设置</value>
+    <value column="Description" original="Setup Distribution Management">【workflow】。设置配送管理</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50011" trl="Y">
+    <value column="Name" original="Process_Distribution_Order">流程_配送单</value>
+    <value column="Description" original="(Standard Process Distribution Order)">【workflow】。(标准流程_配送单)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50012" trl="Y">
+    <value column="Name" original="Setup Replication">设置复制</value>
+    <value column="Description" original="Setup of data replication">【workflow】。设置数据复制</value>
+    <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;
+&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;
+- setup system with all organizations, roles, etc.&lt;br&gt;
+- run the migration to make sure that it is up-to-date&lt;br&gt;
+- export the central system&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;Remote System:&lt;/b&gt;
+- install the exact version as Central System&lt;br&gt;
+- import data from Central System in the remote locations&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;Central System:&lt;/b&gt;
+- Replication Strategy&lt;br&gt;
+- Define Export Format&lt;br&gt;
+- Config Export Processor&lt;br&gt;
+- Start JMS Server&lt;br&gt;
+&lt;p&gt;
+** Enter Transactions **
+&lt;p&gt;
+&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;
+- Config Import Processor&lt;br&gt;">【workflow】。数据复制允许你可以于中央办公系统同步远程实例的数据。所有操作由中央办公系统初始化。&lt;p&gt;
+&lt;b&gt;中央系统:&lt;/b&gt;&lt;br&gt;
+- 设置系统所有的组织，角色，等等.&lt;br&gt;
+- 运行数据记录迁移可以确保它保持最新。&lt;br&gt;
+- 导出中央系统&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;远程系统:&lt;/b&gt;
+- 按照中央系统安装准确的版本。&lt;br&gt;
+- 从远程地点的中央系统导入数据。&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;中央系统:&lt;/b&gt;
+- 复制策略。&lt;br&gt;
+- 定义到处格式。&lt;br&gt;
+- 配置导出引擎。&lt;br&gt;
+- 启动JMS服务器。&lt;br&gt;
+&lt;p&gt;
+** Enter Transactions **
+&lt;p&gt;
+&lt;b&gt;远程系统:&lt;/b&gt;&lt;br&gt;
+- 配置导入引擎。&lt;br&gt;</value>
+  </row>
+  <row id="50013" trl="Y">
+    <value column="Name" original="Process_Payroll">流程_薪酬</value>
+    <value column="Description" original="(Standard Process Payroll)">【workflow】。(标准流程_薪酬)</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50014" trl="Y">
+    <value column="Name" original="Setup Human Resource &amp; Payroll">设置人力资源与薪酬</value>
+    <value column="Description" original="Setup Human Resource &amp; Payroll">【workflow】。设置人力资源与薪酬</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50015" trl="Y">
+    <value column="Name" original="Patio Chair">户外椅</value>
+    <value column="Description" original="Routing for Assembly the Patio Chair">【workflow】。庭院椅子装配工艺。</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50016" trl="Y">
+    <value column="Name" original="Lawn Fertilizer">草坪化肥</value>
+    <value column="Description" original="" />
+    <value column="Help" original="" />
+  </row>
+  <row id="50017" trl="Y">
+    <value column="Name" original="Fertilizer Packing Process">化肥包装加工</value>
+    <value column="Description" original="Production Line to Packing the Fertilizer Bag 50 and 70 kg ">【workflow】。包装 50、70公斤化肥的生产线。 </value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50018" trl="Y">
+    <value column="Name" original="Patio Furniture Set">庭院家具套件</value>
+    <value column="Description" original="" />
+    <value column="Help" original="" />
+  </row>
+</adempiereTrl>

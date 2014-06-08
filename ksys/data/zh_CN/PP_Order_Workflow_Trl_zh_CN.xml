@@ -1,0 +1,12 @@
+<adempiereTrl language="zh_CN" table="PP_Order_Workflow">
+  <row id="50000" trl="Y">
+    <value column="Name" original="Fertilizer Packing Process">化肥包装加工</value>
+    <value column="Description" original="Production Line to Packing the Fertilizer Bag 50 and 70 kg ">包装 50、70公斤化肥的生产线 。 </value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50001" trl="Y">
+    <value column="Name" original="Fertilizer Packing Process">化肥包装加工</value>
+    <value column="Description" original="Production Line to Packing the Fertilizer Bag 50 and 70 kg ">包装 50、70公斤化肥的生产线。 </value>
+    <value column="Help" original="" />
+  </row>
+</adempiereTrl>

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Created-By: 1.7.0_55-b13 (Oracle Corporation)
+Require-Bundle: org.adempiere.base;bundle-version="2.0.0"
+Export-Package: org.adempiere.install,org.compiere.install
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: install.jar,ant-contrib-1.0b3.jar
+Bundle-Version: 2.0.0.v20140529-1513
+Bundle-Name: org.adempiere.install
+Bundle-Activator: org.adempiere.install.InstallBundleActivator
+Bundle-ManifestVersion: 2
+Import-Package: javax.mail;version="1.4.5",javax.mail.internet;version
+ ="1.4.5",org.apache.tools.ant,org.eclipse.ant.core,org.eclipse.core.r
+ untime;version="3.4.0",org.eclipse.equinox.app,org.osgi.framework
+Bundle-SymbolicName: org.adempiere.install;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

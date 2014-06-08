@@ -1,0 +1,433 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation (http://xmlgraph
+ ics.apache.org/batik/)
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4,J2SE-1.3
+Bundle-SymbolicName: org.apache.batik.dom
+Require-Bundle: org.apache.batik.css;bundle-version="[1.7.0,1.8.0)",or
+ g.apache.batik.util;bundle-version="[1.7.0,1.8.0)",org.apache.batik.x
+ ml;bundle-version="[1.7.0,1.8.0)",system.bundle
+Bundle-Version: 1.7.0.v201011041433
+Export-Package: org.apache.batik.dom;version="1.7.0",org.apache.batik.
+ dom.events;version="1.7.0",org.apache.batik.dom.resources;version="1.
+ 7.0",org.apache.batik.dom.traversal;version="1.7.0",org.apache.batik.
+ dom.util;version="1.7.0",org.apache.batik.dom.xbl;version="1.7.0",org
+ .w3c.dom;version="3.0";content=ApacheBatik;mandatory:=content
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Build-Id: 20080106-110642-EST (cam [Linux 2.6.22.8 i386, Java 1.3.1_19
+ -b03])
+Implementation-Title: Batik DOM Level 3 implementation
+Implementation-Version: 1.7+r608262
+Import-package: org.w3c.dom.css,org.w3c.dom.xpath,org.w3c.css.sac;vers
+ ion="[1.3.0,1.4.0)";provenance=W3C,org.w3c.dom.events;version="[3.0.0
+ ,4.0.0)",org.apache.xerces.parsers;resolution:=optional
+Bundle-ManifestVersion: 2
+
+Name: org/apache/batik/dom/DomExtension.class
+SHA1-Digest: sXeG+UL2+UHH5MG3Fgr8KHQS72Q=
+
+Name: org/apache/batik/dom/events/DOMMouseEvent.class
+SHA1-Digest: G+wFun34UWsvkJqEKc27iAFuQsQ=
+
+Name: org/apache/batik/dom/events/AbstractEvent.class
+SHA1-Digest: wIy75NpRktaUoHOuG3oJNFn6ePk=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$UIEventFactory.
+ class
+SHA1-Digest: dZyNZE3C2VnyoDmM3zYcyPAK+xk=
+
+Name: org/apache/batik/dom/AbstractDocument$XPathNodeNSResolver.class
+SHA1-Digest: Vg+6YpiNNHX9k/uR80C5hFrCwZg=
+
+Name: org/apache/batik/dom/util/IntTable$Entry.class
+SHA1-Digest: FctHfPCqw9HDgPRPRJHKFKlVhA0=
+
+Name: org/apache/batik/dom/events/DOMMutationNameEvent.class
+SHA1-Digest: Kcc6nkZFKYuM0gxuX+CCdI1T3TY=
+
+Name: org/apache/batik/dom/xbl/OriginalEvent.class
+SHA1-Digest: 6btx0DDP99iktf1EKU5Mo6AhK6M=
+
+Name: about_files/LICENSE.dom-software.txt
+SHA1-Digest: ESDQvj/fTY20UKJHQdEjIbsRe6w=
+
+Name: META-INF/LICENSE
+SHA1-Digest: NV/tRSeBE64tS1EXrewu6DAklWI=
+
+Name: org/apache/batik/dom/events/DOMCustomEvent.class
+SHA1-Digest: iPRszw9IOey8Bs6K/bsISdxGy1o=
+
+Name: org/apache/batik/dom/util/SAXDocumentFactory$PreInfo.class
+SHA1-Digest: a/9KWfrKHxxgFxqcGLZNmoodN6g=
+
+Name: org/apache/batik/dom/events/DOMTextEvent.class
+SHA1-Digest: XzIrMNQFe6eQaK9D2/Nnq7NpdjI=
+
+Name: org/apache/batik/dom/events/EventSupport.class
+SHA1-Digest: pW0I/x9El1pReW6K7V+JrIv7ubQ=
+
+Name: org/apache/batik/dom/events/EventListenerList.class
+SHA1-Digest: RmLGLvXaQa/0mMTdkfkNhFptWVE=
+
+Name: org/apache/batik/dom/AbstractAttrNS.class
+SHA1-Digest: rFjVjHdiNAGGTdU8naem34AetII=
+
+Name: org/apache/batik/dom/GenericDocument.class
+SHA1-Digest: WBCJj7Efd7udshO/WTIcqvPHApk=
+
+Name: org/apache/batik/dom/AbstractDocument$XPathExpr$Result.class
+SHA1-Digest: 0S0aQRzVqMQHTnoe05kRcQFeDq8=
+
+Name: org/apache/batik/dom/util/SAXDocumentFactory$ProcessingInstructi
+ onInfo.class
+SHA1-Digest: 9wq/TTw5fWWg+/gVXQW7elV7gIE=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$MutationNameEve
+ ntFactory.class
+SHA1-Digest: KtvaPNsnRVqNbvkPMx/Kbw/J/6s=
+
+Name: org/apache/batik/dom/ExtensibleDOMImplementation.class
+SHA1-Digest: XM5vAE7frwUyD9tBFamjYj1s6Bg=
+
+Name: org/apache/batik/dom/xbl/XBLShadowTreeElement.class
+SHA1-Digest: 4Wwtegrowb1tEyOouAg2XkJ6oqg=
+
+Name: org/apache/batik/dom/traversal/DOMNodeIterator.class
+SHA1-Digest: +TvavsdEmos3WY1E10/vdIWjLg0=
+
+Name: org/apache/batik/dom/AbstractDocumentFragment.class
+SHA1-Digest: s+U2YCChSXLVUFOOGwj1QuAv6H8=
+
+Name: org/apache/batik/dom/AbstractEntityReference.class
+SHA1-Digest: 9xN2lPqP32IHhOPKus11YUG0SlU=
+
+Name: org/apache/batik/dom/GenericAttrNS.class
+SHA1-Digest: IeyFZ7ZSZYPlZxdTAGmmac1B0Iw=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$MutationEventFa
+ ctory.class
+SHA1-Digest: P99daBkALvBzIhVDxhCNoO5mlE0=
+
+Name: org/apache/batik/dom/ExtendedNode.class
+SHA1-Digest: /rivnjDNM4e9emTajJY/CkYsK30=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$TextEventFactor
+ y.class
+SHA1-Digest: ny3bUxDCK2CP+dYKl1L2E04HFcg=
+
+Name: org/apache/batik/dom/AbstractParentChildNode.class
+SHA1-Digest: p0E3eCRjzrVdJ9j/jo5STaA8wro=
+
+Name: org/apache/batik/dom/util/HashTableStack.class
+SHA1-Digest: 5iIn/Qx/zhpQ4iHkjeBgsY089CU=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$CustomEventFact
+ ory.class
+SHA1-Digest: aeAnEqKnfHuBltRRarC6iAF4Zgw=
+
+Name: org/apache/batik/dom/AbstractDocument$XPathExpr$NSPrefixResolver
+ .class
+SHA1-Digest: Jv4nCINEOThEgimqleXxLZqKDe4=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$SimpleEventFact
+ ory.class
+SHA1-Digest: uq/yvnEyuegYIipt5ArX6jShPxs=
+
+Name: org/apache/batik/dom/util/DocumentFactory.class
+SHA1-Digest: usHvYyJ3K8cnK7j1HAi3Nwr6cE0=
+
+Name: org/apache/batik/dom/traversal/TraversalSupport.class
+SHA1-Digest: za6PDobIjEEro3s7QDm+gjkZQjU=
+
+Name: org/apache/batik/dom/util/SAXDocumentFactory$CommentInfo.class
+SHA1-Digest: 8xkJTOm3URyRE69+bTZ9k46iyyA=
+
+Name: org/apache/batik/dom/GenericElement.class
+SHA1-Digest: +YLM6tXCbWZfkUroBPebWtezgA8=
+
+Name: org/apache/batik/dom/StyleSheetFactory.class
+SHA1-Digest: GGXTLmhwFLtw7/HQ39OGnhvlW5s=
+
+Name: org/apache/batik/dom/GenericElementNS.class
+SHA1-Digest: cUqt4F+AhOHyVod6ouc/K5YZp4Y=
+
+Name: org/apache/batik/dom/util/TriplyIndexedTable$Entry.class
+SHA1-Digest: BF37GfNOlER/nvqoZGeDIfg0Kmk=
+
+Name: org/apache/batik/dom/AbstractDocument$DocumentConfiguration.clas
+ s
+SHA1-Digest: 6OV+MfzHOptE8xu/73ycmDtYVko=
+
+Name: org/apache/batik/dom/ExtensibleDOMImplementation$ElementFactory.
+ class
+SHA1-Digest: z024Myd/OlSb18lqG9JcSEHI3lc=
+
+Name: org/apache/batik/dom/AbstractDOMImplementation.class
+SHA1-Digest: BcWTkhTHWYig6qQqp9uhmQqW2Do=
+
+Name: org/apache/batik/dom/AbstractNotation.class
+SHA1-Digest: v+AjaTKjyeevb+AxOPiHqaJlJMw=
+
+Name: about.html
+SHA1-Digest: u95SNlShNo56zseO5Unze9I4Xio=
+
+Name: org/apache/batik/dom/GenericComment.class
+SHA1-Digest: Q9xA7qIlgJL1Geszl+/eoLe9QFI=
+
+Name: org/apache/batik/dom/events/DOMTimeEvent.class
+SHA1-Digest: nHuHnwTQt7bhJB7BGHFteE8kg5w=
+
+Name: org/apache/batik/dom/AbstractParentNode.class
+SHA1-Digest: QNJc+WG39ug49TueSJcJZ8t6N1w=
+
+Name: org/apache/batik/dom/AbstractElement$Entry.class
+SHA1-Digest: dF3+5QekjDwKf/YJa25L/Npz8SM=
+
+Name: org/apache/batik/dom/GenericAttr.class
+SHA1-Digest: K8DjlsuNGnyRpb27Za1pq8ba+s0=
+
+Name: org/apache/batik/dom/AbstractParentNode$ChildNodes.class
+SHA1-Digest: 0joPFWLCf/vf432hmGh4CkURhVk=
+
+Name: org/apache/batik/dom/GenericDocumentType.class
+SHA1-Digest: eLlZ/x0cLjkr55c2Q1muy0WLNpo=
+
+Name: org/apache/batik/dom/AbstractCharacterData.class
+SHA1-Digest: HeVCzWDNCCtRkp6LRjeuOiTtpwQ=
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: NV/tRSeBE64tS1EXrewu6DAklWI=
+
+Name: org/apache/batik/dom/AbstractElement$NamedNodeHashMap.class
+SHA1-Digest: Gk6M2VMS8EtISZdWVk+epSDVZeE=
+
+Name: org/apache/batik/dom/AbstractDocument$DocumentError$ErrorLocatio
+ n.class
+SHA1-Digest: Z2BQYjz5wFnFkLStyiPnR2HJR0A=
+
+Name: org/apache/batik/dom/AbstractProcessingInstruction.class
+SHA1-Digest: xtCCaS6qKJWN0VLYYk6kC1G1xAI=
+
+Name: org/apache/batik/dom/AbstractElement.class
+SHA1-Digest: tLK3psJEU6iF2MNP9szSWL8i2hw=
+
+Name: org/apache/batik/dom/GenericProcessingInstruction.class
+SHA1-Digest: 9yyZp9FRfzMnxeLaK7U2wOU81Kw=
+
+Name: org/apache/batik/dom/events/EventListenerList$Entry.class
+SHA1-Digest: Uc2mSCXut2cQlHp/yicDUcz9fpo=
+
+Name: org/apache/batik/dom/AbstractChildNode.class
+SHA1-Digest: v0hA07i+8jAnh/FNPyDYQi9Q19Y=
+
+Name: org/w3c/dom/ElementTraversal.class
+SHA1-Digest: FC+o714E37w+1iue+mJblnZhiGY=
+
+Name: org/apache/batik/dom/util/XMLHttpRequest.class
+SHA1-Digest: 1chrAkXZPd3bAJ76NHuDSHMg7T0=
+
+Name: org/apache/batik/dom/GenericDocumentFragment.class
+SHA1-Digest: xX8FmpiTmXjrnJyk7ZwqVr5wZbE=
+
+Name: org/apache/batik/dom/events/DOMMutationEvent.class
+SHA1-Digest: y/6YzSe8E17/70v3/hGdfpkDU1c=
+
+Name: org/apache/batik/dom/traversal/DOMTreeWalker.class
+SHA1-Digest: IpcSSW4ED2IV9xyXCojhVYSyfWw=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport.class
+SHA1-Digest: E5Bl0zrgZ0YY8PKQkazkAismkuM=
+
+Name: org/apache/batik/dom/events/DOMKeyboardEvent.class
+SHA1-Digest: +/gXkqPzDcjS+TaepSozCRWoBLw=
+
+Name: org/apache/batik/dom/AbstractAttr.class
+SHA1-Digest: hb+b8YUWTz/M2zUCbvhxh1kL6Lw=
+
+Name: org/apache/batik/dom/util/SAXIOException.class
+SHA1-Digest: VWrRPxaGU0LeC/SGhwcpaXwItkU=
+
+Name: org/apache/batik/dom/util/IntTable.class
+SHA1-Digest: EstsprfnJGW30ySttgbQWKkXcBw=
+
+Name: org/apache/batik/dom/util/DOMUtilitiesSupport.class
+SHA1-Digest: CXnTeMlcg+nzTSbRJSIzIEy+nRs=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$KeyEventFactory
+ .class
+SHA1-Digest: D7K0aa6SB60pZ9dtrh5DX0cRehA=
+
+Name: org/apache/batik/dom/util/SAXDocumentFactory.class
+SHA1-Digest: pBPVrlnnnqGZ4MrbVEbt+n3f0oU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/apache/batik/dom/util/DOMUtilities.class
+SHA1-Digest: qf0DRh5N5ipYW0ZO5dEZx+xszEo=
+
+Name: org/apache/batik/dom/util/HashTable$Entry.class
+SHA1-Digest: w2Y5oo9NJPcCKy2UMjrqLv0ZqPw=
+
+Name: org/apache/batik/dom/util/DocumentDescriptor.class
+SHA1-Digest: 0Fqv6/M8rscnCrw36gzhvYnaCnM=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$MouseEventFacto
+ ry.class
+SHA1-Digest: jGb+H/jlJUSvjGkuFeROQR4YaD8=
+
+Name: org/apache/batik/dom/xbl/XBLManagerData.class
+SHA1-Digest: YsmvCvNssVtX0xeaz1VOZyhqlHA=
+
+Name: org/apache/batik/dom/events/DOMUIEvent.class
+SHA1-Digest: Xz0OdIeRhLHEq7RAoZ5Do6uC9Ws=
+
+Name: org/apache/batik/dom/AbstractComment.class
+SHA1-Digest: dUoCtA23zK7+FvPEBXz/nSx3Omw=
+
+Name: META-INF/NOTICE
+SHA1-Digest: zypX+GtadfB57hy1eWHt8hp6GTQ=
+
+Name: org/apache/batik/dom/resources/Messages.properties
+SHA1-Digest: kx1ChjFu3llXRKuq1mdW3I1lAzo=
+
+Name: org/apache/batik/dom/GenericText.class
+SHA1-Digest: T+r5EOkW+/D51ydBe5U/lY4yFvA=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$EventFactory.cl
+ ass
+SHA1-Digest: 1wcKw/tMF8OyUzHmVoTwvPqhHaY=
+
+Name: about_files/README
+SHA1-Digest: 6ucCCJgwbMHFjoa+zJeAytt+bwA=
+
+Name: org/apache/batik/dom/util/ListNodeList.class
+SHA1-Digest: f0tnuxmJ7BnYCXsoR4EJSjwkpQY=
+
+Name: org/apache/batik/dom/StyleSheetProcessingInstruction.class
+SHA1-Digest: jNlELes88hSYqgOTGpX26syAD3U=
+
+Name: org/apache/batik/dom/AbstractDocument.class
+SHA1-Digest: E3FGabgxXLV5crgsl8JEI17qN3k=
+
+Name: org/apache/batik/dom/xbl/GenericXBLManager.class
+SHA1-Digest: sHtpFO9J+zSxcbH147z8kPf/vD8=
+
+Name: org/apache/batik/dom/GenericNotation.class
+SHA1-Digest: 7Qb2g7cGqU39J1zA12jz0OuEyYo=
+
+Name: org/apache/batik/dom/AbstractEntity.class
+SHA1-Digest: HYBEreqGFSy8p9JiVRublPvN10s=
+
+Name: org/apache/batik/dom/events/DOMKeyEvent.class
+SHA1-Digest: ZLk/MvmVszbGfaL8kEfdLuo/vJ4=
+
+Name: plugin.properties
+SHA1-Digest: YKfNddjVPi0sk4E7bL/Sun29Xeg=
+
+Name: org/apache/batik/dom/util/HashTableStack$Link.class
+SHA1-Digest: LrzrGz4ZyZvdniiwEaQ5Ex/DI68=
+
+Name: org/apache/batik/dom/AbstractElementNS.class
+SHA1-Digest: 5mHUvClkLFNBAo/WUul/5YkrskU=
+
+Name: org/apache/batik/dom/AbstractDocument$XPathExpr.class
+SHA1-Digest: grtgglaP35rFdH1vTyZERoZQ8hA=
+
+Name: org/apache/batik/dom/util/SAXDocumentFactory$TextInfo.class
+SHA1-Digest: F2X4haXJeUsex2h2tVAR6I0kCqw=
+
+Name: org/apache/batik/dom/util/DocumentDescriptor$Entry.class
+SHA1-Digest: sQ/Bl1TphYna9jnCKTmJ+b3k0hs=
+
+Name: org/apache/batik/dom/AbstractText.class
+SHA1-Digest: 2M2BTIvFXu2Rcob+jQlCUg2UWdM=
+
+Name: about_files/LICENSE.sax.txt
+SHA1-Digest: 4tVdE+0X7GCznWgDHkFsszJJ7X4=
+
+Name: org/apache/batik/dom/util/SAXDocumentFactory$CDataInfo.class
+SHA1-Digest: 9dH6c1RMnlDaT6GwEwbBdgEwnC4=
+
+Name: org/apache/batik/dom/events/NodeEventTarget.class
+SHA1-Digest: Ig+PBLdFAAF82n4xmVWzAGmh2CE=
+
+Name: org/apache/batik/dom/util/XLinkSupport.class
+SHA1-Digest: x+hGqa5Kc/Hz9n7cZDST8O7LZj8=
+
+Name: org/apache/batik/dom/AbstractAttr$AttrTypeInfo.class
+SHA1-Digest: CYtjnl8zfTqDCFYWQoxtgnHmNu0=
+
+Name: org/apache/batik/dom/xbl/XBLManager.class
+SHA1-Digest: aBbLbExs/BXzLztaldEmnFlajfo=
+
+Name: org/apache/batik/dom/xbl/ShadowTreeEvent.class
+SHA1-Digest: IvRlRPz6p+eDWyJwaIA/6jaADTs=
+
+Name: org/apache/batik/dom/GenericCDATASection.class
+SHA1-Digest: Z6fCwPKBF0SPbOpbVmtLNtijyts=
+
+Name: org/apache/batik/dom/xbl/NodeXBL.class
+SHA1-Digest: EU8g/Z5MoIu0xib2YG79/kdXdVg=
+
+Name: about_files/NOTICE
+SHA1-Digest: zypX+GtadfB57hy1eWHt8hp6GTQ=
+
+Name: org/apache/batik/dom/GenericDOMImplementation.class
+SHA1-Digest: +PvehYoTXXR9DmN8yJNM0dVqDDk=
+
+Name: org/apache/batik/dom/AbstractParentNode$ElementsByTagName.class
+SHA1-Digest: d8oGCTFjiyvQFoZUSzzM5fG02Ko=
+
+Name: org/apache/batik/dom/AbstractDocument$DocumentConfiguration$Para
+ meterNameList.class
+SHA1-Digest: SIx7Q5yDR5izrGI8HtZvNALlrfU=
+
+Name: org/apache/batik/dom/AbstractNode.class
+SHA1-Digest: Vq7++cdYai7DKpnfa24JZJ9Cmlg=
+
+Name: org/apache/batik/dom/AbstractElement$ElementTypeInfo.class
+SHA1-Digest: lvg09EHp8A3EU+JnTVFOaFMWl50=
+
+Name: org/apache/batik/dom/GenericEntity.class
+SHA1-Digest: Jh7KMefiHGdUd9JWe9VeS7F8ik8=
+
+Name: org/apache/batik/dom/util/TriplyIndexedTable.class
+SHA1-Digest: /BTvUdJ5c1SObwchBZ/bAU5zHo0=
+
+Name: org/apache/batik/dom/AbstractParentNode$ElementsByTagNameNS.clas
+ s
+SHA1-Digest: BDY29zcJTnwSkJIDAoPpdotHfNk=
+
+Name: org/apache/batik/dom/AbstractDocument$DocumentError.class
+SHA1-Digest: EzSl7ku7mnLauOpjfBYJv5WHGSE=
+
+Name: org/apache/batik/dom/AbstractDocument$IdSoftRef.class
+SHA1-Digest: g7nOwcgVdDxeEliY/mnQ51UJvF0=
+
+Name: org/apache/batik/dom/AbstractStylableDocument.class
+SHA1-Digest: d2+JTKD/Kt49edlKpBy5DtaWzRs=
+
+Name: org/apache/batik/dom/util/XMLSupport.class
+SHA1-Digest: IhFCKoukdoXB3dj9G4XwU+haEM8=
+
+Name: org/apache/batik/dom/AbstractNode$1.class
+SHA1-Digest: gchUcym9Ijgpbg6e5YsooYObQ4I=
+
+Name: org/apache/batik/dom/GenericEntityReference.class
+SHA1-Digest: dqCC1XRM+NtkKlrDTVyb17PuWRo=
+
+Name: org/apache/batik/dom/util/HashTable.class
+SHA1-Digest: HvvXYYz76xDnfbW8Aj0rsfQBG38=
+
+Name: org/apache/batik/dom/events/DocumentEventSupport$KeyboardEventFa
+ ctory.class
+SHA1-Digest: CR8XUgY8Br/j4YA6JtYxQ00OdMQ=
+
+Name: org/apache/batik/dom/util/CSSStyleDeclarationFactory.class
+SHA1-Digest: sy0e/wfWHCGngktsm4Oih4NHB/E=
+
+Name: org/apache/batik/dom/events/DOMEvent.class
+SHA1-Digest: v9v+t7yjplrvub9wMY7nsJ2tY7c=
+

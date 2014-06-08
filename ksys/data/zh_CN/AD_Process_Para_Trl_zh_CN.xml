@@ -1,0 +1,232 @@
+<adempiereTrl language="zh_CN" table="AD_Process_Para">
+  <row id="227" trl="Y">
+    <value column="Name" original="Delete existing Accounting Entries">删除已存在的会计分录</value>
+    <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">【Process_Para】。所选的会计分录【accounting entries】将被删除!  危险 !!!</value>
+    <value column="Help" original="The selected accounting entries will be deleted!  DANGEROUS !!!">【Process_Para】。所选的会计分录【accounting entries】将被删除!  危险 !!!</value>
+  </row>
+  <row id="233" trl="Y">
+    <value column="Name" original="Pricelist Version">价格表版本</value>
+    <value column="Description" original="Only used if Price List is used to set future/standard cost price">【Process_Para】。只有如果价目表用来设置未来/标准成本价格才使用。</value>
+    <value column="Help" original="Only used if Price List is used to set future/standard cost price">【Process_Para】。只有如果价目表用来设置未来/标准成本价格才使用。</value>
+  </row>
+  <row id="302" trl="Y">
+    <value column="Name" original="Overwrite Payment Rule">覆盖付款规则</value>
+    <value column="Description" original="Overwrite how to pay the invoice">覆盖如何支付发票。</value>
+    <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">【Process_Para】。付款规则指：发票会如何处置 -你可以在发票覆盖该值。</value>
+  </row>
+  <row id="315" trl="Y">
+    <value column="Name" original="From User">来自于用户的邮件</value>
+    <value column="Description" original="Send EMail from user">来自于用户的邮件</value>
+    <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">【Process_Para】。此邮件发自于选中的用户，否则发送自此实体的请求邮件地址</value>
+  </row>
+  <row id="452" trl="Y">
+    <value column="Name" original="Maintenance Mode">语言维护模式</value>
+    <value column="Description" original="Language Maintenance Mode">语言维护模式。</value>
+    <value column="Help" original="Language Maintenance Mode">【Process_Para】。语言维护模式。</value>
+  </row>
+  <row id="467" trl="Y">
+    <value column="Name" original="Existing Organization">现有组织</value>
+    <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">在实体（客户端）的组织对象实体里，如果你要创建一个新组织，则设置为空</value>
+    <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">【Process_Para】。组织是您的实体（客户端）或合法对象实体的一个单位， - 例如仓库、部门。您可以在组织间共享数据。</value>
+  </row>
+  <row id="469" trl="Y">
+    <value column="Name" original="Limit Access to Role">限制角色访问权限</value>
+    <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">如果未选择角色，则授予访问实体的所有角色（非手动）权限。</value>
+    <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">【Process_Para】。角色决定安全性，以及含有该角色的用户所具有的系统访问权限。</value>
+  </row>
+  <row id="493" trl="Y">
+    <value column="Name" original="New User/Contact">新用户/联系人</value>
+    <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户， - 内部或业务伙伴的联系人。</value>
+    <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">【Process_Para】。用户标识了系统中唯一的用户。者可能是内部用户或业务伙伴联系人。</value>
+  </row>
+  <row id="494" trl="Y">
+    <value column="Name" original="New Workflow Responsible">新工作流职责</value>
+    <value column="Description" original="Responsible for Workflow Execution">对工作流执行负责的（人）。</value>
+    <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">【Process_Para】。为工作流最终负责的是实际的用户。工作流职责允许定义找到该实际用户的方式。</value>
+  </row>
+  <row id="496" trl="Y">
+    <value column="Name" original="New User/Contact">新用户/联系人</value>
+    <value column="Description" original="User within the system - Internal or Business Partner Contact">系统内的用户, - 内部或业务伙伴的联系人。</value>
+    <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">【Process_Para】。用户标识了系统中唯一的用户。可能是内部用户或业务伙伴联系人。</value>
+  </row>
+  <row id="497" trl="Y">
+    <value column="Name" original="New Workflow Responsible">新工作流职责</value>
+    <value column="Description" original="Responsible for Workflow Execution">对工作流执行负责的（人)。</value>
+    <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">【Process_Para】。为工作流最终负责的是实际的用户。工作流负责人允许定义找到该实际用户的方式。</value>
+  </row>
+  <row id="523" trl="Y">
+    <value column="Name" original="Default Sales Rep">默认销售代表</value>
+    <value column="Description" original="If not defined on Business Partner Level">如果没有定义业务伙伴级别。</value>
+    <value column="Help" original="If not defined on Business Partner Level">【Process_Para】。如果没有定义业务伙伴级别。</value>
+  </row>
+  <row id="524" trl="Y">
+    <value column="Name" original="Dunning Currency">催款货币</value>
+    <value column="Description" original="Currency to create Dunning Letters">货币用来创建催款函。</value>
+    <value column="Help" original="Currency to create Dunning Letters">【Process_Para】。货币用来创建催款函。</value>
+  </row>
+  <row id="50001" trl="Y">
+    <value column="Name" original="Role To">到...角色</value>
+    <value column="Description" original="Responsibility Role">责任角色</value>
+    <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">【Process_Para】。角色决定安全性，以及含有该角色的用户所具有的系统访问权限。</value>
+  </row>
+  <row id="50002" trl="Y">
+    <value column="Name" original="Role From">从...角色</value>
+    <value column="Description" original="Responsibility Role">责任角色</value>
+    <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">【Process_Para】。角色决定安全性，以及含有该角色的用户所具有的系统访问权限。</value>
+  </row>
+  <row id="50019" trl="Y">
+    <value column="Name" original="Shipment Date">发货日期</value>
+    <value column="Description" original="Date printed on shipment">发货单打印的日期</value>
+    <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">【Process_Para】。发货日期指打印在发货单上的日期。</value>
+  </row>
+  <row id="53011" trl="Y">
+    <value column="Name" original="Print Unprocessed Entries Only">只打印未处理的条目</value>
+    <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">只有运行催款操作时，才打印未处理(未打印)条目。</value>
+    <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">【Process_Para】。只有运行催款操作时，才打印未处理(未打印)条目。这里允许你重新打印某个催款条目。</value>
+  </row>
+  <row id="53025" trl="Y">
+    <value column="Name" original="Purchase Price List Version">采购价目表版本</value>
+    <value column="Description" original="Purchase Price List Version">采购价目表版本。</value>
+    <value column="Help" original="Purchase Price List Version">【Process_Para】。采购价目表版本。</value>
+  </row>
+  <row id="53030" trl="Y">
+    <value column="Name" original="New Product">新产品</value>
+    <value column="Description" original="New Product">新产品。</value>
+    <value column="Help" original="New Product">【Process_Para】。新产品。</value>
+  </row>
+  <row id="53032" trl="Y">
+    <value column="Name" original="Action">行动（Action）</value>
+    <value column="Description" original="Action">行动（Action）。</value>
+    <value column="Help" original="Action">【Process_Para】。行动（Action）。</value>
+  </row>
+  <row id="53066" trl="Y">
+    <value column="Name" original="Is Print Pack &amp; Tools List">打印装箱与工具清单</value>
+    <value column="Description" original="Is Print Pack &amp; Tools List">打印装箱与工具清单。</value>
+    <value column="Help" original="Is Print Pack &amp; Tools List">【Process_Para】。打印装箱与工具清单。</value>
+  </row>
+  <row id="53068" trl="Y">
+    <value column="Name" original="Is Print Pick List">打印拣货清单</value>
+    <value column="Description" original="Is Print Pick List">打印拣货清单。【Is Print Pick List】。</value>
+    <value column="Help" original="Is Print Pick List">【Process_Para】。打印拣货清单。【Is Print Pick List】。</value>
+  </row>
+  <row id="53069" trl="Y">
+    <value column="Name" original="Is Print Workflow">打印工作流</value>
+    <value column="Description" original="Is Print Workflow">打印工作流。</value>
+    <value column="Help" original="Is Print Workflow">【Process_Para】。打印工作流。</value>
+  </row>
+  <row id="53127" trl="Y">
+    <value column="Name" original="Generate Fields">产生字段</value>
+    <value column="Description" original="Generate Fields">产生字段。</value>
+    <value column="Help" original="Generate Fields">【Process_Para】。产生字段。</value>
+  </row>
+  <row id="53131" trl="Y">
+    <value column="Name" original="Scripts Path">脚本路径</value>
+    <value column="Description" original="Scripts Path">脚本路径。</value>
+    <value column="Help" original="Scripts Path">【Process_Para】。脚本路径。</value>
+  </row>
+  <row id="53142" trl="Y">
+    <value column="Name" original="Includes only the Tabs that Insert records">只包括新增记录的页签</value>
+    <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">为新增记录页签创建导出格式-是。</value>
+    <value column="Help" original="Generated Export Format for the Tabs with Insert Record is Yes">【Process_Para】。为新增记录页签创建导出格式-是。</value>
+  </row>
+  <row id="53143" trl="Y">
+    <value column="Name" original="Includes only the mandatory columns">只包含必填字段</value>
+    <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">如果此字段必填，创建一个导出格式行 。</value>
+    <value column="Help" original="Generated an Export Format Line  if the column is mandatory ">【Process_Para】。如果此字段必填，创建一个导出格式行 。</value>
+  </row>
+  <row id="53219" trl="Y">
+    <value column="Name" original="Based in DRP Demand">基于配送资源计划（DRP）需求</value>
+    <value column="Description" original="Based in DRP Demand">基于配送资源计划（DRP）需求。</value>
+    <value column="Help" original="Based in DRP Demand">【Process_Para】。基于配送资源计划（DRP）需求。</value>
+  </row>
+  <row id="53232" trl="Y">
+    <value column="Name" original="Bank Account From">从...银行汇款</value>
+    <value column="Description" original="Bank Account From">从...银行汇款。</value>
+    <value column="Help" original="Bank Account From">【Process_Para】。从...银行汇款。</value>
+  </row>
+  <row id="53233" trl="Y">
+    <value column="Name" original="Bank Account To">到...银行汇款</value>
+    <value column="Description" original="Bank Account To">到...银行汇款。</value>
+    <value column="Help" original="Bank Account To">【Process_Para】。到...银行汇款。</value>
+  </row>
+  <row id="53243" trl="Y">
+    <value column="Name" original="Valid from">有效起始</value>
+    <value column="Description" original="Valid from including this date (first day)">有效起始日期, 包括当日 (第一天)。</value>
+    <value column="Help" original="The Valid From date indicates the first day of a date range">【Process_Para】。有效起始日期表示日期范围的第一天。</value>
+  </row>
+  <row id="53246" trl="Y">
+    <value column="Name" original="Bank Account From">从...银行汇款</value>
+    <value column="Description" original="Bank Account From">从...银行汇款。</value>
+    <value column="Help" original="Bank Account From">【Process_Para】。从...银行汇款。</value>
+  </row>
+  <row id="53247" trl="Y">
+    <value column="Name" original="Bank Account To">到...银行汇款</value>
+    <value column="Description" original="Bank Account To">到...银行汇款。</value>
+    <value column="Help" original="Bank Account To">【Process_Para】。到...银行汇款。</value>
+  </row>
+  <row id="53263" trl="Y">
+    <value column="Name" original="Account Date">账户日期</value>
+    <value column="Description" original="Optional account date range">可选会计日期范围。</value>
+    <value column="Help" original="Only documents within this date range which are also in open periods will be reset.">【Process_Para】。只有此日期范围内，并且处于开放期间的文件才会被重置。</value>
+  </row>
+  <row id="53282" trl="Y">
+    <value column="Name" original="Client Name">实体（客户端）名称</value>
+    <value column="Description" original="Client Name">实体（客户端）名称。</value>
+    <value column="Help" original="Client Name">【Process_Para】。实体（客户端）名称。</value>
+  </row>
+  <row id="53284" trl="Y">
+    <value column="Name" original="Administrative User Name">管理员用户名</value>
+    <value column="Description" original="Administrative User Name">管理员用户名。</value>
+    <value column="Help" original="Administrative User Name">【Process_Para】。管理员用户名。</value>
+  </row>
+  <row id="53285" trl="Y">
+    <value column="Name" original="Normal User Name">普通用户名</value>
+    <value column="Description" original="Normal User Name">普通用户名。</value>
+    <value column="Help" original="Normal User Name">【Process_Para】。普通用户名。</value>
+  </row>
+  <row id="53289" trl="Y">
+    <value column="Name" original="City Name">城市名称</value>
+    <value column="Description" original="City Name">城市名称。</value>
+    <value column="Help" original="City Name">【Process_Para】。城市名称。</value>
+  </row>
+  <row id="53291" trl="Y">
+    <value column="Name" original="BP Accounting">业务伙伴科目</value>
+    <value column="Description" original="Use BP accounting dimension">使用业务伙伴科目维度。</value>
+    <value column="Help" original="Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.">【Process_Para】。若该实体（客户端）使用业务伙伴科目维度，请定义该值。它可以在此实体的会计科目表窗口修改。</value>
+  </row>
+  <row id="53292" trl="Y">
+    <value column="Name" original="Product Accounting">产品科目</value>
+    <value column="Description" original="Use Product accounting dimension">使用产品科目维度。</value>
+    <value column="Help" original="Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.">【Process_Para】。若该实体（客户端）使用产品科目维度，请定义该值。它可以在此实体的会计科目表窗口修改。</value>
+  </row>
+  <row id="53293" trl="Y">
+    <value column="Name" original="Project Accounting">项目科目</value>
+    <value column="Description" original="Use Project accounting dimension">使用项目科目维度。</value>
+    <value column="Help" original="Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.">【Process_Para】。若该实体（客户端）使用项目科目维度，请定义该值。它可以在此实体的会计科目表窗口修改。</value>
+  </row>
+  <row id="53294" trl="Y">
+    <value column="Name" original="Campaign Accounting">营销科目</value>
+    <value column="Description" original="Use Campaign accounting dimension">使用营销科目维度。</value>
+    <value column="Help" original="Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.">【Process_Para】。若该实体（客户端）使用营销科目维度，请定义该值。它可以在此实体的会计科目表窗口修改。</value>
+  </row>
+  <row id="53295" trl="Y">
+    <value column="Name" original="Sales Region Accounting">销售区域科目</value>
+    <value column="Description" original="Use Sales Region accounting dimension">使用销售区域科目维度。</value>
+    <value column="Help" original="Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.">【Process_Para】。若该实体（客户端）使用销售区域科目维度，请定义该值。它可以在此实体的会计科目表窗口修改。</value>
+  </row>
+  <row id="53296" trl="Y">
+    <value column="Name" original="Chart of Accounts File">会计科目表文件</value>
+    <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">【Process_Para】。此实体使用会计科目表的存放位置。在这个阶段，只创建默认会计科目。</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="53314" trl="Y">
+    <value column="Name" original="Full rebuild">全部重建</value>
+    <value column="Description" original="Delete all existing summary data and recalculate.">删除所有存在的汇总数据并重新计算。</value>
+    <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">【Process_Para】。如果没有选择，只有最近期间过账的会计记录会被重新计算。</value>
+  </row>
+  <row id="53316" trl="Y">
+    <value column="Name" original="Force">强迫</value>
+    <value column="Description" original="Force rebuild of cube even if locked.">如果被锁定，强制重建立方体。</value>
+    <value column="Help" original="Force rebuild of cube even if locked.">【Process_Para】。如果被锁定，强制重建立方体。</value>
+  </row>
+</adempiereTrl>

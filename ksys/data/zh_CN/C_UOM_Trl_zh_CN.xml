@@ -1,0 +1,72 @@
+﻿<adempiereTrl language="zh_CN" table="C_UOM">
+  <row id="100" trl="Y">
+    <value column="Name" original="Each">每</value>
+    <value column="Description" original="Each">每，Each，个，件.etc。</value>
+    <value column="UOMSymbol" original="Ea ">Ea/每</value>
+  </row>
+  <row id="101" trl="Y">
+    <value column="Name" original="Hour">小时</value>
+    <value column="Description" original="Hour">1小时=60分钟。</value>
+    <value column="UOMSymbol" original="h  ">h/小时</value>
+  </row>
+  <row id="102" trl="Y">
+    <value column="Name" original="Day">日</value>
+    <value column="Description" original="Day">1日=24小时。</value>
+    <value column="UOMSymbol" original="d  ">d/日</value>
+  </row>
+  <row id="103" trl="Y">
+    <value column="Name" original="Minutes">分钟</value>
+    <value column="Description" original="(lowest unit for resorce assigments)">(资源分配的最小单位)1分钟=60秒。</value>
+    <value column="UOMSymbol" original="m  " pot_remark="Short form of 'Minutes'. Don't add '@@ID-103@@' in translation.">m/分钟</value>
+  </row>
+  <row id="104" trl="Y">
+    <value column="Name" original="Work Day">工作日</value>
+    <value column="Description" original="8 hour">8 小时，1工作日=8小时。Work Day。</value>
+    <value column="UOMSymbol" original="D  ">D/天</value>
+  </row>
+  <row id="105" trl="Y">
+    <value column="Name" original="Week">星期</value>
+    <value column="Description" original="Week">1星期=7天。</value>
+    <value column="UOMSymbol" original="w  ">w/周</value>
+  </row>
+  <row id="106" trl="Y">
+    <value column="Name" original="Month">月</value>
+    <value column="Description" original="30 days">1月=30 天。</value>
+    <value column="UOMSymbol" original="m  " pot_remark="Short form of 'Month'. Don't add '@@ID-106@@' in translation.">m/月</value>
+  </row>
+  <row id="107" trl="Y">
+    <value column="Name" original="Working Month">工作月</value>
+    <value column="Description" original="20 days">1工作月=20 天。Working Month。</value>
+    <value column="UOMSymbol" original="M  ">M/月</value>
+  </row>
+  <row id="108" trl="Y">
+    <value column="Name" original="Year">年</value>
+    <value column="Description" original="Year">1年=365天=365*24小时。</value>
+    <value column="UOMSymbol" original="y  ">y/年</value>
+  </row>
+  <row id="109" trl="Y">
+    <value column="Name" original="6-Pack">6 件装</value>
+    <value column="Description" original="6-Pack">6 件装，6Pcs。</value>
+    <value column="UOMSymbol" original="6Pk">6Pk/6件装</value>
+  </row>
+  <row id="50000" trl="Y">
+    <value column="Name" original="Mililiter">毫升</value>
+    <value column="Description" original="Mililiter">1000毫升=1升，体积单位。"Mililiter。</value>
+    <value column="UOMSymbol" original="ml">ml/毫升</value>
+  </row>
+  <row id="50001" trl="Y">
+    <value column="Name" original="kilogram">公斤</value>
+    <value column="Description" original="kilogram">1公斤=2斤=1000克。</value>
+    <value column="UOMSymbol" original="Kg">Kg/公斤</value>
+  </row>
+  <row id="50002" trl="Y">
+    <value column="Name" original="milligram">毫克</value>
+    <value column="Description" original="milligram">1000毫克=1克。milligram。</value>
+    <value column="UOMSymbol" original="mg">mg/毫克</value>
+  </row>
+  <row id="50003" trl="Y">
+    <value column="Name" original="litre">升</value>
+    <value column="Description" original="litre">1升=1000毫升=1立方分米=0.001m³。litre。</value>
+    <value column="UOMSymbol" original="L">L/升</value>
+  </row>
+</adempiereTrl>

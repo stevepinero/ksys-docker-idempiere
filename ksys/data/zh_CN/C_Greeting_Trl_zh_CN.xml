@@ -1,0 +1,6 @@
+<adempiereTrl language="zh_CN" table="C_Greeting">
+  <row id="100" trl="Y">
+    <value column="Name" original="Mr">先生</value>
+    <value column="Greeting" original="Mr">先生</value>
+  </row>
+</adempiereTrl>

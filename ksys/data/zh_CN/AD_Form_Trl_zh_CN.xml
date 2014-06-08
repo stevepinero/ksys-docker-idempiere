@@ -1,0 +1,239 @@
+<adempiereTrl language="zh_CN" table="AD_Form">
+  <row id="100" trl="Y">
+    <value column="Name" original="Generate Invoices (manual)">生成发票 (手工)</value>
+    <value column="Description" original="Select and generate invoices">选择并生成发票</value>
+    <value column="Help" original="Generate Invoices from Orders.  
+Select the orders to generate the invoice for.">从订单生成发票。 
+选择订单，以从它(们)生成发票。</value>
+  </row>
+  <row id="101" trl="Y">
+    <value column="Name" original="Import File Loader">导入文件加载器</value>
+    <value column="Description" original="Load flat Files into import tables">载入平面型文件到导入表中。</value>
+    <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a &apos;[&apos; and end with a &apos;]&apos; and are ignored; example: [Some Heading].">导入文件加载器。导入文件装载器解析平面型 (如 Excel、CSV) 文件，并将它装载到导入表中。以“[”开始和以“]”结束的注释被忽略掉，例如: [一些标头]。</value>
+  </row>
+  <row id="102" trl="Y">
+    <value column="Name" original="Initial Client Setup">初始化实体(客户端)设置</value>
+    <value column="Description" original="Initial new Client/Tenant Setup">初始化新的实体(客户端)/承租人设置。</value>
+    <value column="Help" original="Set up a new Client/Tenant of the system">在系统中创建新的实体(客户端)/承租人。</value>
+  </row>
+  <row id="103" trl="Y">
+    <value column="Name" original="Material Transactions">物料事务处理</value>
+    <value column="Description" original="Material Transactions">物料事务处理</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="104" trl="Y">
+    <value column="Name" original="Payment Allocation">付款分配</value>
+    <value column="Description" original="Allocate invoices and payments">分配发票和付款</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="105" trl="Y">
+    <value column="Name" original="Generate Charges">生成杂费</value>
+    <value column="Description" original="Generate Charges from natural accounts">从自然账户生成杂费</value>
+    <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">使用上半部分创建新的杂费，基于一般的杂费账户。使用下半部分创建杂费，基于自然账户。</value>
+  </row>
+  <row id="106" trl="Y">
+    <value column="Name" original="Payment Print/Export">付款打印/导出</value>
+    <value column="Description" original="Print or export your payments">打印或导出您的付款</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="107" trl="Y">
+    <value column="Name" original="Payment Selection (manual)">付款选择 (手工)</value>
+    <value column="Description" original="Manual Payment Selection">手工的付款选择</value>
+    <value column="Help" original="Select vendor invoices for payment. If you don&apos;t see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">选择用于付款的供应商发票。如果您没有看到发票，请确保它不包括在不同的付款方式的选择中（nprocessed）。</value>
+  </row>
+  <row id="108" trl="Y">
+    <value column="Name" original="Matching PO-Receipt-Invoice">匹配采购订单-收货单-发票</value>
+    <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">匹配采购订单, 收货单, 供应商发票。</value>
+    <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">请确保物料收货单与发票已处理。如果您希望匹配部分发货的情形，请确保“相同数量”未被选择。</value>
+  </row>
+  <row id="109" trl="Y">
+    <value column="Name" original="Translation Import/Export">翻译导入/导出</value>
+    <value column="Description" original="Import or Export Language Translation">导入或导出语言翻译</value>
+    <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">导入/导出经外部工具编辑过的 xml 文件。请注意此语言必须（MUST be）启用并设置为系统语言。</value>
+  </row>
+  <row id="110" trl="Y">
+    <value column="Name" original="Generate Shipments (manual)">生成发货单 (手工)</value>
+    <value column="Description" original="Select and generate shipments">选择并生成发货单</value>
+    <value column="Help" original="Generate Shipments from Orders.  
+Select the orders to generate the shipments for.">从订单生成发货单。
+选择要从其生成发货单的订单。</value>
+  </row>
+  <row id="111" trl="Y">
+    <value column="Name" original="SQL Process">执行 SQL 语句</value>
+    <value column="Description" original="Process SQL Statements">执行 SQL 语句</value>
+    <value column="Help" original="Process SQL DDL Statements">处理 SQL DDL 语句。</value>
+  </row>
+  <row id="112" trl="Y">
+    <value column="Name" original="Merge Entities">合并记录(Merge Entities)</value>
+    <value column="Description" original="Merge From Entity to To Entity - Delete From">从一个对象实体合并到另一个对象实体, - 删除原对象实体。【Merge From Entity to To Entity - Delete From】。</value>
+    <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;
+All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). 
+The From entity (e.g. Customer A) is deleted. 
+&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.
+&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.">危险！！！ - 请务必清楚您即将执行的操作！
+所有的源对象实体(例如：客户 A) 的实例将被更改到目标对象实体 (例如：客户 B)。
+源对象(例如：客户 A) 将被删除。  
+绝无任何撤销或追踪的方式！！！请首先进行备份，请注意，您可能更改历史记录 (例如：发票等) ！
+负面影响：合并产品可能导致产品成本的不正确；请联系您的技术支持，以获得纠正方法。合并业务合作伙伴，可能会导致不正确的开放项目平衡。检查与补救措施的支持。
+限制： 会计和库存冲突在当前版本中尚不能解决。</value>
+  </row>
+  <row id="113" trl="Y">
+    <value column="Name" original="POS">POS 终端</value>
+    <value column="Description" original="Point Of Sales Terminal">POS 销售终端</value>
+    <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.">通过POS终端机执行处理事务，扫描枪或信用卡读卡器将会被自动侦测到。</value>
+  </row>
+  <row id="114" trl="Y">
+    <value column="Name" original="BOM Drop">物料清单（BOM）展开</value>
+    <value column="Description" original="Drop (expand) Bill of Materials">展开物料清单（BOM）</value>
+    <value column="Help" original="Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!">物料清单（BOM）。将物料清单展开到订单、发票等中。单据需要处于草案阶段。确保物料清单（BOM）中包含的条目位于订单、发票等的价格表上，否则价格将为零！</value>
+  </row>
+  <row id="115" trl="Y">
+    <value column="Name" original="Tree Maintenance">树维护</value>
+    <value column="Description" original="Maintain Trees">维护树</value>
+    <value column="Help" original="View and change trees. Maintain the entries in their specific Windows.">查看和更改树。在特定的窗口中维护记录。</value>
+  </row>
+  <row id="116" trl="Y">
+    <value column="Name" original="Workflow Editor">工作流编辑器</value>
+    <value column="Description" original="Edit Workflows">编辑工作流</value>
+    <value column="Help" original="Edit the graphical layout of workflows">工作流编辑器。编辑工作流的图片化布局。</value>
+  </row>
+  <row id="117" trl="Y">
+    <value column="Name" original="Workflow Activities">活动的工作流</value>
+    <value column="Description" original="My active workflow activities">我的活跃工作流活动</value>
+    <value column="Help" original="View active worflow activities">查看有效工作流活动。</value>
+  </row>
+  <row id="118" trl="Y">
+    <value column="Name" original="Archive Viewer">归档查看器</value>
+    <value column="Description" original="View automatically archived Documents">查看自动归档的单据</value>
+    <value column="Help" original="Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">依赖于实体(客户端)自动归档级别，单据和报表被保存起来以供查看。在报表查看器中，您可手工归档单据或报表。仅当您有权访问原始单据时，方可查看归档。</value>
+  </row>
+  <row id="119" trl="Y">
+    <value column="Name" original="Performance Indicators">绩效指示器</value>
+    <value column="Description" original="View Performance Indicators">查看绩效指示器</value>
+    <value column="Help" original="View all Performance Indicators and Goals">查看全部的绩效指示器和目标。</value>
+  </row>
+  <row id="120" trl="Y">
+    <value column="Name" original="Product Attribute Grid">产品属性网格</value>
+    <value column="Description" original="Maintain Products with Attributes in a Table Grid">在表格中维护带属性的产品。</value>
+    <value column="Help" original="Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.">选择一个或两个属性，如果产品属性与显示/维护产品在同一行或表格中。</value>
+  </row>
+  <row id="53001" trl="Y">
+    <value column="Name" original="BOM &amp; Formula Info">物料清单（BOM）与配方信息</value>
+    <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">在两个不同的面板显示的父组件的关系，为产品进入的产品领域。</value>
+    <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
+
+You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
+
+When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.
+
+You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
+
+The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it">物料清单（BOM）与配方信息。物料清单（BOM）与配方审查选项菜单显示在两个不同的面板的产品的父零部件关系，输入在产品字段。
+
+您需要了解父产品，您想要看到它的组件（零部件），然后单击“确定”按钮，接下来拖动面板的左边缘的到右边，您将有两个面板。
+
+当您需要咨询爆，点击爆复选框，并输入您想咨询和内爆复选框中打勾组件（零部件）。
+
+您需要了解父产品，您想要看到它的组件（零部件），然后单击“确定”按钮，接下来拖动面板的左边缘的到右边，您将有两个面板。
+
+左边的面板显示了物料清单（BOM）的层次结构树的形式。右侧的面板显示连接在它的每一个产品的物料清单（BOM）信息。</value>
+  </row>
+  <row id="53002" trl="Y">
+    <value column="Name" original="Product Configuration BOM">产品配置 物料清单（BOM）</value>
+    <value column="Description" original="This form let create a product configure with multy level using options and variants">这种形式，让创建一个使用选项和变型的多层次的产品配置。</value>
+    <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.
+
+The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">产品配置 物料清单（BOM）。由商业使用的一个可配置的物料清单（BOM），有多个选项和高度可配置的产品。
+
+一个可配置的物料清单（BOM），（CBOM）。-是用于动态创建“最终项目”，公司销售。使用CBOM结构的好处是降低了需要维护产品结构的工作投入。可配置的物料清单（BOM）是由“配置”最频繁驱动 软件。但它可以启用手动（手动维护是罕见的，因为它的笨拙管理的一些序列【permutations 】和可能的配置组合）的CBOM的开发依赖于模块化BOM结构的地方（见：模块化物料清单）。模块化物料清单结构提供的组件/子系统，可以选择“配置”一个“最终项目”。</value>
+  </row>
+  <row id="53003" trl="Y">
+    <value column="Name" original="MRP Info">物料需求计划（MRP）信息</value>
+    <value column="Description" original="Show the detail of MRP calculation">显示物料需求计划（MRP）计算明细</value>
+    <value column="Help" original="Show the detail of MRP calculation">显示物料需求计划（MRP）计算明细。</value>
+  </row>
+  <row id="53004" trl="Y">
+    <value column="Name" original="Planned Order Approval ">计划订单审核 </value>
+    <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">计划生产单是由物料需求计划（MRP）过程建议产生的生产单,它包含订单生产数量和订单的生成日期及定产承诺产出日期。</value>
+    <value column="Help" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.
+
+When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.">计划生产单是物料需求计划（MRP）运算后给出的建议生产单，它包含了物料需求数量以及出货保证的日期。当您同意计划生产单，您可以把它的状态改成"处理中"，这时它就转换成了真正的生产单了。
+当您审核一个计划订单您是在告诉系统：制造订单（生产单、生产订单）准备好了它的审核进程，您改变订单从草稿状态到在处理中状态。</value>
+  </row>
+  <row id="53005" trl="Y">
+    <value column="Name" original="CRP Info">能力需求计划（CRP）信息</value>
+    <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">它以图形方式显示每个生产资源的需求和可用时间.</value>
+    <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">能力需求计划（CRP）信息。它以图形方式显示每个生产资源的需求和可用时间。</value>
+  </row>
+  <row id="53006" trl="Y">
+    <value column="Name" original="Resource Load View">资源负载视图</value>
+    <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">它以图形方式显示每个生产资源的需求和可用时间.</value>
+    <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">资源负载视图，它以图形方式显示每个生产资源的需求和可用时间。</value>
+  </row>
+  <row id="53007" trl="Y">
+    <value column="Name" original="Order Receipt &amp; Issue">生产单入库与发料</value>
+    <value column="Description" original="Order Receipt &amp; Issue">生产单入库与发料</value>
+    <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.
+
+If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.
+
+
+If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.
+
+If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components
+
+The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).
+
+At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.
+
+The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.
+
+Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.
+
+">生产单入库与发料。这个形式显示在上部边栏静态信息围绕产品和制造资源，它们必须在哪里被制造，它也显示了被控制在生产单（制造订单、生产订单）一个汇总的数量。如：原始和交付数量，以及交付给到期的生产单的数量。
+
+如果生产过程中需要在批量生产，然后车间需要做的的数量批显示批次号和数量批次大小，包含了每一个生产批次的大小。
+
+
+如果您想在收到成品之前发料生产单（制造订单、生产订单），您应该打勾的复选框是交货，这种情况下，建议当您有一个中长期的交货时间和您希望在每一个时刻都有尽可能可靠的库存数量。
+
+如果有小的交货时间，您希望节省店员时间，那么您必须勾选是反吹复选框（倒冲、确认复选框），您将会收到成品，在同一时间，您会自动发出的组件（零部件）。
+
+反吹（倒冲、确认）组字段用于当您想发出属于该组的组成部分（零部件）。 （这个特性不能在当前版本中）。
+
+在下部的窗口，您可以找到每个生产单（制造订单、生产订单）组件（零部件）的列表，这可以根据给车间真正的产品和数量修改。
+
+在组件（零部件）列表中的第一列的复选框被选中将要发行的数量。如果实际数量与标准数量是不同的显示列的数量，您应该修改这一字段，以提供输入正确的将予发料的数量（发行的数量）。
+
+最后一个消息框，询问是否您想关闭的生产单（制造订单、生产订单)单据，您应该单击“确认”按钮，如果这生产单（制造订单、生产订单)没有任何更多的交易（事务处理）并将被关闭。
+
+</value>
+  </row>
+  <row id="53008" trl="Y">
+    <value column="Name" original="Generate Movement Manual">创建调拨单(手工)</value>
+    <value column="Description" original="Generate Movement to a Order Distribution">产生一个配送单的调拨单。</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="53009" trl="Y">
+    <value column="Name" original="Payroll Action Notice">薪酬发放提醒</value>
+    <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">薪酬发放提醒会在薪酬发放日提醒任意职员。</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="53010" trl="Y">
+    <value column="Name" original="Generate Shipments &amp; Invoices (manual)">生成发货单与发票 (手工)</value>
+    <value column="Description" original="Select and generate shipments &amp; Invoices">选择并生成发货单与发票</value>
+    <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  
+Select the orders to generate the shipments &amp; Invoices for.">从订单生成发货单与发票。选择要从其生成发货单与发票的订单。</value>
+  </row>
+  <row id="53012" trl="Y">
+    <value column="Name" original="Material Receipt Distribution Order">配送单物料收货</value>
+    <value column="Description" original="Material Receipt Distribution Order">配送单物料收货</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="53013" trl="Y">
+    <value column="Name" original="Manufacturing Workflow Editor">工艺流程编辑器</value>
+    <value column="Description" original="Edit Manufacturing Workflows">编辑工艺流程</value>
+    <value column="Help" original="Edit the graphical layout of manufacturing workflows">工艺流程编辑器。编辑制造工艺的图形布局。</value>
+  </row>
+</adempiereTrl>

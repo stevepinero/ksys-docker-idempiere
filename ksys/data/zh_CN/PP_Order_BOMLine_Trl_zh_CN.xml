@@ -1,0 +1,18 @@
+<adempiereTrl language="zh_CN" table="PP_Order_BOMLine">
+  <row id="50000" trl="Y">
+    <value column="Description" original="" />
+    <value column="Help" original="" />
+  </row>
+  <row id="50001" trl="Y">
+    <value column="Description" original="" />
+    <value column="Help" original="" />
+  </row>
+  <row id="50002" trl="Y">
+    <value column="Description" original="" />
+    <value column="Help" original="" />
+  </row>
+  <row id="50003" trl="Y">
+    <value column="Description" original="" />
+    <value column="Help" original="" />
+  </row>
+</adempiereTrl>

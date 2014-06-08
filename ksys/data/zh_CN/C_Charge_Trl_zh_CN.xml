@@ -1,0 +1,10 @@
+<adempiereTrl language="zh_CN" table="C_Charge">
+  <row id="100" trl="Y">
+    <value column="Name" original="Bank Charge">银行杂费</value>
+    <value column="Description" original="" />
+  </row>
+  <row id="101" trl="Y">
+    <value column="Name" original="Commissions Paid">已支付佣金</value>
+    <value column="Description" original="" />
+  </row>
+</adempiereTrl>

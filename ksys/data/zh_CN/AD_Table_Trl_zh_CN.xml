@@ -1,0 +1,2438 @@
+<adempiereTrl language="zh_CN" table="AD_Table">
+  <row id="100" trl="Y">
+    <value column="Name" original="Table">表</value>
+  </row>
+  <row id="101" trl="Y">
+    <value column="Name" original="Column">列</value>
+  </row>
+  <row id="102" trl="Y">
+    <value column="Name" original="Reference">引用</value>
+  </row>
+  <row id="103" trl="Y">
+    <value column="Name" original="AD_Ref_Table">AD_引用_表</value>
+  </row>
+  <row id="104" trl="Y">
+    <value column="Name" original="Reference List">引用列表</value>
+  </row>
+  <row id="105" trl="Y">
+    <value column="Name" original="Window">窗口</value>
+  </row>
+  <row id="106" trl="Y">
+    <value column="Name" original="Tab">页签</value>
+  </row>
+  <row id="107" trl="Y">
+    <value column="Name" original="Field">字段</value>
+  </row>
+  <row id="108" trl="Y">
+    <value column="Name" original="Dynamic Validation">动态验证</value>
+  </row>
+  <row id="109" trl="Y">
+    <value column="Name" original="Message">消息</value>
+  </row>
+  <row id="111" trl="Y">
+    <value column="Name" original="Language ID">语言 ID</value>
+  </row>
+  <row id="112" trl="Y">
+    <value column="Name" original="Client">实体（客户端）</value>
+  </row>
+  <row id="113" trl="Y">
+    <value column="Name" original="Payment Term">付款条件</value>
+  </row>
+  <row id="114" trl="Y">
+    <value column="Name" original="User/Contact">用户/联系人</value>
+  </row>
+  <row id="115" trl="Y">
+    <value column="Name" original="Sequence">顺序</value>
+  </row>
+  <row id="116" trl="Y">
+    <value column="Name" original="Menu">菜单</value>
+  </row>
+  <row id="117" trl="Y">
+    <value column="Name" original="Workflow">工作流</value>
+  </row>
+  <row id="118" trl="Y">
+    <value column="Name" original="OS Task">操作系统任务</value>
+  </row>
+  <row id="119" trl="Y">
+    <value column="Name" original="Message Trl">消息 翻译</value>
+  </row>
+  <row id="120" trl="Y">
+    <value column="Name" original="Menu Trl">菜单 翻译</value>
+  </row>
+  <row id="121" trl="Y">
+    <value column="Name" original="AD_Sequence_Audit">AD_序列_审核（、日志）</value>
+  </row>
+  <row id="122" trl="Y">
+    <value column="Name" original="AD_Sequence_No">AD_序列_号码</value>
+  </row>
+  <row id="123" trl="Y">
+    <value column="Name" original="Tab Trl">页签翻译</value>
+  </row>
+  <row id="124" trl="Y">
+    <value column="Name" original="OS Task Trl">操作系统任务 翻译</value>
+  </row>
+  <row id="125" trl="Y">
+    <value column="Name" original="Task Instance">任务实例</value>
+  </row>
+  <row id="126" trl="Y">
+    <value column="Name" original="Reference Trl">引用 翻译</value>
+  </row>
+  <row id="127" trl="Y">
+    <value column="Name" original="Field Trl">字段 翻译</value>
+  </row>
+  <row id="129" trl="Y">
+    <value column="Name" original="Node">节点</value>
+  </row>
+  <row id="130" trl="Y">
+    <value column="Name" original="Node Trl">节点 翻译</value>
+  </row>
+  <row id="131" trl="Y">
+    <value column="Name" original="Node Transition">节点切换</value>
+  </row>
+  <row id="132" trl="Y">
+    <value column="Name" original="Window Trl">窗口 翻译</value>
+  </row>
+  <row id="133" trl="Y">
+    <value column="Name" original="Workflow Trl">工作流 翻译</value>
+  </row>
+  <row id="135" trl="Y">
+    <value column="Name" original="Test ID">测试 ID</value>
+  </row>
+  <row id="136" trl="Y">
+    <value column="Name" original="Reference List Trl">引用列表 翻译</value>
+  </row>
+  <row id="139" trl="Y">
+    <value column="Name" original="Calendar">日历</value>
+  </row>
+  <row id="140" trl="Y">
+    <value column="Name" original="Conversion Rate">兑换率</value>
+  </row>
+  <row id="141" trl="Y">
+    <value column="Name" original="Currency">币种</value>
+  </row>
+  <row id="142" trl="Y">
+    <value column="Name" original="Element">元素</value>
+  </row>
+  <row id="145" trl="Y">
+    <value column="Name" original="Period">期间</value>
+  </row>
+  <row id="146" trl="Y">
+    <value column="Name" original="UOM">度量单位（UOM）</value>
+  </row>
+  <row id="155" trl="Y">
+    <value column="Name" original="Organization">组织</value>
+  </row>
+  <row id="156" trl="Y">
+    <value column="Name" original="Role">角色</value>
+  </row>
+  <row id="157" trl="Y">
+    <value column="Name" original="AD_User_Roles">AD_用户_角色</value>
+  </row>
+  <row id="162" trl="Y">
+    <value column="Name" original="Address">地址</value>
+  </row>
+  <row id="163" trl="Y">
+    <value column="Name" original="Non Business Day">非营业日（Non Business Day）</value>
+  </row>
+  <row id="164" trl="Y">
+    <value column="Name" original="Region">区域名称</value>
+  </row>
+  <row id="170" trl="Y">
+    <value column="Name" original="Country">国家/地区</value>
+  </row>
+  <row id="175" trl="Y">
+    <value column="Name" original="UOM Conversion">计量单位转换</value>
+  </row>
+  <row id="176" trl="Y">
+    <value column="Name" original="Combination">合并</value>
+  </row>
+  <row id="177" trl="Y">
+    <value column="Name" original="Year">年</value>
+  </row>
+  <row id="183" trl="Y">
+    <value column="Name" original="C_BP_Customer_Acct">C_业务伙伴_客户_账户</value>
+  </row>
+  <row id="184" trl="Y">
+    <value column="Name" original="C_BP_Employee_Acct">C_业务伙伴_员工_账户</value>
+  </row>
+  <row id="185" trl="Y">
+    <value column="Name" original="C_BP_Vendor_Acct">C_业务伙伴_供应商_账户</value>
+  </row>
+  <row id="186" trl="Y">
+    <value column="Name" original="City">城市</value>
+  </row>
+  <row id="188" trl="Y">
+    <value column="Name" original="Account Element">账户元素</value>
+  </row>
+  <row id="190" trl="Y">
+    <value column="Name" original="Warehouse">仓库</value>
+  </row>
+  <row id="191" trl="Y">
+    <value column="Name" original="M_Warehouse_Acct">M_仓库账户</value>
+  </row>
+  <row id="195" trl="Y">
+    <value column="Name" original="Preference">偏爱设置</value>
+  </row>
+  <row id="197" trl="Y">
+    <value column="Name" original="Process Access">流程访问</value>
+  </row>
+  <row id="199" trl="Y">
+    <value column="Name" original="AD_Task_Access">AD_任务_访问权限</value>
+  </row>
+  <row id="201" trl="Y">
+    <value column="Name" original="AD_Window_Access">AD_窗体_访问权限</value>
+  </row>
+  <row id="202" trl="Y">
+    <value column="Name" original="AD_Workflow_Access">AD_工作流_访问权限</value>
+  </row>
+  <row id="203" trl="Y">
+    <value column="Name" original="Project"> 项目</value>
+  </row>
+  <row id="204" trl="Y">
+    <value column="Name" original="C_Project_Acct">C_项目_账户</value>
+  </row>
+  <row id="207" trl="Y">
+    <value column="Name" original="Locator">库位</value>
+  </row>
+  <row id="208" trl="Y">
+    <value column="Name" original="Product">产品</value>
+  </row>
+  <row id="209" trl="Y">
+    <value column="Name" original="Product Category">产品类别</value>
+  </row>
+  <row id="210" trl="Y">
+    <value column="Name" original="Product Purchasing">产品采购</value>
+  </row>
+  <row id="213" trl="Y">
+    <value column="Name" original="M_Substitute">M_替代品</value>
+  </row>
+  <row id="217" trl="Y">
+    <value column="Name" original="Document Type">单据类型</value>
+  </row>
+  <row id="218" trl="Y">
+    <value column="Name" original="GL Category">总账类别</value>
+  </row>
+  <row id="224" trl="Y">
+    <value column="Name" original="Journal">日记账</value>
+  </row>
+  <row id="225" trl="Y">
+    <value column="Name" original="Journal Batch">日记账批（Batch）</value>
+  </row>
+  <row id="226" trl="Y">
+    <value column="Name" original="Journal Line">日记账行</value>
+  </row>
+  <row id="227" trl="Y">
+    <value column="Name" original="AD_ClientInfo">AD_实体（客户端）信息</value>
+  </row>
+  <row id="228" trl="Y">
+    <value column="Name" original="Organization Info">组织信息</value>
+  </row>
+  <row id="229" trl="Y">
+    <value column="Name" original="Period Control">期间控制</value>
+  </row>
+  <row id="230" trl="Y">
+    <value column="Name" original="Sales Region">销售区域</value>
+  </row>
+  <row id="249" trl="Y">
+    <value column="Name" original="M_Replenish">M_补仓</value>
+  </row>
+  <row id="250" trl="Y">
+    <value column="Name" original="M_Storage">M_存储</value>
+  </row>
+  <row id="251" trl="Y">
+    <value column="Name" original="Product Price">产品价格</value>
+  </row>
+  <row id="252" trl="Y">
+    <value column="Name" original="Tax Category">税的类别</value>
+  </row>
+  <row id="253" trl="Y">
+    <value column="Name" original="Shipper">承运人</value>
+  </row>
+  <row id="254" trl="Y">
+    <value column="Name" original="Attachment">附件</value>
+  </row>
+  <row id="255" trl="Y">
+    <value column="Name" original="Price List">价格表</value>
+  </row>
+  <row id="257" trl="Y">
+    <value column="Name" original="Invoice Schedule">发票计划</value>
+  </row>
+  <row id="259" trl="Y">
+    <value column="Name" original="Order">订单</value>
+  </row>
+  <row id="260" trl="Y">
+    <value column="Name" original="Sales Order Line">销售订单行</value>
+  </row>
+  <row id="261" trl="Y">
+    <value column="Name" original="Tax">税额</value>
+  </row>
+  <row id="265" trl="Y">
+    <value column="Name" original="Accounting Schema">会计模式</value>
+  </row>
+  <row id="266" trl="Y">
+    <value column="Name" original="C_AcctSchema_GL">C_会计模式_总账</value>
+  </row>
+  <row id="270" trl="Y">
+    <value column="Name" original="Accounting Fact">会计分录（Accounting Fact）</value>
+  </row>
+  <row id="271" trl="Y">
+    <value column="Name" original="Budget">预算</value>
+  </row>
+  <row id="273" trl="Y">
+    <value column="Name" original="Product Acct">产品账户</value>
+  </row>
+  <row id="274" trl="Y">
+    <value column="Name" original="Campaign">营销战役</value>
+  </row>
+  <row id="275" trl="Y">
+    <value column="Name" original="Channel">渠道</value>
+  </row>
+  <row id="276" trl="Y">
+    <value column="Name" original="System Element">系统元素</value>
+  </row>
+  <row id="277" trl="Y">
+    <value column="Name" original="System Element Trl">系统元素 翻译</value>
+  </row>
+  <row id="279" trl="Y">
+    <value column="Name" original="Acct.Schema Element">会计模式元素</value>
+  </row>
+  <row id="282" trl="Y">
+    <value column="Name" original="Process Instance">流程实例</value>
+  </row>
+  <row id="283" trl="Y">
+    <value column="Name" original="AD_PInstance_Para">AD_流程实例_参数</value>
+  </row>
+  <row id="284" trl="Y">
+    <value column="Name" original="Process">流程</value>
+  </row>
+  <row id="285" trl="Y">
+    <value column="Name" original="Process Parameter">流程参数</value>
+  </row>
+  <row id="286" trl="Y">
+    <value column="Name" original="Process Parameter Trl">流程参数 翻译</value>
+  </row>
+  <row id="287" trl="Y">
+    <value column="Name" original="Process Trl">流程 翻译</value>
+  </row>
+  <row id="288" trl="Y">
+    <value column="Name" original="Tree">树</value>
+  </row>
+  <row id="289" trl="Y">
+    <value column="Name" original="Tree Node">树节点</value>
+  </row>
+  <row id="291" trl="Y">
+    <value column="Name" original="Business Partner ">业务伙伴 </value>
+  </row>
+  <row id="293" trl="Y">
+    <value column="Name" original="Partner Location">伙伴位置</value>
+  </row>
+  <row id="295" trl="Y">
+    <value column="Name" original="Price List Version">价格表版本</value>
+  </row>
+  <row id="296" trl="Y">
+    <value column="Name" original="Bank">银行</value>
+  </row>
+  <row id="297" trl="Y">
+    <value column="Name" original="Bank Account">银行账户</value>
+  </row>
+  <row id="298" trl="Y">
+    <value column="Name" original="Partner Bank Account">伙伴银行账户</value>
+  </row>
+  <row id="299" trl="Y">
+    <value column="Name" original="C_BP_Withholding">C_业务伙伴_预扣</value>
+  </row>
+  <row id="300" trl="Y">
+    <value column="Name" original="Document Type Trl">单据类型 翻译</value>
+  </row>
+  <row id="301" trl="Y">
+    <value column="Name" original="Dunning">催款</value>
+  </row>
+  <row id="302" trl="Y">
+    <value column="Name" original="Account Element Trl">账户元素 翻译</value>
+  </row>
+  <row id="303" trl="Y">
+    <value column="Name" original="Payment Term Trl">付款条件 翻译</value>
+  </row>
+  <row id="304" trl="Y">
+    <value column="Name" original="Withholding">预扣</value>
+  </row>
+  <row id="312" trl="Y">
+    <value column="Name" original="Product Trl">产品 翻译</value>
+  </row>
+  <row id="313" trl="Y">
+    <value column="Name" original="Charge">费用</value>
+  </row>
+  <row id="314" trl="Y">
+    <value column="Name" original="Order Tax">订单 税</value>
+  </row>
+  <row id="315" trl="Y">
+    <value column="Name" original="C_AcctSchema_Default">C_会计模式_默认</value>
+  </row>
+  <row id="316" trl="Y">
+    <value column="Name" original="Activity">活动</value>
+  </row>
+  <row id="318" trl="Y">
+    <value column="Name" original="Invoice">发票</value>
+  </row>
+  <row id="319" trl="Y">
+    <value column="Name" original="Shipment/Receipt">发货单/收货单</value>
+  </row>
+  <row id="320" trl="Y">
+    <value column="Name" original="Shipment/Receipt Line">发货单/收货单 行</value>
+  </row>
+  <row id="321" trl="Y">
+    <value column="Name" original="Phys.Inventory">实地盘存</value>
+  </row>
+  <row id="322" trl="Y">
+    <value column="Name" original="Phys.Inventory Line">实地盘存 行</value>
+  </row>
+  <row id="323" trl="Y">
+    <value column="Name" original="Inventory Move">移库</value>
+  </row>
+  <row id="324" trl="Y">
+    <value column="Name" original="Move Line">移库行</value>
+  </row>
+  <row id="325" trl="Y">
+    <value column="Name" original="Production">生产（单）【Production】</value>
+  </row>
+  <row id="326" trl="Y">
+    <value column="Name" original="Production Line">生产（单） 行</value>
+  </row>
+  <row id="327" trl="Y">
+    <value column="Name" original="Product Costing">产品成本计算</value>
+  </row>
+  <row id="329" trl="Y">
+    <value column="Name" original="Inventory Transaction">库存事务处理</value>
+  </row>
+  <row id="331" trl="Y">
+    <value column="Name" original="Dunning Level">催款级别</value>
+  </row>
+  <row id="332" trl="Y">
+    <value column="Name" original="Dunning Level Trl">催款级别 翻译</value>
+  </row>
+  <row id="333" trl="Y">
+    <value column="Name" original="Invoice Line">发票行</value>
+  </row>
+  <row id="334" trl="Y">
+    <value column="Name" original="C_InvoiceTax">C_发票税</value>
+  </row>
+  <row id="335" trl="Y">
+    <value column="Name" original="Payment">付款</value>
+  </row>
+  <row id="336" trl="Y">
+    <value column="Name" original="Revenue Recognition">输入确认</value>
+  </row>
+  <row id="337" trl="Y">
+    <value column="Name" original="Service Level">服务级别</value>
+  </row>
+  <row id="338" trl="Y">
+    <value column="Name" original="Service Level Line">服务级别行</value>
+  </row>
+  <row id="339" trl="Y">
+    <value column="Name" original="UOM Trl">计量单位（UOM） 翻译</value>
+  </row>
+  <row id="342" trl="Y">
+    <value column="Name" original="Perpetual Inventory">永续盘点</value>
+  </row>
+  <row id="346" trl="Y">
+    <value column="Name" original="Greeting">尊称</value>
+  </row>
+  <row id="347" trl="Y">
+    <value column="Name" original="Greeting Trl">尊称 翻译</value>
+  </row>
+  <row id="348" trl="Y">
+    <value column="Name" original="Tax Category Trl">税种 翻译</value>
+  </row>
+  <row id="360" trl="Y">
+    <value column="Name" original="Order Detail">订单明细</value>
+  </row>
+  <row id="361" trl="Y">
+    <value column="Name" original="Report View">报表视图</value>
+  </row>
+  <row id="363" trl="Y">
+    <value column="Name" original="Transaction Sum">交易总量（Transaction Sum）</value>
+  </row>
+  <row id="364" trl="Y">
+    <value column="Name" original="T_Replenish">临时表 T_补仓</value>
+  </row>
+  <row id="365" trl="Y">
+    <value column="Name" original="T_Spool">临时表 T_Spool。 365</value>
+  </row>
+  <row id="366" trl="Y">
+    <value column="Name" original="EDI Definition">电子数据交换（EDI）定义</value>
+  </row>
+  <row id="367" trl="Y">
+    <value column="Name" original="EDI Transaction">电子数据交换（EDI）事务处理</value>
+  </row>
+  <row id="368" trl="Y">
+    <value column="Name" original="EDI Log">电子数据交换（EDI）日志</value>
+  </row>
+  <row id="369" trl="Y">
+    <value column="Name" original="Invoice Day">发票 -日</value>
+  </row>
+  <row id="370" trl="Y">
+    <value column="Name" original="Invoice Month">发票 -月度</value>
+  </row>
+  <row id="371" trl="Y">
+    <value column="Name" original="Invoice ProdMonth">发票 -产品按月</value>
+  </row>
+  <row id="372" trl="Y">
+    <value column="Name" original="Invoice ProdWeek">发票 -产品按周</value>
+  </row>
+  <row id="373" trl="Y">
+    <value column="Name" original="Invoice VendorMonth">发票 -供应商按月</value>
+  </row>
+  <row id="374" trl="Y">
+    <value column="Name" original="Invoice Week">发票 -周</value>
+  </row>
+  <row id="376" trl="Y">
+    <value column="Name" original="Special Form">特殊窗体</value>
+  </row>
+  <row id="377" trl="Y">
+    <value column="Name" original="Special Form Trl">特殊窗体 翻译</value>
+  </row>
+  <row id="378" trl="Y">
+    <value column="Name" original="AD_Form_Access">AD_窗体_访问</value>
+  </row>
+  <row id="380" trl="Y">
+    <value column="Name" original="Error">错误</value>
+  </row>
+  <row id="381" trl="Y">
+    <value column="Name" original="Import Format">导入格式</value>
+  </row>
+  <row id="382" trl="Y">
+    <value column="Name" original="Format Field">格式字段</value>
+  </row>
+  <row id="383" trl="Y">
+    <value column="Name" original="BOM Line">物料清单（BOM）行</value>
+  </row>
+  <row id="385" trl="Y">
+    <value column="Name" original="Production Plan">生产计划</value>
+  </row>
+  <row id="387" trl="Y">
+    <value column="Name" original="Invoice CustomerProdQtr">发票 -客户产品 按季。</value>
+  </row>
+  <row id="388" trl="Y">
+    <value column="Name" original="Invoice CustomerVendQtr">发票 -客户供应 按季。</value>
+  </row>
+  <row id="389" trl="Y">
+    <value column="Name" original="Notice">通知</value>
+  </row>
+  <row id="390" trl="Y">
+    <value column="Name" original="Allocation Line">分配行</value>
+  </row>
+  <row id="391" trl="Y">
+    <value column="Name" original="C_BankAccount_Acct">C_银行账户_科目</value>
+  </row>
+  <row id="392" trl="Y">
+    <value column="Name" original="Bank Statement">银行对账单</value>
+  </row>
+  <row id="393" trl="Y">
+    <value column="Name" original="Bank statement line">银行对账单行</value>
+  </row>
+  <row id="394" trl="Y">
+    <value column="Name" original="Business Partner Group">业务伙伴分组</value>
+  </row>
+  <row id="395" trl="Y">
+    <value column="Name" original="Business Partner Group Acct">业务伙伴分组会计</value>
+  </row>
+  <row id="396" trl="Y">
+    <value column="Name" original="C_Charge_Acct">C_杂费账_户</value>
+  </row>
+  <row id="397" trl="Y">
+    <value column="Name" original="C_InterOrg_Acct">C_组织间_账户</value>
+  </row>
+  <row id="398" trl="Y">
+    <value column="Name" original="Payment Processor">付款引擎</value>
+  </row>
+  <row id="399" trl="Y">
+    <value column="Name" original="C_Tax_Acct">C_税_账户</value>
+  </row>
+  <row id="400" trl="Y">
+    <value column="Name" original="C_Withholding_Acct">C_预扣_账户</value>
+  </row>
+  <row id="401" trl="Y">
+    <value column="Name" original="Product Category Acct">产品类别账户</value>
+  </row>
+  <row id="402" trl="Y">
+    <value column="Name" original="W_Basket_ID">网上购物篮 ID</value>
+  </row>
+  <row id="403" trl="Y">
+    <value column="Name" original="Web Counter">网络计数器</value>
+  </row>
+  <row id="404" trl="Y">
+    <value column="Name" original="Find">查找</value>
+  </row>
+  <row id="405" trl="Y">
+    <value column="Name" original="System Attribute">系统属性</value>
+  </row>
+  <row id="406" trl="Y">
+    <value column="Name" original="AD_Attribute_Value">AD_属性值</value>
+  </row>
+  <row id="407" trl="Y">
+    <value column="Name" original="Cash Journal">现金日记账</value>
+  </row>
+  <row id="408" trl="Y">
+    <value column="Name" original="Cash Book">现金簿</value>
+  </row>
+  <row id="409" trl="Y">
+    <value column="Name" original="C_CashBook_Acct">C_现金簿_账户</value>
+  </row>
+  <row id="410" trl="Y">
+    <value column="Name" original="Cash Journal Line">现金日记账行</value>
+  </row>
+  <row id="411" trl="Y">
+    <value column="Name" original="Payment Batch">付款批次（Batch）</value>
+  </row>
+  <row id="413" trl="Y">
+    <value column="Name" original="Open Item">未清项</value>
+  </row>
+  <row id="414" trl="Y">
+    <value column="Name" original="Field Group">字段分组</value>
+  </row>
+  <row id="415" trl="Y">
+    <value column="Name" original="Field Group Trl">字段分组 翻译</value>
+  </row>
+  <row id="416" trl="Y">
+    <value column="Name" original="Mail Template">邮件模板</value>
+  </row>
+  <row id="417" trl="Y">
+    <value column="Name" original="Request">请求</value>
+  </row>
+  <row id="418" trl="Y">
+    <value column="Name" original="Request History">请求 历史记录</value>
+  </row>
+  <row id="420" trl="Y">
+    <value column="Name" original="Request Processor">请求引擎</value>
+  </row>
+  <row id="422" trl="Y">
+    <value column="Name" original="AD_Role_OrgAccess">AD_角色_组织访问权限</value>
+  </row>
+  <row id="423" trl="Y">
+    <value column="Name" original="Invoice">发票</value>
+  </row>
+  <row id="424" trl="Y">
+    <value column="Name" original="InvoiceLine">发票行</value>
+  </row>
+  <row id="425" trl="Y">
+    <value column="Name" original="Mat Transaction">物料事务处理</value>
+  </row>
+  <row id="426" trl="Y">
+    <value column="Name" original="Payment Selection">付款选择</value>
+  </row>
+  <row id="427" trl="Y">
+    <value column="Name" original="Payment Selection Line">付款选择行</value>
+  </row>
+  <row id="428" trl="Y">
+    <value column="Name" original="Report view Column">报表视图列</value>
+  </row>
+  <row id="429" trl="Y">
+    <value column="Name" original="Commission">佣金标识</value>
+  </row>
+  <row id="430" trl="Y">
+    <value column="Name" original="Commission Amount">佣金额</value>
+  </row>
+  <row id="431" trl="Y">
+    <value column="Name" original="Commission Line">佣金行</value>
+  </row>
+  <row id="432" trl="Y">
+    <value column="Name" original="Project Cycle">项目周期（Project Cycle）</value>
+  </row>
+  <row id="433" trl="Y">
+    <value column="Name" original="C_CyclePhase">C_周期阶段</value>
+  </row>
+  <row id="434" trl="Y">
+    <value column="Name" original="Project Line">项目行</value>
+  </row>
+  <row id="436" trl="Y">
+    <value column="Name" original="Commission Run"> 佣金 运行</value>
+  </row>
+  <row id="437" trl="Y">
+    <value column="Name" original="Commission Detail">佣金明细</value>
+  </row>
+  <row id="438" trl="Y">
+    <value column="Name" original="Achievement">业绩</value>
+  </row>
+  <row id="440" trl="Y">
+    <value column="Name" original="Goal">目标</value>
+  </row>
+  <row id="441" trl="Y">
+    <value column="Name" original="Measure">绩效指标</value>
+  </row>
+  <row id="442" trl="Y">
+    <value column="Name" original="Measure Calculation">绩效评估计算</value>
+  </row>
+  <row id="443" trl="Y">
+    <value column="Name" original="Revenue Recognition Plan">收入确认计划</value>
+  </row>
+  <row id="444" trl="Y">
+    <value column="Name" original="Revenue Recognition Run">收入确认 运行</value>
+  </row>
+  <row id="445" trl="Y">
+    <value column="Name" original="Financial Report">财务报表</value>
+  </row>
+  <row id="446" trl="Y">
+    <value column="Name" original="Report Column">报表列</value>
+  </row>
+  <row id="447" trl="Y">
+    <value column="Name" original="Report Column Set">报表列设置</value>
+  </row>
+  <row id="448" trl="Y">
+    <value column="Name" original="Report Line">报表行</value>
+  </row>
+  <row id="449" trl="Y">
+    <value column="Name" original="Report Line Set">报表行设置</value>
+  </row>
+  <row id="450" trl="Y">
+    <value column="Name" original="Report Source">报表来源</value>
+  </row>
+  <row id="451" trl="Y">
+    <value column="Name" original="Tree Node BP">树节点 业务伙伴</value>
+  </row>
+  <row id="452" trl="Y">
+    <value column="Name" original="Tree Node MM">树节点 物料管理</value>
+  </row>
+  <row id="453" trl="Y">
+    <value column="Name" original="Tree Node PR">树节点 产品</value>
+  </row>
+  <row id="454" trl="Y">
+    <value column="Name" original="Print Form">打印表单</value>
+  </row>
+  <row id="455" trl="Y">
+    <value column="Name" original="Bank Account Document">银行账户凭证</value>
+  </row>
+  <row id="456" trl="Y">
+    <value column="Name" original="AD_TreeBar">AD_树栏（AD_TreeBar）</value>
+  </row>
+  <row id="457" trl="Y">
+    <value column="Name" original="System Color">颜色</value>
+  </row>
+  <row id="458" trl="Y">
+    <value column="Name" original="Desktop">桌面</value>
+  </row>
+  <row id="459" trl="Y">
+    <value column="Name" original="Desktop Workbench">桌面工作台</value>
+  </row>
+  <row id="460" trl="Y">
+    <value column="Name" original="Desktop Trl">桌面 翻译</value>
+  </row>
+  <row id="461" trl="Y">
+    <value column="Name" original="Image">图像</value>
+  </row>
+  <row id="464" trl="Y">
+    <value column="Name" original="User defined Field">用户定义的字段</value>
+  </row>
+  <row id="466" trl="Y">
+    <value column="Name" original="User defined Tab">用户定义的标签</value>
+  </row>
+  <row id="467" trl="Y">
+    <value column="Name" original="User defined Window">用户定义的窗口</value>
+  </row>
+  <row id="468" trl="Y">
+    <value column="Name" original="Workbench">工作台</value>
+  </row>
+  <row id="469" trl="Y">
+    <value column="Name" original="Workbench Window">工作台窗口</value>
+  </row>
+  <row id="470" trl="Y">
+    <value column="Name" original="Workbench Trl">工作台 翻译</value>
+  </row>
+  <row id="471" trl="Y">
+    <value column="Name" original="Cash Detail">现金明细</value>
+  </row>
+  <row id="472" trl="Y">
+    <value column="Name" original="Match Invoice">发票匹配</value>
+  </row>
+  <row id="473" trl="Y">
+    <value column="Name" original="Match PO">匹配采购订单</value>
+  </row>
+  <row id="474" trl="Y">
+    <value column="Name" original="Request Routing">请求路由（Request Routing）</value>
+  </row>
+  <row id="475" trl="Y">
+    <value column="Name" original="Discount Schema">折扣模式</value>
+  </row>
+  <row id="476" trl="Y">
+    <value column="Name" original="Discount Schema Break">折扣模式分段</value>
+  </row>
+  <row id="477" trl="Y">
+    <value column="Name" original="Discount Pricelist">折扣价格表</value>
+  </row>
+  <row id="478" trl="Y">
+    <value column="Name" original="T_InventoryValue">临时表 T_库存值</value>
+  </row>
+  <row id="479" trl="Y">
+    <value column="Name" original="Product Costing">产品成本计算</value>
+  </row>
+  <row id="480" trl="Y">
+    <value column="Name" original="Resource Type">资源类型</value>
+  </row>
+  <row id="481" trl="Y">
+    <value column="Name" original="Expense Type">开支类型</value>
+  </row>
+  <row id="482" trl="Y">
+    <value column="Name" original="Resource Unavailability">资源不可用</value>
+  </row>
+  <row id="485" trl="Y">
+    <value column="Name" original="Resource Assignment">资源分配</value>
+  </row>
+  <row id="486" trl="Y">
+    <value column="Name" original="Expense Report">开支报表</value>
+  </row>
+  <row id="487" trl="Y">
+    <value column="Name" original="Resource">资源</value>
+  </row>
+  <row id="488" trl="Y">
+    <value column="Name" original="Expense Line">开支行</value>
+  </row>
+  <row id="489" trl="Y">
+    <value column="Name" original="Print Format Item">打印格式项</value>
+  </row>
+  <row id="490" trl="Y">
+    <value column="Name" original="Print Color">打印颜色</value>
+  </row>
+  <row id="491" trl="Y">
+    <value column="Name" original="Print Font">打印字体</value>
+  </row>
+  <row id="492" trl="Y">
+    <value column="Name" original="Print Paper">打印纸</value>
+  </row>
+  <row id="493" trl="Y">
+    <value column="Name" original="Print Format">打印格式</value>
+  </row>
+  <row id="495" trl="Y">
+    <value column="Name" original="C_Invoice_LineTax_v">C_发票_税行_v</value>
+  </row>
+  <row id="496" trl="Y">
+    <value column="Name" original="Order Header Print">订单头打印</value>
+  </row>
+  <row id="497" trl="Y">
+    <value column="Name" original="Order LineTax Print">订单行-税-打印</value>
+  </row>
+  <row id="498" trl="Y">
+    <value column="Name" original="C_PaySelection_Check_v">C_支付选择_支票_V</value>
+  </row>
+  <row id="499" trl="Y">
+    <value column="Name" original="C_PaySelection_Remittance_v">C_支付选择_汇款_V</value>
+  </row>
+  <row id="500" trl="Y">
+    <value column="Name" original="Shipment/Receipt Header v">发货单/收货单页头_V</value>
+  </row>
+  <row id="501" trl="Y">
+    <value column="Name" original="Shipment/Receipt Line v">发货单/收货单 行 v</value>
+  </row>
+  <row id="516" trl="Y">
+    <value column="Name" original="C_Invoice_Header_v">C_发票_标头_V</value>
+  </row>
+  <row id="520" trl="Y">
+    <value column="Name" original="BPartner">业务伙伴</value>
+  </row>
+  <row id="521" trl="Y">
+    <value column="Name" original="Graph">图形</value>
+  </row>
+  <row id="522" trl="Y">
+    <value column="Name" original="Print Format Item Trl">打印格式项 翻译</value>
+  </row>
+  <row id="523" trl="Y">
+    <value column="Name" original="Print Table Format">打印表格格式</value>
+  </row>
+  <row id="524" trl="Y">
+    <value column="Name" original="Dunning Run Line">催款计算行</value>
+  </row>
+  <row id="525" trl="Y">
+    <value column="Name" original="Pay Selection Check">付款选择检查</value>
+  </row>
+  <row id="526" trl="Y">
+    <value column="Name" original="Dunning Run">催款计算</value>
+  </row>
+  <row id="527" trl="Y">
+    <value column="Name" original="Dunning Run Entry">催款计算条目（Dunning Run Entry）。</value>
+  </row>
+  <row id="528" trl="Y">
+    <value column="Name" original="R_ContactInterest">R_联系人兴趣</value>
+  </row>
+  <row id="529" trl="Y">
+    <value column="Name" original="Request Type">请求类型</value>
+  </row>
+  <row id="530" trl="Y">
+    <value column="Name" original="Interest Area">兴趣领域</value>
+  </row>
+  <row id="531" trl="Y">
+    <value column="Name" original="System">系统</value>
+  </row>
+  <row id="532" trl="Y">
+    <value column="Name" original="Import Product">导入产品</value>
+  </row>
+  <row id="533" trl="Y">
+    <value column="Name" original="Import Business Partner">导入业务伙伴</value>
+  </row>
+  <row id="534" trl="Y">
+    <value column="Name" original="Import Account">导入账户</value>
+  </row>
+  <row id="535" trl="Y">
+    <value column="Name" original="Import Report Line Set">导入报表行设置</value>
+  </row>
+  <row id="537" trl="Y">
+    <value column="Name" original="Training Class">培训班</value>
+  </row>
+  <row id="538" trl="Y">
+    <value column="Name" original="Training">培训</value>
+  </row>
+  <row id="539" trl="Y">
+    <value column="Name" original="Asset">资产</value>
+  </row>
+  <row id="540" trl="Y">
+    <value column="Name" original="Asset Retirement">资产报废</value>
+  </row>
+  <row id="541" trl="Y">
+    <value column="Name" original="Asset Delivery">资产交付</value>
+  </row>
+  <row id="542" trl="Y">
+    <value column="Name" original="Asset Group">资产分组</value>
+  </row>
+  <row id="544" trl="Y">
+    <value column="Name" original="T_Report">临时表 T_Report</value>
+  </row>
+  <row id="545" trl="Y">
+    <value column="Name" original="T_ReportStatement">临时表 T_ReportStatement。</value>
+  </row>
+  <row id="546" trl="Y">
+    <value column="Name" original="Tax Trl">税 翻译</value>
+  </row>
+  <row id="547" trl="Y">
+    <value column="Name" original="Fact_Acct_Balance">分录_账户_余额（Fact_Acct_Balance）。</value>
+  </row>
+  <row id="548" trl="Y">
+    <value column="Name" original="Payment Schedule">付款计划</value>
+  </row>
+  <row id="549" trl="Y">
+    <value column="Name" original="Basket Line">购物篮行</value>
+  </row>
+  <row id="550" trl="Y">
+    <value column="Name" original="Web Click">网页点击</value>
+  </row>
+  <row id="551" trl="Y">
+    <value column="Name" original="Invoice Payment Schedule">发票支付计划</value>
+  </row>
+  <row id="552" trl="Y">
+    <value column="Name" original="Counter Count">计数器计数</value>
+  </row>
+  <row id="553" trl="Y">
+    <value column="Name" original="Click Count">点击计数</value>
+  </row>
+  <row id="554" trl="Y">
+    <value column="Name" original="Payment_v">付款单_v</value>
+  </row>
+  <row id="555" trl="Y">
+    <value column="Name" original="Serial No Control">序列号控制</value>
+  </row>
+  <row id="556" trl="Y">
+    <value column="Name" original="Lot Control">批次（LOT）控制</value>
+  </row>
+  <row id="557" trl="Y">
+    <value column="Name" original="Lot">批次（LOT）</value>
+  </row>
+  <row id="558" trl="Y">
+    <value column="Name" original="Attribute Value">属性值</value>
+  </row>
+  <row id="559" trl="Y">
+    <value column="Name" original="Attribute Set Instance">属性集实例</value>
+  </row>
+  <row id="560" trl="Y">
+    <value column="Name" original="Attribute Set">属性组合</value>
+  </row>
+  <row id="561" trl="Y">
+    <value column="Name" original="M_AttributeInstance">M_属性实例</value>
+  </row>
+  <row id="562" trl="Y">
+    <value column="Name" original="Attribute">属性</value>
+  </row>
+  <row id="563" trl="Y">
+    <value column="Name" original="M_AttributeUse">M_属性使用</value>
+  </row>
+  <row id="564" trl="Y">
+    <value column="Name" original="Attribute Search">属性搜索</value>
+  </row>
+  <row id="565" trl="Y">
+    <value column="Name" original="AD_Table_Access">AD_表_访问权限</value>
+  </row>
+  <row id="566" trl="Y">
+    <value column="Name" original="Session">登录会话</value>
+  </row>
+  <row id="567" trl="Y">
+    <value column="Name" original="AD_Record_Access">AD_记录_权限</value>
+  </row>
+  <row id="568" trl="Y">
+    <value column="Name" original="Print Label Line Trl">打印标签行 翻译</value>
+  </row>
+  <row id="569" trl="Y">
+    <value column="Name" original="Print Label Line">打印标签行</value>
+  </row>
+  <row id="570" trl="Y">
+    <value column="Name" original="Print Label">打印标签</value>
+  </row>
+  <row id="571" trl="Y">
+    <value column="Name" original="AD_Column_Access">AD_列_访问权限</value>
+  </row>
+  <row id="572" trl="Y">
+    <value column="Name" original="Import Inventory">导入库存</value>
+  </row>
+  <row id="573" trl="Y">
+    <value column="Name" original="Recurring Run">经常性单据 运行</value>
+  </row>
+  <row id="574" trl="Y">
+    <value column="Name" original="Recurring">经常性单据</value>
+  </row>
+  <row id="575" trl="Y">
+    <value column="Name" original="Project Type">项目类型</value>
+  </row>
+  <row id="576" trl="Y">
+    <value column="Name" original="Project Phase">项目阶段</value>
+  </row>
+  <row id="577" trl="Y">
+    <value column="Name" original="Standard Phase">标准阶段</value>
+  </row>
+  <row id="578" trl="Y">
+    <value column="Name" original="AD_PInstance_Log">AD_流程实例_日志</value>
+  </row>
+  <row id="579" trl="Y">
+    <value column="Name" original="Advertisement">广告</value>
+  </row>
+  <row id="580" trl="Y">
+    <value column="Name" original="Change Log">变更日志</value>
+  </row>
+  <row id="581" trl="Y">
+    <value column="Name" original="Time Type">时间类型</value>
+  </row>
+  <row id="583" trl="Y">
+    <value column="Name" original="Standard Task">标准任务</value>
+  </row>
+  <row id="584" trl="Y">
+    <value column="Name" original="Project Task">项目任务</value>
+  </row>
+  <row id="585" trl="Y">
+    <value column="Name" original="Org Assignment">组织分配</value>
+  </row>
+  <row id="586" trl="Y">
+    <value column="Name" original="Cost Type">成本类型</value>
+  </row>
+  <row id="590" trl="Y">
+    <value column="Name" original="Cycle Step">周期步骤（Cycle Step）</value>
+  </row>
+  <row id="591" trl="Y">
+    <value column="Name" original="Import Order">导入订单</value>
+  </row>
+  <row id="592" trl="Y">
+    <value column="Name" original="Alert Recipient">提醒接收者</value>
+  </row>
+  <row id="593" trl="Y">
+    <value column="Name" original="Alert Rule">提醒规则</value>
+  </row>
+  <row id="594" trl="Y">
+    <value column="Name" original="Alert">提醒</value>
+  </row>
+  <row id="595" trl="Y">
+    <value column="Name" original="Freight Category">运费类别</value>
+  </row>
+  <row id="596" trl="Y">
+    <value column="Name" original="Freight">运费</value>
+  </row>
+  <row id="597" trl="Y">
+    <value column="Name" original="Import Payment">导入付款</value>
+  </row>
+  <row id="598" trl="Y">
+    <value column="Name" original="Import Invoice">导入发票</value>
+  </row>
+  <row id="599" trl="Y">
+    <value column="Name" original="Import GL Journal">导入总账日记账</value>
+  </row>
+  <row id="600" trl="Y">
+    <value column="Name" original="Import Bank Statement">导入银行对账单</value>
+  </row>
+  <row id="601" trl="Y">
+    <value column="Name" original="Replication Table">复制表</value>
+  </row>
+  <row id="602" trl="Y">
+    <value column="Name" original="Replication Strategy">复制策略</value>
+  </row>
+  <row id="603" trl="Y">
+    <value column="Name" original="Replication Run">复制运行</value>
+  </row>
+  <row id="604" trl="Y">
+    <value column="Name" original="Replication Log">复制日志</value>
+  </row>
+  <row id="605" trl="Y">
+    <value column="Name" original="Replication">复制</value>
+  </row>
+  <row id="606" trl="Y">
+    <value column="Name" original="Knowldge Type">知识类型</value>
+  </row>
+  <row id="607" trl="Y">
+    <value column="Name" original="Knowledge Topic">知识主题</value>
+  </row>
+  <row id="608" trl="Y">
+    <value column="Name" original="Knowledge Synonym">知识同义字</value>
+  </row>
+  <row id="609" trl="Y">
+    <value column="Name" original="Knowledge Source">知识来源</value>
+  </row>
+  <row id="610" trl="Y">
+    <value column="Name" original="Related Entry">相关条目</value>
+  </row>
+  <row id="611" trl="Y">
+    <value column="Name" original="K_EntryCategory">K_条目类别</value>
+  </row>
+  <row id="612" trl="Y">
+    <value column="Name" original="Entry">条目</value>
+  </row>
+  <row id="613" trl="Y">
+    <value column="Name" original="Entry Comment">条目注释</value>
+  </row>
+  <row id="614" trl="Y">
+    <value column="Name" original="Category Value">类别值</value>
+  </row>
+  <row id="615" trl="Y">
+    <value column="Name" original="Knowledge Category">知识类别</value>
+  </row>
+  <row id="616" trl="Y">
+    <value column="Name" original="Country Trl">国家 翻译</value>
+  </row>
+  <row id="617" trl="Y">
+    <value column="Name" original="Currency Trl">货币 翻译</value>
+  </row>
+  <row id="618" trl="Y">
+    <value column="Name" original="C_Project_Header_v">C_项目_表头_V</value>
+  </row>
+  <row id="619" trl="Y">
+    <value column="Name" original="C_Project_Details_v">C_项目_明细_V</value>
+  </row>
+  <row id="620" trl="Y">
+    <value column="Name" original="Project Cycle">项目周期（Project Cycle）</value>
+  </row>
+  <row id="621" trl="Y">
+    <value column="Name" original="Asset Delivery">资产 交付</value>
+  </row>
+  <row id="622" trl="Y">
+    <value column="Name" original="Asset Customer">资产 客户</value>
+  </row>
+  <row id="623" trl="Y">
+    <value column="Name" original="Project Issue">项目投放（Project Issue）</value>
+  </row>
+  <row id="624" trl="Y">
+    <value column="Name" original="Label printer Function">标签打印机函数（Label printer Function）。</value>
+  </row>
+  <row id="625" trl="Y">
+    <value column="Name" original="System Registration">系统注册</value>
+  </row>
+  <row id="626" trl="Y">
+    <value column="Name" original="Label printer">标签打印机</value>
+  </row>
+  <row id="627" trl="Y">
+    <value column="Name" original="AD_Private_Access">AD_私有_访问权限</value>
+  </row>
+  <row id="628" trl="Y">
+    <value column="Name" original="Project Line Issue">项目行 发布</value>
+  </row>
+  <row id="629" trl="Y">
+    <value column="Name" original="Mat Transaction">物料事务处理</value>
+  </row>
+  <row id="630" trl="Y">
+    <value column="Name" original="Warehouse Storage">仓库存储</value>
+  </row>
+  <row id="631" trl="Y">
+    <value column="Name" original="T_Aging">T_账龄</value>
+  </row>
+  <row id="632" trl="Y">
+    <value column="Name" original="Product Business Partner">业务伙伴产品</value>
+  </row>
+  <row id="633" trl="Y">
+    <value column="Name" original="Click Unprocessed">未处理的点击</value>
+  </row>
+  <row id="634" trl="Y">
+    <value column="Name" original="Click Month">月点击数</value>
+  </row>
+  <row id="635" trl="Y">
+    <value column="Name" original="Not Posted">未过账</value>
+  </row>
+  <row id="636" trl="Y">
+    <value column="Name" original="M_TransactionAllocation">M_事务处理分配</value>
+  </row>
+  <row id="637" trl="Y">
+    <value column="Name" original="Currency Type">货币汇率类型</value>
+  </row>
+  <row id="638" trl="Y">
+    <value column="Name" original="C_Currency_Acct">C_货币账户</value>
+  </row>
+  <row id="639" trl="Y">
+    <value column="Name" original="Warehouse Price">仓库价格</value>
+  </row>
+  <row id="640" trl="Y">
+    <value column="Name" original="Bank Statement Loader">银行对账单装载器</value>
+  </row>
+  <row id="641" trl="Y">
+    <value column="Name" original="Import Conversion Rate">导入兑换率</value>
+  </row>
+  <row id="642" trl="Y">
+    <value column="Name" original="User Substitute">用户代理</value>
+  </row>
+  <row id="643" trl="Y">
+    <value column="Name" original="Workflow Node Parameter">工作流节点参数</value>
+  </row>
+  <row id="644" trl="Y">
+    <value column="Name" original="Workflow Activity">工作流活动</value>
+  </row>
+  <row id="645" trl="Y">
+    <value column="Name" original="Workflow Process">工作流过程监视</value>
+  </row>
+  <row id="646" trl="Y">
+    <value column="Name" original="Workflow Responsible">工作流职责</value>
+  </row>
+  <row id="647" trl="Y">
+    <value column="Name" original="Workflow Block">工作流模块</value>
+  </row>
+  <row id="648" trl="Y">
+    <value column="Name" original="Workflow Process Data">工作流流程数据</value>
+  </row>
+  <row id="649" trl="Y">
+    <value column="Name" original="Workflow Event Audit">工作流事件审核（、日志）</value>
+  </row>
+  <row id="650" trl="Y">
+    <value column="Name" original="Workflow Activity Result">工作流活动结果</value>
+  </row>
+  <row id="651" trl="Y">
+    <value column="Name" original="Registration">资产登记</value>
+  </row>
+  <row id="652" trl="Y">
+    <value column="Name" original="Registration Attribute">登记属性</value>
+  </row>
+  <row id="653" trl="Y">
+    <value column="Name" original="A_RegistrationValue">A_注册值</value>
+  </row>
+  <row id="654" trl="Y">
+    <value column="Name" original="InvoiceTax">发票税</value>
+  </row>
+  <row id="655" trl="Y">
+    <value column="Name" original="Fact Acct Period">分录账户 期间（Accounting Fact Period）</value>
+  </row>
+  <row id="656" trl="Y">
+    <value column="Name" original="Fact Acct Day">分录账户 天数（Accounting Fact Day）</value>
+  </row>
+  <row id="657" trl="Y">
+    <value column="Name" original="Accounting Fact View">会计分录视图（Accounting Fact View）</value>
+  </row>
+  <row id="658" trl="Y">
+    <value column="Name" original="Bank Statement Matcher">银行对账单匹配器</value>
+  </row>
+  <row id="659" trl="Y">
+    <value column="Name" original="Request Processor Log">请求引擎日志</value>
+  </row>
+  <row id="660" trl="Y">
+    <value column="Name" original="RMA Line">退货授权 行</value>
+  </row>
+  <row id="661" trl="Y">
+    <value column="Name" original="RMA">退货授权</value>
+  </row>
+  <row id="662" trl="Y">
+    <value column="Name" original="Product Related">相关产品</value>
+  </row>
+  <row id="663" trl="Y">
+    <value column="Name" original="Package Line">装箱单 行</value>
+  </row>
+  <row id="664" trl="Y">
+    <value column="Name" original="Package">装箱单</value>
+  </row>
+  <row id="665" trl="Y">
+    <value column="Name" original="Distribution List Line">配送清单行</value>
+  </row>
+  <row id="666" trl="Y">
+    <value column="Name" original="Distribution List">配送清单</value>
+  </row>
+  <row id="667" trl="Y">
+    <value column="Name" original="Subscription Delivery">订阅交付</value>
+  </row>
+  <row id="668" trl="Y">
+    <value column="Name" original="Subscription Type">订阅类型</value>
+  </row>
+  <row id="669" trl="Y">
+    <value column="Name" original="Subscription">订阅</value>
+  </row>
+  <row id="670" trl="Y">
+    <value column="Name" original="RfQ Subscriber">询价单订阅者</value>
+  </row>
+  <row id="671" trl="Y">
+    <value column="Name" original="RfQ Topic">询价单主题</value>
+  </row>
+  <row id="672" trl="Y">
+    <value column="Name" original="RfQ Response Line Qty">询价单回应行数量</value>
+  </row>
+  <row id="673" trl="Y">
+    <value column="Name" original="RfQ Response Line">询价单回应行</value>
+  </row>
+  <row id="674" trl="Y">
+    <value column="Name" original="RfQ Response">询价单回应</value>
+  </row>
+  <row id="675" trl="Y">
+    <value column="Name" original="RfQ Line Quantity">询价单行数量</value>
+  </row>
+  <row id="676" trl="Y">
+    <value column="Name" original="RfQ Line">询价单行</value>
+  </row>
+  <row id="677" trl="Y">
+    <value column="Name" original="RfQ">询价单</value>
+  </row>
+  <row id="678" trl="Y">
+    <value column="Name" original="Partner Relation">伙伴关系</value>
+  </row>
+  <row id="679" trl="Y">
+    <value column="Name" original="Topic">主题</value>
+  </row>
+  <row id="680" trl="Y">
+    <value column="Name" original="Seller Funds">卖方基金</value>
+  </row>
+  <row id="681" trl="Y">
+    <value column="Name" original="B_Seller">业务伙伴_卖家</value>
+  </row>
+  <row id="682" trl="Y">
+    <value column="Name" original="Offer">报盘</value>
+  </row>
+  <row id="683" trl="Y">
+    <value column="Name" original="Buyer Funds">买方基金</value>
+  </row>
+  <row id="684" trl="Y">
+    <value column="Name" original="B_Buyer">业务伙伴_买家</value>
+  </row>
+  <row id="685" trl="Y">
+    <value column="Name" original="Bid Comment">竞标评注</value>
+  </row>
+  <row id="686" trl="Y">
+    <value column="Name" original="Bid">竞标</value>
+  </row>
+  <row id="687" trl="Y">
+    <value column="Name" original="Scheduler Log">计划程序日志</value>
+  </row>
+  <row id="688" trl="Y">
+    <value column="Name" original="Scheduler">计划程序</value>
+  </row>
+  <row id="689" trl="Y">
+    <value column="Name" original="Organization Type">组织类型</value>
+  </row>
+  <row id="690" trl="Y">
+    <value column="Name" original="Topic Type">主题类型</value>
+  </row>
+  <row id="691" trl="Y">
+    <value column="Name" original="Topic Category">主题类别</value>
+  </row>
+  <row id="694" trl="Y">
+    <value column="Name" original="Accounting Processor Log">会计引擎日志</value>
+  </row>
+  <row id="695" trl="Y">
+    <value column="Name" original="Accounting Processor">会计引擎</value>
+  </row>
+  <row id="696" trl="Y">
+    <value column="Name" original="Workflow Processorl Log">工作流引擎日志</value>
+  </row>
+  <row id="697" trl="Y">
+    <value column="Name" original="Workflow Processor">工作流引擎</value>
+  </row>
+  <row id="698" trl="Y">
+    <value column="Name" original="AD_Scheduler_Para">AD_计划任务_参数</value>
+  </row>
+  <row id="699" trl="Y">
+    <value column="Name" original="Alert Processor Log">提醒引擎日志</value>
+  </row>
+  <row id="700" trl="Y">
+    <value column="Name" original="Alert Processor">提醒引擎</value>
+  </row>
+  <row id="701" trl="Y">
+    <value column="Name" original="Tax ZIP">税邮编</value>
+  </row>
+  <row id="702" trl="Y">
+    <value column="Name" original="Requisition">申购单</value>
+  </row>
+  <row id="703" trl="Y">
+    <value column="Name" original="Requisition Line">申购行</value>
+  </row>
+  <row id="704" trl="Y">
+    <value column="Name" original="Scheduler Recipient">计划程序接收者</value>
+  </row>
+  <row id="705" trl="Y">
+    <value column="Name" original="Attachment Note">附件备注</value>
+  </row>
+  <row id="706" trl="Y">
+    <value column="Name" original="Transition Condition">切换条件</value>
+  </row>
+  <row id="707" trl="Y">
+    <value column="Name" original="GL Distribution Line">总账分配行</value>
+  </row>
+  <row id="708" trl="Y">
+    <value column="Name" original="GL Distribution">总账分配</value>
+  </row>
+  <row id="709" trl="Y">
+    <value column="Name" original="RfQ UnAnswered">未答复询价单</value>
+  </row>
+  <row id="710" trl="Y">
+    <value column="Name" original="RfQ Response">询价单回应</value>
+  </row>
+  <row id="711" trl="Y">
+    <value column="Name" original="Requisition">申购单</value>
+  </row>
+  <row id="712" trl="Y">
+    <value column="Name" original="Distribution Run">配送发运（Distribution Run）</value>
+  </row>
+  <row id="713" trl="Y">
+    <value column="Name" original="Distribution Run Line">配送发运 行</value>
+  </row>
+  <row id="714" trl="Y">
+    <value column="Name" original="T_DistributionRunDetail">临时表 T_配送发运明细</value>
+  </row>
+  <row id="715" trl="Y">
+    <value column="Name" original="Registration Product">登记产品</value>
+  </row>
+  <row id="716" trl="Y">
+    <value column="Name" original="Asset SumMonth">资产 月度汇总</value>
+  </row>
+  <row id="717" trl="Y">
+    <value column="Name" original="Access Log">访问日志</value>
+  </row>
+  <row id="718" trl="Y">
+    <value column="Name" original="Counter Document">反向单据（Counter Document）。</value>
+  </row>
+  <row id="719" trl="Y">
+    <value column="Name" original="Demand Line">需求行</value>
+  </row>
+  <row id="720" trl="Y">
+    <value column="Name" original="Forecast">预测</value>
+  </row>
+  <row id="721" trl="Y">
+    <value column="Name" original="Demand Detail">需求明细</value>
+  </row>
+  <row id="722" trl="Y">
+    <value column="Name" original="Forecast Line">预测行</value>
+  </row>
+  <row id="723" trl="Y">
+    <value column="Name" original="Demand">物料需求</value>
+  </row>
+  <row id="724" trl="Y">
+    <value column="Name" original="C_RfQResponseLine_v">C_询价单回应行_V</value>
+  </row>
+  <row id="725" trl="Y">
+    <value column="Name" original="C_RfQResponse_v">C_询价单回应_V</value>
+  </row>
+  <row id="726" trl="Y">
+    <value column="Name" original="C_RfQResponseLineQty_v">C_询价单回应行数量_V</value>
+  </row>
+  <row id="727" trl="Y">
+    <value column="Name" original="Ship/Receipt Confirmation">发货单/收货单确认</value>
+  </row>
+  <row id="728" trl="Y">
+    <value column="Name" original="Ship/Receipt Confirmation Line">发货单/收货单确认行</value>
+  </row>
+  <row id="729" trl="Y">
+    <value column="Name" original="RMA Type">退货授权类型</value>
+  </row>
+  <row id="730" trl="Y">
+    <value column="Name" original="InOut Confirm">出/入库确认</value>
+  </row>
+  <row id="731" trl="Y">
+    <value column="Name" original="InOut Line Confirm">出/入库行确认</value>
+  </row>
+  <row id="732" trl="Y">
+    <value column="Name" original="Shipment/Receipt Confirmation v">发货单/收货单确认 v 732</value>
+  </row>
+  <row id="733" trl="Y">
+    <value column="Name" original="Shipment/Receipt Confirmation">发货单/收货单确认 733</value>
+  </row>
+  <row id="735" trl="Y">
+    <value column="Name" original="Allocation">分配</value>
+  </row>
+  <row id="736" trl="Y">
+    <value column="Name" original="Allocation">分配</value>
+  </row>
+  <row id="737" trl="Y">
+    <value column="Name" original="Move Line Confirm">移库行确认</value>
+  </row>
+  <row id="738" trl="Y">
+    <value column="Name" original="Move Confirm">移库确认</value>
+  </row>
+  <row id="739" trl="Y">
+    <value column="Name" original="PrintFormat Detail">打印格式明细</value>
+  </row>
+  <row id="740" trl="Y">
+    <value column="Name" original="Ship/Receipt Confirmation Import Line">发货单/收货单确认导入行</value>
+  </row>
+  <row id="741" trl="Y">
+    <value column="Name" original="C_Dunning_Header_v">C_催款信函_页头_v</value>
+  </row>
+  <row id="742" trl="Y">
+    <value column="Name" original="C_Dunning_Line_v">C_催款信函_行_v</value>
+  </row>
+  <row id="743" trl="Y">
+    <value column="Name" original="SLA Measure">服务级别协议（SLA）评估</value>
+  </row>
+  <row id="744" trl="Y">
+    <value column="Name" original="SLA Criteria">服务级别协议（SLA）标准</value>
+  </row>
+  <row id="745" trl="Y">
+    <value column="Name" original="SLA Goal">服务级别协议（SLA）目标</value>
+  </row>
+  <row id="746" trl="Y">
+    <value column="Name" original="Table Trl">表 翻译</value>
+  </row>
+  <row id="747" trl="Y">
+    <value column="Name" original="RfQ Topic Subscriber Restriction">询价单主题订阅者 限制</value>
+  </row>
+  <row id="748" trl="Y">
+    <value column="Name" original="POS Terminal">POS 终端</value>
+  </row>
+  <row id="749" trl="Y">
+    <value column="Name" original="POS Key Layout">POS 键布局</value>
+  </row>
+  <row id="750" trl="Y">
+    <value column="Name" original="POS Key">POS 键</value>
+  </row>
+  <row id="751" trl="Y">
+    <value column="Name" original="InOut Details">出/入库明细</value>
+  </row>
+  <row id="752" trl="Y">
+    <value column="Name" original="Column Trl">列 翻译</value>
+  </row>
+  <row id="753" trl="Y">
+    <value column="Name" original="Trial Balance">试算平衡</value>
+  </row>
+  <row id="754" trl="Y">
+    <value column="Name" original="Archive">归档</value>
+  </row>
+  <row id="755" trl="Y">
+    <value column="Name" original="Payment">付款</value>
+  </row>
+  <row id="756" trl="Y">
+    <value column="Name" original="BPartnerOpen">未结业务伙伴</value>
+  </row>
+  <row id="757" trl="Y">
+    <value column="Name" original="Commission Run Detail">佣金运行明细</value>
+  </row>
+  <row id="758" trl="Y">
+    <value column="Name" original="T_Transaction">临时表 T_Transaction 。</value>
+  </row>
+  <row id="759" trl="Y">
+    <value column="Name" original="Landed Cost">到岸成本</value>
+  </row>
+  <row id="760" trl="Y">
+    <value column="Name" original="Landed Cost Allocation">到岸成本分配</value>
+  </row>
+  <row id="761" trl="Y">
+    <value column="Name" original="C_ProjectIssueMA">C_项目投放物料分配</value>
+  </row>
+  <row id="762" trl="Y">
+    <value column="Name" original="M_InOutLineMA">M_收发 行 物料分配</value>
+  </row>
+  <row id="763" trl="Y">
+    <value column="Name" original="M_InventoryLineMA">M_库存行 物料分配</value>
+  </row>
+  <row id="764" trl="Y">
+    <value column="Name" original="M_MovementLineMA">M_移库行 物料分配</value>
+  </row>
+  <row id="765" trl="Y">
+    <value column="Name" original="Production Line MA">生产行 物料分配</value>
+  </row>
+  <row id="766" trl="Y">
+    <value column="Name" original="M_Transaction_v">M_事务处理_v</value>
+  </row>
+  <row id="767" trl="Y">
+    <value column="Name" original="Invoice Batch">发票批（Batch）</value>
+  </row>
+  <row id="768" trl="Y">
+    <value column="Name" original="Invoice Batch Line">发票批行（Batch）</value>
+  </row>
+  <row id="769" trl="Y">
+    <value column="Name" original="AD_User_OrgAccess">AD_用户_组织访问权限</value>
+  </row>
+  <row id="770" trl="Y">
+    <value column="Name" original="Cost Element">成本要素</value>
+  </row>
+  <row id="771" trl="Y">
+    <value column="Name" original="Product Cost">产品成本报表</value>
+  </row>
+  <row id="772" trl="Y">
+    <value column="Name" original="Category">类别</value>
+  </row>
+  <row id="773" trl="Y">
+    <value column="Name" original="Group">分组</value>
+  </row>
+  <row id="774" trl="Y">
+    <value column="Name" original="Resolution">解决方案</value>
+  </row>
+  <row id="775" trl="Y">
+    <value column="Name" original="Standard Response">标准响应</value>
+  </row>
+  <row id="776" trl="Y">
+    <value column="Name" original="Status">状态</value>
+  </row>
+  <row id="777" trl="Y">
+    <value column="Name" original="Product Download">产品下载</value>
+  </row>
+  <row id="778" trl="Y">
+    <value column="Name" original="Web Store">网上商店</value>
+  </row>
+  <row id="779" trl="Y">
+    <value column="Name" original="Web Store Trl">网上商店 翻译</value>
+  </row>
+  <row id="780" trl="Y">
+    <value column="Name" original="Mail Message">邮件消息</value>
+  </row>
+  <row id="781" trl="Y">
+    <value column="Name" original="Mail Message Trl">邮件消息 翻译</value>
+  </row>
+  <row id="782" trl="Y">
+    <value column="Name" original="User Mail">用户邮件</value>
+  </row>
+  <row id="783" trl="Y">
+    <value column="Name" original="Request Update Recipiants">请求更新接收人</value>
+  </row>
+  <row id="784" trl="Y">
+    <value column="Name" original="Request Type Updates">请求类型更新</value>
+  </row>
+  <row id="785" trl="Y">
+    <value column="Name" original="R_CategoryUpdates">R_类别更新</value>
+  </row>
+  <row id="786" trl="Y">
+    <value column="Name" original="R_GroupUpdates">R_分组更新</value>
+  </row>
+  <row id="787" trl="Y">
+    <value column="Name" original="Request Updates">请求更新</value>
+  </row>
+  <row id="788" trl="Y">
+    <value column="Name" original="Request Updates Only">仅请求更新</value>
+  </row>
+  <row id="789" trl="Y">
+    <value column="Name" original="Position">位置</value>
+  </row>
+  <row id="790" trl="Y">
+    <value column="Name" original="Position Category">职位类别</value>
+  </row>
+  <row id="791" trl="Y">
+    <value column="Name" original="Position Assignment">职位分配</value>
+  </row>
+  <row id="792" trl="Y">
+    <value column="Name" original="Remuneration">薪酬</value>
+  </row>
+  <row id="793" trl="Y">
+    <value column="Name" original="Position Remuneration">职位薪酬</value>
+  </row>
+  <row id="794" trl="Y">
+    <value column="Name" original="Employee Remuneration">员工薪酬</value>
+  </row>
+  <row id="795" trl="Y">
+    <value column="Name" original="Alternative Group">备选分组</value>
+  </row>
+  <row id="796" trl="Y">
+    <value column="Name" original="Product Operation">产品作业</value>
+  </row>
+  <row id="797" trl="Y">
+    <value column="Name" original="Operation Resource">作业资源</value>
+  </row>
+  <row id="798" trl="Y">
+    <value column="Name" original="BOM">物料清单（BOM）</value>
+  </row>
+  <row id="799" trl="Y">
+    <value column="Name" original="Change Notice">变更通知</value>
+  </row>
+  <row id="800" trl="Y">
+    <value column="Name" original="Change Request">变更请求</value>
+  </row>
+  <row id="801" trl="Y">
+    <value column="Name" original="BOM Component">物料清单(BOM）零部件</value>
+  </row>
+  <row id="802" trl="Y">
+    <value column="Name" original="Request Update">请求更新</value>
+  </row>
+  <row id="803" trl="Y">
+    <value column="Name" original="T_InvoiceGL">临时表 T_发票总帐</value>
+  </row>
+  <row id="804" trl="Y">
+    <value column="Name" original="T_InvoiceGL_v">临时表 T_发票总帐_v</value>
+  </row>
+  <row id="805" trl="Y">
+    <value column="Name" original="Product Costs">产品成本</value>
+  </row>
+  <row id="806" trl="Y">
+    <value column="Name" original="Product Cost Summary">产品成本合计</value>
+  </row>
+  <row id="807" trl="Y">
+    <value column="Name" original="Product Cost Detail">产品成本明细</value>
+  </row>
+  <row id="808" trl="Y">
+    <value column="Name" original="Cost Detail">成本明细</value>
+  </row>
+  <row id="809" trl="Y">
+    <value column="Name" original="Exclude Attribute Set">排除属性设置</value>
+  </row>
+  <row id="810" trl="Y">
+    <value column="Name" original="Exclude Lot">排除批次（LOT）</value>
+  </row>
+  <row id="811" trl="Y">
+    <value column="Name" original="Exclude SerNo">排除序列号</value>
+  </row>
+  <row id="812" trl="Y">
+    <value column="Name" original="Allocate Payment">分配付款</value>
+  </row>
+  <row id="813" trl="Y">
+    <value column="Name" original="User BP Access">用户业务伙伴访问</value>
+  </row>
+  <row id="814" trl="Y">
+    <value column="Name" original="User Query">用户查询</value>
+  </row>
+  <row id="815" trl="Y">
+    <value column="Name" original="M_InOutLineMA_v">M_收发 行 物料分配_v</value>
+  </row>
+  <row id="816" trl="Y">
+    <value column="Name" original="M_MovementLineMA_v">M_移库行 物理分配_v</value>
+  </row>
+  <row id="817" trl="Y">
+    <value column="Name" original="Cost Queue">成本队列</value>
+  </row>
+  <row id="818" trl="Y">
+    <value column="Name" original="Tax Declaration">税申报单</value>
+  </row>
+  <row id="819" trl="Y">
+    <value column="Name" original="Tax Declaration Line">税申报行</value>
+  </row>
+  <row id="820" trl="Y">
+    <value column="Name" original="Tax Declaration Accounting">税申报会计</value>
+  </row>
+  <row id="821" trl="Y">
+    <value column="Name" original="Reporting Hierarchy">报表层级</value>
+  </row>
+  <row id="822" trl="Y">
+    <value column="Name" original="Budget Control">预算控制</value>
+  </row>
+  <row id="823" trl="Y">
+    <value column="Name" original="GL Fund">总账资金</value>
+  </row>
+  <row id="824" trl="Y">
+    <value column="Name" original="Fund Restriction">资金限制</value>
+  </row>
+  <row id="825" trl="Y">
+    <value column="Name" original="Sub Account">子账户</value>
+  </row>
+  <row id="826" trl="Y">
+    <value column="Name" original="Mail Template Trl">邮件模板 翻译</value>
+  </row>
+  <row id="827" trl="Y">
+    <value column="Name" original="Client Share">实体(客户端)共享</value>
+  </row>
+  <row id="828" trl="Y">
+    <value column="Name" original="System Issue">系统问题</value>
+  </row>
+  <row id="829" trl="Y">
+    <value column="Name" original="Invoice ProductQtr">发票 -产品按季</value>
+  </row>
+  <row id="830" trl="Y">
+    <value column="Name" original="Invoice ProductMonth">发票 -产品按月</value>
+  </row>
+  <row id="831" trl="Y">
+    <value column="Name" original="Color Schema">配色方案</value>
+  </row>
+  <row id="832" trl="Y">
+    <value column="Name" original="Goal Restriction">目标限制</value>
+  </row>
+  <row id="833" trl="Y">
+    <value column="Name" original="Benchmark">基准测试</value>
+  </row>
+  <row id="834" trl="Y">
+    <value column="Name" original="Benchmark Data">基准测试数据</value>
+  </row>
+  <row id="835" trl="Y">
+    <value column="Name" original="Ratio">比例</value>
+  </row>
+  <row id="836" trl="Y">
+    <value column="Name" original="Ratio Element">比率元素</value>
+  </row>
+  <row id="837" trl="Y">
+    <value column="Name" original="Issue Recommendation">问题建议</value>
+  </row>
+  <row id="838" trl="Y">
+    <value column="Name" original="Issue Status">问题状态</value>
+  </row>
+  <row id="839" trl="Y">
+    <value column="Name" original="Known Issue">已知问题</value>
+  </row>
+  <row id="841" trl="Y">
+    <value column="Name" original="IssueUser">问题汇报人</value>
+  </row>
+  <row id="842" trl="Y">
+    <value column="Name" original="Issue Project">问题 项目</value>
+  </row>
+  <row id="843" trl="Y">
+    <value column="Name" original="Issue System">问题 系统</value>
+  </row>
+  <row id="844" trl="Y">
+    <value column="Name" original="Status Category">状态类别</value>
+  </row>
+  <row id="845" trl="Y">
+    <value column="Name" original="Tree Node CM Container">树节点 内容管理容器</value>
+  </row>
+  <row id="846" trl="Y">
+    <value column="Name" original="Tree Node CM Media">树节点 内容管理媒质</value>
+  </row>
+  <row id="847" trl="Y">
+    <value column="Name" original="Tree Node CM Stage">树节点 内容管理阶段</value>
+  </row>
+  <row id="848" trl="Y">
+    <value column="Name" original="Tree Node CM Template">树节点 内容管理模板</value>
+  </row>
+  <row id="849" trl="Y">
+    <value column="Name" original="Tree Node User 4">树节点用户 4 </value>
+  </row>
+  <row id="850" trl="Y">
+    <value column="Name" original="Tree Node User 3">树节点用户 3 </value>
+  </row>
+  <row id="851" trl="Y">
+    <value column="Name" original="Tree Node User 2">树节点用户 2 </value>
+  </row>
+  <row id="852" trl="Y">
+    <value column="Name" original="Tree Node User 1">树节点用户 1 </value>
+  </row>
+  <row id="853" trl="Y">
+    <value column="Name" original="Web Project">网络 项目</value>
+  </row>
+  <row id="854" trl="Y">
+    <value column="Name" original="Template">模板</value>
+  </row>
+  <row id="855" trl="Y">
+    <value column="Name" original="Web Container">网页容器</value>
+  </row>
+  <row id="856" trl="Y">
+    <value column="Name" original="Advertisement Category">广告类别</value>
+  </row>
+  <row id="857" trl="Y">
+    <value column="Name" original="Media Item">媒质项</value>
+  </row>
+  <row id="858" trl="Y">
+    <value column="Name" original="Advertisement">广告</value>
+  </row>
+  <row id="859" trl="Y">
+    <value column="Name" original="Media Server">媒质服务器</value>
+  </row>
+  <row id="860" trl="Y">
+    <value column="Name" original="Container Element">容器元素</value>
+  </row>
+  <row id="861" trl="Y">
+    <value column="Name" original="Container Element Trl">容器元素 翻译</value>
+  </row>
+  <row id="864" trl="Y">
+    <value column="Name" original="Web Container Trl">网络容器 翻译</value>
+  </row>
+  <row id="865" trl="Y">
+    <value column="Name" original="Container URL">容器网址</value>
+  </row>
+  <row id="866" trl="Y">
+    <value column="Name" original="Web Container Stage">网络容器阶段</value>
+  </row>
+  <row id="867" trl="Y">
+    <value column="Name" original="Container Stage Element">容器阶段元素</value>
+  </row>
+  <row id="868" trl="Y">
+    <value column="Name" original="Container Stage Element Trl">容器阶段元素 翻译</value>
+  </row>
+  <row id="869" trl="Y">
+    <value column="Name" original="Web Container Stage Trl">网络容器阶段 翻译</value>
+  </row>
+  <row id="870" trl="Y">
+    <value column="Name" original="News Channel">新闻频道</value>
+  </row>
+  <row id="871" trl="Y">
+    <value column="Name" original="News Item / Article">新贴/文章</value>
+  </row>
+  <row id="872" trl="Y">
+    <value column="Name" original="Template Advertising Category">模板广告类别</value>
+  </row>
+  <row id="873" trl="Y">
+    <value column="Name" original="WebProject Domain">网络项目域名</value>
+  </row>
+  <row id="874" trl="Y">
+    <value column="Name" original="Chat Type">聊天类型</value>
+  </row>
+  <row id="875" trl="Y">
+    <value column="Name" original="Chat Type Update">聊天类型更新</value>
+  </row>
+  <row id="876" trl="Y">
+    <value column="Name" original="Chat">聊天</value>
+  </row>
+  <row id="877" trl="Y">
+    <value column="Name" original="Chat Entry">聊天记录</value>
+  </row>
+  <row id="878" trl="Y">
+    <value column="Name" original="Chat Update">会话更新</value>
+  </row>
+  <row id="879" trl="Y">
+    <value column="Name" original="Template Table">模板表</value>
+  </row>
+  <row id="880" trl="Y">
+    <value column="Name" original="Container T.Table">容器模板表</value>
+  </row>
+  <row id="881" trl="Y">
+    <value column="Name" original="Stage T.Table">阶段模板表</value>
+  </row>
+  <row id="882" trl="Y">
+    <value column="Name" original="Entity Type">对象实体类型</value>
+  </row>
+  <row id="883" trl="Y">
+    <value column="Name" original="Modification">修改</value>
+  </row>
+  <row id="885" trl="Y">
+    <value column="Name" original="Web Access Profile">网络访问 档案</value>
+  </row>
+  <row id="886" trl="Y">
+    <value column="Name" original="Web Access BP Group">网络访问 业务伙伴分组</value>
+  </row>
+  <row id="887" trl="Y">
+    <value column="Name" original="Web Access Role">网络访问 角色</value>
+  </row>
+  <row id="888" trl="Y">
+    <value column="Name" original="Web Access Container">网络访问 容器</value>
+  </row>
+  <row id="889" trl="Y">
+    <value column="Name" original="Web Access Stage">网络访问 阶段</value>
+  </row>
+  <row id="890" trl="Y">
+    <value column="Name" original="Web Access Media">网络访问媒质</value>
+  </row>
+  <row id="891" trl="Y">
+    <value column="Name" original="Web Access NewsChannel">网络访问新闻频道</value>
+  </row>
+  <row id="892" trl="Y">
+    <value column="Name" original="Media Deploy">媒质部署</value>
+  </row>
+  <row id="893" trl="Y">
+    <value column="Name" original="Broadcast Server">广播服务器</value>
+  </row>
+  <row id="894" trl="Y">
+    <value column="Name" original="Web Access Log">网络访问日志</value>
+  </row>
+  <row id="895" trl="Y">
+    <value column="Name" original="Info Window">资料窗口</value>
+  </row>
+  <row id="896" trl="Y">
+    <value column="Name" original="Info Window Trl">资料窗口 翻译</value>
+  </row>
+  <row id="897" trl="Y">
+    <value column="Name" original="Info Column">资料列</value>
+  </row>
+  <row id="898" trl="Y">
+    <value column="Name" original="Info Column Trl">资料列 翻译</value>
+  </row>
+  <row id="899" trl="Y">
+    <value column="Name" original="Index Log">索引日志</value>
+  </row>
+  <row id="900" trl="Y">
+    <value column="Name" original="Index">索引</value>
+  </row>
+  <row id="901" trl="Y">
+    <value column="Name" original="Index Stop">索引跳过（Index Stop）</value>
+  </row>
+  <row id="902" trl="Y">
+    <value column="Name" original="Ldap Processor">LDAP 引擎</value>
+  </row>
+  <row id="903" trl="Y">
+    <value column="Name" original="Ldap Processor Log">LDAP 引擎日志</value>
+  </row>
+  <row id="904" trl="Y">
+    <value column="Name" original="Ldap Access">LDAP 访问</value>
+  </row>
+  <row id="905" trl="Y">
+    <value column="Name" original="Wiki Token">维基（wiki）标记</value>
+  </row>
+  <row id="50001" trl="Y">
+    <value column="Name" original="AD_Package_Imp_Inst">AD_软件包_导入_实例</value>
+  </row>
+  <row id="50002" trl="Y">
+    <value column="Name" original="AD_Package_Imp_Backup_ID">AD_软件包_导入_备份_ID</value>
+  </row>
+  <row id="50003" trl="Y">
+    <value column="Name" original="AD_Package_Imp_ID">AD_软件包_导入_ID</value>
+  </row>
+  <row id="50004" trl="Y">
+    <value column="Name" original="AD_Package_Imp_Detail_ID">AD_软件包_导入_明细_ID</value>
+  </row>
+  <row id="50005" trl="Y">
+    <value column="Name" original="AD_Package_Exp_ID">AD_软件包_导出_ID</value>
+  </row>
+  <row id="50006" trl="Y">
+    <value column="Name" original="AD_Package_Exp_Detail_ID">AD_软件包_导出_明细_ID</value>
+  </row>
+  <row id="50007" trl="Y">
+    <value column="Name" original="AD_Package_Exp_Common_ID">AD_软件包_导出_Common_ID</value>
+  </row>
+  <row id="50008" trl="Y">
+    <value column="Name" original="AD_Package_Imp_Proc_ID">AD_软件包_导入_流程_ID</value>
+  </row>
+  <row id="50009" trl="Y">
+    <value column="Name" original="System Configurator">系统配置器</value>
+  </row>
+  <row id="50010" trl="Y">
+    <value column="Name" original="PA_DashboardContent_ID">PA_仪表板内容_ID</value>
+  </row>
+  <row id="52000" trl="Y">
+    <value column="Name" original="Black List Cheque">背书支票</value>
+  </row>
+  <row id="52001" trl="Y">
+    <value column="Name" original="Web Properties">网页属性</value>
+  </row>
+  <row id="52002" trl="Y">
+    <value column="Name" original="Role Menu">角色菜单</value>
+  </row>
+  <row id="52003" trl="Y">
+    <value column="Name" original="Web Menu">网络菜单</value>
+  </row>
+  <row id="52004" trl="Y">
+    <value column="Name" original="POS Terminal">POS 终端</value>
+  </row>
+  <row id="53011" trl="Y">
+    <value column="Name" original="Product Stock at Warehouses">仓库中的产品库存</value>
+  </row>
+  <row id="53012" trl="Y">
+    <value column="Name" original="Document Action Access">单据操作访问权限</value>
+  </row>
+  <row id="53014" trl="Y">
+    <value column="Name" original="Model Validator">模型验证</value>
+  </row>
+  <row id="53015" trl="Y">
+    <value column="Name" original="Product Substitute with Stock Info">替代产品的仓储信息</value>
+  </row>
+  <row id="53016" trl="Y">
+    <value column="Name" original="Workflow Node Product">工作流结点 产品</value>
+  </row>
+  <row id="53017" trl="Y">
+    <value column="Name" original="Workflow Node Asset">工作流结点 资产</value>
+  </row>
+  <row id="53018" trl="Y">
+    <value column="Name" original="BOM &amp; Formula">物料清单(BOM)与配方</value>
+  </row>
+  <row id="53019" trl="Y">
+    <value column="Name" original="BOM Line">物料清单(BOM)行</value>
+  </row>
+  <row id="53020" trl="Y">
+    <value column="Name" original="Product Planning">产品计划</value>
+  </row>
+  <row id="53021" trl="Y">
+    <value column="Name" original="View Material Requirement Planning">查看物料需求计划（MRP）</value>
+  </row>
+  <row id="53022" trl="Y">
+    <value column="Name" original="Manufacturing Order Activity">生产单活动</value>
+  </row>
+  <row id="53023" trl="Y">
+    <value column="Name" original="Manufacturing Order Activity Next">生产单下一个活动</value>
+  </row>
+  <row id="53024" trl="Y">
+    <value column="Name" original="Manufacturing Order Cost">生产单成本</value>
+  </row>
+  <row id="53025" trl="Y">
+    <value column="Name" original="Manufacturing Order BOM Line">生产单 物料清单(BOM)行</value>
+  </row>
+  <row id="53026" trl="Y">
+    <value column="Name" original="Manufacturing Order BOM">生产单 物料清单(BOM)</value>
+  </row>
+  <row id="53027" trl="Y">
+    <value column="Name" original="Manufacturing Order">生产单</value>
+  </row>
+  <row id="53028" trl="Y">
+    <value column="Name" original="View Order BOM Line">查看订单 物料清单(BOM)行</value>
+  </row>
+  <row id="53029" trl="Y">
+    <value column="Name" original="Manufacturing Order Workflow">生产单工作流</value>
+  </row>
+  <row id="53030" trl="Y">
+    <value column="Name" original="Manufacturing Order Activity Product">生产单活动 产品</value>
+  </row>
+  <row id="53031" trl="Y">
+    <value column="Name" original="Manufacturing Order Activity Asset">生产单活动 资产</value>
+  </row>
+  <row id="53032" trl="Y">
+    <value column="Name" original="View Order Storage">查看订单 库存</value>
+  </row>
+  <row id="53033" trl="Y">
+    <value column="Name" original="View Product Costing">查看 产品成本</value>
+  </row>
+  <row id="53034" trl="Y">
+    <value column="Name" original="View Manufacturing Order Transactions">查看 生产工作流转换</value>
+  </row>
+  <row id="53035" trl="Y">
+    <value column="Name" original="Manufacturing Cost Collector">制造成本归集</value>
+  </row>
+  <row id="53036" trl="Y">
+    <value column="Name" original="View Operation_Activity">查看个人活动</value>
+  </row>
+  <row id="53037" trl="Y">
+    <value column="Name" original="Distribution Order">配送单</value>
+  </row>
+  <row id="53038" trl="Y">
+    <value column="Name" original="Distribution Order Line">配送单行</value>
+  </row>
+  <row id="53039" trl="Y">
+    <value column="Name" original="DD_Order_Header_v">DD_订单_页头_v</value>
+  </row>
+  <row id="53040" trl="Y">
+    <value column="Name" original="Quality Specification">质量规范</value>
+  </row>
+  <row id="53041" trl="Y">
+    <value column="Name" original="QM_SpecificationLine_ID">质量管理规范行 ID</value>
+  </row>
+  <row id="53042" trl="Y">
+    <value column="Name" original="View Product Costing">查看产品成本</value>
+  </row>
+  <row id="53043" trl="Y">
+    <value column="Name" original="Material Requirement Planning">物料需求计划(MRP)</value>
+  </row>
+  <row id="53044" trl="Y">
+    <value column="Name" original="Temporal MRP &amp; CRP">临时的物料需求计划（MRP）, 能力需求计划（CRP）。</value>
+  </row>
+  <row id="53045" trl="Y">
+    <value column="Name" original="Temporal BOM Line">临时的物料清单（BOM）行。</value>
+  </row>
+  <row id="53046" trl="Y">
+    <value column="Name" original="ASP Window">ASP 窗口</value>
+  </row>
+  <row id="53047" trl="Y">
+    <value column="Name" original="ASP Tab">ASP 页签</value>
+  </row>
+  <row id="53048" trl="Y">
+    <value column="Name" original="ASP Field">ASP 字段</value>
+  </row>
+  <row id="53049" trl="Y">
+    <value column="Name" original="ASP Process">ASP 进程</value>
+  </row>
+  <row id="53050" trl="Y">
+    <value column="Name" original="ASP Process Parameter">ASP 进程参数</value>
+  </row>
+  <row id="53051" trl="Y">
+    <value column="Name" original="ASP Form">ASP 表格</value>
+  </row>
+  <row id="53052" trl="Y">
+    <value column="Name" original="ASP Task">ASP 任务</value>
+  </row>
+  <row id="53053" trl="Y">
+    <value column="Name" original="ASP Workflow">ASP 工作流</value>
+  </row>
+  <row id="53054" trl="Y">
+    <value column="Name" original="ASP Module">ASP 模块</value>
+  </row>
+  <row id="53055" trl="Y">
+    <value column="Name" original="ASP Level">ASP 级别</value>
+  </row>
+  <row id="53056" trl="Y">
+    <value column="Name" original="Client Level">实体(客户端)级别</value>
+  </row>
+  <row id="53057" trl="Y">
+    <value column="Name" original="Client Exception">实体（客户端）例外/异常</value>
+  </row>
+  <row id="53058" trl="Y">
+    <value column="Name" original="Rule">规则</value>
+  </row>
+  <row id="53059" trl="Y">
+    <value column="Name" original="Table Script Validator">表脚本 验证</value>
+  </row>
+  <row id="53060" trl="Y">
+    <value column="Name" original="Network Distribution">网络配送</value>
+  </row>
+  <row id="53061" trl="Y">
+    <value column="Name" original="Network Distribution Line">网络配送行</value>
+  </row>
+  <row id="53062" trl="Y">
+    <value column="Name" original="Manufacturing Order MA">生产单 物料清单(BOM)</value>
+  </row>
+  <row id="53063" trl="Y">
+    <value column="Name" original="View Product BOM Line">查看产品物料清单(BOM)行</value>
+  </row>
+  <row id="53064" trl="Y">
+    <value column="Name" original="Migration Script">迁移脚本</value>
+  </row>
+  <row id="53066" trl="Y">
+    <value column="Name" original="Tax Group">税组</value>
+  </row>
+  <row id="53067" trl="Y">
+    <value column="Name" original="Tax Definition">税定义</value>
+  </row>
+  <row id="53068" trl="Y">
+    <value column="Name" original="Tax Type">税类型</value>
+  </row>
+  <row id="53069" trl="Y">
+    <value column="Name" original="Tax Base">计税基数</value>
+  </row>
+  <row id="53071" trl="Y">
+    <value column="Name" original="Replication Document">复制单据</value>
+  </row>
+  <row id="53072" trl="Y">
+    <value column="Name" original="Export Format">导出格式</value>
+  </row>
+  <row id="53073" trl="Y">
+    <value column="Name" original="Format Line">格式行</value>
+  </row>
+  <row id="53074" trl="Y">
+    <value column="Name" original="Export Processor">导出引擎</value>
+  </row>
+  <row id="53075" trl="Y">
+    <value column="Name" original="Processor Parameter">进程参数</value>
+  </row>
+  <row id="53076" trl="Y">
+    <value column="Name" original="Export Processor Type">导出引擎类型</value>
+  </row>
+  <row id="53077" trl="Y">
+    <value column="Name" original="Import Processor">导入引擎</value>
+  </row>
+  <row id="53078" trl="Y">
+    <value column="Name" original="Import Processor Parameter">导入引擎参数</value>
+  </row>
+  <row id="53079" trl="Y">
+    <value column="Name" original="Import Processor Log">导入引擎日志</value>
+  </row>
+  <row id="53080" trl="Y">
+    <value column="Name" original="Import Processor Type">导入引擎类型</value>
+  </row>
+  <row id="53085" trl="Y">
+    <value column="Name" original="Payroll Contract">薪酬合同</value>
+  </row>
+  <row id="53086" trl="Y">
+    <value column="Name" original="Payroll Employee">员工薪酬</value>
+  </row>
+  <row id="53087" trl="Y">
+    <value column="Name" original="Payroll Employee Attribute">员工薪酬属性</value>
+  </row>
+  <row id="53088" trl="Y">
+    <value column="Name" original="Payroll Department">部门薪酬</value>
+  </row>
+  <row id="53089" trl="Y">
+    <value column="Name" original="Payroll Job">职位薪酬</value>
+  </row>
+  <row id="53090" trl="Y">
+    <value column="Name" original="Payroll Concept">薪酬策略(Payroll Concept)</value>
+  </row>
+  <row id="53091" trl="Y">
+    <value column="Name" original="Payroll Concept Account">薪酬策略账户(Payroll Concept Account)</value>
+  </row>
+  <row id="53092" trl="Y">
+    <value column="Name" original="Payroll Process">薪酬处理</value>
+  </row>
+  <row id="53093" trl="Y">
+    <value column="Name" original="Payroll">薪酬</value>
+  </row>
+  <row id="53094" trl="Y">
+    <value column="Name" original="Payroll Period">薪酬期间</value>
+  </row>
+  <row id="53095" trl="Y">
+    <value column="Name" original="Payroll Year">薪酬年份</value>
+  </row>
+  <row id="53096" trl="Y">
+    <value column="Name" original="Payroll Concept">薪酬策略(Payroll Concept)</value>
+  </row>
+  <row id="53097" trl="Y">
+    <value column="Name" original="Payroll Concept Category">薪酬策略类别(Payroll Concept Category)</value>
+  </row>
+  <row id="53098" trl="Y">
+    <value column="Name" original="Payroll List Type">薪酬单类型</value>
+  </row>
+  <row id="53099" trl="Y">
+    <value column="Name" original="Payroll List">薪酬单</value>
+  </row>
+  <row id="53100" trl="Y">
+    <value column="Name" original="Payroll List Version">薪酬单版本</value>
+  </row>
+  <row id="53101" trl="Y">
+    <value column="Name" original="Payroll List Line">薪酬单行</value>
+  </row>
+  <row id="53102" trl="Y">
+    <value column="Name" original="Payroll Movement">薪酬调整</value>
+  </row>
+  <row id="53112" trl="Y">
+    <value column="Name" original="Depreciation Type">折旧类型</value>
+  </row>
+  <row id="53113" trl="Y">
+    <value column="Name" original="Depreciation Table Detail">折旧表明细</value>
+  </row>
+  <row id="53114" trl="Y">
+    <value column="Name" original="A_Depreciation_Table_Header_ID">A_折旧_表_头_ID</value>
+  </row>
+  <row id="53115" trl="Y">
+    <value column="Name" original="A_Depreciation_Exp_ID">A_折旧_费用_ID</value>
+  </row>
+  <row id="53116" trl="Y">
+    <value column="Name" original="A_Depreciation_Workfile_ID">A_折旧_工作文件_ID</value>
+  </row>
+  <row id="53117" trl="Y">
+    <value column="Name" original="I_FAJournal_ID">I_分类账</value>
+  </row>
+  <row id="53118" trl="Y">
+    <value column="Name" original="A_Depreciation_Forecast_ID">A_折旧_预测_ID</value>
+  </row>
+  <row id="53119" trl="Y">
+    <value column="Name" original="A_Asset_Reval_Entry_ID">A_资产_重估_分录_ID</value>
+  </row>
+  <row id="53120" trl="Y">
+    <value column="Name" original="A_Asset_Reval_Index_ID">A_资产_重估_索引_ID</value>
+  </row>
+  <row id="53121" trl="Y">
+    <value column="Name" original="A_Depreciation_Entry_ID">A_折旧_分录_ID</value>
+  </row>
+  <row id="53122" trl="Y">
+    <value column="Name" original="A_Asset_Split_ID">A_资产_拆分_ID</value>
+  </row>
+  <row id="53123" trl="Y">
+    <value column="Name" original="A_Asset_Acct_ID">A_资产_账户_ID</value>
+  </row>
+  <row id="53124" trl="Y">
+    <value column="Name" original="Depreciation Calculation Type">折旧计提类型</value>
+  </row>
+  <row id="53125" trl="Y">
+    <value column="Name" original="A_Depreciation_Convention_ID">A_折旧_规则_ID</value>
+  </row>
+  <row id="53126" trl="Y">
+    <value column="Name" original="A_Asset_Spread_ID">A_资产_展开_ID</value>
+  </row>
+  <row id="53127" trl="Y">
+    <value column="Name" original="A_Asset_Disposed_ID">A_资产_处置_ID</value>
+  </row>
+  <row id="53128" trl="Y">
+    <value column="Name" original="A_Asset_Transfer_ID">A_资产_转让_ID</value>
+  </row>
+  <row id="53129" trl="Y">
+    <value column="Name" original="A_Depreciation_Build_ID">A_折旧_生成_ID</value>
+  </row>
+  <row id="53130" trl="Y">
+    <value column="Name" original="A_Asset_Group_Acct_ID">A_资产_分组_帐户_ID</value>
+  </row>
+  <row id="53131" trl="Y">
+    <value column="Name" original="A_Asset_Info_Tax_ID">A_资产_信息_税_ID</value>
+  </row>
+  <row id="53132" trl="Y">
+    <value column="Name" original="A_Asset_Info_Fin_ID">A_资产_信息_Fin_ID</value>
+  </row>
+  <row id="53133" trl="Y">
+    <value column="Name" original="A_Asset_Change_ID">A_资产_更改_ID</value>
+  </row>
+  <row id="53134" trl="Y">
+    <value column="Name" original="A_Asset_Info_Lic_ID">A_资产_信息_许可_ID</value>
+  </row>
+  <row id="53135" trl="Y">
+    <value column="Name" original="A_Asset_Info_Ins_ID">A_资产_信息_实例_ID</value>
+  </row>
+  <row id="53136" trl="Y">
+    <value column="Name" original="A_Asset_Info_Oth_ID">A_资产_信息_其他_ID</value>
+  </row>
+  <row id="53137" trl="Y">
+    <value column="Name" original="A_Asset_Addition_ID">A_资产_附加_ID</value>
+  </row>
+  <row id="53138" trl="Y">
+    <value column="Name" original="A_Asset_Use_ID">A_资产_使用_ID</value>
+  </row>
+  <row id="53139" trl="Y">
+    <value column="Name" original="I_Asset_ID">A_资产_ID</value>
+  </row>
+  <row id="53140" trl="Y">
+    <value column="Name" original="A_Valid_Asset_Combinations">A_有效_账户_组合</value>
+  </row>
+  <row id="53142" trl="Y">
+    <value column="Name" original="Forecast Report">预测报表</value>
+  </row>
+  <row id="53143" trl="Y">
+    <value column="Name" original="Forecast Report for Period">期间预测报表</value>
+  </row>
+  <row id="53144" trl="Y">
+    <value column="Name" original="Distribution Order Detail">配送单明细</value>
+  </row>
+  <row id="53145" trl="Y">
+    <value column="Name" original="Charge Type">费用类型</value>
+  </row>
+  <row id="53146" trl="Y">
+    <value column="Name" original="Charge Type by Doc Type">单据的费用类型</value>
+  </row>
+  <row id="53147" trl="Y">
+    <value column="Name" original="House Keeping Configuration">整理工作（、内务工作House Keeping）配置</value>
+  </row>
+  <row id="53158" trl="Y">
+    <value column="Name" original="View Order Workflow">查看订单流程</value>
+  </row>
+  <row id="53161" trl="Y">
+    <value column="Name" original="Cost BOM Line">成本物料清单（BOM）行</value>
+  </row>
+  <row id="53169" trl="Y">
+    <value column="Name" original="AD_SearchDefinition_ID">AD_搜索定义_ID</value>
+  </row>
+  <row id="53172" trl="Y">
+    <value column="Name" original="Product Price Vendor Break">产品价格 供应商折扣</value>
+  </row>
+  <row id="53173" trl="Y">
+    <value column="Name" original="Import Price List">导入价格表</value>
+  </row>
+  <row id="53176" trl="Y">
+    <value column="Name" original="Promotion Group">促销分组</value>
+  </row>
+  <row id="53177" trl="Y">
+    <value column="Name" original="Promotion Group Line">促销分组行</value>
+  </row>
+  <row id="53178" trl="Y">
+    <value column="Name" original="Promotion">促销</value>
+  </row>
+  <row id="53179" trl="Y">
+    <value column="Name" original="Promotion Line">促销行</value>
+  </row>
+  <row id="53180" trl="Y">
+    <value column="Name" original="Promotion Pre Condition">促销 前提条件</value>
+  </row>
+  <row id="53181" trl="Y">
+    <value column="Name" original="Promotion Distribution">促销 分配</value>
+  </row>
+  <row id="53182" trl="Y">
+    <value column="Name" original="Promotion Reward">促销奖励</value>
+  </row>
+  <row id="53187" trl="Y">
+    <value column="Name" original="Charge Trl">费用 翻译</value>
+  </row>
+  <row id="53189" trl="Y">
+    <value column="Name" original="Manufacturing Order Workflow Trl">生产单工作流 翻译</value>
+  </row>
+  <row id="53190" trl="Y">
+    <value column="Name" original="Manufacturing Order Activity Trl">生产单活动 翻译</value>
+  </row>
+  <row id="53191" trl="Y">
+    <value column="Name" original="BOM &amp; Formula Trl">物料清单（BOM）与配方 翻译</value>
+  </row>
+  <row id="53193" trl="Y">
+    <value column="Name" original="BOM Line Trl">物料清单（BOM）行 翻译</value>
+  </row>
+  <row id="53194" trl="Y">
+    <value column="Name" original="Manufacturing Order BOM Trl">生产单 物料清单（BOM）翻译</value>
+  </row>
+  <row id="53195" trl="Y">
+    <value column="Name" original="Manufacturing Order BOM Line Trl">生产单 物料清单（BOM）行 翻译</value>
+  </row>
+  <row id="53197" trl="Y">
+    <value column="Name" original="Manufacturing Order BOM  Head *** Templete ***">生产单 物料清单（BOM）页头 ***模板*** 。</value>
+  </row>
+  <row id="53198" trl="Y">
+    <value column="Name" original="Manufacturing Order BOM Lines *** Templete ***">生产单 物料清单（BOM）行 ***模板*** 。</value>
+  </row>
+  <row id="53199" trl="Y">
+    <value column="Name" original="Manufacturing Order Workflow Header">生产单工作流 标头</value>
+  </row>
+  <row id="53200" trl="Y">
+    <value column="Name" original="Manufacturing Order Node">生产单节点</value>
+  </row>
+  <row id="53202" trl="Y">
+    <value column="Name" original="Report Cube">图形与报告方块（Report Cube）</value>
+  </row>
+  <row id="53203" trl="Y">
+    <value column="Name" original="Accounting Fact summary">会计分录概要（Accounting Fact summary）</value>
+  </row>
+  <row id="53205" trl="Y">
+    <value column="Name" original="PP_Order_Header_v">PP_订单_表头_v</value>
+  </row>
+  <row id="53221" trl="Y">
+    <value column="Name" original="Not Processed">未处理</value>
+  </row>
+  <row id="53244" trl="Y">
+    <value column="Name" original="Order Source">订单来源</value>
+  </row>
+  <row id="53247" trl="Y">
+    <value column="Name" original="Storage per Product">储存每产品</value>
+  </row>
+</adempiereTrl>

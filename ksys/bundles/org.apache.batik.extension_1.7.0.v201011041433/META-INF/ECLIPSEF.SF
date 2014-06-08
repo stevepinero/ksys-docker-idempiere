@@ -1,0 +1,205 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: f7dAqEQSit8/3p+Ig+Ocku3T2wM=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: 4HMLD3ffBJlL6qBXC6pTUzwtwcU=
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: WQPAMR6UasOuSXQqhMW2ZmVd4y8=
+
+Name: org/apache/batik/extension/svg/ColorSwitchBridge.class
+SHA1-Digest: t/UVCeDQwomY3DSP7ZxLYnTUeRs=
+
+Name: org/apache/batik/extension/ExtensionElement.class
+SHA1-Digest: K49b5KBLFae8tw3DA0vGIbm6tqQ=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$BatikStarElemen
+ tFactory.class
+SHA1-Digest: aCIBPPO9YN6OzpbdTjSpB87FMO8=
+
+Name: META-INF/LICENSE
+SHA1-Digest: 4M8NX82EzI5Ytsad4uLJpRqcwS8=
+
+Name: about_files/LICENSE.dom-software.txt
+SHA1-Digest: hq3hLn0QJJboyGrVnemOYtikTVo=
+
+Name: org/apache/batik/extension/svg/FlowDivElement.class
+SHA1-Digest: zI698R9u4Q3g+mnwaSlo6NHvM/I=
+
+Name: org/apache/batik/extension/svg/BatikStarElementBridge.class
+SHA1-Digest: BrlY2b6Bd1R5t7tF8UzFLMLLgGw=
+
+Name: org/apache/batik/extension/svg/BatikBridgeExtension.class
+SHA1-Digest: 5IDPIY07AkVyGzsDnP6ncPUAJhc=
+
+Name: org/apache/batik/extension/svg/FlowExtTextLayoutFactory.class
+SHA1-Digest: uzV5pyfp/C5X6E+0KO2pcd17TBs=
+
+Name: org/apache/batik/extension/svg/RegionInfo.class
+SHA1-Digest: pdAKtXIekdnf8U7HtIGJCHRm+Nk=
+
+Name: org/apache/batik/extension/svg/ColorSwitchElement.class
+SHA1-Digest: vcEMwuFSxKbrZvhGAt3hjJvV7Xg=
+
+Name: org/apache/batik/extension/svg/FlowExtTextPainter.class
+SHA1-Digest: /N8ehIURONoPQLLH0y19yaTNO4k=
+
+Name: org/apache/batik/extension/svg/BatikHistogramNormalizationFilter
+ 8Bit.class
+SHA1-Digest: mfO3dl4uiVGkh9ElqYtwWVJSxPA=
+
+Name: org/apache/batik/extension/svg/FlowTextElement.class
+SHA1-Digest: afJh4Dt8iYwnuRftPU0mrlEPmAo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: org/apache/batik/extension/svg/FlowSpanElement.class
+SHA1-Digest: xtovxS6H1M0RnqygCKT6Yo4akcA=
+
+Name: org/apache/batik/extension/svg/BatikStarElement.class
+SHA1-Digest: g1sTNAe2GHE552isZhartp4qeTY=
+
+Name: org/apache/batik/extension/svg/BatikExtConstants.class
+SHA1-Digest: 36fMVMguqDY6GW9kkI8pbgR+Rx4=
+
+Name: org/apache/batik/extension/svg/BatikHistogramNormalizationFilter
+ .class
+SHA1-Digest: l1Lr8NjnmksuxXZWRQ6eBd+wGjI=
+
+Name: META-INF/services/org.apache.batik.apps.svgbrowser.SquiggleInput
+ Handler
+SHA1-Digest: FS/zk72h3drrA0Jb+DExY9sxbBg=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$FlowTextElement
+ Factory.class
+SHA1-Digest: 0/aZop0Logh/kjTLBm1bFalAkiE=
+
+Name: META-INF/NOTICE
+SHA1-Digest: gtV+j+jSRaXzn/Trk/pM+hufG1k=
+
+Name: org/apache/batik/extension/StylableExtensionElement.class
+SHA1-Digest: Df3d3x80ARRmC+cMGiXGqFOCAqM=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$FlowRegionEleme
+ ntFactory.class
+SHA1-Digest: OY1WXsmZM7l6tYGRmJHO3scmikY=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$BatikRegularPol
+ ygonElementFactory.class
+SHA1-Digest: Mt77P8dpjZ3vEVkJ7GSACKbiYiI=
+
+Name: about_files/README
+SHA1-Digest: eqzl2DMeTAYplW/IJ958qY4L4og=
+
+Name: org/apache/batik/extension/svg/FlowLineElement.class
+SHA1-Digest: PUebsRKTFrgPcyZS6kFqJOEkh9g=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$FlowRegionBreak
+ ElementFactory.class
+SHA1-Digest: TpFF1InYRTHUJLmu+vS2a8atiyk=
+
+Name: org/apache/batik/extension/PrefixableStylableExtensionElement.cl
+ ass
+SHA1-Digest: NjhCvSYFfOQpH4EhivB+wB8GS74=
+
+Name: org/apache/batik/extension/svg/BatikHistogramNormalizationElemen
+ t.class
+SHA1-Digest: USt9cJch+Uv5ZIm0vorMh65Bg1U=
+
+Name: META-INF/services/org.apache.batik.bridge.BridgeExtension
+SHA1-Digest: H02hGAfzSVZ0Xgn7/cvbDFDTCcY=
+
+Name: org/apache/batik/extension/svg/BatikFlowTextElementBridge.class
+SHA1-Digest: twfdhnJfp0KOojX7dfP+PCBdFg0=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$FlowSpanElement
+ Factory.class
+SHA1-Digest: KHGObW5kOHGdNR7u2gYR//5PRfM=
+
+Name: plugin.properties
+SHA1-Digest: kynJB/Kv1+zPwozJgEvlh7Pnj3A=
+
+Name: org/apache/batik/extension/svg/MarginInfo.class
+SHA1-Digest: 02c2OnvsJDDS0F+OEhHn3MlX7p8=
+
+Name: org/apache/batik/extension/svg/FlowParaElement.class
+SHA1-Digest: Uu2QIU7kxhe5gCmk/DEzRQ7JeuM=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$BatikHistogramN
+ ormalizationElementFactory.class
+SHA1-Digest: R2chFyBcOfEvg72jps6YuGPwLzY=
+
+Name: org/apache/batik/extension/svg/LineInfo.class
+SHA1-Digest: ixuRFCOI1GQN/DEhxeenzPed8eA=
+
+Name: about_files/LICENSE.sax.txt
+SHA1-Digest: C1f291aJAok02qQUedRUJ2nmmxc=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension.class
+SHA1-Digest: Vr5ktrZhK7ko3yaS6CYeK88NoMk=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$ColorSwitchElem
+ entFactory.class
+SHA1-Digest: 1P09LzasY7qGAJwpL4zXmc6kEfc=
+
+Name: org/apache/batik/extension/svg/GlyphIterator.class
+SHA1-Digest: Wg+o323BV2CdNYdAjMyazChuHyo=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$FlowParaElement
+ Factory.class
+SHA1-Digest: pUSsvU+KR/5UjZu+i9wRc7muiFA=
+
+Name: org/apache/batik/extension/svg/HistogramRed.class
+SHA1-Digest: zNHzmsbccuVODqjfO25PvmKn2YY=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$FlowDivElementF
+ actory.class
+SHA1-Digest: RemgUYHOf4mqf2RzfqE7J7knAkA=
+
+Name: about_files/NOTICE
+SHA1-Digest: B5eN3FAnxBosFCsQDEZ/04AYORQ=
+
+Name: org/apache/batik/extension/svg/FlowExtTextNode.class
+SHA1-Digest: TKeUdsZpr1CvMncDwOxTmLjLzSk=
+
+Name: org/apache/batik/extension/svg/BatikRegularPolygonElementBridge.
+ class
+SHA1-Digest: 9T4KxFjw4BBZFoGcJmosiD8/vwU=
+
+Name: org/apache/batik/extension/svg/BatikHistogramNormalizationElemen
+ tBridge.class
+SHA1-Digest: 9kb/ivUdGebizfB7KmJP5pAJTe0=
+
+Name: about.html
+SHA1-Digest: m++eyMUD9TlXP4vKtL7R/7Rvngc=
+
+Name: org/apache/batik/extension/svg/BatikFlowTextElementBridge$BatikF
+ lowContentBridge.class
+SHA1-Digest: 8/wmqCdPGYHg+x/K2XsNxIwcnlk=
+
+Name: org/apache/batik/extension/GraphicsExtensionElement.class
+SHA1-Digest: Ijps44d1vKw3aJIqwGXmemoSbGM=
+
+Name: org/apache/batik/extension/svg/FlowRegionBreakElement.class
+SHA1-Digest: UPVhMWl5F8gIx3fCLfctYLJgKXA=
+
+Name: org/apache/batik/extension/svg/BatikDomExtension$FlowLineElement
+ Factory.class
+SHA1-Digest: qhVIVwkg18GxeUbzcqS+BMam+Kg=
+
+Name: org/apache/batik/extension/svg/FlowExtGlyphLayout.class
+SHA1-Digest: 7jroOHKpCKvlXOQe95ILPZGl1L0=
+
+Name: org/apache/batik/extension/svg/BatikRegularPolygonElement.class
+SHA1-Digest: xGXEd71D+ajav5VlFKTG97vHfQQ=
+
+Name: org/apache/batik/extension/svg/BatikFlowTextElementBridge$LineBr
+ eakInfo.class
+SHA1-Digest: nETbLSQvgyC+J7eYznapi+zDhaQ=
+
+Name: META-INF/services/org.apache.batik.dom.DomExtension
+SHA1-Digest: fMngTwVea5Lf6sXlQsL5rlG/Lso=
+
+Name: org/apache/batik/extension/svg/FlowRegionElement.class
+SHA1-Digest: GPixq3VtowGdDPeGtoPT89HlYKI=
+

@@ -1,0 +1,17 @@
+<adempiereTrl language="zh_CN" table="AD_Task">
+  <row id="102" trl="Y">
+    <value column="Name" original="Java Version">Java 版本号</value>
+    <value column="Description" original="Displays the version of the default Java VM">显示默认 Java 虚拟机的版本</value>
+    <value column="Help" original="The java version used by the application might be different.">应用程序使用的 Java 版本可能不同。</value>
+  </row>
+  <row id="103" trl="Y">
+    <value column="Name" original="Database export">数据库输出</value>
+    <value column="Description" original="Export (save) the database">导出 (保存) 数据库</value>
+    <value column="Help" original="Run this command from the server">请从服务器运行该命令(导出/保存数据库)。</value>
+  </row>
+  <row id="104" trl="Y">
+    <value column="Name" original="Database transfer">数据库传送</value>
+    <value column="Description" original="Transfer the database">传送数据库</value>
+    <value column="Help" original="Run this command from the server">请从服务器运行该命令(传送数据库)。</value>
+  </row>
+</adempiereTrl>

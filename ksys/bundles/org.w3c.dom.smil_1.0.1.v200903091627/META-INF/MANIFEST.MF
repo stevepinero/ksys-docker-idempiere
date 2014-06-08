@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4,J2SE-1.3,CDC-1.0/Foundat
+ ion-1.0
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.w3c.dom.smil
+Bundle-Version: 1.0.1.v200903091627
+Export-Package: org.w3c.dom.smil;version="1.0.0";provenance=W3C
+Bundle-ManifestVersion: 2
+Import-Package: org.w3c.dom,org.w3c.dom.events;version="[3.0.0,4.0.0)"
+
+Name: org/w3c/dom/smil/ElementTimeControl.class
+SHA1-Digest: aHIBxkd5GuauSBL2k9zFN7xHW9Y=
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: NV/tRSeBE64tS1EXrewu6DAklWI=
+
+Name: about_files/NOTICE
+SHA1-Digest: Q8g5daR2xAyTN29JD2zxErD/HfA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/w3c/dom/smil/TimeEvent.class
+SHA1-Digest: /cvuiPAmqgDBpNgCQjBE8ikgOY4=
+
+Name: about_files/README
+SHA1-Digest: 6ucCCJgwbMHFjoa+zJeAytt+bwA=
+
+Name: about_files/LICENSE.dom-software.txt
+SHA1-Digest: uinS8f2+G2bBn7/XadWjpFZyoEA=
+
+Name: about.html
+SHA1-Digest: IXeFFYjRK7btgM4ophgarXecSFk=
+
+Name: plugin.properties
+SHA1-Digest: pKoMaNVXJnFeKPSmxnctdTr0K4k=
+
+Name: about_files/README.dom.txt
+SHA1-Digest: uzl5KvG1v84CTTNXXYMj4FecDYU=
+
+Name: about_files/LICENSE-W3C-20021231.html
+SHA1-Digest: tRCzUOIFOydxuBa2NCqi6r76nB4=
+

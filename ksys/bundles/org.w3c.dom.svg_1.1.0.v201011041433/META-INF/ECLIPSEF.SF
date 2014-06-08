@@ -1,0 +1,509 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: WGU39rmRcuxdrUxHzHHmJs6G6Cc=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: 8VhqP0tu6DpwnOQAtW2RE1YxqGk=
+
+Name: org/w3c/dom/svg/SVGFETileElement.class
+SHA1-Digest: 5lko80Su3Zo6nHXvTJK9xMOnnu8=
+
+Name: org/w3c/dom/svg/SVGFEFuncAElement.class
+SHA1-Digest: dAMVXmEGmf/jJUbya0w2heCqSpg=
+
+Name: org/w3c/dom/svg/SVGTSpanElement.class
+SHA1-Digest: tc9njMCqvDFRkEginZPVLxBi3+8=
+
+Name: org/w3c/dom/svg/SVGMatrix.class
+SHA1-Digest: Te/XZCPJO0RWv8htZNe05DBd1QM=
+
+Name: org/w3c/dom/svg/SVGPathSegCurvetoCubicAbs.class
+SHA1-Digest: 2erWIOVSFn5f/Gw7kC0FnCpv83c=
+
+Name: org/w3c/dom/svg/SVGUnitTypes.class
+SHA1-Digest: YWHASta2Exj05EHzpCzdKOyZB0Y=
+
+Name: org/w3c/dom/svg/SVGPathSegLinetoVerticalRel.class
+SHA1-Digest: lnraFNbO7iiXpMh0rulG7BKVGfs=
+
+Name: org/w3c/dom/svg/SVGViewElement.class
+SHA1-Digest: aDpBBXWaAbuzxdi8cZdaL3kSU+8=
+
+Name: org/w3c/dom/svg/SVGExternalResourcesRequired.class
+SHA1-Digest: DHRHIi+75WNskYBbZ8MUJkiDrEU=
+
+Name: org/w3c/dom/svg/SVGEvent.class
+SHA1-Digest: Cb7liCRVT3xPMcDwKuPbTIfmNms=
+
+Name: org/w3c/dom/svg/SVGAnimatedInteger.class
+SHA1-Digest: 35wm5HzKbMIi/V3CS9ZQqjg85A0=
+
+Name: org/w3c/dom/svg/SVGStyleElement.class
+SHA1-Digest: hQUQOPU1XehhP7QdmTQCQgGF70s=
+
+Name: org/w3c/dom/svg/SVGPathSegCurvetoQuadraticSmoothRel.class
+SHA1-Digest: zXLMzc7iqnQE6iZOJjBtkm6dZ2c=
+
+Name: org/w3c/dom/svg/SVGFEDiffuseLightingElement.class
+SHA1-Digest: xhLGSsoegl87FTMnPoJwYzWk+6Q=
+
+Name: org/w3c/dom/svg/SVGColor.class
+SHA1-Digest: rNIMAo3mZMI6WQyZstiaRxCbXkw=
+
+Name: org/w3c/dom/svg/SVGPreserveAspectRatio.class
+SHA1-Digest: JO6K4agB2p/K1J5ovIDwxDvPf+8=
+
+Name: org/w3c/dom/svg/SVGSwitchElement.class
+SHA1-Digest: WVNsgbQdPE0W11NeJmuqGivz7Pk=
+
+Name: org/w3c/dom/svg/SVGLineElement.class
+SHA1-Digest: iTO6EO8UYJZC7pxLqEG1OoagMWo=
+
+Name: org/w3c/dom/svg/SVGPathSegCurvetoCubicSmoothRel.class
+SHA1-Digest: JRzGY+BayNT7kwL2TLzHFUYoiBY=
+
+Name: org/w3c/dom/svg/SVGPathSegLinetoVerticalAbs.class
+SHA1-Digest: zCvjllHdYVjJY3cqbcTmmGi87z8=
+
+Name: org/w3c/dom/svg/SVGPathSeg.class
+SHA1-Digest: EikpH18WWBXywmBaj+EjXpm42MM=
+
+Name: org/w3c/dom/svg/SVGMaskElement.class
+SHA1-Digest: U06ukCpMdfoNa3eejxDkCRlqZxo=
+
+Name: org/w3c/dom/svg/SVGElementInstance.class
+SHA1-Digest: +GcPV82KYFEwyK8Nnyv6Q/ibOxg=
+
+Name: org/w3c/dom/svg/SVGColorProfileRule.class
+SHA1-Digest: HtF5P7Ljh9Oi4SqbV/pRnFTTugs=
+
+Name: org/w3c/dom/svg/SVGLengthList.class
+SHA1-Digest: VM0CxIo23z4LA87h1W/n07XB3Fo=
+
+Name: org/w3c/dom/svg/SVGRect.class
+SHA1-Digest: rloY4tHi2QhVUjOvhhOAq8CfY3M=
+
+Name: org/w3c/dom/svg/SVGLangSpace.class
+SHA1-Digest: 2ywmDKAz+cqEZVtTfuThlUwwxow=
+
+Name: org/w3c/dom/svg/SVGPathSegCurvetoQuadraticSmoothAbs.class
+SHA1-Digest: uc1qG9CnLH/9EDL7k5BqkhtR6vE=
+
+Name: org/w3c/dom/svg/SVGRectElement.class
+SHA1-Digest: Vmw+PQgQ6DuQeqtYfO3PfelQRA0=
+
+Name: org/w3c/dom/svg/SVGFESpotLightElement.class
+SHA1-Digest: t2LoWi+yYKuYC35oa33PxmNa0jc=
+
+Name: org/w3c/dom/svg/SVGAnimatedRect.class
+SHA1-Digest: t+bWmxuEye4lcT4gMB0bnSG8O9Y=
+
+Name: org/w3c/dom/svg/SVGFEGaussianBlurElement.class
+SHA1-Digest: PjYTg8e2f72hudKSoZwLc8GhWP4=
+
+Name: org/w3c/dom/svg/SVGFEConvolveMatrixElement.class
+SHA1-Digest: MmYk1pwn7EEsrMqUMpd2BaKj3Ic=
+
+Name: org/w3c/dom/svg/SVGFEBlendElement.class
+SHA1-Digest: y12XhCdPCIclTp+MJBhnVFmZ1kI=
+
+Name: org/w3c/dom/svg/SVGElement.class
+SHA1-Digest: eXULNEAzXCJYGLI5kpepscr0N04=
+
+Name: org/w3c/dom/svg/SVGMPathElement.class
+SHA1-Digest: mdrbQMMrWLX8c+49FUKBPmsdpRE=
+
+Name: org/w3c/dom/svg/SVGDefinitionSrcElement.class
+SHA1-Digest: B35Kl6O36Oa9CkBb9WQ4hPlK644=
+
+Name: org/w3c/dom/svg/SVGPathSegClosePath.class
+SHA1-Digest: G7/yyDgP4igjXfURXM7gJHwhDI0=
+
+Name: org/w3c/dom/svg/SVGSymbolElement.class
+SHA1-Digest: uePXt+5hDOSX9Craoo+KjMrHp3g=
+
+Name: org/w3c/dom/svg/SVGCursorElement.class
+SHA1-Digest: ulagzEzgE2zHMXs8DUYBGx6HpJw=
+
+Name: org/w3c/dom/svg/SVGPathSegCurvetoCubicSmoothAbs.class
+SHA1-Digest: CwC6I6KW6xpX2M7N7hhM3k6+wA0=
+
+Name: org/w3c/dom/svg/SVGTransformable.class
+SHA1-Digest: DXpg42Fa5m2dHwfUUN5HmR3Hljk=
+
+Name: org/w3c/dom/svg/SVGUseElement.class
+SHA1-Digest: URY8qEeYz80gtR5Lrh7oODw67hc=
+
+Name: org/w3c/dom/svg/SVGFEDisplacementMapElement.class
+SHA1-Digest: BZTSxYjMXGmCSibt9vvHkzWlFS8=
+
+Name: org/w3c/dom/svg/SVGFETurbulenceElement.class
+SHA1-Digest: d3yoHyWWrREtCCVsSEUVTgZEN+A=
+
+Name: org/w3c/dom/svg/SVGFEOffsetElement.class
+SHA1-Digest: EYrtX434UKeYKuOYHlvhATO89EU=
+
+Name: org/w3c/dom/svg/SVGSetElement.class
+SHA1-Digest: YI/T30OLdvDu5njRXZw4/+nliiw=
+
+Name: org/w3c/dom/svg/SVGMetadataElement.class
+SHA1-Digest: ZSxaZiEfW2+LOXyADbpz3uEJx00=
+
+Name: org/w3c/dom/svg/SVGPointList.class
+SHA1-Digest: wQU/HAEWwDHYkcDrq6WjdRjrOZI=
+
+Name: org/w3c/dom/svg/SVGDefsElement.class
+SHA1-Digest: La1XiFqfAREQptOE1XdXSdO03hE=
+
+Name: org/w3c/dom/svg/SVGFontFaceElement.class
+SHA1-Digest: DcbuZzUwC/YTzw8Zg9kXIcucYuc=
+
+Name: org/w3c/dom/svg/SVGHKernElement.class
+SHA1-Digest: dhBsPHbg/R1eSbHaH3/fsvgcsE0=
+
+Name: org/w3c/dom/svg/SVGURIReference.class
+SHA1-Digest: zSnSTzgL7EuF4fOexoYR3+4aypg=
+
+Name: org/w3c/dom/svg/SVGFEPointLightElement.class
+SHA1-Digest: 9LHScRX9FIu/CpXcXkOiqu0TlsM=
+
+Name: org/w3c/dom/svg/SVGFontFaceFormatElement.class
+SHA1-Digest: ttUASa2l0mNGa/LoD5HLW9kRfE0=
+
+Name: org/w3c/dom/svg/SVGPolylineElement.class
+SHA1-Digest: hKVel0OEGxSY0DZMfjRWtQby01c=
+
+Name: org/w3c/dom/svg/SVGPatternElement.class
+SHA1-Digest: rK4Vhz1DB3q3dQXmsTSzNfsHDdM=
+
+Name: org/w3c/dom/svg/SVGTests.class
+SHA1-Digest: flOUVG9hnqfIWsuKXfDnQzaI64U=
+
+Name: org/w3c/dom/svg/SVGTextContentElement.class
+SHA1-Digest: 7e2eyh2dcZ3MXht6ibDbf6LtS0g=
+
+Name: org/w3c/dom/svg/SVGAnimatedEnumeration.class
+SHA1-Digest: K5bBcg03xBWyW9AxkcdHDnxILIQ=
+
+Name: org/w3c/dom/svg/SVGFilterElement.class
+SHA1-Digest: L1IuuON0DH3fY4zB/K0/Nw487z0=
+
+Name: org/w3c/dom/svg/SVGFEColorMatrixElement.class
+SHA1-Digest: slpOF8Xj5AiCGp6A+Gt0UuYI2fU=
+
+Name: org/w3c/dom/svg/SVGTextPathElement.class
+SHA1-Digest: 6f9kxAAWCJizD/Y3fg6RtJoTIEk=
+
+Name: org/w3c/dom/svg/SVGPathSegCurvetoQuadraticRel.class
+SHA1-Digest: AeLzkNTR8lTeV2dbV0JPsHkwotA=
+
+Name: org/w3c/dom/svg/GetSVGDocument.class
+SHA1-Digest: Ip35XX2+IVSEGjO3Eg1I0KQ9XKE=
+
+Name: org/w3c/dom/svg/SVGElementInstanceList.class
+SHA1-Digest: SlLa46hD2pUIYNbLCSs8j6OQ1rA=
+
+Name: org/w3c/dom/svg/SVGAnimateTransformElement.class
+SHA1-Digest: ouJrvHwpjgNsmbIDhoArZmqCYis=
+
+Name: org/w3c/dom/svg/SVGFEImageElement.class
+SHA1-Digest: 5MHdk9wMHWLgOIZn7lKXoFK+wx4=
+
+Name: org/w3c/dom/svg/SVGFontFaceSrcElement.class
+SHA1-Digest: PS/Un0VNa9i0Gfs3f9O2lNtonmk=
+
+Name: org/w3c/dom/svg/SVGLength.class
+SHA1-Digest: 6RxLOnqTtIrD+GXodOg08WAFNQA=
+
+Name: about.html
+SHA1-Digest: MEZM7UMUaOMBRX/5Q3rU2aYchuQ=
+
+Name: org/w3c/dom/svg/SVGTRefElement.class
+SHA1-Digest: qxY7jZd3z8N5EN5wSrKlQYlSTO8=
+
+Name: org/w3c/dom/svg/SVGGlyphElement.class
+SHA1-Digest: txHsYmleGa/eY/Stzp5GBnVFjgs=
+
+Name: org/w3c/dom/svg/SVGAnimatedPathData.class
+SHA1-Digest: yaVSFp6XVFGg84mKb6Hi43enshY=
+
+Name: org/w3c/dom/svg/SVGAnimatedBoolean.class
+SHA1-Digest: fBTP4EqCNbuqwByHS5ItVgTI+jk=
+
+Name: org/w3c/dom/svg/SVGPathSegCurvetoQuadraticAbs.class
+SHA1-Digest: Uz+/5WiY9sDBoyRUK97LGR9YFWo=
+
+Name: org/w3c/dom/svg/SVGLinearGradientElement.class
+SHA1-Digest: XuEzsbwa5Jy6Sf3ZoviZW4L6IKc=
+
+Name: org/w3c/dom/svg/SVGRenderingIntent.class
+SHA1-Digest: 8RskPrFgtDCd8bOPT7ehiHEAX1M=
+
+Name: org/w3c/dom/svg/SVGSVGElement.class
+SHA1-Digest: YiJ/BBR4c0P3gd2z+QrATxBj4GU=
+
+Name: org/w3c/dom/svg/SVGTextElement.class
+SHA1-Digest: xcGqDUXCYXpc/R6qw2fQ7EjLYn0=
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: WQPAMR6UasOuSXQqhMW2ZmVd4y8=
+
+Name: org/w3c/dom/svg/SVGException.class
+SHA1-Digest: 0aeiw2ItoDOUzrdxG8f+9Oe/1Jo=
+
+Name: org/w3c/dom/svg/SVGPoint.class
+SHA1-Digest: KxtSkf1ey5w0AC2pjbS+xXtt0iE=
+
+Name: org/w3c/dom/svg/SVGAngle.class
+SHA1-Digest: Q1iSlbBg+dTAcUjErpb0PkhXrY8=
+
+Name: org/w3c/dom/svg/SVGColorProfileElement.class
+SHA1-Digest: md4GvrK9v7CHo5d/M8ORrALd+Ds=
+
+Name: org/w3c/dom/svg/SVGPathElement.class
+SHA1-Digest: Y0NFfO7xvblNrDXc5sp4mJ/VU4U=
+
+Name: org/w3c/dom/svg/SVGAnimateMotionElement.class
+SHA1-Digest: STtqcy4jAJVGv6ooSOQ0AOCVeM0=
+
+Name: org/w3c/dom/svg/EventListenerInitializer.class
+SHA1-Digest: bKdaJWW0wGRVfxS+V8i9ixE6xso=
+
+Name: org/w3c/dom/svg/SVGNumber.class
+SHA1-Digest: Wgmhpxka6PfEho5U/79ctTA+hCo=
+
+Name: org/w3c/dom/svg/SVGAnimatedNumberList.class
+SHA1-Digest: UqdfuZ6SnLcFeMwz9XYSEUk3V9I=
+
+Name: org/w3c/dom/svg/SVGCSSRule.class
+SHA1-Digest: 3x+edt6rsISF8UhUiQgtPdvFbCQ=
+
+Name: org/w3c/dom/svg/SVGFEFuncRElement.class
+SHA1-Digest: HlmD4F+J2KSYDEucIfqiojZ1N8Y=
+
+Name: org/w3c/dom/svg/SVGStringList.class
+SHA1-Digest: UnBusybavRkNohmW7CThTDGlYKs=
+
+Name: org/w3c/dom/svg/SVGAnimatedString.class
+SHA1-Digest: Hg8E5cIabzLeG7UiXV/g0sawdN0=
+
+Name: org/w3c/dom/svg/SVGAltGlyphItemElement.class
+SHA1-Digest: XBoMD7nn9SfymupY2kiEfhBOGq8=
+
+Name: org/w3c/dom/svg/SVGGElement.class
+SHA1-Digest: ehrMa54tjAj4cZBR/mP1xZ0RfgQ=
+
+Name: org/w3c/dom/svg/SVGClipPathElement.class
+SHA1-Digest: EQw3o5d/KXrUvNdFaWiKM9naOgo=
+
+Name: org/w3c/dom/svg/SVGPathSegLinetoHorizontalRel.class
+SHA1-Digest: pnybdBG1e/JRk09Zbxt9HDeJdQ0=
+
+Name: org/w3c/dom/svg/SVGAnimationElement.class
+SHA1-Digest: Ymm2BO+ve4q67VbvLzaNyrZ8SUs=
+
+Name: org/w3c/dom/svg/SVGTransformList.class
+SHA1-Digest: RNHyVtj7imWoKPKQnOoo+L0omIo=
+
+Name: org/w3c/dom/svg/SVGDescElement.class
+SHA1-Digest: bYbX/WFM5wuajAmOOeH34GEvx18=
+
+Name: org/w3c/dom/svg/SVGICCColor.class
+SHA1-Digest: mCjVMqrKvkQPSpNztydnDnZPrzI=
+
+Name: org/w3c/dom/svg/SVGFitToViewBox.class
+SHA1-Digest: /J02j1YnPOBZG+VjCLfgaulNKH0=
+
+Name: org/w3c/dom/svg/SVGAltGlyphDefElement.class
+SHA1-Digest: tfPWIdztsorR6wZ2ORwEgUsKYDI=
+
+Name: org/w3c/dom/svg/SVGFontElement.class
+SHA1-Digest: fOO4CpKObiSN46f+7vh6GKoFtuk=
+
+Name: org/w3c/dom/svg/SVGAnimateElement.class
+SHA1-Digest: +j6aP1k8ig9Ooq2gGaycKTDl+6M=
+
+Name: org/w3c/dom/svg/SVGDocument.class
+SHA1-Digest: LZKy4fJrlVMh+0SfKDYGDxzgRZ8=
+
+Name: org/w3c/dom/svg/SVGComponentTransferFunctionElement.class
+SHA1-Digest: DP/9gL+bsSjvP7Q1gzTnBK8Xfyk=
+
+Name: org/w3c/dom/svg/SVGFEFuncBElement.class
+SHA1-Digest: Qf3CKZebWAZ62+HMy2CPjAU3yZA=
+
+Name: org/w3c/dom/svg/SVGFEFloodElement.class
+SHA1-Digest: uFwkuo32hCeFO9CmKJQamxeNQgg=
+
+Name: org/w3c/dom/svg/SVGImageElement.class
+SHA1-Digest: X06FwQLK+D85VJeJMuUvkcHBLYo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: org/w3c/dom/svg/SVGGlyphRefElement.class
+SHA1-Digest: Deks+4DrTwWl8XbTCuYV613Hnf0=
+
+Name: org/w3c/dom/svg/SVGFEMergeElement.class
+SHA1-Digest: mTYUmL3ztYTxgg0zz8QwRs/zMBk=
+
+Name: org/w3c/dom/svg/SVGPathSegArcRel.class
+SHA1-Digest: 8sIaFo7h7d54Y26Ir0zIGnoJz0M=
+
+Name: org/w3c/dom/svg/SVGAnimatedLength.class
+SHA1-Digest: XtKhMpioFd8mlIGLCoduc2EbubU=
+
+Name: org/w3c/dom/svg/SVGPathSegLinetoHorizontalAbs.class
+SHA1-Digest: mThpeT5pWFKJ07D/HqGaNdpi+8k=
+
+Name: org/w3c/dom/svg/SVGTextPositioningElement.class
+SHA1-Digest: YPjs49EXLVUOuINbw7WNfMAl6dU=
+
+Name: org/w3c/dom/svg/SVGAnimatedPreserveAspectRatio.class
+SHA1-Digest: qeWvZ+DxpWGVXZ+zCPIH+T379gE=
+
+Name: org/w3c/dom/svg/SVGFECompositeElement.class
+SHA1-Digest: 2PFXh0XRN9nNWzwE4I7Kk1tIb2c=
+
+Name: about_files/README
+SHA1-Digest: eqzl2DMeTAYplW/IJ958qY4L4og=
+
+Name: org/w3c/dom/svg/SVGZoomEvent.class
+SHA1-Digest: Lbz8T0bfHY9CAOhtsT26KLw30YQ=
+
+Name: org/w3c/dom/svg/SVGFEFuncGElement.class
+SHA1-Digest: UT8nlexhaHE2fipGD8Auajwpmao=
+
+Name: org/w3c/dom/svg/SVGZoomAndPan.class
+SHA1-Digest: HKDo9SsKxocMzUucxrOZfMjlXr4=
+
+Name: org/w3c/dom/svg/SVGRadialGradientElement.class
+SHA1-Digest: /FPL3tbInoPjEH8zuDsmdXMOMpc=
+
+Name: org/w3c/dom/svg/SVGEllipseElement.class
+SHA1-Digest: DrWU46tMW35jpwGK/JbZ2Xm2O+c=
+
+Name: org/w3c/dom/svg/SVGPathSegArcAbs.class
+SHA1-Digest: qsufYI6QEiGCxiXdAKikdOBmn24=
+
+Name: org/w3c/dom/svg/SVGViewSpec.class
+SHA1-Digest: NyA3ebVYm+PUN72RsmioLjQADGk=
+
+Name: org/w3c/dom/svg/SVGFEMergeNodeElement.class
+SHA1-Digest: ob449h34Ow+1k/vAG2mFI7CFMDY=
+
+Name: org/w3c/dom/svg/SVGTitleElement.class
+SHA1-Digest: XoM4MMTyzzLwPGNGssqf04arMn8=
+
+Name: org/w3c/dom/svg/SVGNumberList.class
+SHA1-Digest: +ksHwgGQ/Mu9CdIoG02lsAVhsz0=
+
+Name: org/w3c/dom/svg/SVGAnimateColorElement.class
+SHA1-Digest: y0Dsa5IrStYR8tdP/4ooUeXUceM=
+
+Name: org/w3c/dom/svg/SVGStopElement.class
+SHA1-Digest: QfP1l8L0EJtP9bPr1nDttHmowTM=
+
+Name: org/w3c/dom/svg/SVGForeignObjectElement.class
+SHA1-Digest: SxkfD5s/FbKN1wc8ChJ7msYCy3s=
+
+Name: plugin.properties
+SHA1-Digest: zD0KL4+c5XzHw35KSAsmRUksvzg=
+
+Name: org/w3c/dom/svg/SVGAnimatedNumber.class
+SHA1-Digest: yyclBIBk2iDUZEyARAAzoG/Zt1Q=
+
+Name: org/w3c/dom/svg/SVGPaint.class
+SHA1-Digest: 1eSIUy4TeIe5Dau8UmYRcHrI4ew=
+
+Name: org/w3c/dom/svg/SVGStylable.class
+SHA1-Digest: yB9cqKRa7Pf7bYU+0uyYZBKQ5xk=
+
+Name: org/w3c/dom/svg/SVGFEMorphologyElement.class
+SHA1-Digest: mzdOtG/qjD0Xjwnbg7Ym/KSmC+Q=
+
+Name: org/w3c/dom/svg/SVGMarkerElement.class
+SHA1-Digest: jWMsFckrC7PA/Hi8ri8pDNdfm20=
+
+Name: org/w3c/dom/svg/SVGFilterPrimitiveStandardAttributes.class
+SHA1-Digest: hWmovQFuNfQpa80870motr/hc2U=
+
+Name: org/w3c/dom/svg/SVGFEComponentTransferElement.class
+SHA1-Digest: c4RrlfikjunM/fIl+rwjiUNY1u8=
+
+Name: org/w3c/dom/svg/SVGGradientElement.class
+SHA1-Digest: RkZzB1gwE9FF23DBM4Pzs2/kr/w=
+
+Name: org/w3c/dom/svg/SVGPathSegLinetoRel.class
+SHA1-Digest: aqRNfYhZ1YlKS0h0IOXWCAfqLCs=
+
+Name: org/w3c/dom/svg/SVGTransform.class
+SHA1-Digest: i9qkNEb82Vod3rg1rUItfWfM9Ps=
+
+Name: org/w3c/dom/svg/SVGAElement.class
+SHA1-Digest: +Zg3ABRATULMqae5Y0jsXHrxD6I=
+
+Name: org/w3c/dom/svg/SVGFontFaceUriElement.class
+SHA1-Digest: t008R3EqDhXcL/tW/8sSieXpcEw=
+
+Name: org/w3c/dom/svg/SVGFESpecularLightingElement.class
+SHA1-Digest: mM2jE6BxETxDn7WsjHIOgXYZi1s=
+
+Name: org/w3c/dom/svg/SVGPathSegList.class
+SHA1-Digest: tqjIMvjJqcGCKTth5hLMxKqNaUo=
+
+Name: org/w3c/dom/svg/SVGPathSegMovetoRel.class
+SHA1-Digest: i0Y5GNEKHeaUfzsrDLXKZ+7jm1M=
+
+Name: org/w3c/dom/svg/SVGAnimatedAngle.class
+SHA1-Digest: LmjnPa8ym+NJtX9HO7jjunf9ZXg=
+
+Name: about_files/NOTICE
+SHA1-Digest: WZ6T40Fu3zPOKXEBn1eZXrrr/4I=
+
+Name: org/w3c/dom/svg/SVGScriptElement.class
+SHA1-Digest: dYeSATVCfR0gy/CmMksSYsMUJjc=
+
+Name: org/w3c/dom/svg/SVGPolygonElement.class
+SHA1-Digest: jMwz4JV1FTEZdqpfXw7+28QkcXo=
+
+Name: org/w3c/dom/svg/SVGMissingGlyphElement.class
+SHA1-Digest: DGlRApEMNln3dTePJZZjDkHNIp0=
+
+Name: org/w3c/dom/svg/SVGAnimatedPoints.class
+SHA1-Digest: 8YgdoKa2bD6CmPDPx/Raoqt0FVY=
+
+Name: org/w3c/dom/svg/SVGAnimatedLengthList.class
+SHA1-Digest: WhL7aIlk1Jszl/VaP+k9rziDHD0=
+
+Name: org/w3c/dom/svg/SVGAltGlyphElement.class
+SHA1-Digest: zeo7eyusPJlYXnMZgu5yxD7QsCc=
+
+Name: org/w3c/dom/svg/SVGPathSegCurvetoCubicRel.class
+SHA1-Digest: UU41FEArqFd7oOdrbzrN8Ny++n0=
+
+Name: org/w3c/dom/svg/SVGVKernElement.class
+SHA1-Digest: U4QsXGIRkTFCEpmezCOF8ohFbwk=
+
+Name: org/w3c/dom/svg/SVGFontFaceNameElement.class
+SHA1-Digest: 3FujixnhUQAHYDmCh/CGCeC2d2s=
+
+Name: org/w3c/dom/svg/SVGPathSegLinetoAbs.class
+SHA1-Digest: 5ai34Cit5sIkiG/7DQrze15I56c=
+
+Name: org/w3c/dom/svg/SVGAnimatedTransformList.class
+SHA1-Digest: 2As5ZjVL3Z3ciNI1yC5zyP8JZzE=
+
+Name: org/w3c/dom/svg/SVGFEDistantLightElement.class
+SHA1-Digest: +eQoFmCqczirB1Qp5MrsJbU7pcY=
+
+Name: org/w3c/dom/svg/SVGPathSegMovetoAbs.class
+SHA1-Digest: 4PNITif0uw2n0/9LU7Wd8HekrIg=
+
+Name: org/w3c/dom/svg/SVGCircleElement.class
+SHA1-Digest: 1qm3J9ipiQ3K6NUnQ1+hO28gkzk=
+
+Name: about_files/LICENSE-W3C-20021231.html
+SHA1-Digest: P7x3q9B7xzLcRvvNCaJashYlv50=
+
+Name: org/w3c/dom/svg/SVGLocatable.class
+SHA1-Digest: bi+BXEHb1rh1KokUlJSh0Ze1KjE=
+

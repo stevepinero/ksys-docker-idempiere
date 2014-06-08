@@ -1,0 +1,12 @@
+<adempiereTrl language="zh_CN" table="PP_Order_BOM">
+  <row id="50000" trl="Y">
+    <value column="Name" original="Fertilizer #50">50 号肥料</value>
+    <value column="Description" original="50 # Bag of Lawn Fertilizer">草坪肥料 50# 袋装</value>
+    <value column="Help" original="" />
+  </row>
+  <row id="50001" trl="Y">
+    <value column="Name" original="Fertilizer #70">70 号化肥 </value>
+    <value column="Description" original="70 # Bag of Lawn Fertilizer">草坪化肥 70#包装</value>
+    <value column="Help" original="" />
+  </row>
+</adempiereTrl>

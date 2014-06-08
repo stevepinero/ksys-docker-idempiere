@@ -1,0 +1,6 @@
+<adempiereTrl language="zh_CN" table="C_TaxCategory">
+  <row id="107" trl="Y">
+    <value column="Name" original="Standard">标准税种</value>
+    <value column="Description" original="" />
+  </row>
+</adempiereTrl>

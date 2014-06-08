@@ -1,0 +1,86 @@
+<adempiereTrl language="zh_CN" table="AD_PrintFormatItem">
+  <row id="2147" trl="Y">
+    <value column="PrintName" original="" />
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="2148" trl="Y">
+    <value column="PrintName" original="" />
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="2325" trl="Y">
+    <value column="PrintName" original="" />
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="2326" trl="Y">
+    <value column="PrintName" original="" />
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="2327" trl="Y">
+    <value column="PrintName" original="" />
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="50477" trl="Y">
+    <value column="PrintName" original="VendorProductNo">供应商产品编号</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="50992" trl="Y">
+    <value column="PrintName" original="Setup">设置</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51001" trl="Y">
+    <value column="PrintName" original="Cost T">成本 T</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51005" trl="Y">
+    <value column="PrintName" original="Cost TL">成本 TL</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51006" trl="Y">
+    <value column="PrintName" original="Cost LL">成本 LL</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51013" trl="Y">
+    <value column="PrintName" original="Levels">级别</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51018" trl="Y">
+    <value column="PrintName" original="Parent">父</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51026" trl="Y">
+    <value column="PrintName" original="" />
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51066" trl="Y">
+    <value column="PrintName" original="F  Cost">F 成本</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51067" trl="Y">
+    <value column="PrintName" original="F  Cost LL">F  成本 LL</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51068" trl="Y">
+    <value column="PrintName" original="S Cost">S 成本</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51069" trl="Y">
+    <value column="PrintName" original="" />
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51074" trl="Y">
+    <value column="PrintName" original="Description">仅描述</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51075" trl="Y">
+    <value column="PrintName" original="Help">帮助</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51076" trl="Y">
+    <value column="PrintName" original="Help">帮助</value>
+    <value column="PrintNameSuffix" original="" />
+  </row>
+  <row id="51337" trl="Y">
+    <value column="PrintName" original="" />
+    <value column="PrintNameSuffix" original="" />
+  </row>
+</adempiereTrl>

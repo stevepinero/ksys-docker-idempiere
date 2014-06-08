@@ -1,0 +1,19 @@
+<adempiereTrl language="zh_CN" table="R_MailText">
+  <row id="100" trl="Y">
+    <value column="MailText" original="Dear @Name@,
+
+Thank you for your order.
+
+Best regards,
+  The GardenWorld Team">亲爱的@名称@,
+
+感谢您的订单。
+
+您诚挚的,
+园艺世界团队</value>
+    <value column="Name" original="Order Confirmation">订单确认</value>
+    <value column="MailHeader" original="Order Confirmation">订单确认</value>
+    <value column="MailText2" original="" />
+    <value column="MailText3" original="" />
+  </row>
+</adempiereTrl>

@@ -1,0 +1,7 @@
+<adempiereTrl language="zh_CN" table="AD_Desktop">
+  <row id="100" trl="Y">
+    <value column="Name" original="FrontOffice">前台办公</value>
+    <value column="Description" original="Front Office Desktop">前台办公桌面</value>
+    <value column="Help" original="" />
+  </row>
+</adempiereTrl>
