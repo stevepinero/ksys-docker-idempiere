@@ -35,6 +35,7 @@ RUN echo "deb http://mirrors.163.com/ubuntu/ trusty main restricted universe mul
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common
 RUN add-apt-repository -y ppa:webupd8team/java
+RUN apt-get update
 RUN echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y oracle-java7-installer
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y oracle-java7-set-default
@@ -63,6 +64,7 @@ RUN wget http://apache.openmirror.de/karaf/3.0.1/apache-karaf-3.0.1.tar.gz; \
 # Update karaf etc configuration
 ADD etc/custom.properties /opt/idempiere-ksys/etc/custom.properties
 ADD etc/org.ops4j.pax.url.mvn.cfg /opt/idempiere-ksys/etc/org.ops4j.pax.url.mvn.cfg
+ADD etc/org.apache.karaf.features.cfg /opt/idempiere-ksys/etc/org.apache.karaf.features.cfg
 
 ADD ksys /opt/idempiere-ksys/ksys
 
@@ -82,4 +84,4 @@ RUN chmod 755 /opt/idempiere-ksys/ksys/utils/*.sh;
 RUN chmod 755 /opt/idempiere-ksys/ksys/utils/postgresql/*.sh;
 	
 EXPOSE 1099 8181 44444
-ENTRYPOINT ["/opt/idempiere-ksys/bin/karaf"]
+#ENTRYPOINT ["/opt/idempiere-ksys/bin/karaf"]
