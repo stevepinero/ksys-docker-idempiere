@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM tifayuki/java:java7
+FROM phusion/baseimage:0.9.10
 
 MAINTAINER Ken Longnan <ken.longnan@gmail.com>
 
@@ -14,6 +14,30 @@ MAINTAINER Ken Longnan <ken.longnan@gmail.com>
 #ENV https_proxy http://10.0.0.12:8087/
 #RUN export http_proxy=$http_proxy
 #RUN export https_proxy=$https_proxy
+
+# Setup fast apt
+RUN echo "deb http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse \n" \
+		 "deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse \n" \
+	     "deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse \n" \
+		 "deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse \n" \
+         "deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse \n" \
+		 "deb-src http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse \n" \
+		 "deb-src http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse \n" \
+		 "deb-src http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse \n" \
+		 "deb-src http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse \n" \
+		 "deb-src http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse \n" > /etc/apt/sources.list		 
+		 
+#RUN echo "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty main restricted universe multiverse \n" \
+#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-updates main restricted universe multiverse \n" \
+#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-backports main restricted universe multiverse \n" \
+#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-security main restricted universe multiverse \n" > /etc/apt/sources.list	
+
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common
+RUN add-apt-repository -y ppa:webupd8team/java
+RUN echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y oracle-java7-installer
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y oracle-java7-set-default
 
 # Setup JAVA_HOME
 ENV JAVA_HOME /usr/lib/jvm/java-7-oracle
@@ -25,12 +49,6 @@ ENV JAVA_MAX_MEM 1024M
 ENV JAVA_PERM_MEM 128M
 # Maximum memory for the JVM
 ENV JAVA_MAX_PERM_MEM 256M
-
-# Setup fast apt
-RUN echo "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty main restricted universe multiverse \n" \
-		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-updates main restricted universe multiverse \n" \
-		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-backports main restricted universe multiverse \n" \
-		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-security main restricted universe multiverse \n" > /etc/apt/sources.list	
 
 # Install iDempiere-KSYS
 RUN apt-get update
@@ -64,4 +82,4 @@ RUN chmod 755 /opt/idempiere-ksys/ksys/utils/*.sh;
 RUN chmod 755 /opt/idempiere-ksys/ksys/utils/postgresql/*.sh;
 	
 EXPOSE 1099 8181 44444
-#ENTRYPOINT ["/opt/idempiere-ksys/bin/karaf"]
+ENTRYPOINT ["/opt/idempiere-ksys/bin/karaf"]
