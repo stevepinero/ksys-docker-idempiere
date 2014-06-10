@@ -65,11 +65,14 @@ RUN wget http://apache.openmirror.de/karaf/3.0.1/apache-karaf-3.0.1.tar.gz; \
     tar --strip-components=1 -C /opt/idempiere-ksys -xzvf apache-karaf-3.0.1.tar.gz; \
     rm apache-karaf-3.0.1.tar.gz; 
 
-# Update karaf etc configuration
+# Update karaf etc configuration & setenv
 ADD etc/custom.properties /opt/idempiere-ksys/etc/custom.properties
 ADD etc/org.ops4j.pax.url.mvn.cfg /opt/idempiere-ksys/etc/org.ops4j.pax.url.mvn.cfg
 ADD etc/org.apache.karaf.features.cfg /opt/idempiere-ksys/etc/org.apache.karaf.features.cfg
+ADD ksys/setenv /opt/idempiere-ksys/bin/setenv
+RUN chmod 755 /opt/idempiere-ksys/bin/setenv;
 
+# Add ksys folder
 ADD ksys /opt/idempiere-ksys/ksys
 
 # Add eclipse additional jar to bundles
@@ -84,8 +87,13 @@ RUN mv /opt/idempiere-ksys/ksys/myEnvironment.sh /opt/idempiere-ksys/ksys/utils;
 	mv /opt/idempiere-ksys/ksys/idempiere.properties /opt/idempiere-ksys/;
 
 # set +x for utils
+RUN chmod 755 /opt/idempiere-ksys/ksys/*.sh;
 RUN chmod 755 /opt/idempiere-ksys/ksys/utils/*.sh;
 RUN chmod 755 /opt/idempiere-ksys/ksys/utils/postgresql/*.sh;
+
+# Add daemon to be run by runit.
+#RUN mkdir /etc/service/startksys
+#RUN ln -s /opt/idempiere-ksys/ksys/startksys.sh /etc/service/startksys/run
 	
 EXPOSE 1099 8181 44444 22
 
