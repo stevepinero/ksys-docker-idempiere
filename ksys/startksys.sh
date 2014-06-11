@@ -2,10 +2,10 @@
 # Starts up idempiere-ksys within the container.
 
 # Stop on error
-set -e
+#set -e
 
 # Start idempiere-ksys
 echo "Starting iDempiere KSYS..."
-/opt/idempiere-ksys/bin/karaf
+exec /opt/idempiere-ksys/bin/karaf
 
 

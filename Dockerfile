@@ -92,8 +92,8 @@ RUN chmod 755 /opt/idempiere-ksys/ksys/utils/*.sh;
 RUN chmod 755 /opt/idempiere-ksys/ksys/utils/postgresql/*.sh;
 
 # Add daemon to be run by runit.
-#RUN mkdir /etc/service/startksys
-#RUN ln -s /opt/idempiere-ksys/ksys/startksys.sh /etc/service/startksys/run
+RUN mkdir /etc/service/startksys
+RUN ln -s /opt/idempiere-ksys/ksys/startksys.sh /etc/service/startksys/run
 	
 EXPOSE 1099 8181 44444 22
 
