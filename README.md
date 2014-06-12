@@ -12,8 +12,7 @@ To create the image `longnan/ksys-docker-idempiere`, execute the following comma
 
 To run the image:
 
-	docker run -d --link ksys-postgresql:idempiere-db --name="ksys-idempiere" -p 8181:8181 longnan/ksys-docker-idempiere:2.0.20140608
-	docker run -d --link ksys-postgresql:idempiere-db --name="ksys-idempiere" -p 8181:8181 longnan/ksys-docker-idempiere:2.0.20140608 /sbin/my_init -- /opt/idempiere-ksys/bin/karaf
+	docker run -d -t --link ksys-postgresql:idempiere-db --name="ksys-idempiere" -p 8181:8181 -p 8101:8101 longnan/ksys-docker-idempiere:2.0.20140608
 
 To start the container:	
 

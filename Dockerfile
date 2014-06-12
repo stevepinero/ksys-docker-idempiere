@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM phusion/baseimage:0.9.10
+FROM ubuntu:trusty
 
 MAINTAINER Ken Longnan <ken.longnan@gmail.com>
 
@@ -16,11 +16,11 @@ MAINTAINER Ken Longnan <ken.longnan@gmail.com>
 #RUN export https_proxy=$https_proxy
 
 # Setup fast apt
-#RUN echo "deb http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse \n" \
-#		 "deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse \n" \
-#	     "deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse \n" \
-#		 "deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse \n" \
-#		 "deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse \n" > /etc/apt/sources.list		 
+RUN echo "deb http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse \n" \
+		 "deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse \n" \
+	     "deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse \n" \
+		 "deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse \n" \
+		 "deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse \n" > /etc/apt/sources.list		 
 
 #RUN echo "deb http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse \n" \
 #		 "deb http://cn.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse \n" \
@@ -33,13 +33,11 @@ MAINTAINER Ken Longnan <ken.longnan@gmail.com>
 #		 "deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse \n" \
 #		 "deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse \n" > /etc/apt/sources.list
 		 
-RUN echo "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty main restricted universe multiverse \n" \
-		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-updates main restricted universe multiverse \n" \
-		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-backports main restricted universe multiverse \n" \
-		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-security main restricted universe multiverse \n" > /etc/apt/sources.list	
+#RUN echo "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty main restricted universe multiverse \n" \
+#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-updates main restricted universe multiverse \n" \
+#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-backports main restricted universe multiverse \n" \
+#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-security main restricted universe multiverse \n" > /etc/apt/sources.list	
 
-# Enabling the insecure key permanently
-RUN /usr/sbin/enable_insecure_key		 
 		 
 RUN apt-get update
 RUN apt-get install -q -y openjdk-7-jre-headless openjdk-7-jdk
@@ -91,11 +89,7 @@ RUN chmod 755 /opt/idempiere-ksys/ksys/*.sh;
 RUN chmod 755 /opt/idempiere-ksys/ksys/utils/*.sh;
 RUN chmod 755 /opt/idempiere-ksys/ksys/utils/postgresql/*.sh;
 
-# Add daemon to be run by runit.
-RUN mkdir /etc/service/startksys
-RUN ln -s /opt/idempiere-ksys/ksys/startksys.sh /etc/service/startksys/run
-	
-EXPOSE 1099 8181 44444 22
+EXPOSE 1099 8181 8101 44444
 
-# Use baseimage-docker's init system.
-CMD ["/sbin/my_init"]
+# Start iDempiere-KSYS Karaf
+ENTRYPOINT ["/opt/idempiere-ksys/bin/karaf"]
