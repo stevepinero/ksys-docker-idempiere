@@ -58,10 +58,18 @@ ENV JAVA_MAX_PERM_MEM 256M
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y wget unzip pwgen expect
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes postgresql-client-9.3
 
-RUN wget http://apache.openmirror.de/karaf/3.0.1/apache-karaf-3.0.1.tar.gz; \
-    mkdir /opt/idempiere-ksys; \
-    tar --strip-components=1 -C /opt/idempiere-ksys -xzvf apache-karaf-3.0.1.tar.gz; \
-    rm apache-karaf-3.0.1.tar.gz; 
+ENV KARAF_VERSION 3.0.2
+
+RUN wget http://archive.apache.org/dist/karaf/${KARAF_VERSION}/apache-karaf-${KARAF_VERSION}.tar.gz -O /tmp/karaf.tar.gz
+# Unpack
+RUN mkdir /opt/idempiere-ksys;
+RUN tar --strip-components=1 -C /opt/idempiere-ksys -xzvf /tmp/karaf.tar.gz
+RUN rm /tmp/karaf.tar.gz
+
+#RUN wget http://apache.openmirror.de/karaf/3.0.1/apache-karaf-3.0.1.tar.gz; \
+#    mkdir /opt/idempiere-ksys; \
+#    tar --strip-components=1 -C /opt/idempiere-ksys -xzvf apache-karaf-3.0.1.tar.gz; \
+#    rm apache-karaf-3.0.1.tar.gz; 
 
 # Update karaf etc configuration & setenv
 ADD etc/custom.properties /opt/idempiere-ksys/etc/custom.properties
@@ -78,7 +86,7 @@ RUN mv /opt/idempiere-ksys/ksys/org.eclipse.ant.core_3.2.500.v20130402-1746.jar 
 	mv /opt/idempiere-ksys/ksys/org.eclipse.core.variables_3.2.700.v20130402-1741.jar /opt/idempiere-ksys/ksys/bundles;
 
 # Add karaf rebranding jar
-RUN mv /opt/idempiere-ksys/ksys/com.kylinsystems.idempiere.karaf.branding-2.0.0.jar /opt/idempiere-ksys/lib/;
+RUN mv /opt/idempiere-ksys/ksys/com.kylinsystems.idempiere.karaf.branding-2.1.0.jar /opt/idempiere-ksys/lib/;
 
 # Add idempiere-ksys properties file
 RUN mv /opt/idempiere-ksys/ksys/myEnvironment.sh /opt/idempiere-ksys/ksys/utils; \
