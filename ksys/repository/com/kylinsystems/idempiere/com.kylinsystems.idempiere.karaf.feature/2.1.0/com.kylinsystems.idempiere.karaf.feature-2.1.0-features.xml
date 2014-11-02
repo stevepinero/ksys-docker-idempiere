@@ -6,8 +6,12 @@
           xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.2.0 http://karaf.apache.org/xmlns/features/v1.2.0">
     <!--<repository>mvn:org.apache.camel.karaf/apache-camel/2.12.3/xml/features</repository>-->
     <!--<repository>mvn:org.apache.activemq/activemq-karaf/5.9.0/xml/features</repository>-->
+    <!--<repository>mvn:org.apache.karaf.features/standard/3.0.2/xml/features</repository>-->
+    <!--<repository>mvn:org.apache.karaf.features/enterprise/3.0.2/xml/features</repository>-->
+    <!--<repository>mvn:org.apache.karaf.features/spring/3.0.2/xml/features</repository>-->
     <repository>mvn:io.hawt/hawtio-karaf/1.4.29/xml/features</repository>
     <feature name="com.kylinsystems.idempiere.base" version="2.1.0">
+        <feature>eventadmin</feature>
         <feature>jpa</feature>
         <feature>jndi</feature>
         <feature>transaction</feature>
@@ -28,7 +32,7 @@
         
         <!--<feature>activemq-client</feature>-->
         <!--<feature>activemq-broker</feature>-->
-        <!--<feature>hawtio-offline</feature>-->
+        <feature>hawtio-offline</feature>
         <!--<feature>camel</feature>-->
         
         <!-- spring -->
@@ -146,7 +150,7 @@
         <bundle>file:ksys/bundles/org.adempiere.extend_2.1.0.v20141101-1151.jar</bundle>
 	<bundle>jardir:ksys/bundles/org.adempiere.install_2.1.0.v20141101-1151</bundle>
         <bundle>file:ksys/bundles/org.compiere.db.postgresql.provider_2.1.0.v20141101-1151.jar</bundle>        
-        <bundle>jardir:ksys/bundles/org.idempiere.hazelcast.service.config_2.0.0</bundle>
+        <bundle>jardir:ksys/bundles/org.idempiere.hazelcast.service.config_2.1.0</bundle>
         <bundle>file:ksys/bundles/org.idempiere.hazelcast.service_2.1.0.v20141101-1151.jar</bundle>
         <bundle>jardir:ksys/bundles/org.adempiere.report.jasper.library_2.1.0.v20141101-1151</bundle>
         <bundle>jardir:ksys/bundles/org.adempiere.report.jasper_2.1.0.v20141101-1151</bundle>                   
