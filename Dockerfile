@@ -5,7 +5,8 @@
 #
 
 # Pull base image.
-FROM ubuntu:trusty
+#FROM ubuntu:trusty
+FROM phusion/baseimage:0.9.16
 
 MAINTAINER Ken Longnan <ken.longnan@gmail.com>
 
@@ -20,24 +21,7 @@ RUN echo "deb http://mirrors.163.com/ubuntu/ trusty main restricted universe mul
 		 "deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse \n" \
 	     "deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse \n" \
 		 "deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse \n" \
-		 "deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse \n" > /etc/apt/sources.list		 
-
-#RUN echo "deb http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse \n" \
-#		 "deb http://cn.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse \n" \
-#	     "deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse \n" \
-#		 "deb http://cn.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse \n" \
-#        "deb http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse \n" \
-#		 "deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse \n" \
-#		 "deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse \n" \
-#		 "deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse \n" \
-#		 "deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse \n" \
-#		 "deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse \n" > /etc/apt/sources.list
-		 
-#RUN echo "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty main restricted universe multiverse \n" \
-#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-updates main restricted universe multiverse \n" \
-#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-backports main restricted universe multiverse \n" \
-#		 "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-security main restricted universe multiverse \n" > /etc/apt/sources.list	
-
+		 "deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse \n" > /etc/apt/sources.list		 	
 		 
 RUN apt-get update
 RUN apt-get install -q -y openjdk-7-jre-headless openjdk-7-jdk
@@ -58,7 +42,7 @@ ENV JAVA_MAX_PERM_MEM 256M
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y wget unzip pwgen expect
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes postgresql-client-9.3
 
-ENV KARAF_VERSION 3.0.2
+ENV KARAF_VERSION 3.0.3
 
 RUN wget http://archive.apache.org/dist/karaf/${KARAF_VERSION}/apache-karaf-${KARAF_VERSION}.tar.gz -O /tmp/karaf.tar.gz
 # Unpack
@@ -82,7 +66,7 @@ RUN chmod 755 /opt/idempiere-ksys/bin/setenv;
 ADD ksys /opt/idempiere-ksys/ksys
 
 # Add eclipse additional jar to bundles
-RUN mv /opt/idempiere-ksys/ksys/org.eclipse.ant.core_3.2.500.v20130402-1746.jar /opt/idempiere-ksys/ksys/bundles; \
+RUN mv /opt/idempiere-ksys/ksys/org.eclipse.ant.core_3.2.500.v20140203-1328.jar /opt/idempiere-ksys/ksys/bundles; \
 	mv /opt/idempiere-ksys/ksys/org.eclipse.core.variables_3.2.700.v20130402-1741.jar /opt/idempiere-ksys/ksys/bundles;
 
 # Add karaf rebranding jar

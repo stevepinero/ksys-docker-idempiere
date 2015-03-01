@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0" name="hawtio-1.4.47">
+
+  <feature name="hawtio-core" version="1.4.47" resolver="(obr)">
+    <details>Installs the core hawtio war file with minimal extensions</details>
+    <feature>war</feature>
+    <bundle>mvn:io.hawt/hawtio-json-schema-mbean/1.4.47</bundle>
+    <bundle>mvn:io.hawt/hawtio-osgi-jmx/1.4.47</bundle>
+    <bundle>mvn:io.hawt/hawtio-web/1.4.47/war</bundle>
+
+    <config name="jmx.acl.hawtio.plugin">
+      * = *
+    </config>
+
+  </feature>
+
+  <feature name="hawtio" version="1.4.47" resolver="(obr)">
+    <details>Installs the main hawtio war file, an MBean helper for OSGi and an MBean helper to get JSON Schema out of Java objects</details>
+    <feature>hawtio-core</feature>
+    <feature>hawtio-karaf-terminal</feature>
+    <feature>hawtio-maven-indexer</feature>
+  </feature>
+
+  <feature name="hawtio-offline" version="1.4.47" resolver="(obr)">
+    <details>Installs hawtio in offline mode (without Maven service which requires internet connection)</details>
+    <feature>hawtio-core</feature>
+    <feature>hawtio-karaf-terminal</feature>
+  </feature>
+
+  <feature name="hawtio-maven-indexer" version="1.4.47" resolver="(obr)">
+    <details>Installs the hawtio Maven indexer service as a separate bundle</details>
+    <bundle>mvn:io.hawt/hawtio-maven-indexer/1.4.47</bundle>
+  </feature>
+
+  <feature name="hawtio-karaf-git" version="1.4.47" resolver="(obr)">
+    <details>Installs the hawtio git so that the contents of the 'etc' directory can be edited.</details>
+
+    <config name="hawtio-git">
+      hawtio.config.dir=./etc
+    </config>
+
+    <bundle>mvn:io.hawt/hawtio-karaf-git/1.4.47</bundle>
+  </feature>
+  
+  <feature name="hawtio-git" version="1.4.47" resolver="(obr)">
+    <details>Installs the hawtio git service as a separate bundle</details>
+
+    <config name="hawtio-git">
+      hawtio.config.dir=./git
+      hawtio.config.repo=https://github.com/hawtio/hawtio-config.git
+      hawtio.config.pullOnStartup=true
+      hawtio.config.cloneOnStartup=true
+    </config>
+
+    <bundle>mvn:io.hawt/hawtio-git/1.4.47</bundle>
+  </feature>
+
+  <feature name="hawtio-dev-mode" version="1.4.47" resolver="(obr)">
+    <details>Adds the hawtio plugin registry and configures the /hawtio-dev context to be served out from the hawtio-web target directory allowing easy development of hawtio while it's running in a real osgi container.  Install jolokia if it's not installed.  Also add org.jolokia.agentContext=/hawtio/jolokia to etc/system.properties so jolokia is installed at the right context</details>
+
+    <config name="hawtiodev-hawtioweb">
+      context=/hawtio-dev/*
+      content=/mnt/jenkins/workspace/hawtio-release2/hawtio/target/checkout/hawtio-karaf/../hawtio-web/target/hawtio-web-1.4.47
+    </config>
+
+    <feature>war</feature>
+    <bundle>mvn:io.hawt/hawtio-osgi-devmode/1.4.47</bundle>
+  </feature>
+
+  <feature name="hawtio-simple-example" version="1.4.47" resolver="(obr)">
+    <details>A simple example plugin for hawtio</details>
+    <feature>war</feature>
+    <bundle>mvn:io.hawt/simple-plugin/1.4.47/war</bundle>
+  </feature>
+
+  <feature name="hawtio-irc-example" version="1.4.47" resolver="(obr)">
+    <details>An example IRC client plugin for hawtio</details>
+    <feature>war</feature>
+    <bundle>mvn:io.hawt/irc-client-plugin/1.4.47/war</bundle>
+  </feature>
+
+  <feature name="hawtio-social-example">
+    <details>hawtio social twitter plugin example</details>
+    <feature>war</feature>
+    <bundle>mvn:io.hawt/social-plugin/1.4.47/war</bundle>
+  </feature>
+
+  <feature name="hawtio-karaf-terminal" version="1.4.47" resolver="(obr)">
+    <details>A terminal plugin for hawtio when installed in Karaf</details>
+    <bundle dependency="true">mvn:jline/jline/2.12</bundle>
+    <bundle>mvn:io.hawt/hawtio-karaf-terminal/1.4.47/war</bundle>
+  </feature>
+
+  <feature name="hawtio-redhat-fuse-branding" version="1.4.47" resolver="(obr)">
+    <details>The Red Hat JBoss Fuse branding and theme for hawtio</details>
+    <feature>war</feature>
+    <bundle>mvn:io.hawt/hawtio-redhat-fuse-branding/1.4.47/war</bundle>
+  </feature>
+
+  <feature name="hawtio-redhat-amq-branding" version="1.4.47" resolver="(obr)">
+    <details>The Red Hat JBoss A-MQ branding and theme for hawtio</details>
+    <feature>war</feature>
+    <bundle>mvn:io.hawt/hawtio-redhat-amq-branding/1.4.47/war</bundle>
+  </feature>
+
+  <feature name="hawtio-fabric8-branding" version="1.4.47" resolver="(obr)">
+    <details>The fabric8 branding and theme for hawtio</details>
+    <feature>war</feature>
+    <bundle>mvn:io.hawt/hawtio-fabric8-branding/1.4.47/war</bundle>
+  </feature>
+
+</features>
